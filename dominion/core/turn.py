@@ -61,6 +61,11 @@ class DominionEngine:
     def card(self, name: str):
         return self.card_registry[name]
 
+    def effective_cost(self, card_name: str) -> int:
+        base = self.card(card_name).cost
+        reduction = self.state.turn_state.cost_reduction
+        return max(0, base - reduction)
+
     def current_player(self) -> PlayerState:
         return self.state.players[self.state.current_player]
 
@@ -113,7 +118,7 @@ class DominionEngine:
     def buy_card(self, player_index: int, card_name: str) -> None:
         if player_index != self.state.current_player:
             raise InvalidMoveError("Not this player's turn")
-        cost = self.card(card_name).cost
+        cost = self.effective_cost(card_name)
         pile = self.state.supply[card_name]
         if pile.count <= 0:
             raise InvalidMoveError("Pile is empty")
@@ -136,6 +141,15 @@ class DominionEngine:
         self.log(f"{player.name} gains {card_name}")
         return True
 
+    def gain_card_to_hand(self, player_index: int, card_name: str) -> bool:
+        pile = self.state.supply.get(card_name)
+        if pile is None or pile.count <= 0:
+            return False
+        pile.count -= 1
+        player = self.state.players[player_index]
+        player.hand.append(card_name)
+        self.log(f"{player.name} gains {card_name} to hand")
+        return True
 
     def discard_from_hand(self, player_index: int, card_name: str) -> bool:
         player = self.state.players[player_index]
@@ -155,6 +169,15 @@ class DominionEngine:
         self.log(f"{player.name} trashes {card_name}")
         return True
 
+    def trash_from_play(self, player_index: int, card_name: str) -> bool:
+        player = self.state.players[player_index]
+        if card_name not in player.in_play:
+            return False
+        player.in_play.remove(card_name)
+        self.state.trash.append(card_name)
+        self.log(f"{player.name} trashes {card_name} from play")
+        return True
+
     def gain_card_to_deck_top(self, player_index: int, card_name: str) -> bool:
         pile = self.state.supply.get(card_name)
         if pile is None or pile.count <= 0:
@@ -164,6 +187,25 @@ class DominionEngine:
         player.deck.append(card_name)
         self.log(f"{player.name} gains {card_name} to top of deck")
         return True
+
+    def draw_card_from_deck(self, player_index: int) -> str | None:
+        player = self.state.players[player_index]
+        if not player.deck:
+            if not player.discard:
+                return None
+            player.deck = player.discard
+            player.discard = []
+            self.rng.shuffle(player.deck)
+        return player.deck.pop()
+
+    def trash_top_of_deck(self, player_index: int) -> str | None:
+        card_name = self.draw_card_from_deck(player_index)
+        if card_name is None:
+            return None
+        self.state.trash.append(card_name)
+        player = self.state.players[player_index]
+        self.log(f"{player.name} trashes {card_name} from top of deck")
+        return card_name
 
     def attack_discard_to_three(self, attacker_index: int, attack_name: str) -> None:
         for i, player in enumerate(self.state.players):
