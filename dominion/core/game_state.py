@@ -14,6 +14,7 @@ class TurnState:
     actions: int = 1
     buys: int = 1
     coins: int = 0
+    cost_reduction: int = 0
     phase: Phase = Phase.ACTION
 
 

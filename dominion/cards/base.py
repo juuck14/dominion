@@ -118,7 +118,7 @@ def workshop(engine: "DominionEngine", player_index: int) -> None:
     affordable = [
         name
         for name, pile in engine.state.supply.items()
-        if pile.count > 0 and engine.card(name).cost <= 4
+        if pile.count > 0 and engine.effective_cost(name) <= 4
     ]
     choice = engine.choice_providers[player_index].choose_card_from_supply(
         player_index,
@@ -180,7 +180,7 @@ def remodel(engine: "DominionEngine", player_index: int) -> None:
     gainable = [
         name
         for name, pile in engine.state.supply.items()
-        if pile.count > 0 and engine.card(name).cost <= max_cost
+        if pile.count > 0 and engine.effective_cost(name) <= max_cost
     ]
     gain_choice = provider.choose_card_from_supply(
         player_index,

@@ -177,11 +177,10 @@ pytest tests/test_ai_heuristic.py
 ## 7. 개발 팁
 
 - 새 카드 추가 시:
-  1) `dominion/cards/base.py`에 효과 함수 + `CARD_SPECS` 등록
+  1) `dominion/cards/base.py` 또는 `dominion/cards/intrigue.py`에 효과 함수 + `CARD_SPECS` 등록
   2) 필요시 `dominion/cards/registry.py`의 kingdom 후보 반영
   3) 테스트 추가(`tests/`)
 
 - 새 정책/AI 추가 시:
   - `dominion/core/choices.py` 인터페이스를 구현하거나
   - `dominion/ai/policy.py`의 `TurnPolicy` 형태로 `take_turn`까지 구현
-
