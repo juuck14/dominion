@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dominion"
+version = "0.1.0"
+description = "Extensible Dominion engine prototype"
+requires-python = ">=3.11"
+dependencies = ["pygame>=2.5.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
