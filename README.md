@@ -79,11 +79,13 @@ Pygame UI로 **사람(Human) vs AI** 게임을 플레이할 수 있습니다.
 python main.py --mode pygame
 ```
 
-시드 + 카드 이미지 디렉토리 지정:
+시드 지정:
 
 ```bash
-python main.py --mode pygame --seed 42 --card-image-dir assets/cards
+python main.py --mode pygame --seed 42
 ```
+
+카드 이미지는 프로젝트 내부 고정 경로 `assets/cards`에서 자동으로 로드됩니다.
 
 ### GUI 조작법 요약
 

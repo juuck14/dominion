@@ -115,11 +115,10 @@ def _main() -> None:
     parser = argparse.ArgumentParser(description="Dominion prototype runner")
     parser.add_argument("--mode", choices=["cli", "pygame"], default="cli")
     parser.add_argument("--seed", type=int, default=None)
-    parser.add_argument("--card-image-dir", default="assets/cards")
     args = parser.parse_args()
 
     if args.mode == "pygame":
-        run_pygame_app(seed=args.seed, card_image_dir=args.card_image_dir)
+        run_pygame_app(seed=args.seed)
     else:
         play_human_vs_ai(seed=args.seed)
 

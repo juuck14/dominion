@@ -16,6 +16,7 @@ from dominion.core.types import CardType, Phase
 CARD_W = 110
 CARD_H = 150
 PADDING = 8
+PROJECT_CARD_IMAGE_DIR = Path(__file__).resolve().parents[2] / "assets" / "cards"
 
 
 @dataclass
@@ -54,7 +55,7 @@ class PygameChoiceProvider(ChoiceProvider):
 
 
 class PygameDominionApp:
-    def __init__(self, seed: int | None = None, card_image_dir: str = "assets/cards") -> None:
+    def __init__(self, seed: int | None = None) -> None:
         pygame.init()
         self.screen = pygame.display.set_mode((1400, 900))
         pygame.display.set_caption("Dominion (Pygame Prototype)")
@@ -62,7 +63,7 @@ class PygameDominionApp:
         self.font = pygame.font.SysFont("arial", 18)
         self.small_font = pygame.font.SysFont("arial", 14)
 
-        self.card_image_dir = Path(card_image_dir)
+        self.card_image_dir = PROJECT_CARD_IMAGE_DIR
         self.cached_card_surfaces: dict[tuple[str, int, int], pygame.Surface] = {}
 
         human_provider = PygameChoiceProvider(self)
@@ -375,6 +376,6 @@ class PygameDominionApp:
             self.screen.blit(t, (rect.x + 12, rect.y + 10))
 
 
-def run_pygame_app(seed: int | None = None, card_image_dir: str = "assets/cards") -> None:
-    app = PygameDominionApp(seed=seed, card_image_dir=card_image_dir)
+def run_pygame_app(seed: int | None = None) -> None:
+    app = PygameDominionApp(seed=seed)
     app.run()
