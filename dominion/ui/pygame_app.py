@@ -11,6 +11,7 @@ from dominion.core.choices import ChoiceProvider
 from dominion.core.scoring import score_player
 from dominion.core.turn import DominionEngine
 from dominion.core.types import CardType, Phase
+from dominion.ui.card_image_downloader import download_card_image
 
 
 CARD_W = 110
@@ -65,6 +66,7 @@ class PygameDominionApp:
 
         self.card_image_dir = PROJECT_CARD_IMAGE_DIR
         self.cached_card_surfaces: dict[tuple[str, int, int], pygame.Surface] = {}
+        self.download_attempted_cards: set[str] = set()
 
         human_provider = PygameChoiceProvider(self)
         self.ai = HeuristicAI()
@@ -232,8 +234,7 @@ class PygameDominionApp:
         return surf
 
     def _find_card_image(self, card_name: str) -> Path | None:
-        if not self.card_image_dir.exists():
-            return None
+        self.card_image_dir.mkdir(parents=True, exist_ok=True)
         candidates = [card_name, card_name.replace(" ", "_"), card_name.lower(), card_name.lower().replace(" ", "_")]
         exts = [".png", ".jpg", ".jpeg", ".webp"]
         for base in candidates:
@@ -241,6 +242,12 @@ class PygameDominionApp:
                 p = self.card_image_dir / f"{base}{ext}"
                 if p.exists():
                     return p
+
+        if card_name not in self.download_attempted_cards:
+            self.download_attempted_cards.add(card_name)
+            downloaded = download_card_image(card_name, self.card_image_dir)
+            if downloaded is not None and downloaded.exists():
+                return downloaded
         return None
 
     def _build_placeholder_card(self, card_name: str, w: int, h: int) -> pygame.Surface:

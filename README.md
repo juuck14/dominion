@@ -86,6 +86,7 @@ python main.py --mode pygame --seed 42
 ```
 
 카드 이미지는 프로젝트 내부 고정 경로 `assets/cards`에서 자동으로 로드됩니다.
+로컬에 이미지가 없으면, 앱이 실행 중에 GitHub 저장소(`ivadla/dominion-images`)에서 지원되는 카드 이미지를 자동 다운로드해 해당 폴더에 저장합니다.
 
 ### GUI 조작법 요약
 
