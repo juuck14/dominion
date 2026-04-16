@@ -11,11 +11,13 @@ from dominion.core.choices import ChoiceProvider
 from dominion.core.scoring import score_player
 from dominion.core.turn import DominionEngine
 from dominion.core.types import CardType, Phase
+from dominion.ui.card_image_downloader import download_card_image
 
 
 CARD_W = 110
 CARD_H = 150
 PADDING = 8
+PROJECT_CARD_IMAGE_DIR = Path(__file__).resolve().parents[2] / "assets" / "cards"
 
 
 @dataclass
@@ -54,7 +56,7 @@ class PygameChoiceProvider(ChoiceProvider):
 
 
 class PygameDominionApp:
-    def __init__(self, seed: int | None = None, card_image_dir: str = "assets/cards") -> None:
+    def __init__(self, seed: int | None = None) -> None:
         pygame.init()
         self.screen = pygame.display.set_mode((1400, 900))
         pygame.display.set_caption("Dominion (Pygame Prototype)")
@@ -62,8 +64,9 @@ class PygameDominionApp:
         self.font = pygame.font.SysFont("arial", 18)
         self.small_font = pygame.font.SysFont("arial", 14)
 
-        self.card_image_dir = Path(card_image_dir)
+        self.card_image_dir = PROJECT_CARD_IMAGE_DIR
         self.cached_card_surfaces: dict[tuple[str, int, int], pygame.Surface] = {}
+        self.download_attempted_cards: set[str] = set()
 
         human_provider = PygameChoiceProvider(self)
         self.ai = HeuristicAI()
@@ -231,8 +234,7 @@ class PygameDominionApp:
         return surf
 
     def _find_card_image(self, card_name: str) -> Path | None:
-        if not self.card_image_dir.exists():
-            return None
+        self.card_image_dir.mkdir(parents=True, exist_ok=True)
         candidates = [card_name, card_name.replace(" ", "_"), card_name.lower(), card_name.lower().replace(" ", "_")]
         exts = [".png", ".jpg", ".jpeg", ".webp"]
         for base in candidates:
@@ -240,6 +242,12 @@ class PygameDominionApp:
                 p = self.card_image_dir / f"{base}{ext}"
                 if p.exists():
                     return p
+
+        if card_name not in self.download_attempted_cards:
+            self.download_attempted_cards.add(card_name)
+            downloaded = download_card_image(card_name, self.card_image_dir)
+            if downloaded is not None and downloaded.exists():
+                return downloaded
         return None
 
     def _build_placeholder_card(self, card_name: str, w: int, h: int) -> pygame.Surface:
@@ -375,6 +383,6 @@ class PygameDominionApp:
             self.screen.blit(t, (rect.x + 12, rect.y + 10))
 
 
-def run_pygame_app(seed: int | None = None, card_image_dir: str = "assets/cards") -> None:
-    app = PygameDominionApp(seed=seed, card_image_dir=card_image_dir)
+def run_pygame_app(seed: int | None = None) -> None:
+    app = PygameDominionApp(seed=seed)
     app.run()
