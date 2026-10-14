@@ -1,0 +1,3 @@
+# 표준 라이브러리만 사용합니다.
+# 선택: PDF 텍스트 추출 (poppler 의 pdftotext 가 없을 때만 사용)
+# pypdf>=4

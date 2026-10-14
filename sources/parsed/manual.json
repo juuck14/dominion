@@ -1,0 +1,1888 @@
+{
+ "source_id": "manual",
+ "parser": "ah2e.parsers.manual",
+ "parsed_at": "2026-10-14T19:38:14+00:00",
+ "status": "ok",
+ "commit_sha": null,
+ "warnings": [],
+ "stats": {
+  "investigator_sheets": 16,
+  "ancient_one_sheets": 8,
+  "errata_base": 10,
+  "rulebook_reference": 10,
+  "web_search_evidence": 12
+ },
+ "records": {
+  "investigator_sheets": [
+   {
+    "name": "Amanda Sharpe",
+    "image": "amanda_sharpe.png",
+    "occupation": "the Student",
+    "home": "Bank of Arkham",
+    "fixed_possessions_text": "$1, 1 Clue Token",
+    "random_possessions_text": "1 Common Item, 1 Unique Item, 1 Spell, 2 Skills",
+    "focus": 3,
+    "ability_name": "Studious",
+    "ability_text": "Any Phase: Whenever Amanda draws one or more cards from the Skill deck, she draws one extra card and then discards one of the cards.",
+    "sliders": {
+     "speed": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "sneak": [
+      4,
+      3,
+      2,
+      1
+     ],
+     "fight": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "will": [
+      4,
+      3,
+      2,
+      1
+     ],
+     "lore": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "luck": [
+      4,
+      3,
+      2,
+      1
+     ]
+    },
+    "image_ref": {
+     "source_id": "gorlith_android",
+     "repository": "https://github.com/Gorlith/Arkham-Horror-Helper",
+     "commit_sha": "1e98a1345d1361ebc3dd26f69d9fb364af9501f3",
+     "path": "Arkham Horror Helper/res/drawable-mdpi/amanda_sharpe.png",
+     "url": "https://raw.githubusercontent.com/Gorlith/Arkham-Horror-Helper/1e98a1345d1361ebc3dd26f69d9fb364af9501f3/Arkham%20Horror%20Helper/res/drawable-mdpi/amanda_sharpe.png",
+     "sha256": "02833b086704ab115a9ec6bfcb1050650292065897b84f2230c76db63ec3a9ee"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR; each record should be re-checked against the image if a value is disputed",
+    "src_ref": "manual/investigator_sheets.json#records[0]"
+   },
+   {
+    "name": "\"Ashcan\" Pete",
+    "image": "ashcan_pete.png",
+    "occupation": "the Drifter",
+    "home": "River Docks",
+    "fixed_possessions_text": "$1, 3 Clue Tokens, 1 Ally (Duke)",
+    "random_possessions_text": "1 Common Item, 1 Unique Item, 1 Skill",
+    "focus": 1,
+    "ability_name": "Scrounge",
+    "ability_text": "When Pete draws from the Common Item, Unique Item, or Spell deck, he may draw from either the top or the bottom of that deck, his choice. Pete may look at the bottom card of those decks at any time.",
+    "sliders": {
+     "speed": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "sneak": [
+      6,
+      5,
+      4,
+      3
+     ],
+     "fight": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "will": [
+      5,
+      4,
+      3,
+      2
+     ],
+     "lore": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "luck": [
+      3,
+      2,
+      1,
+      0
+     ]
+    },
+    "image_ref": {
+     "source_id": "gorlith_android",
+     "repository": "https://github.com/Gorlith/Arkham-Horror-Helper",
+     "commit_sha": "1e98a1345d1361ebc3dd26f69d9fb364af9501f3",
+     "path": "Arkham Horror Helper/res/drawable-mdpi/ashcan_pete.png",
+     "url": "https://raw.githubusercontent.com/Gorlith/Arkham-Horror-Helper/1e98a1345d1361ebc3dd26f69d9fb364af9501f3/Arkham%20Horror%20Helper/res/drawable-mdpi/ashcan_pete.png",
+     "sha256": "c614410033dfb68188518d9e7975cc1e1ae939d365bfc93edca981d7213997ce"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR; each record should be re-checked against the image if a value is disputed",
+    "src_ref": "manual/investigator_sheets.json#records[1]"
+   },
+   {
+    "name": "Bob Jenkins",
+    "image": "bob_jenkins.png",
+    "occupation": "the Salesman",
+    "home": "General Store",
+    "fixed_possessions_text": "$9",
+    "random_possessions_text": "2 Common Items, 2 Unique Items, 1 Skill",
+    "focus": 1,
+    "ability_name": "Shrewd Dealer",
+    "ability_text": "Any Phase: Whenever Bob draws one or more cards from the Common Item deck, he draws one extra card and then discards one of the cards.",
+    "sliders": {
+     "speed": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "sneak": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "fight": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "will": [
+      6,
+      5,
+      4,
+      3
+     ],
+     "lore": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "luck": [
+      4,
+      3,
+      2,
+      1
+     ]
+    },
+    "image_ref": {
+     "source_id": "gorlith_android",
+     "repository": "https://github.com/Gorlith/Arkham-Horror-Helper",
+     "commit_sha": "1e98a1345d1361ebc3dd26f69d9fb364af9501f3",
+     "path": "Arkham Horror Helper/res/drawable-mdpi/bob_jenkins.png",
+     "url": "https://raw.githubusercontent.com/Gorlith/Arkham-Horror-Helper/1e98a1345d1361ebc3dd26f69d9fb364af9501f3/Arkham%20Horror%20Helper/res/drawable-mdpi/bob_jenkins.png",
+     "sha256": "a204f2c21d2a1cb6f6c2a0e77e12d327dbcbf096fd41b35860136210f45f8fee"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR; each record should be re-checked against the image if a value is disputed",
+    "src_ref": "manual/investigator_sheets.json#records[2]"
+   },
+   {
+    "name": "Carolyn Fern",
+    "image": "carolyn_fern.png",
+    "occupation": "the Psychologist",
+    "home": "Arkham Asylum",
+    "fixed_possessions_text": "$7, 1 Clue Token",
+    "random_possessions_text": "2 Unique Items, 2 Common Items, 1 Skill",
+    "focus": 2,
+    "ability_name": "Psychology",
+    "ability_text": "Upkeep: Dr. Fern may restore 1 Sanity to herself or another character in her location. She cannot raise a character's Sanity higher than that character's maximum Sanity.",
+    "sliders": {
+     "speed": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "sneak": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "fight": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "will": [
+      4,
+      3,
+      2,
+      1
+     ],
+     "lore": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "luck": [
+      5,
+      4,
+      3,
+      2
+     ]
+    },
+    "image_ref": {
+     "source_id": "gorlith_android",
+     "repository": "https://github.com/Gorlith/Arkham-Horror-Helper",
+     "commit_sha": "1e98a1345d1361ebc3dd26f69d9fb364af9501f3",
+     "path": "Arkham Horror Helper/res/drawable-mdpi/carolyn_fern.png",
+     "url": "https://raw.githubusercontent.com/Gorlith/Arkham-Horror-Helper/1e98a1345d1361ebc3dd26f69d9fb364af9501f3/Arkham%20Horror%20Helper/res/drawable-mdpi/carolyn_fern.png",
+     "sha256": "94e712835487cc4d6ade0d594c6e3931c56f21b7d97afaac7bac66a1718c66fa"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR; each record should be re-checked against the image if a value is disputed",
+    "src_ref": "manual/investigator_sheets.json#records[3]"
+   },
+   {
+    "name": "Darrell Simmons",
+    "image": "darrell_simmons.png",
+    "occupation": "the Photographer",
+    "home": "Newspaper",
+    "fixed_possessions_text": "$4, 1 Clue Token, 1 Special (Retainer)",
+    "random_possessions_text": "1 Common Item, 2 Unique Items, 1 Skill",
+    "focus": 2,
+    "ability_name": "Hometown Advantage",
+    "ability_text": "Town Encounter: When drawing location encounters in Arkham, Darrell draws two cards and may choose whichever one of the two he wants. This ability does not work when drawing gate encounters in Other Worlds.",
+    "sliders": {
+     "speed": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "sneak": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "fight": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "will": [
+      4,
+      3,
+      2,
+      1
+     ],
+     "lore": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "luck": [
+      4,
+      3,
+      2,
+      1
+     ]
+    },
+    "image_ref": {
+     "source_id": "gorlith_android",
+     "repository": "https://github.com/Gorlith/Arkham-Horror-Helper",
+     "commit_sha": "1e98a1345d1361ebc3dd26f69d9fb364af9501f3",
+     "path": "Arkham Horror Helper/res/drawable-mdpi/darrell_simmons.png",
+     "url": "https://raw.githubusercontent.com/Gorlith/Arkham-Horror-Helper/1e98a1345d1361ebc3dd26f69d9fb364af9501f3/Arkham%20Horror%20Helper/res/drawable-mdpi/darrell_simmons.png",
+     "sha256": "9fdcf2da4dd2f0e14e0751ee12b36dbb13e8724fc0016710dbbac090bf2afa0e"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR; each record should be re-checked against the image if a value is disputed",
+    "src_ref": "manual/investigator_sheets.json#records[4]"
+   },
+   {
+    "name": "Dexter Drake",
+    "image": "dexter_drake.png",
+    "occupation": "the Magician",
+    "home": "Ye Olde Magick Shoppe",
+    "fixed_possessions_text": "$5, 1 Spell (Shrivelling)",
+    "random_possessions_text": "1 Common Item, 1 Unique Item, 2 Spells, 1 Skill",
+    "focus": 2,
+    "ability_name": "Magical Gift",
+    "ability_text": "Any Phase: Whenever \"The Great\" Drake draws one or more cards from the Spell deck, he draws one extra card and then discards one of the cards.",
+    "sliders": {
+     "speed": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "sneak": [
+      4,
+      3,
+      2,
+      1
+     ],
+     "fight": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "will": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "lore": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "luck": [
+      3,
+      2,
+      1,
+      0
+     ]
+    },
+    "image_ref": {
+     "source_id": "gorlith_android",
+     "repository": "https://github.com/Gorlith/Arkham-Horror-Helper",
+     "commit_sha": "1e98a1345d1361ebc3dd26f69d9fb364af9501f3",
+     "path": "Arkham Horror Helper/res/drawable-mdpi/dexter_drake.png",
+     "url": "https://raw.githubusercontent.com/Gorlith/Arkham-Horror-Helper/1e98a1345d1361ebc3dd26f69d9fb364af9501f3/Arkham%20Horror%20Helper/res/drawable-mdpi/dexter_drake.png",
+     "sha256": "ef7b5b2614222463637d469b142cefdc4824eb3219ebd11d0761c87809fb1bbd"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR; each record should be re-checked against the image if a value is disputed",
+    "src_ref": "manual/investigator_sheets.json#records[5]"
+   },
+   {
+    "name": "Gloria Goldberg",
+    "image": "gloria_goldberg.png",
+    "occupation": "the Author",
+    "home": "Velma's Diner",
+    "fixed_possessions_text": "$7, 2 Clue Tokens",
+    "random_possessions_text": "2 Common Items, 2 Spells, 1 Skill",
+    "focus": 2,
+    "ability_name": "Psychic Sensitivity",
+    "ability_text": "Other World Encounter: When drawing gate encounters in Other Worlds, Gloria draws two cards that match the color of one of the Other World's encounter symbols, then chooses whichever one of the two she wants. This ability does not work when drawing location encounters in Arkham.",
+    "sliders": {
+     "speed": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "sneak": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "fight": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "will": [
+      5,
+      4,
+      3,
+      2
+     ],
+     "lore": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "luck": [
+      5,
+      4,
+      3,
+      2
+     ]
+    },
+    "image_ref": {
+     "source_id": "gorlith_android",
+     "repository": "https://github.com/Gorlith/Arkham-Horror-Helper",
+     "commit_sha": "1e98a1345d1361ebc3dd26f69d9fb364af9501f3",
+     "path": "Arkham Horror Helper/res/drawable-mdpi/gloria_goldberg.png",
+     "url": "https://raw.githubusercontent.com/Gorlith/Arkham-Horror-Helper/1e98a1345d1361ebc3dd26f69d9fb364af9501f3/Arkham%20Horror%20Helper/res/drawable-mdpi/gloria_goldberg.png",
+     "sha256": "f9974103a1aa36b25b14a7e137c3b5aab1914cabc2a19cc9d654e5267475984b"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR; each record should be re-checked against the image if a value is disputed",
+    "src_ref": "manual/investigator_sheets.json#records[6]"
+   },
+   {
+    "name": "Harvey Walters",
+    "image": "harvey_walters.png",
+    "occupation": "the Professor",
+    "home": "Administration Building",
+    "fixed_possessions_text": "$5, 1 Clue Token",
+    "random_possessions_text": "2 Unique Items, 2 Spells, 1 Skill",
+    "focus": 2,
+    "ability_name": "Strong Mind",
+    "ability_text": "Any Phase: Harvey reduces all Sanity losses he suffers by 1, to a minimum of 0.",
+    "sliders": {
+     "speed": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "sneak": [
+      5,
+      4,
+      3,
+      2
+     ],
+     "fight": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "will": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "lore": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "luck": [
+      4,
+      3,
+      2,
+      1
+     ]
+    },
+    "image_ref": {
+     "source_id": "gorlith_android",
+     "repository": "https://github.com/Gorlith/Arkham-Horror-Helper",
+     "commit_sha": "1e98a1345d1361ebc3dd26f69d9fb364af9501f3",
+     "path": "Arkham Horror Helper/res/drawable-mdpi/harvey_walters.png",
+     "url": "https://raw.githubusercontent.com/Gorlith/Arkham-Horror-Helper/1e98a1345d1361ebc3dd26f69d9fb364af9501f3/Arkham%20Horror%20Helper/res/drawable-mdpi/harvey_walters.png",
+     "sha256": "530c0d875c58209da84dd58df27e136dc413180224f44268ce13ff4e3f4db760"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR; each record should be re-checked against the image if a value is disputed",
+    "src_ref": "manual/investigator_sheets.json#records[7]"
+   },
+   {
+    "name": "Jenny Barnes",
+    "image": "jenny_barnes.png",
+    "occupation": "the Dilettante",
+    "home": "Train Station",
+    "fixed_possessions_text": "$10",
+    "random_possessions_text": "2 Common Items, 1 Unique Item, 1 Spell, 1 Skill",
+    "focus": 1,
+    "ability_name": "Trust Fund",
+    "ability_text": "Upkeep: Jenny gains $1.",
+    "sliders": {
+     "speed": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "sneak": [
+      4,
+      3,
+      2,
+      1
+     ],
+     "fight": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "will": [
+      5,
+      4,
+      3,
+      2
+     ],
+     "lore": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "luck": [
+      5,
+      4,
+      3,
+      2
+     ]
+    },
+    "image_ref": {
+     "source_id": "gorlith_android",
+     "repository": "https://github.com/Gorlith/Arkham-Horror-Helper",
+     "commit_sha": "1e98a1345d1361ebc3dd26f69d9fb364af9501f3",
+     "path": "Arkham Horror Helper/res/drawable-mdpi/jenny_barnes.png",
+     "url": "https://raw.githubusercontent.com/Gorlith/Arkham-Horror-Helper/1e98a1345d1361ebc3dd26f69d9fb364af9501f3/Arkham%20Horror%20Helper/res/drawable-mdpi/jenny_barnes.png",
+     "sha256": "f230463182e7ae3a5adfb9599f0ad6565d06de8862962b4b047a4dbabe0daf17"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR; each record should be re-checked against the image if a value is disputed",
+    "src_ref": "manual/investigator_sheets.json#records[8]"
+   },
+   {
+    "name": "Joe Diamond",
+    "image": "joe_diamond.png",
+    "occupation": "the Private Eye",
+    "home": "Police Station",
+    "fixed_possessions_text": "$8, 3 Clue Tokens, 1 Common Item (.45 Automatic)",
+    "random_possessions_text": "2 Common Items, 1 Skill",
+    "focus": 3,
+    "ability_name": "Hunches",
+    "ability_text": "Any Phase: Joe rolls one extra bonus die when he spends a Clue token to add to a roll.",
+    "sliders": {
+     "speed": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "sneak": [
+      4,
+      3,
+      2,
+      1
+     ],
+     "fight": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "will": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "lore": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "luck": [
+      3,
+      2,
+      1,
+      0
+     ]
+    },
+    "image_ref": {
+     "source_id": "gorlith_android",
+     "repository": "https://github.com/Gorlith/Arkham-Horror-Helper",
+     "commit_sha": "1e98a1345d1361ebc3dd26f69d9fb364af9501f3",
+     "path": "Arkham Horror Helper/res/drawable-mdpi/joe_diamond.png",
+     "url": "https://raw.githubusercontent.com/Gorlith/Arkham-Horror-Helper/1e98a1345d1361ebc3dd26f69d9fb364af9501f3/Arkham%20Horror%20Helper/res/drawable-mdpi/joe_diamond.png",
+     "sha256": "c52de90726d3f342ac50e00cebebf4e1144ebbd004e39618876726d040373aac"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR; each record should be re-checked against the image if a value is disputed",
+    "src_ref": "manual/investigator_sheets.json#records[9]"
+   },
+   {
+    "name": "Kate Winthrop",
+    "image": "kate_winthrop.png",
+    "occupation": "the Scientist",
+    "home": "Science Building",
+    "fixed_possessions_text": "$7, 2 Clue Tokens*",
+    "random_possessions_text": "1 Common Item, 1 Unique Item, 2 Spells, 1 Skill",
+    "focus": 1,
+    "ability_name": "Science!",
+    "ability_text": "Any Phase: Gates and monsters cannot appear in Kate's location due to her flux stabilizer. Monsters and gates do not disappear if she enters their location, however, and monsters can move into her location as usual. * Do not place a Clue token on the Science Building to start the game.",
+    "sliders": {
+     "speed": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "sneak": [
+      5,
+      4,
+      3,
+      2
+     ],
+     "fight": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "will": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "lore": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "luck": [
+      4,
+      3,
+      2,
+      1
+     ]
+    },
+    "image_ref": {
+     "source_id": "gorlith_android",
+     "repository": "https://github.com/Gorlith/Arkham-Horror-Helper",
+     "commit_sha": "1e98a1345d1361ebc3dd26f69d9fb364af9501f3",
+     "path": "Arkham Horror Helper/res/drawable-mdpi/kate_winthrop.png",
+     "url": "https://raw.githubusercontent.com/Gorlith/Arkham-Horror-Helper/1e98a1345d1361ebc3dd26f69d9fb364af9501f3/Arkham%20Horror%20Helper/res/drawable-mdpi/kate_winthrop.png",
+     "sha256": "5fae59f4102cd494a5a6295d629f80239d03989af79458d9ba3872fe656c0721"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR; each record should be re-checked against the image if a value is disputed",
+    "src_ref": "manual/investigator_sheets.json#records[10]"
+   },
+   {
+    "name": "Mandy Thompson",
+    "image": "mandy_thompson.png",
+    "occupation": "the Researcher",
+    "home": "Library",
+    "fixed_possessions_text": "$6, 4 Clue Tokens",
+    "random_possessions_text": "2 Common Items, 1 Unique Item, 1 Skill",
+    "focus": 2,
+    "ability_name": "Research",
+    "ability_text": "Any Phase: Once per turn, Mandy can activate this ability after any investigator (including herself) makes a skill check. That investigator then re-rolls all of the dice rolled for that check that did not result in successes.",
+    "sliders": {
+     "speed": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "sneak": [
+      5,
+      4,
+      3,
+      2
+     ],
+     "fight": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "will": [
+      5,
+      4,
+      3,
+      2
+     ],
+     "lore": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "luck": [
+      3,
+      2,
+      1,
+      0
+     ]
+    },
+    "image_ref": {
+     "source_id": "gorlith_android",
+     "repository": "https://github.com/Gorlith/Arkham-Horror-Helper",
+     "commit_sha": "1e98a1345d1361ebc3dd26f69d9fb364af9501f3",
+     "path": "Arkham Horror Helper/res/drawable-mdpi/mandy_thompson.png",
+     "url": "https://raw.githubusercontent.com/Gorlith/Arkham-Horror-Helper/1e98a1345d1361ebc3dd26f69d9fb364af9501f3/Arkham%20Horror%20Helper/res/drawable-mdpi/mandy_thompson.png",
+     "sha256": "a81352c9520ea309fed83581f2d9ec51af5645d3680788df4cde9eaad7a85f32"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR; each record should be re-checked against the image if a value is disputed",
+    "src_ref": "manual/investigator_sheets.json#records[11]"
+   },
+   {
+    "name": "Michael McGlen",
+    "image": "michael_mcglen.png",
+    "occupation": "the Gangster",
+    "home": "Ma's Boarding House",
+    "fixed_possessions_text": "$8, 2 Common Items (Dynamite, Tommy Gun)",
+    "random_possessions_text": "1 Unique Item, 1 Skill",
+    "focus": 1,
+    "ability_name": "Strong Body",
+    "ability_text": "Any Phase: Michael reduces all Stamina losses he suffers by 1, to a minimum of 0.",
+    "sliders": {
+     "speed": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "sneak": [
+      4,
+      3,
+      2,
+      1
+     ],
+     "fight": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "will": [
+      4,
+      3,
+      2,
+      1
+     ],
+     "lore": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "luck": [
+      3,
+      2,
+      1,
+      0
+     ]
+    },
+    "image_ref": {
+     "source_id": "gorlith_android",
+     "repository": "https://github.com/Gorlith/Arkham-Horror-Helper",
+     "commit_sha": "1e98a1345d1361ebc3dd26f69d9fb364af9501f3",
+     "path": "Arkham Horror Helper/res/drawable-mdpi/michael_mcglen.png",
+     "url": "https://raw.githubusercontent.com/Gorlith/Arkham-Horror-Helper/1e98a1345d1361ebc3dd26f69d9fb364af9501f3/Arkham%20Horror%20Helper/res/drawable-mdpi/michael_mcglen.png",
+     "sha256": "670dfc344abaa7dc9dd33ec44f4f7616d64246513a171782d5abf6c10fa1342c"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR; each record should be re-checked against the image if a value is disputed",
+    "src_ref": "manual/investigator_sheets.json#records[12]"
+   },
+   {
+    "name": "Monterey Jack",
+    "image": "monterey_jack.png",
+    "occupation": "the Archaeologist",
+    "home": "Curiositie Shoppe",
+    "fixed_possessions_text": "$7, 1 Clue Token, 2 Common Items (Bull Whip, .38 Revolver)",
+    "random_possessions_text": "2 Unique Items, 1 Skill",
+    "focus": 2,
+    "ability_name": "Archaeology",
+    "ability_text": "Any Phase: Whenever Monterey draws one or more cards from the Unique Item deck, he draws one extra card and then discards one of the cards.",
+    "sliders": {
+     "speed": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "sneak": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "fight": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "will": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "lore": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "luck": [
+      5,
+      4,
+      3,
+      2
+     ]
+    },
+    "image_ref": {
+     "source_id": "gorlith_android",
+     "repository": "https://github.com/Gorlith/Arkham-Horror-Helper",
+     "commit_sha": "1e98a1345d1361ebc3dd26f69d9fb364af9501f3",
+     "path": "Arkham Horror Helper/res/drawable-mdpi/monterey_jack.png",
+     "url": "https://raw.githubusercontent.com/Gorlith/Arkham-Horror-Helper/1e98a1345d1361ebc3dd26f69d9fb364af9501f3/Arkham%20Horror%20Helper/res/drawable-mdpi/monterey_jack.png",
+     "sha256": "a038c4852dd2a6413e7c5615d849d69cadc14fc73b8ba421a49c0b1ab29a4e66"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR; each record should be re-checked against the image if a value is disputed",
+    "src_ref": "manual/investigator_sheets.json#records[13]"
+   },
+   {
+    "name": "Sister Mary",
+    "image": "sister_mary.png",
+    "occupation": "the Nun",
+    "home": "South Church",
+    "fixed_possessions_text": "$0, Blessing, 1 Common Item (Cross), 1 Unique Item (Holy Water)",
+    "random_possessions_text": "2 Spells, 1 Skill",
+    "focus": 1,
+    "ability_name": "Guardian Angel",
+    "ability_text": "Any Phase: Sister Mary is never Lost in Time and Space. Instead, if her Sanity is 0, she returns to Arkham Asylum. If her Stamina is 0, she returns to St. Mary's Hospital. If neither her Sanity nor her Stamina are 0, she returns to South Church.",
+    "sliders": {
+     "speed": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "sneak": [
+      4,
+      3,
+      2,
+      1
+     ],
+     "fight": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "will": [
+      4,
+      3,
+      2,
+      1
+     ],
+     "lore": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "luck": [
+      6,
+      5,
+      4,
+      3
+     ]
+    },
+    "image_ref": {
+     "source_id": "gorlith_android",
+     "repository": "https://github.com/Gorlith/Arkham-Horror-Helper",
+     "commit_sha": "1e98a1345d1361ebc3dd26f69d9fb364af9501f3",
+     "path": "Arkham Horror Helper/res/drawable-mdpi/sister_mary.png",
+     "url": "https://raw.githubusercontent.com/Gorlith/Arkham-Horror-Helper/1e98a1345d1361ebc3dd26f69d9fb364af9501f3/Arkham%20Horror%20Helper/res/drawable-mdpi/sister_mary.png",
+     "sha256": "7c6154092e7074264c0e4e586fe518324a828d0b929846dd542f7f4ca21fa557"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR; each record should be re-checked against the image if a value is disputed",
+    "src_ref": "manual/investigator_sheets.json#records[14]"
+   },
+   {
+    "name": "Vincent Lee",
+    "image": "vincent_lee.png",
+    "occupation": "the Doctor",
+    "home": "St. Mary's Hospital",
+    "fixed_possessions_text": "$9, 1 Clue Token",
+    "random_possessions_text": "2 Common Items, 2 Spells, 1 Skill",
+    "focus": 2,
+    "ability_name": "Physician",
+    "ability_text": "Upkeep: Dr. Lee may restore 1 Stamina to himself or another character in his location. He cannot raise a character's Stamina higher than that character's maximum Stamina.",
+    "sliders": {
+     "speed": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "sneak": [
+      5,
+      4,
+      3,
+      2
+     ],
+     "fight": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "will": [
+      4,
+      3,
+      2,
+      1
+     ],
+     "lore": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "luck": [
+      4,
+      3,
+      2,
+      1
+     ]
+    },
+    "image_ref": {
+     "source_id": "gorlith_android",
+     "repository": "https://github.com/Gorlith/Arkham-Horror-Helper",
+     "commit_sha": "1e98a1345d1361ebc3dd26f69d9fb364af9501f3",
+     "path": "Arkham Horror Helper/res/drawable-mdpi/vincent_lee.png",
+     "url": "https://raw.githubusercontent.com/Gorlith/Arkham-Horror-Helper/1e98a1345d1361ebc3dd26f69d9fb364af9501f3/Arkham%20Horror%20Helper/res/drawable-mdpi/vincent_lee.png",
+     "sha256": "83475b142c83d375e8b5de3364e5e218b734753d6dfbe81c28cf3d2a438891f8"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR; each record should be re-checked against the image if a value is disputed",
+    "src_ref": "manual/investigator_sheets.json#records[15]"
+   }
+  ],
+  "ancient_one_sheets": [
+   {
+    "name": "Azathoth",
+    "image": "azathoth.png",
+    "combat_rating": "-∞",
+    "defenses": "None",
+    "worshippers": "Since Azathoth promises nothing except destruction, only the insane worship him. However, their fanaticism gives them strength. Maniacs have their toughness increased by 1.",
+    "power_name": "Absolute Destruction",
+    "power": "If Azathoth awakens, the game is over and the investigators lose.",
+    "start_of_battle": null,
+    "attack": "The end is here! Azathoth destroys the world.",
+    "doom_track": 14,
+    "image_ref": {
+     "source_id": "jesseflorig_json",
+     "repository": "https://github.com/jesseflorig/arkham-horror-json",
+     "commit_sha": "a9c7bf6cc9a08888950204b4df7b40aa3c7f89f7",
+     "path": "images/ancient-ones/azathoth.png",
+     "url": "https://raw.githubusercontent.com/jesseflorig/arkham-horror-json/a9c7bf6cc9a08888950204b4df7b40aa3c7f89f7/images/ancient-ones/azathoth.png",
+     "sha256": "e9c379eb6cfbcb66e1975991ccc7f47a55239f92a172da44f78dc4a22d94edd9"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR",
+    "src_ref": "manual/ancient_one_sheets.json#records[0]"
+   },
+   {
+    "name": "Cthulhu",
+    "image": "cthulhu.png",
+    "combat_rating": "-6",
+    "defenses": "Special (See Attack)",
+    "worshippers": "Cthulhu's worshippers often have the Innsmouth Look, a sign of monstrous ancestors. Cultists have a horror rating of -2 and a horror damage of 2 Sanity.",
+    "power_name": "Dreams of Madness",
+    "power": "While Cthulhu stirs in his slumber, investigators have their maximum Sanity and maximum Stamina reduced by 1.",
+    "start_of_battle": null,
+    "attack": "Each investigator lowers either his maximum Sanity or maximum Stamina by 1 (his choice). After Cthulhu attacks, 1 doom token is placed back on Cthulhu's doom track if it isn't already full.",
+    "doom_track": 13,
+    "image_ref": {
+     "source_id": "jesseflorig_json",
+     "repository": "https://github.com/jesseflorig/arkham-horror-json",
+     "commit_sha": "a9c7bf6cc9a08888950204b4df7b40aa3c7f89f7",
+     "path": "images/ancient-ones/cthulhu.png",
+     "url": "https://raw.githubusercontent.com/jesseflorig/arkham-horror-json/a9c7bf6cc9a08888950204b4df7b40aa3c7f89f7/images/ancient-ones/cthulhu.png",
+     "sha256": "d40e4713656db453ad1512bed9c98c4280d6de68aef0a08bc29be5e3d2ebbcd9"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR",
+    "src_ref": "manual/ancient_one_sheets.json#records[1]"
+   },
+   {
+    "name": "Hastur",
+    "image": "hastur.png",
+    "combat_rating": "-X",
+    "defenses": "Physical Resistance",
+    "worshippers": "Hastur's worshippers ride byakhee mounts that they call with enchanted whistles. Cultists are flying monsters and their combat rating is -2.",
+    "power_name": "The King in Yellow",
+    "power": "While Hastur stirs in his slumber, the cost to seal a gate is 8 Clue tokens instead of 5.",
+    "start_of_battle": "X is set to the current terror level.",
+    "attack": "Each investigator must pass a Luck (+1) check or lose 2 Sanity. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+    "doom_track": 13,
+    "image_ref": {
+     "source_id": "jesseflorig_json",
+     "repository": "https://github.com/jesseflorig/arkham-horror-json",
+     "commit_sha": "a9c7bf6cc9a08888950204b4df7b40aa3c7f89f7",
+     "path": "images/ancient-ones/hastur.png",
+     "url": "https://raw.githubusercontent.com/jesseflorig/arkham-horror-json/a9c7bf6cc9a08888950204b4df7b40aa3c7f89f7/images/ancient-ones/hastur.png",
+     "sha256": "2bb0ec90be32aaea05615515d0fbe439e660e109e425f20fae2b2c04de4d9faa"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR",
+    "src_ref": "manual/ancient_one_sheets.json#records[2]"
+   },
+   {
+    "name": "Ithaqua",
+    "image": "ithaqua.png",
+    "combat_rating": "-3",
+    "defenses": "None",
+    "worshippers": "Ithaqua's worshippers eat the flesh of their fellow men, gaining supernatural power through their dark practice. Cultists have their toughness increased by 2.",
+    "power_name": "Icy Winds",
+    "power": "While Ithaqua stirs in his slumber, any investigator in a street area at the end of the Mythos Phase loses 1 Stamina. In addition, all Weather cards are discarded without their special effects taking place.",
+    "start_of_battle": "Investigators must roll a die for every item they have, discarding the item on a failure.",
+    "attack": "Each investigator must pass a Fight (+1) check or lose 2 Stamina. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+    "doom_track": 11,
+    "image_ref": {
+     "source_id": "jesseflorig_json",
+     "repository": "https://github.com/jesseflorig/arkham-horror-json",
+     "commit_sha": "a9c7bf6cc9a08888950204b4df7b40aa3c7f89f7",
+     "path": "images/ancient-ones/ithaqua.png",
+     "url": "https://raw.githubusercontent.com/jesseflorig/arkham-horror-json/a9c7bf6cc9a08888950204b4df7b40aa3c7f89f7/images/ancient-ones/ithaqua.png",
+     "sha256": "000d28f745d0c2eef87b4c0713ed8a6887b6c2c4c5aecd1ad6b5c4dc9898f9cc"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR",
+    "src_ref": "manual/ancient_one_sheets.json#records[3]"
+   },
+   {
+    "name": "Nyarlathotep",
+    "image": "nyarlathotep.png",
+    "combat_rating": "-4",
+    "defenses": "Magical Resistance",
+    "worshippers": "Nyarlathotep has innumerable cults all over the world. Cultists have the Endless ability.",
+    "power_name": "A Thousand Masks",
+    "power": "At the start of the game, add the 5 Mask monsters to the cup. Multiple Mask monsters can be in play at once.",
+    "start_of_battle": "Any investigator with no Clue tokens is devoured.",
+    "attack": "Each investigator must pass a Lore (+1) check or lose 1 Clue token. Any investigator with no Clue tokens left is devoured. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+    "doom_track": 11,
+    "image_ref": {
+     "source_id": "jesseflorig_json",
+     "repository": "https://github.com/jesseflorig/arkham-horror-json",
+     "commit_sha": "a9c7bf6cc9a08888950204b4df7b40aa3c7f89f7",
+     "path": "images/ancient-ones/nyarlathotep.png",
+     "url": "https://raw.githubusercontent.com/jesseflorig/arkham-horror-json/a9c7bf6cc9a08888950204b4df7b40aa3c7f89f7/images/ancient-ones/nyarlathotep.png",
+     "sha256": "b5bb248301aaa000ea1e6422e528721bc46b0690fcfc8e0120258b8be40d8f72"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR",
+    "src_ref": "manual/ancient_one_sheets.json#records[4]"
+   },
+   {
+    "name": "Shub-Niggurath",
+    "image": "shub-niggurath.png",
+    "combat_rating": "-5",
+    "defenses": "Physical Immunity",
+    "worshippers": "Shub-Niggurath's young are numberless. Dark Young have the Endless ability.",
+    "power_name": "Black Goat of the Woods",
+    "power": "While Shub-Niggurath stirs in her slumber, all monsters have their toughness increased by 1.",
+    "start_of_battle": "Any investigator with no monster trophies is devoured.",
+    "attack": "Each investigator must pass a Sneak (+1) check or lose 1 monster trophy. Any investigator with no monster trophies left is devoured. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+    "doom_track": 12,
+    "image_ref": {
+     "source_id": "jesseflorig_json",
+     "repository": "https://github.com/jesseflorig/arkham-horror-json",
+     "commit_sha": "a9c7bf6cc9a08888950204b4df7b40aa3c7f89f7",
+     "path": "images/ancient-ones/shub-niggurath.png",
+     "url": "https://raw.githubusercontent.com/jesseflorig/arkham-horror-json/a9c7bf6cc9a08888950204b4df7b40aa3c7f89f7/images/ancient-ones/shub-niggurath.png",
+     "sha256": "7c80f5837bbc2a8592ca1b2e5b542816a123609421ab9917b6f1e2c3d3f9d0f4"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR",
+    "src_ref": "manual/ancient_one_sheets.json#records[5]"
+   },
+   {
+    "name": "Yig",
+    "image": "yig.png",
+    "combat_rating": "-3",
+    "defenses": "None",
+    "worshippers": "Yig's worshippers are actually disguised serpent people. Their bite is highly poisonous. Cultists have a combat rating of +0 and a combat damage of 4 Stamina.",
+    "power_name": "Yig's Anger",
+    "power": "While Yig stirs in his slumber, he gains a doom token whenever a Cultist is defeated or an investigator is lost in time and space.",
+    "start_of_battle": "Every investigator is Cursed. Any investigator that already has a Curse is devoured.",
+    "attack": "Each investigator must pass a Speed (+1) check or lose 1 Sanity and 1 Stamina. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+    "doom_track": 10,
+    "image_ref": {
+     "source_id": "jesseflorig_json",
+     "repository": "https://github.com/jesseflorig/arkham-horror-json",
+     "commit_sha": "a9c7bf6cc9a08888950204b4df7b40aa3c7f89f7",
+     "path": "images/ancient-ones/yig.png",
+     "url": "https://raw.githubusercontent.com/jesseflorig/arkham-horror-json/a9c7bf6cc9a08888950204b4df7b40aa3c7f89f7/images/ancient-ones/yig.png",
+     "sha256": "ec41c5c57a42b835bfd6675dd0452cee5b3337a4192dd455c99d03d220dc20f4"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR",
+    "src_ref": "manual/ancient_one_sheets.json#records[6]"
+   },
+   {
+    "name": "Yog-Sothoth",
+    "image": "yog-sothoth.png",
+    "combat_rating": "-5",
+    "defenses": "Magical Immunity",
+    "worshippers": "Yog-Sothoth's worshippers have powerful magical abilities. Cultists have Magical Immunity and a combat rating of -1.",
+    "power_name": "The Key and the Gate",
+    "power": "While Yog-Sothoth stirs in his slumber, the difficulty to close or seal a gate increases by 1. In addition, any investigator lost in time and space is devoured.",
+    "start_of_battle": "Any investigator with no gate trophies is devoured.",
+    "attack": "Each investigator must pass a Will (+1) check or lose 1 gate trophy. Any investigator with no gate trophies left is devoured. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+    "doom_track": 12,
+    "image_ref": {
+     "source_id": "jesseflorig_json",
+     "repository": "https://github.com/jesseflorig/arkham-horror-json",
+     "commit_sha": "a9c7bf6cc9a08888950204b4df7b40aa3c7f89f7",
+     "path": "images/ancient-ones/yog-sothoth.png",
+     "url": "https://raw.githubusercontent.com/jesseflorig/arkham-horror-json/a9c7bf6cc9a08888950204b4df7b40aa3c7f89f7/images/ancient-ones/yog-sothoth.png",
+     "sha256": "5a23fdfa086d3357b8321515da2bc8593c3201b712878c64aa86703dabbbde08"
+    },
+    "method": "manual visual transcription by the pipeline author (Claude) on 2026-10-14; not OCR",
+    "src_ref": "manual/ancient_one_sheets.json#records[7]"
+   }
+  ],
+  "errata_base": {
+   "description": "Base-game errata from the official 'Arkham Horror FAQ v2.0' (December 5, 2012), pages 1-2. Every 'quote' is checked verbatim (whitespace/quote-style normalised) against the extracted PDF text by the official_docs parser.",
+   "doc_id": "complete_faq",
+   "records": [
+    {
+     "id": "errata.inv.jenny_barnes.random_common_items",
+     "page": 1,
+     "quote": "Jenny Barnes should start with 2 Common Items rather than 1",
+     "target": {
+      "kind": "investigator",
+      "name": "Jenny Barnes",
+      "field": "random_possessions.common_item"
+     },
+     "original_value": 1,
+     "corrected_value": 2,
+     "incorporated": "Corrected versions of the above investigator sheets are included in the revised edition of Arkham Horror."
+    },
+    {
+     "id": "errata.inv.bob_jenkins.money",
+     "page": 1,
+     "quote": "Bob Jenkins should start with $9 rather than $8",
+     "target": {
+      "kind": "investigator",
+      "name": "Bob Jenkins",
+      "field": "fixed_possessions.money"
+     },
+     "original_value": 8,
+     "corrected_value": 9,
+     "incorporated": "Corrected versions of the above investigator sheets are included in the revised edition of Arkham Horror."
+    },
+    {
+     "id": "errata.card.flesh_ward.sanity_cost",
+     "page": 1,
+     "quote": "Flesh Ward (Spell) should have a Sanity cost of 1",
+     "target": {
+      "kind": "card",
+      "card_type": "spell",
+      "name": "Flesh Ward",
+      "field": "sanity_cost"
+     },
+     "original_value": null,
+     "original_value_note": "not stated in the FAQ",
+     "corrected_value": 1,
+     "incorporated": "Corrected versions of the above cards are included both in the revised edition of Arkham Horror and in Dunwich Horror."
+    },
+    {
+     "id": "errata.card.flesh_ward.text",
+     "page": 1,
+     "quote": "Any Phase: Cast and exhaust to ignore all Stamina loss being dealt to you from one source. Discard this spell if the Ancient One awakens.",
+     "target": {
+      "kind": "card",
+      "card_type": "spell",
+      "name": "Flesh Ward",
+      "field": "text"
+     },
+     "original_value": null,
+     "original_value_note": "not stated in the FAQ",
+     "corrected_value": "Any Phase: Cast and exhaust to ignore all Stamina loss being dealt to you from one source. Discard this spell if the Ancient One awakens.",
+     "incorporated": "Corrected versions of the above cards are included both in the revised edition of Arkham Horror and in Dunwich Horror."
+    },
+    {
+     "id": "errata.card.healing_stone.price",
+     "page": 1,
+     "quote": "Healing Stone (Unique Item) should cost $8",
+     "target": {
+      "kind": "card",
+      "card_type": "unique_item",
+      "name": "Healing Stone",
+      "field": "price"
+     },
+     "original_value": null,
+     "original_value_note": "not stated in the FAQ",
+     "corrected_value": 8,
+     "incorporated": "Corrected versions of the above cards are included both in the revised edition of Arkham Horror and in Dunwich Horror."
+    },
+    {
+     "id": "errata.card.healing_stone.text",
+     "page": 1,
+     "quote": "include the text “Discard this card if the Ancient One awakens.”",
+     "target": {
+      "kind": "card",
+      "card_type": "unique_item",
+      "name": "Healing Stone",
+      "field": "text",
+      "mode": "must_contain"
+     },
+     "original_value": null,
+     "corrected_value": "Discard this card if the Ancient One awakens.",
+     "incorporated": "Corrected versions of the above cards are included both in the revised edition of Arkham Horror and in Dunwich Horror."
+    },
+    {
+     "id": "errata.card.lantern.price",
+     "page": 1,
+     "quote": "Lantern (Common Item) should cost $3",
+     "target": {
+      "kind": "card",
+      "card_type": "common_item",
+      "name": "Lantern",
+      "field": "price"
+     },
+     "original_value": null,
+     "original_value_note": "not stated in the FAQ",
+     "corrected_value": 3,
+     "incorporated": "Corrected versions of the above cards are included both in the revised edition of Arkham Horror and in Dunwich Horror."
+    },
+    {
+     "id": "errata.card.lantern.text",
+     "page": 1,
+     "quote": "read “+1 to Luck checks.”",
+     "target": {
+      "kind": "card",
+      "card_type": "common_item",
+      "name": "Lantern",
+      "field": "text"
+     },
+     "original_value": null,
+     "corrected_value": "+1 to Luck checks.",
+     "incorporated": "Corrected versions of the above cards are included both in the revised edition of Arkham Horror and in Dunwich Horror."
+    },
+    {
+     "id": "errata.card.elder_sign.text",
+     "page": 1,
+     "quote": "Elder Sign (Unique Item) should say “Arkham Encounter Phase: When closing a gate…” instead of “Any Phase: When sealing a gate…”",
+     "target": {
+      "kind": "card",
+      "card_type": "unique_item",
+      "name": "Elder Sign",
+      "field": "text",
+      "mode": "prefix"
+     },
+     "original_value": "Any Phase: When sealing a gate…",
+     "corrected_value": "Arkham Encounter Phase: When closing a gate…",
+     "incorporated": "Corrected versions of the above cards are included both in the revised edition of Arkham Horror and in Dunwich Horror."
+    },
+    {
+     "id": "errata.encounter.police_station.deputy_dingby",
+     "page": 2,
+     "quote": "The reward should be the “.38 Revolver” instead of the “.45 Revolver.”",
+     "target": {
+      "kind": "location_encounter",
+      "location": "Police Station",
+      "match": "absentmindedly leaves you holding his gun",
+      "field": "text"
+     },
+     "original_value": ".45 Revolver",
+     "corrected_value": ".38 Revolver",
+     "incorporated": "not stated"
+    }
+   ]
+  },
+  "rulebook_reference": {
+   "description": "Rule reference tables transcribed from the official core rulebook (PDF '© 2005, 2006', revised-edition rulebook). Every 'quote' is verified verbatim (whitespace-normalised) against the extracted page text by the official_docs parser.",
+   "doc_id": "core_rulebook",
+   "tables": {
+    "monster_movement_types": {
+     "page": 21,
+     "quote": "The color of the border indicates the monster’s movement type (Black – normal, Red – fast, Yellow – stationary, Blue – flying, Green – special).",
+     "rows": [
+      {
+       "id": "normal",
+       "border_color": "black"
+      },
+      {
+       "id": "fast",
+       "border_color": "red"
+      },
+      {
+       "id": "stationary",
+       "border_color": "yellow"
+      },
+      {
+       "id": "flying",
+       "border_color": "blue"
+      },
+      {
+       "id": "special",
+       "border_color": "green"
+      }
+     ]
+    },
+    "monster_special_abilities": {
+     "page": 24,
+     "rows": [
+      {
+       "id": "ambush",
+       "name": "Ambush",
+       "quote": "Ambush: Once combat has begun with this creature, the investigator no longer has the option to flee it, but must instead fight until one or the other is defeated."
+      },
+      {
+       "id": "endless",
+       "name": "Endless",
+       "quote": "Endless: A monster with this ability cannot be collected as a monster trophy. Instead, each time it is defeated, return it to the cup."
+      },
+      {
+       "id": "physical_resistance",
+       "name": "Physical Resistance",
+       "quote": "Physical/Magical Resistance: A Weapon or Spell that adds a bonus of the resisted type can only provide half its normal bonus (rounded up)."
+      },
+      {
+       "id": "magical_resistance",
+       "name": "Magical Resistance",
+       "quote": "Physical/Magical Resistance: A Weapon or Spell that adds a bonus of the resisted type can only provide half its normal bonus (rounded up)."
+      },
+      {
+       "id": "physical_immunity",
+       "name": "Physical Immunity",
+       "quote": "Physical/Magical Immunity: A Weapon or Spell that adds a bonus of the resisted type provides none of its normal bonus."
+      },
+      {
+       "id": "magical_immunity",
+       "name": "Magical Immunity",
+       "quote": "Physical/Magical Immunity: A Weapon or Spell that adds a bonus of the resisted type provides none of its normal bonus."
+      },
+      {
+       "id": "nightmarish",
+       "name": "Nightmarish X",
+       "quote": "Nightmarish X: Any investigator that passes a Horror check when facing this monster still loses X Sanity. This ability doesn’t apply if the investigator fails the Horror check."
+      },
+      {
+       "id": "overwhelming",
+       "name": "Overwhelming X",
+       "quote": "Overwhelming X: Any investigator that defeats this monster in combat still loses X Stamina. This ability doesn’t apply when the investigator fails his Combat check against the monster."
+      }
+     ]
+    },
+    "awakening_open_gates": {
+     "page": 24,
+     "quote": "If too many gates are open at once, the Ancient One can immediately awaken.",
+     "rows": [
+      {
+       "players_min": 1,
+       "players_max": 2,
+       "open_gates": 8
+      },
+      {
+       "players_min": 3,
+       "players_max": 4,
+       "open_gates": 7
+      },
+      {
+       "players_min": 5,
+       "players_max": 6,
+       "open_gates": 6
+      },
+      {
+       "players_min": 7,
+       "players_max": 8,
+       "open_gates": 5
+      }
+     ]
+    },
+    "monster_limit": {
+     "page": 24,
+     "quote": "Monster Limit = (Number of Players) + 3",
+     "formula": "players + 3",
+     "note_quote": "If the terror level reaches 10, Arkham is overrun, which means that the monster limit is removed for the rest of the game."
+    },
+    "outskirts_limit": {
+     "page": 24,
+     "quote": "When the number of monsters in the Outskirts of Arkham exceeds this limit, place all of those monsters back in the cup and raise the terror level by 1.",
+     "rows": [
+      {
+       "players": 1,
+       "max_outskirts": 7
+      },
+      {
+       "players": 2,
+       "max_outskirts": 6
+      },
+      {
+       "players": 3,
+       "max_outskirts": 5
+      },
+      {
+       "players": 4,
+       "max_outskirts": 4
+      },
+      {
+       "players": 5,
+       "max_outskirts": 3
+      },
+      {
+       "players": 6,
+       "max_outskirts": 2
+      },
+      {
+       "players": 7,
+       "max_outskirts": 1
+      },
+      {
+       "players": 8,
+       "max_outskirts": 0
+      }
+     ]
+    },
+    "terror_level_events": {
+     "page": 24,
+     "quote": "For every step the terror level increases, return one Ally at random from the Ally deck to the box.",
+     "rows": [
+      {
+       "terror_level": 3,
+       "event": "The General Store closes.",
+       "closes_location": "General Store"
+      },
+      {
+       "terror_level": 6,
+       "event": "The Curiositie Shoppe closes.",
+       "closes_location": "Curiositie Shoppe"
+      },
+      {
+       "terror_level": 9,
+       "event": "Ye Olde Magick Shoppe closes.",
+       "closes_location": "Ye Olde Magick Shoppe"
+      },
+      {
+       "terror_level": 10,
+       "event": "Arkham is overrun (no monster limit and add one doom token).",
+       "closes_location": null
+      }
+     ]
+    },
+    "location_stability": {
+     "page": 24,
+     "quote": "Locations with green diamonds are stable. Monsters and gates will never appear in these locations",
+     "rows": [
+      {
+       "id": "stable",
+       "diamond_color": "green"
+      },
+      {
+       "id": "unstable",
+       "diamond_color": "red"
+      }
+     ]
+    },
+    "board_structure": {
+     "page": 21,
+     "quote": "The Arkham city section of the board shows the city of Arkham divided into 9 neighborhoods, each of which has between 2 and 3 important locations in it, as well as a street area (B).",
+     "special_areas_quote": "The City Limits section of the board contains three special areas: Outskirts (E), The Sky (F) and Lost in Time and Space (G).",
+     "special_areas": [
+      "Outskirts",
+      "The Sky",
+      "Lost in Time and Space"
+     ]
+    },
+    "special_card_limit": {
+     "page": 23,
+     "quote": "In most cases, a player may never have more than one copy of each special card at the same time. This rule applies to Retainers, Bank Loans, Silver Twilight Memberships, and Bless/Curse cards."
+    },
+    "victory_conditions": {
+     "page": 12,
+     "quote": "The investigators win the game in any of the following three ways:",
+     "rows": [
+      {
+       "id": "close_the_gates",
+       "name": "A. Close the Gates",
+       "quote": "When the last gate is closed, the players must have a number of gate trophies equal to or greater than the number of players."
+      },
+      {
+       "id": "seal_the_gates",
+       "name": "B. Seal the Gates",
+       "quote": "If, at any time, there are six or more elder sign tokens on the board, the players immediately win."
+      },
+      {
+       "id": "banish_the_ancient_one",
+       "name": "C. Banish the Ancient One",
+       "quote": "If the Ancient One awakens (see page 20) but the investigators manage to defeat it"
+      }
+     ]
+    }
+   }
+  },
+  "web_search_evidence": {
+   "description": "Evidence obtained through the WebSearch tool (search-engine summaries of arkham-horror-second-edition.fandom.com pages) while the wiki itself was blocked by the build environment's network policy. These are NOT raw page contents: they are summaries produced by the search tool and are used ONLY as tie-breaking evidence when two machine-readable sources disagree. Re-verify with `python -m ah2e fetch` once the wiki is reachable.",
+   "source_id": "web_search_fandom",
+   "retrieved_at": "2026-10-14",
+   "records": [
+    {
+     "query": "Amanda Sharpe the Student Arkham Horror second edition wiki sanity stamina focus home Bank of Arkham",
+     "url": "https://arkham-horror-second-edition.fandom.com/wiki/Amanda_Sharpe",
+     "claims": [
+      {
+       "entity": "Amanda Sharpe",
+       "field": "sanity",
+       "value": 5
+      },
+      {
+       "entity": "Amanda Sharpe",
+       "field": "stamina",
+       "value": 5
+      },
+      {
+       "entity": "Amanda Sharpe",
+       "field": "focus",
+       "value": 3
+      }
+     ]
+    },
+    {
+     "query": "Arkham Horror second edition wiki Investigator list base game sanity stamina Ashcan Pete Carolyn Fern Gloria Goldberg Harvey Walters",
+     "url": "https://arkham-horror-second-edition.fandom.com/wiki/%22Ashcan%22_Pete",
+     "claims": [
+      {
+       "entity": "\"Ashcan\" Pete",
+       "field": "sanity",
+       "value": 4
+      },
+      {
+       "entity": "\"Ashcan\" Pete",
+       "field": "stamina",
+       "value": 6
+      }
+     ],
+     "note": "Summary also reports a page clarification that Pete effectively starts with 5 Sanity because Duke (+1 maximum Sanity) is a fixed possession - which explains the value 5 in the Gorlith app."
+    },
+    {
+     "query": "(same as above)",
+     "url": "https://arkham-horror-second-edition.fandom.com/wiki/Joe_Diamond",
+     "claims": [
+      {
+       "entity": "Joe Diamond",
+       "field": "sanity",
+       "value": 4
+      },
+      {
+       "entity": "Joe Diamond",
+       "field": "stamina",
+       "value": 6
+      }
+     ]
+    },
+    {
+     "query": "(same as above)",
+     "url": "https://arkham-horror-second-edition.fandom.com/wiki/Bob_Jenkins",
+     "claims": [
+      {
+       "entity": "Bob Jenkins",
+       "field": "sanity",
+       "value": 4
+      },
+      {
+       "entity": "Bob Jenkins",
+       "field": "stamina",
+       "value": 6
+      }
+     ]
+    },
+    {
+     "query": "(same as above)",
+     "url": "https://arkham-horror-second-edition.fandom.com/wiki/Jenny_Barnes",
+     "claims": [
+      {
+       "entity": "Jenny Barnes",
+       "field": "sanity",
+       "value": 6
+      },
+      {
+       "entity": "Jenny Barnes",
+       "field": "stamina",
+       "value": 4
+      }
+     ]
+    },
+    {
+     "query": "(same as above)",
+     "url": "https://arkham-horror-second-edition.fandom.com/wiki/Kate_Winthrop",
+     "claims": [
+      {
+       "entity": "Kate Winthrop",
+       "field": "sanity",
+       "value": 6
+      },
+      {
+       "entity": "Kate Winthrop",
+       "field": "stamina",
+       "value": 4
+      }
+     ]
+    },
+    {
+     "query": "Carolyn Fern the Psychologist Arkham Horror second edition sanity stamina",
+     "url": "https://arkham-horror-second-edition.fandom.com/wiki/Carolyn_Fern",
+     "claims": [
+      {
+       "entity": "Carolyn Fern",
+       "field": "sanity",
+       "value": 6
+      },
+      {
+       "entity": "Carolyn Fern",
+       "field": "stamina",
+       "value": 4
+      },
+      {
+       "entity": "Carolyn Fern",
+       "field": "focus",
+       "value": 2
+      }
+     ]
+    },
+    {
+     "query": "Gloria Goldberg the Author Arkham Horror second edition sanity stamina",
+     "url": "https://arkham-horror-second-edition.fandom.com/wiki/Gloria_Goldberg",
+     "claims": [
+      {
+       "entity": "Gloria Goldberg",
+       "field": "sanity",
+       "value": 6
+      },
+      {
+       "entity": "Gloria Goldberg",
+       "field": "stamina",
+       "value": 4
+      },
+      {
+       "entity": "Gloria Goldberg",
+       "field": "focus",
+       "value": 2
+      }
+     ]
+    },
+    {
+     "query": "Arkham Horror second edition wiki Spell list base game count Wither Voice of Ra Shrivelling Find Gate number of copies",
+     "url": "https://arkham-horror-second-edition.fandom.com/wiki/Spell",
+     "claims": [
+      {
+       "entity": "Wither",
+       "kind": "spell",
+       "field": "copies",
+       "value": 6
+      },
+      {
+       "entity": "Wither",
+       "kind": "spell",
+       "field": "casting_modifier",
+       "value": 0
+      },
+      {
+       "entity": "Wither",
+       "kind": "spell",
+       "field": "sanity_cost",
+       "value": 0
+      },
+      {
+       "entity": "Wither",
+       "kind": "spell",
+       "field": "hands",
+       "value": 1
+      },
+      {
+       "entity": "Shrivelling",
+       "kind": "spell",
+       "field": "copies",
+       "value": 5
+      },
+      {
+       "entity": "Shrivelling",
+       "kind": "spell",
+       "field": "casting_modifier",
+       "value": -1
+      },
+      {
+       "entity": "Shrivelling",
+       "kind": "spell",
+       "field": "sanity_cost",
+       "value": 1
+      },
+      {
+       "entity": "Shrivelling",
+       "kind": "spell",
+       "field": "hands",
+       "value": 1
+      },
+      {
+       "entity": "Find Gate",
+       "kind": "spell",
+       "field": "copies",
+       "value": 4
+      },
+      {
+       "entity": "Find Gate",
+       "kind": "spell",
+       "field": "casting_modifier",
+       "value": -1
+      },
+      {
+       "entity": "Find Gate",
+       "kind": "spell",
+       "field": "sanity_cost",
+       "value": 1
+      },
+      {
+       "entity": "Find Gate",
+       "kind": "spell",
+       "field": "hands",
+       "value": 0
+      },
+      {
+       "entity": "Voice of Ra",
+       "kind": "spell",
+       "field": "copies",
+       "value": 3
+      },
+      {
+       "entity": "Voice of Ra",
+       "kind": "spell",
+       "field": "casting_modifier",
+       "value": -1
+      },
+      {
+       "entity": "Voice of Ra",
+       "kind": "spell",
+       "field": "sanity_cost",
+       "value": 1
+      },
+      {
+       "entity": "Voice of Ra",
+       "kind": "spell",
+       "field": "hands",
+       "value": 0
+      }
+     ],
+     "note": "Summary quoted table rows such as 'Wither | 0 | 0 | 1 | | 6' (casting modifier | sanity cost | hands | ... | count); an empty hands cell is read as 0 hands."
+    },
+    {
+     "query": "Arkham Horror second edition wiki Unique Item list base game count The King in Yellow Warding Statue Elder Sign Holy Water copies",
+     "url": "https://arkham-horror-second-edition.fandom.com/wiki/Unique_Item",
+     "claims": [
+      {
+       "entity": "Elder Sign",
+       "kind": "unique_item",
+       "field": "copies",
+       "value": 4
+      },
+      {
+       "entity": "Elder Sign",
+       "kind": "unique_item",
+       "field": "price",
+       "value": 5
+      },
+      {
+       "entity": "Holy Water",
+       "kind": "unique_item",
+       "field": "copies",
+       "value": 4
+      },
+      {
+       "entity": "Warding Statue",
+       "kind": "unique_item",
+       "field": "copies",
+       "value": 1
+      },
+      {
+       "entity": "The King in Yellow",
+       "kind": "unique_item",
+       "field": "copies",
+       "value": 2
+      }
+     ]
+    },
+    {
+     "query": "Arkham Horror second edition wiki Common Item list price .45 Automatic Dynamite Lucky Cigarette Case Lantern base game",
+     "url": "https://arkham-horror-second-edition.fandom.com/wiki/Common_Item",
+     "claims": [
+      {
+       "entity": ".45 Automatic",
+       "kind": "common_item",
+       "field": "price",
+       "value": 5
+      },
+      {
+       "entity": ".45 Automatic",
+       "kind": "common_item",
+       "field": "copies",
+       "value": 2
+      },
+      {
+       "entity": "Dynamite",
+       "kind": "common_item",
+       "field": "price",
+       "value": 4
+      },
+      {
+       "entity": "Dynamite",
+       "kind": "common_item",
+       "field": "hands",
+       "value": 2
+      },
+      {
+       "entity": "Dynamite",
+       "kind": "common_item",
+       "field": "copies",
+       "value": 2
+      },
+      {
+       "entity": "Lantern",
+       "kind": "common_item",
+       "field": "price",
+       "value": 3
+      },
+      {
+       "entity": "Lantern",
+       "kind": "common_item",
+       "field": "copies",
+       "value": 2
+      },
+      {
+       "entity": "Lucky Cigarette Case",
+       "kind": "common_item",
+       "field": "price",
+       "value": 1
+      },
+      {
+       "entity": "Lucky Cigarette Case",
+       "kind": "common_item",
+       "field": "copies",
+       "value": 2
+      }
+     ]
+    },
+    {
+     "query": "Arkham Horror second edition wiki Mists of Releh spell casting modifier sanity cost hands Voice of Ra hands",
+     "url": "https://arkham-horror-second-edition.fandom.com/wiki/Mists_of_Releh",
+     "claims": [
+      {
+       "entity": "Mists of Releh",
+       "kind": "spell",
+       "field": "name",
+       "value": "Mists of Releh"
+      },
+      {
+       "entity": "Mists of Releh",
+       "kind": "spell",
+       "field": "casting_modifier",
+       "value": "special"
+      },
+      {
+       "entity": "Mists of Releh",
+       "kind": "spell",
+       "field": "sanity_cost",
+       "value": 0
+      }
+     ],
+     "note": "Summary: casting modifier 'Special' (equal to the monster's Awareness), Sanity cost 0; hands not stated."
+    }
+   ]
+  }
+ }
+}

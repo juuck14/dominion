@@ -1,0 +1,100 @@
+Game Board Breakdown
+
+Investigator Sheet Breakdown
+
+Monster Marker Breakdown
+M ov em en t S i de
+
+1: Name: The monster’s name.
+2: Awareness: This is the modifier used to Evade
+this monster.
+3: Movement Border: The color of the border indicates
+the monster’s movement type (Black – normal,
+Red – fast, Yellow – stationary, Blue – flying,
+Green – special).
+4: Home Dimension: This is the monster’s home
+dimension. When a gate is sealed or closed, all
+monsters in play that share its home dimension are
+returned to the cup.
+1: Name and Occupation: Your character’s name
+and job.
+The game board is divided into several sections: Arkham
+(A), the Other Worlds (C), the Terror Track (D), and the
+City Limits (E–G).
+The Arkham city section of the board shows the city of
+Arkham divided into 9 neighborhoods, each of which
+has between 2 and 3 important locations in it, as well as
+a street area (B). The investigators move around on this
+section of the board, passing through the streets to visit
+the various locations. Each location is marked with a
+number of icons showing the most common types of
+encounters at that location.
+The Other Worlds (C) section of the board shows several
+alternate dimensions that the investigators can enter by
+moving through the gates that open up on the Arkham
+section of the board. Investigators enter gates in order to
+explore them and find some weakness that will enable
+them to close the gate once they’ve returned to Arkham.
+The Terror Track (D) section of the board tracks the current terror level of the townsfolk of Arkham. If the investigators allow the terror level of Arkham to get too high,
+people will begin to leave town, making it difficult to
+recruit Allies. Eventually the three shops in town (The
+General Store, The Curiositie Shoppe, and Ye Olde Magick
+Shoppe) will close down, making it more difficult for the
+players to win the game.
+The City Limits section of the board contains three special
+areas: Outskirts (E), The Sky (F) and Lost in Time and
+Space (G). Investigators that suffer a horrible fate of some
+sort move to Lost in Time and Space for a short time.
+Monsters on the board in excess of the limit wander out of
+town to the Outskirts where they terrorize the inhabitants.
+Finally, flying monsters move to The Sky before swooping
+down on the next investigator they spot moving through
+the streets of Arkham.
+
+2: Maximum Sanity: This is how much Sanity
+your character starts the game with. You cannot
+raise your Sanity higher than this number (although
+you can increase this number).
+
+C ombat S i de
+
+3: Maximum Stamina: This is how much Stamina
+your character starts with. You cannot raise your
+Stamina higher than this number (although you can
+increase this number).
+4: Home: This is the location on the game board at
+which your investigator starts the game.
+5: Possessions: This is the equipment your character starts the game with.
+6: Unique Ability: This is a special ability only
+your character can use.
+
+1: Abilities: Any special traits or abilities that the
+monster has. See Monster Abilities on page 24
+for a complete explanation of bolded traits.
+
+7: Focus: This is your character’s ability to adjust
+his skills each turn. See Adjusting Skills on page 6
+for more info.
+
+2: Flavor Text: This text has no game effect. It
+is there only to provide atmosphere.
+
+8: Skill Pairs: These are your character’s skills.
+They are paired so that if you increase one skill in a
+pair, the other decreases.
+
+3: Horror Rating: This is the modifier used in
+Horror checks against this monster.
+4. Horror Damage: This shows how many
+Sanity tokens an investigator loses if he fails a
+Horror check against this monster.
+5: Toughness: This is the difficulty of any
+Combat checks made against this monster.
+6. Combat Damage: This shows how many
+Stamina tokens an investigator loses if he fails a
+Combat check against this monster.
+7: Combat Rating: This is the modifier used in
+Combat checks against this monster.
+
+21
+

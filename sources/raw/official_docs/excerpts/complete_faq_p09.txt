@@ -1,0 +1,97 @@
+Q: If a location card tells an investigator to go to another
+location, have an encounter, and return; what happens
+if the second encounter directs the investigator to move
+again? Does the second encounter cancel the first or is the
+first encounter resolved completely? If they are in conflict,
+which trumps?
+A: After subsequent encounters have been fully resolved,
+the investigator returns to the location in which he had
+the first encounter. In the event of conflict between the
+resolution of the first and subsequent encounters, the first
+encounter takes precedence.
+
+the Other World having only one Other World Encounter
+rather than two.
+Q: If an investigator is delayed in the Other Worlds and
+draws an encounter that returns him to Arkham, is he still
+delayed when he returns?
+A: Yes. Returning to Arkham doesn’t affect the fact that he
+is delayed.
+Q: If a gate with the + symbol is closed, are + symbol
+monsters removed from the Outskirts too?
+A: Yes. All monsters showing the same symbol as the gate
+being closed or sealed are returned to the monster cup,
+even those in the Outskirts.
+
+Q: If an encounter instructs that an investigator must
+“stay here for two turns and gain two Clue tokens,” must
+the player forfeit the Clue tokens if some effect (such as
+the appearance of a gate) forces the investigator to leave
+that location before the two turns are up?
+A: No; the two effects (“stay here” and “gain Clue tokens”)
+are not interdependent. If, for example, a gate opens before
+the investigator has spent two turns in the location, the
+investigator is drawn through the gate and delayed in an
+Other World. The new condition – being delayed in an
+Other World – can supersede the “stay here” instruction
+without affecting the “gain Clue tokens” instruction.
+
+Q: What happens to a monster that emerges from a gate
+that appears at a closed location? Or if a location closes
+while there is a monster and a gate at the location? Is the
+monster trapped inside the closed location?
+A: The gate replaces the location, so while the gate is open
+there is no closed location for the monster to be “trapped”
+in. Put the gate over the closed marker. If the gate is later
+closed, then resolve the effects of a closed location – i.e.,
+any monster or investigator at the location that appeared
+with the gate is tossed out into the street.
+
+Q: When a location card says “a gate and a monster
+appear,” which appearance is resolved first?
+A: The gate appears first, and any investigators at the location are drawn through the gate. Then the monster appears.
+Monsters that appear as a result of these encounters stay
+on the board, count against the monster limit, can go to the
+Outskirts, etc., as normal.
+
+Q: Under what circumstances does an investigator
+leaving an Other World place an explored marker under
+his marker?
+A: An investigator receives an explored marker any time
+he moves directly from either area of an Other World space
+to an Arkham location where there is an open gate that
+corresponds to the Other World he came from. This circumstance includes when he moves normally from the second area of an Other World, when he has an Other World
+encounter in the first area of an Other World and it instructs
+him to return to Arkham, and when he casts a Find Gate
+spell. An investigator does not receive an explored marker
+when he is lost in space and time while in an Other World,
+because even though he will eventually return to Arkham,
+he won’t have travelled directly from the Other World to an
+Arkham location with a corresponding gate.
+
+Q: When a location card says “a gate and a monster
+appear,” is a doom token added to the doom track?
+A: Yes.
+
+Gates and Other Worlds
+
+Q: Do I receive an “explored” marker if I enter the first
+area of an Other World, have an encounter, and become
+lost in time and space?
+A: No.
+Q: Do I receive an “explored” marker if I enter the first
+area of an Other World, have an encounter, and am sent
+back to Arkham?
+A: Yes.
+Q: Do I receive an “explored” marker if I enter the first
+area of an Other World, cast “Find Gate,” and return to
+Arkham?
+A: Yes. In general, whenever you “return to Arkham,” you
+reappear at a gate that leads to the Other World you were
+in and gain an “explored” marker.
+Q: Why is an investigator delayed when a gate opens up
+in their location, but not delayed if he enters the gate normally?
+A: If the investigator was not delayed by a gate opening up in his location, he would be able to get through
+
+9
+

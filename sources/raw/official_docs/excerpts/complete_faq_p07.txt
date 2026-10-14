@@ -1,0 +1,100 @@
+Q: Can the Bullwhip be equipped to use for its combat
+bonus even if it is exhausted?
+A: Yes.
+
+Q: When an investigator casts a spell, can he spend all of
+his Sanity to pay the spell’s Sanity cost?
+A: Yes. If he does so, once the Sanity cost has been paid
+the investigator makes his Spell check and, if he passes,
+the spell takes effect. Whether the check is passed or not,
+the investigator then goes insane. Note that if an investigator were to cast a spell to gain combat bonuses, he would
+go insane before having a chance to get into combat.
+
+Unique Items
+
+Q: Does a Gate Box allow an Investigator to return to
+Arkham through any gate even though there is no gate
+open to the Other World he is coming from?
+A: Yes. That is the intent.
+
+Q: When an investigator casts a spell, can he spend all of
+his Sanity to pay the Sanity cost, even if his current Sanity
+is insufficient to pay the cost?
+A: No. If an investigator must pay a Sanity cost to cast a
+spell but cannot even by spending all of his Sanity, he cannot cast the spell.
+
+Q: When an investigator returns to Arkham using a Gate
+Box, does he gain an “explored” marker? Does he gain an
+“explored” marker even if the gate he returns to doesn’t
+correspond to the Other World he left from?
+A: Yes in both cases.
+
+Q: Can an investigator who entered the Other World
+during the Movement Phase because of the Nightgaunt’s
+combat ability immediately cast Find Gate and return to
+Arkham, experiencing no Other World encounters?
+A: Yes.
+
+Q: How exactly does Flute of the Outer Gods work? Must
+you first make an Evade or Horror check or are those considered “Combat” checks as well?
+A: Evade checks and Horror checks occur before the
+Combat check is made. The Flute of the Outer Gods only
+applies to the Combat check specified in step 2 (“Fight or
+Flee”) of combat.
+
+Q: Can an investigator use the White Ship [KH] to move
+to the first area of an Other World and then cast Find
+Gate to return to Arkham, experiencing no Other World
+encounters?
+A: No, using the White Ship replaces an investigator’s
+movement.
+
+Spells
+
+Q: Are spells considered items? When an encounter
+instructs you to discard items, can you discard spells?
+A: Yes. Spells are considered items for all purposes. This
+doesn’t always make perfect thematic sense, but it keeps
+things simple.
+
+Q: Are you allowed to cast Movement Phase Spells when
+you are delayed?
+A: No.
+
+Q: When exactly can Flesh Ward be cast?
+A: When you are told to lose 1 or more points of Stamina,
+you may cast Flesh Ward to prevent that loss. For instance,
+this can work on the Stamina from a single failed Combat
+check. This does not make the investigator immune to further harm from that source, it only prevents it one time.
+
+Q: If one has multiple copies of a Spell can one immediately attempt to cast again using a second copy if the first
+attempt fails?
+A: Yes. However, even though the attempt to cast the first
+spell failed, the number of hand icons on the first spell still
+count against the limit of weapons and spells an investigator may use at one time.
+
+Q: Can a delayed investigator in an Other World cast
+Find Gate?
+A: No the only things a player whose investigator is
+delayed in an Other World may do during his Movement
+Phase is stand his investigator marker up and/or trade with
+another investigator in the same Other World area.
+
+Q: Can Mists of Releh be used to pass a Martial Law
+[IH] Evade check? Does it actually mean pass any Evade
+checks in general?
+A: Yes to both.
+Q: If you fail to cast Mists of Releh, can you still make the
+Evade check normally?
+A: Yes.
+Q: Is the bonus gained from casting Voice of Ra affected
+by Magical Resistance/Immunity?
+A: No.
+Q: During combat, how long does a failed attempt to cast
+a spell use up an investigator’s available hand(s)?
+A: A failed attempt to cast a spell uses the specified number of hands for an entire round of combat (i.e., for one
+iteration of combat steps 2 and 3.). In subsequent rounds
+of combat, the investigator may switch to a new weapon
+or try to cast a different spell.
+7
+

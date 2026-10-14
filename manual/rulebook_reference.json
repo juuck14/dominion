@@ -1,0 +1,222 @@
+{
+  "description": "Rule reference tables transcribed from the official core rulebook (PDF '© 2005, 2006', revised-edition rulebook). Every 'quote' is verified verbatim (whitespace-normalised) against the extracted page text by the official_docs parser.",
+  "doc_id": "core_rulebook",
+  "tables": {
+    "monster_movement_types": {
+      "page": 21,
+      "quote": "The color of the border indicates the monster’s movement type (Black – normal, Red – fast, Yellow – stationary, Blue – flying, Green – special).",
+      "rows": [
+        {
+          "id": "normal",
+          "border_color": "black"
+        },
+        {
+          "id": "fast",
+          "border_color": "red"
+        },
+        {
+          "id": "stationary",
+          "border_color": "yellow"
+        },
+        {
+          "id": "flying",
+          "border_color": "blue"
+        },
+        {
+          "id": "special",
+          "border_color": "green"
+        }
+      ]
+    },
+    "monster_special_abilities": {
+      "page": 24,
+      "rows": [
+        {
+          "id": "ambush",
+          "name": "Ambush",
+          "quote": "Ambush: Once combat has begun with this creature, the investigator no longer has the option to flee it, but must instead fight until one or the other is defeated."
+        },
+        {
+          "id": "endless",
+          "name": "Endless",
+          "quote": "Endless: A monster with this ability cannot be collected as a monster trophy. Instead, each time it is defeated, return it to the cup."
+        },
+        {
+          "id": "physical_resistance",
+          "name": "Physical Resistance",
+          "quote": "Physical/Magical Resistance: A Weapon or Spell that adds a bonus of the resisted type can only provide half its normal bonus (rounded up)."
+        },
+        {
+          "id": "magical_resistance",
+          "name": "Magical Resistance",
+          "quote": "Physical/Magical Resistance: A Weapon or Spell that adds a bonus of the resisted type can only provide half its normal bonus (rounded up)."
+        },
+        {
+          "id": "physical_immunity",
+          "name": "Physical Immunity",
+          "quote": "Physical/Magical Immunity: A Weapon or Spell that adds a bonus of the resisted type provides none of its normal bonus."
+        },
+        {
+          "id": "magical_immunity",
+          "name": "Magical Immunity",
+          "quote": "Physical/Magical Immunity: A Weapon or Spell that adds a bonus of the resisted type provides none of its normal bonus."
+        },
+        {
+          "id": "nightmarish",
+          "name": "Nightmarish X",
+          "quote": "Nightmarish X: Any investigator that passes a Horror check when facing this monster still loses X Sanity. This ability doesn’t apply if the investigator fails the Horror check."
+        },
+        {
+          "id": "overwhelming",
+          "name": "Overwhelming X",
+          "quote": "Overwhelming X: Any investigator that defeats this monster in combat still loses X Stamina. This ability doesn’t apply when the investigator fails his Combat check against the monster."
+        }
+      ]
+    },
+    "awakening_open_gates": {
+      "page": 24,
+      "quote": "If too many gates are open at once, the Ancient One can immediately awaken.",
+      "rows": [
+        {
+          "players_min": 1,
+          "players_max": 2,
+          "open_gates": 8
+        },
+        {
+          "players_min": 3,
+          "players_max": 4,
+          "open_gates": 7
+        },
+        {
+          "players_min": 5,
+          "players_max": 6,
+          "open_gates": 6
+        },
+        {
+          "players_min": 7,
+          "players_max": 8,
+          "open_gates": 5
+        }
+      ]
+    },
+    "monster_limit": {
+      "page": 24,
+      "quote": "Monster Limit = (Number of Players) + 3",
+      "formula": "players + 3",
+      "note_quote": "If the terror level reaches 10, Arkham is overrun, which means that the monster limit is removed for the rest of the game."
+    },
+    "outskirts_limit": {
+      "page": 24,
+      "quote": "When the number of monsters in the Outskirts of Arkham exceeds this limit, place all of those monsters back in the cup and raise the terror level by 1.",
+      "rows": [
+        {
+          "players": 1,
+          "max_outskirts": 7
+        },
+        {
+          "players": 2,
+          "max_outskirts": 6
+        },
+        {
+          "players": 3,
+          "max_outskirts": 5
+        },
+        {
+          "players": 4,
+          "max_outskirts": 4
+        },
+        {
+          "players": 5,
+          "max_outskirts": 3
+        },
+        {
+          "players": 6,
+          "max_outskirts": 2
+        },
+        {
+          "players": 7,
+          "max_outskirts": 1
+        },
+        {
+          "players": 8,
+          "max_outskirts": 0
+        }
+      ]
+    },
+    "terror_level_events": {
+      "page": 24,
+      "quote": "For every step the terror level increases, return one Ally at random from the Ally deck to the box.",
+      "rows": [
+        {
+          "terror_level": 3,
+          "event": "The General Store closes.",
+          "closes_location": "General Store"
+        },
+        {
+          "terror_level": 6,
+          "event": "The Curiositie Shoppe closes.",
+          "closes_location": "Curiositie Shoppe"
+        },
+        {
+          "terror_level": 9,
+          "event": "Ye Olde Magick Shoppe closes.",
+          "closes_location": "Ye Olde Magick Shoppe"
+        },
+        {
+          "terror_level": 10,
+          "event": "Arkham is overrun (no monster limit and add one doom token).",
+          "closes_location": null
+        }
+      ]
+    },
+    "location_stability": {
+      "page": 24,
+      "quote": "Locations with green diamonds are stable. Monsters and gates will never appear in these locations",
+      "rows": [
+        {
+          "id": "stable",
+          "diamond_color": "green"
+        },
+        {
+          "id": "unstable",
+          "diamond_color": "red"
+        }
+      ]
+    },
+    "board_structure": {
+      "page": 21,
+      "quote": "The Arkham city section of the board shows the city of Arkham divided into 9 neighborhoods, each of which has between 2 and 3 important locations in it, as well as a street area (B).",
+      "special_areas_quote": "The City Limits section of the board contains three special areas: Outskirts (E), The Sky (F) and Lost in Time and Space (G).",
+      "special_areas": [
+        "Outskirts",
+        "The Sky",
+        "Lost in Time and Space"
+      ]
+    },
+    "special_card_limit": {
+      "page": 23,
+      "quote": "In most cases, a player may never have more than one copy of each special card at the same time. This rule applies to Retainers, Bank Loans, Silver Twilight Memberships, and Bless/Curse cards."
+    },
+    "victory_conditions": {
+      "page": 12,
+      "quote": "The investigators win the game in any of the following three ways:",
+      "rows": [
+        {
+          "id": "close_the_gates",
+          "name": "A. Close the Gates",
+          "quote": "When the last gate is closed, the players must have a number of gate trophies equal to or greater than the number of players."
+        },
+        {
+          "id": "seal_the_gates",
+          "name": "B. Seal the Gates",
+          "quote": "If, at any time, there are six or more elder sign tokens on the board, the players immediately win."
+        },
+        {
+          "id": "banish_the_ancient_one",
+          "name": "C. Banish the Ancient One",
+          "quote": "If the Ancient One awakens (see page 20) but the investigators manage to defeat it"
+        }
+      ]
+    }
+  }
+}

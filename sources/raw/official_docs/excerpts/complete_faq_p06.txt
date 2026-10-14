@@ -1,0 +1,115 @@
+Bank Loan
+
+Q: If an investigator who has only one item is knocked
+unconscious or driven insane, does he lose that item?
+A: No. An investigator who has been knocked unconscious or driven insane loses one half of his items, rounded down.
+
+Q: Why wouldn’t an investigator take out a Bank Loan,
+give all of his items and money to other investigators, and
+then default deliberately on the loan?
+A: Although an investigator can gain a Bank Loan and
+give all of his money and items to another investigator, he
+cannot deliberately default on the loan. When a player is
+rolling for his Bank Loan during the Upkeep Phase, if he
+rolls a 4–6, he does not have the option to lose the Bank
+Loan. An investigator may not wish be without any money
+or items for an uncertain amount of time.
+
+Investigator Cards
+
+Q: If I discard a card to pay a cost (e.g., to get rid of the
+Rumor “The Stars Are Right”), do I also get the listed benefit for discarding that card (e.g., the ally Duke may be discarded to immediately restore your Sanity to its maximum)?
+A: No. If you discard a card to pay a cost of some kind,
+you get no other benefits for discarding the card.
+
+Deputy of Arkham
+
+Q: Can you be arrested as the Deputy and do you stop
+being Deputy if you are arrested?
+A: Yes, you can be arrested, but if you are, you do not
+stop being Deputy.
+
+Q: Characters in Other Worlds receive no movement
+points. But if a character in an Other World has an item
+that gives the character movement points, such as the
+Motorcycle or the Ruby of R’lyeh, can the character use
+an item that requires the character to spend movement
+points, such as the Necronomicon?
+A: No. You cannot receive movement points or use any
+items requiring movement points while in an Other World.
+
+Q: When using the Patrol Wagon, do you need to find a
+route to your chosen destination that is free of monsters,
+or do you simply relocate your investigator to the chosen
+location?
+A: You simply relocate your investigator to the chosen
+location, ignoring monsters that would be passed through.
+However, if you begin or end your movement in a space
+with monsters, they must still be evaded as usual.
+
+Q: How do you resolve “searching the deck” for a specific card?
+A: Look through the entire deck for the card, take it, and
+then reshuffle the deck.
+
+Q: Can the Patrol Wagon be used to move to The Causeway
+[KH], Wireless Station [KH], Strange High House in the
+Mist [KH], Devil Reef [IH], or Y’ha-nthlei [IH]?
+A: No. Note that the Patrol Wagon replaces an investigator’s movement entirely, so he could not, for instance, use
+the Patrol Wagon to move to the Harborside street area
+and then continue moving to The Causeway during the
+same turn.
+
+Q: How do you resolve “searching the deck” for the first
+of a specific type of card, such as a Tome or Weapon?
+A: Flip cards over from the top one-at-a-time until a card
+of the appropriate type is found. Take that card and place
+the other cards that were revealed on the bottom of that
+deck.
+Q: For the purposes of losing and trading, what exactly is
+considered an “item?”
+A: The following are considered items: Common Items,
+Unique Items, Spells, Patrol Wagon, Deputy’s Revolver,
+Exhibit Items [CotDP], and Rail Passes [DH]. Any
+Investigator Card not specifically mentioned above is not
+considered an item.
+
+Q: Can the Patrol Wagon be used when an investigator begins his Movement Phase in The Causeway [KH],
+Wireless Station [KH], Strange High House in the Mist
+[KH], Devil Reef [IH], or Y’ha-nthlei [IH]?
+A: No. If an investigator begins his Movement Phase in
+any of those locations, he cannot use the Patrol Wagon
+this turn.
+
+Q: Some Items state that they cannot be lost or stolen
+unless you choose to allow it. When does this ability come
+into play?
+A: It would come into play when an investigator goes
+insane, gets knocked unconscious, or defaults on a bank
+loan. It would also come into play when any other game
+effect specifically instructs you to lose an item or tells you
+an item is stolen.
+
+Q: Can an investigator trade in trophies to become the
+Deputy if another investigator is already the Deputy (the
+existing Deputy would stop being Deputy)? If so, do they
+acquire the Patrol Wagon and/or Deputy’s Revolver if they
+are still in the other investigator’s possession?
+A: No.
+
+Common Items
+
+Q: If an investigator gains a second Blessing, Curse,
+or Retainer when he already has one, does he roll a die
+to keep or lose it next turn? In other words, has he just
+acquired a new card, or does he simply keep the old and
+roll normally in the next Upkeep Phase?
+A: Treat the card as if it were newly acquired, so do not
+roll during the next upkeep to see if you lose it.
+
+Q: Do I have to be using the Bullwhip or Cross in combat
+to gain their special abilities?
+A: No, in the case of these two cards, you do not have to
+use them in combat to make use of their secondary abilities.
+
+6
+

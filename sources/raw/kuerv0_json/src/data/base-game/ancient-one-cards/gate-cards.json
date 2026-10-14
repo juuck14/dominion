@@ -1,0 +1,248 @@
+{ "Gate Cards": [
+     {
+       "color": "blue",
+       "description": "<h2>The Dreamlands</h2><br /> At the south gates of Thran, you are stopped by a red-robed sentry until you can tell three dreams beyond belief. Pass a <b>Luck (-1) check</b> to tour the golden spires of Thran, gaining 2 Clue tokens in the process. If you fail, stay here next turn.<h2>Celeano</h2><br />The symbol above the doorway glows. Make a <b>Luck (-1) check.</b> If you pass, gain 2 Stamina and 2 Sanity. If you fail, discard 2 items of your choice.<h2>Other</h2><br />Pass a <b>Fight (-2) check</b> to lever back the lid of the stone chest. Inside, you find $8. If you fail, lose 1 Stamina."
+     },
+
+     {
+       "color": "blue",
+       "description": "<h2>Yuggoth</h2><br />A monster appears from the darkness! <h2>Celeano</h2><br />Pass a <b>Luck (-1) check</b> or the book is a prison. If you fail, roll a die. On a failure, a monster appears from the book. On a success, you are drawn into the book for a time. Stay here next turn. <h2>Other</h2><br />Pass a <b>Luck (-1) check</b> to find something to defend yourself with. Take the first <b><i>Weapon</i></b> from the <i>Common Item</i> deck."
+     },
+
+     {
+       "color": "green",
+       "description": "<h2>The Dreamlands</h2><br />You encounter the talking cats of Ulthar. Pass a <b>Will (+0) check</b> to draw 1 Spell.<h2>City of the Great Race</h2><br />Pass a <b>Luck (-1) check</b> to find something useful among the incomprehensible artifacts. If so, draw 1 Unique Item.<h2>Other</h2><br />A glimpse of home gives you hope. Gain 1 Sanity."
+     },
+
+     {
+       "color": "red",
+       "description": "<h2>R'lyeh</h2><br />The shadow tries to force its way between your lips. Pass a <b>Fight (-2) check</b> or lose 2 Stamina and stay here next turn.<h2>The Dreamlands</h2><br />While wandering the phosphorescent woods, you are surrounded by hungry zoogs! Make a <b>Luck (-2) check.</b> If you pass, they take a liking to you and give you a gourd of moon-tree wine. Gain 1 Sanity and 1 Clue token. If you fail, the zoogs close in around you, their teeth gleaming. You are lost in time and space.<h2>Other</h2><br />Pass a <b>Luck (-1)</b> check to find a quiet spot to rest. Gain 2 Stamina and 2 Sanity."
+     },
+
+     {
+       "color": "green",
+       "description": "<h2>City of the Great Race</h2><br />You may choose to try and infiltrate one of the angled structures. If so, make a <b>Sneak (-1) check.</b> If you pass, draw 2 Unique Items and keep 1 of them. If you fail, you are <i>lost in time and space.</i><h2>Plateu of Leng</h2><br />Your peril clears your mind. Pass a <b>Will (+0) check</b> to restore your Sanity to its maximum value.<h2>Other</h2>You are beginning to understand the strange creatures here. Gain 1 Clue token.<br />"
+     },
+
+     {
+       "color": "green",
+       "description": "<h2>The Dreamlands</h2><br />Pass a <b>Will (-1) check</b> to convince the Rulers of Rokol to share their wealth with you. If so, roll two dice and add them together. Gain that much money.<h2>Plateau of Leng</h2><br />Pass a <b>Luck (-2) check</b> to find some useful things among the bones. If so, draw 1 Common Item and 1 Spell<h2>Other</h2><br />Pass a <b>Luck (-1) check</b> to find the gate back. If so, immediately return to Arkham to find the gate back. If so, immediately return to Arkham."
+     },
+
+     {
+       "color": "yellow",
+       "description": "<h2>City of the Great Race</h2><br />The buzzing language of your captors begins to make sense to you. Gain 2 Clue tokens. Then you must pass a <b>Luck (-1) check</b> to avoid hearing about the origins of mankind and thereby losing 2 Sanity.<h2>Yuggoth</h2><br />The cylindered head mocks your hopes 'You'll never return home!' it cackles. Pass a <b>Will (-2) check</b> or lose 2 Sanity.<h2>Other</h2><br />A monster appears!"
+     },
+
+     {
+       "color": "blue",
+       "description": "<h2>The Dreamlands</h2><br />A thief attempts to rob you. Pass a <b>Sneak (+0) check</b> to notice him. If you fail, lose half your items (your choice) and half your money (rounded up).<h2>Yuggoth</h2><br />You're dizzy from the strange ray. Pass a <b>Will (-2) check</b> or lose 1 item of your choice.<h2>Other</h2><br />The strain is too much for your mind. Lose 1 Sanity."
+     },
+
+     {
+       "color": "red",
+       "description": "<h2>Abyss</h2><br />Starving, you consider eating some of the glowing mushrooms. If you decide to do so, make a <b>Luck (-1) check</b>. If you fail, roll a die and lose that much Stamina. If you succeed, roll a die and gain that much Stamina.<h2>Plateau of Leng</h2><br />A monster appears from the shadows!<h2>Other</h2><br />The pinkish rays nearly get you. Pass a <b>Sneak (+0) check</b> or lose 2 Stamina"
+     },
+
+     {
+       "color": "green",
+       "description": "<h2>The Dreamlands</h2><br />Pass a <b>Luck (-1) check</b> to come accross a riding zebra and save some traveling time. If you are in the first area of the Dreamlands, move to the second area. If you are in the second area, return to Arkham.<h2>Plateau of Leng</h2><br />The rickety bridge collapses as you cross it. Pass a <b>Fight (-1) check</b> to hang on, finding a relic on the other side. Draw 1 Unique Item. If you fail, you plummet into darkness. You are <i>lost in time and space.</i><h2>Other</h2><br />You come across a slaughtered creature. Pass a <b>Luck (-1) check</b> to claim a monster tophy from the cup (even if is <b>Endless</b>) and gain 2 Clue tokens."
+     },
+
+     {
+       "color": "yellow",
+       "description": "<h2>City of the Great Race</h2><br />Glancing behind you, you see that the beasts are still chasing you. Pass a <b>Speed (-1) check</b> or be <i>lost in time and space.</i><h2>The Dreamlands</h2><br />The stone face reveals to you one of the deepest secrets of the Dreamlands. Pass a <b>Lore (-1)[2] check</b> to gain 4 Clue tokens. If you fail the check, however, the sight claims your last shred of sanity. Lose all your Sanity.<h2>Other</h2><br />Suddenly you notice something that you had previously missed. Gain 1 Clue token."
+     },
+
+     {
+       "color": "blue",
+       "description": "<h2>The Dreamlands</h2><br />You drink impure water from the River Kra. Pass a <b>Luck (-1) check</b> or lose 1 Stamina and stay here next turn due to illness.<h2>Abyss</h2><br />You aare lost in the darkness. Pass a <b>Luck (-2) check</b> or lose 1 Sanity and stay here next turn.<h2>Other</h2><br /> You are lost in a labyrinth of high walls. Pass a <b>Lore (-1) check</b> or stay here next turn."
+     },
+
+     {
+       "color": "yellow",
+       "description": "<h2>R'lyeh</h2><br />A horible visage captures your gaze. Pass a <b>Will (+0) check</b> to look away or lose 1 Stamina and stay here next turn.<h2>The Dreamlands</h2><br />Pass a <b>Luck (+0) check</b> or stumble into a spider's web. Lose 2 Sanity and stay here next turn while struggling to get free.<h2>Other</h2><br />Suddenly, the things you've seen make sense! Gain 1 Clue token."
+     },
+
+     {
+       "color": "green",
+       "description": "<h2>Plateau of Leng</h2><br />You wander the frozen wastes. No encounter.<h2>Celeano</h2><br />An old professor from Earth teaches you a thing or two. Pass a <b>Luck (-1) [2] check</b> to draw 1 Skill.<h2>Other</h2><br />You come across a sleeping horror with a tentacle draped across a small gold idol. Silence is of the essence as you attempt to gently ease the idol out from under the creature's pseudopod. Make a <b>Sneak (-1) check.</b> if you pass, gain $3. If you fail, lose 2 Stamina."
+     },
+
+     {
+       "color": "blue",
+       "description": "<h2>The Dreamlands</h2><br />You wander the frozen wastes. No encounter.<h2>Abyss</h2><br />You rest a bit beside a small, glowing pool filled with black, blind fish. Pass a <b>Luck (-1) check</b> to notice an unusual object in the water. Fishing it out, you draw 1 Unique Item and gain $3.<h2>Other</h2><br />Pass a <b>Luck (-1) check</b> to discover a cache of ancient papers contianing valuable information about the Mythos. Gain 1 Clue token for every success you rolled on your Luck check."
+     },
+
+     {
+       "color": "blue",
+       "description": "<h2>Abyss</h2><br />The feeble glow and warmth of the candle is enough to restore you abit. Gain 1 Stamina.<h2>Yuggoth</h2><br />The creature's grip is like steel! Pass a <b>Fight (-2) check</b> to break free and escape. If you fail the creature's grip tightens with a sickening pop. You are <i>lost in time and space.</i><h2>Other</h2><br />You've completed your task, but now you must escape before teh portal closes! Pass a <b>Speed (-2) check</b> to return to Arkham. If you fail, you are <i>lost in time and space.</i> In either event, you automatically close the gate you entered through."
+     },
+
+     {
+       "color": "blue",
+       "description": "<h2>The Dreamlads</h2><br />Pass a <b>Lore (+0) check</b> to fight off your desire to sleep. If you fail, you freeze in the night. You are <i>lost in time and space.</i> If you succeed, return to Arkham.<h2>Yuggoth</h2><br />The stone creature pursues you. Pass a <b>Speed (-1) check</b> to escape with the statue, gaining $5 and 2 Clue tokens. If you fail, the creature smashes you off the cliff. You are <i>lost in time and space.</i><h2>Other</h2><br />Luck is with you. You stumble on a cache of supplies. Draw 1 Common Item."
+     },
+
+     {
+       "color": "yellow",
+       "description": "<h2>R'lyeh</h2><br />The stink of this place is unbearable. Pass a <b>Will (-1) check</b> or lose 1 Stamina, 1 Sanity, and your lunch.<h2>City of the Great Race</h2><br />In a flash of insight, you realize the purpose of the bladed artifcat. Shivering, you put it bac where you found it. Lose 1 Sanity but gain 1 Clue token.<h2>Other</h2><br />Time and space bend around you <b>Make a Luck (-1) check.</b> If you pass, return to Arkham. If you fail, stay here next turn."
+     },
+
+     {
+       "color": "yellow",
+       "description": "<h2>Yuggoth</h2><br />Fear grabs you as the buzzing entities approach. Pass a <b>Will (-1) check</b> or lose 2 Sanity.<h2>The Dreamlands</h2><br />You see the mountains move. Lose 1 Sanity from terror.<h2>Other</h2><br /> A ripple in the air passes over you. Pass a <b>Lore (-1) check</b> or lose 1 Spell of your choice as it is burned from your mind."
+     },
+
+     {
+       "color": "white",
+       "description": "<h2>The Stars are Right</h2><br />Shuffle the Gate deck and keep drawing until you get an encoutner of the right color."
+     },
+
+     {
+       "color": "red",
+       "description": "<h2>R'lyeh</h2><br />A slimy monster appears!<h2>Abyss</h2><br />Pass a <b>Speed (-1) check</b> to avoid a monstrous mass. If you fail, you are <i>lost in time and space.</i><h2>Other</h2><br />The colors are blinding. Pass a <b>Lore (-1) check</b> or stay here next turn."
+     },
+
+     {
+       "color": "blue",
+       "description": "<h2>Yuggoth</h2><br />Exposure and fear weaken your mind. Pass a <b>Will (-2) check</b> or you must either lose 2 Spells of your choice or lose 2 Sanity.<h2>Celeano</h2><br />A lurking monster appears!<h2>Other</h2><br />Monsters lurk everywhere. Pass a <b>Sneak (-2) check</b> or stay here next turn."
+     },
+
+     {
+       "color": "red",
+       "description": "<h2>Abyss</h2><br />You are disturbed by unsettling echoes. Pass a <b>Sneak (-1) check</b> to quiet them or lose 2 Sanity. <h2>Plateau of Leng</h2><br />The loathsome villagers send out their strongest warrior to fight you in unarmed combat. Pass a <b>Fight (-1) [2] check</b> to defeat him and draw 1 Unique Item and gain 1 Clue token. Otherwise lose 1 Sanity and 2 Stamina.<h2>Other</h2><br />You push yourself to the limit. Roll 1 die for each point of Stamina you have. Lose 1 Stamina for each die that does not roll a success. If you do not fall unconscious, gain 1 Clue token for each die that rolled a success."
+     },
+
+     {
+       "color": "yellow",
+       "description": "<h2>Yuggoth</h2><br />Your only hope is to steal a byakhee and some space mead! <b>Pass a Sneak (-2) check</b> to escape. Return to Arkham and gain Clue tokens. If you fail, you are <i>lost in time and space.</i><h2>The Dreamlands</h2><br />The golden city of your dreams is threatening to become an obsession. Pass a <b>Luck (-1) check</b> or stay here next turn ot hunt for it.<h2>Other</h2><br />You stare into the face of madness. Roll 1 die for each point of Sanity you have. Lose 1 Sanity for each die that does not roll a success. If you do not go insane, gain 1 Clue token for ach dies that rolled a success."
+     },
+
+     {
+       "color": "red",
+       "description": "<h2>R'lyeh</h2><br />You become tangled in the damp seaweed. Pass a <b>Luck (-1) check</b> to pull free before something finds you while you're helpless. If you fail, roll a die and lose that much Stamina.<h2>Plateau of Leng</h2><br />You are taken to a prehistoric monastery where a high priest in a yellow silken mask questions you. Pass a <b>Lore (-2) check</b> to answer him to his satisfaction. Gain your freedom and 1 Spell. Otherwise, you are <i>lost in time and space.</i><h2>Other</h2><br />Pass a <b>Luck (-1) check</b> to discover a useful object in your wanderings. Draw 1 Unique Item."
+     },
+
+     {
+       "color": "green",
+       "description": "<h2>The Dreamlands</h2><br /><b>Make a Luck (-1) check.</b> If you pass, then, waving goodbye, the happy villagers bestow a gift upon you. Draw 1 Common Item.<h2>Celeano</h2><br />Pass a <b>Luck (-2) check</b> to find a book small enough to carry. Search the Unique Item deck and take the first <b><i>Tome</i></b> you find<h2>Other</h2><br />You find a quiet spot to rest and recuperate. Gain 1 Stamina."
+     },
+
+     {
+       "color": "red",
+       "description": "<h2>Plateau of Leng</h2><br />While you are climbing a high cliff, you begin to slip. Pass a <b>Speed (-1) check</b> or crash down the mountain, losing 2 Stamina.<h2>The Dreamlands</h2><br />Avalanche! Pass a <b>Speed (-1) check</b> or lose 3 Stamina<h2>Other</h2><br />The shadowy entity gives up the chase. Lose 1 Stamina from exhaustion."
+     },
+
+     {
+       "color": "blue",
+       "description": "<h2>Abyss</h2><br />You are vewildered. <b>Pass a Lore (-1) check</b> or stay here next turn.<h2>Yuggoth</h2><br />Pass a <b>Sneak (-1) check</b> or the creatures capture and experiment on you. Lose half of your items, then immediately return to Arkham with no memory of the experiments.<h2>Other</h2><br />The insanity of this place finally hits you. Lose 1 Sanity."
+     },
+
+     {
+       "color": "blue",
+       "description": "<h2>The Dreamlands</h2><br />As you are climbing the cliffs in the underworld, your pocket gets caught and tears open. Pass a <b>Speed (-1) check</b> or lose all your money.<h2>Celeano</h2><br />As you read the page, you realize that you have stumbled into a written trap. Pass a <b>Lore (-1) check</b> or you are <i>Cursed.</i><h2>Other</h2><br />A hideous monster appears!"
+     },
+
+     {
+       "color": "green",
+       "description": "<h2>Plateau of Leng</h2><br />Your mind and body are toughened by your experiences. Pass a <b>Will (+0) [2] check</b> to draw 1 Skill.<h2>Celeano</h2><br />Pass a <b>Luck (-2) check</b> to find a vluable book. If so, search the Unique Item deck and take the first <b><i>Tome</i></b> you find.<h2>Other</h2><br />Wedged beneath a fallen stone is a scroll. Draw 1 Spell."
+     },
+
+     {
+       "color": "blue",
+       "description": "<h2>Abyss</h2><br />The caverns split. Make a <b>Luck (+1) check</b> and consult the cart below:<br />Successes:<br /><b>0-1:</b> Move to the Black Cave.<br /><b>2:</b> Move to The Dreamlands.<br /><b>3+:</b> You enter a dark temple. Pass a <b>Luck (-1) check</b> to draw a Unique Item.<h2>Celano</h2><br />The huge book opens noiselessly at your approach. If you choose, you may read it, in which case you must pass a <b>Fight (-1) [2] check</b> to defeat its guardian. If you do, draw 3 Spells and keep 2 of them. If you fail, lose 3 Stamina.<h2>Other</h2><br />A monster appears!"
+     },
+
+     {
+       "color": "yellow",
+       "description": "<h2>R'lyeh</h2><br />Pass a <b>Speed (-1) [2] check</b> to reach it in time. If you do, you escape with vital information. Gain 5 Clue tokens. If you fail, stay here next turn, hiding from your pursuer.<h2>Yuggot</h2><br />Breathing hard, you stay huddled against the rock until the sounds of pursuit fade into the distance. No encounter.<h2>Other</h2><br />Your mind is flooded with knowledge. Make a <b>Lore (-2) check.</b> if you pass it, draw 1 Spell, but lose 1 Sanity."
+     },
+
+     {
+       "color": "red",
+       "description": "<h2>R'lyeh</h2><br />Slip on wet stones and slide into a pit. Pass a <b>Luck (+0) check</b> to climb out. If you fail, lose 1 Sanity and stay here next turn.<h2>Plateau of Leng</h2><br />A vast stirring rumbles through the plateau. Pass a <b>Sneak (+0) check</b> or roll a die and lose that much Stamina.<h2>Other</h2><br />There is nothing here but barren wastes. No encounter."
+     },
+
+     {
+      "color": "red",
+       "description": "<h2>R'lyeh</h2><br />Pass a <b>Speed (-1) check</b> or you slip and slide down a barnacled surface, slashing your skin to ribbons. Lose 3 Stamina.<h2>Abyss</h2><br />Pass a <b>Luck (-1) check</b> or you are faced with an enormous montain with a strange symbol carved into it, as if by the claw of a gigantic creature. The world swims around you and you lose 3 Sanity.<h2>Other</h2><br />The obsidian door refuses to open. Pass a <b>Fight (-1) check</b> or stay here next turn, struggling with it."
+     },
+
+     {
+       "color": "green",
+       "description": "<h2>The Dreamlands</h2><br />Pass a <b>Luck (-1) check</b> to chance across one of the little red singing birds of Celephais. Its song brings solace and strengthto your heart. Restore your Sanity and Stamina to their maximum values.<h2>Celano</h2><br />You come across a wizened old creature who debates with you for some time. If you pass a <b>Lore (-1) check,</b> the creature is amused by your discussion and you are <i>Blessed</i>.<h2>Other</h2><br />Pass a <b>Fight (-2) check</b> to pry open a grate you find built into the wall. Inside, you find something fascinating. Draw 1 Unique Item."
+     },
+
+     {
+       "color": "red",
+       "description": "<h2>Abyss</h2><br />A monster appears!<h2>The Dreamlands</h2><br />The shantak claws at you as it swoops past overhead. Pass a <b>Speed (-2) check</b> or lose 2 Stamina as its claws rake your chest.<h2>Other</h2><br />You sleep, fitfully, and awaken to the sound of your own voice, chanting something. Make a <b>Luck (-2) check</b>. If you pass, you are able to retain whaty ou are saying. Draw 1 Spell and gain 2 Clue tokens. If you fail, the chant attracts something unsavory. A monster appears!"
+     },
+
+     {
+       "color": "green",
+       "description": "<h2>The Dreamlands</h2><br />Touring the perfumed jungles of Kied, you come across an ancient ivory palace. Pass a <b>Luck (-1) check</b> to explore it without getting caught. Draw 1 Spell. If you fail the check, lose 1 item of your choice.<h2>City of the Great Race</h2><br />Sometimes, violence is the answer. Pass a <b>Fight (-1) check</b> to break free of your captors and return to Arkham.<h2>Other</h2><br />Carefully, you avoid the gaze of a gigantic eye watching an altar. You may try to pass a <b>Sneak (-1) check</b> to steal a scroll from the dais. Draw 1 Spell. If you fail, you are wracked by pain and lose 3 Sanity."
+     },
+
+     {
+       "color": "blue",
+       "description": "<h2>Abyss</h2><br />A glowing light ahead draws you towards it. Make a <b>Luck (-1) check.</b> If you pass, the glow is a way home. Return to Arkham. If you fail, the light is a trap set by one of the creatures that lives here. A monster appears!<h2>Celeano</h2><br />That's it! That's the document you need! Quietly, you reach for it, trying not to disturb its guardian. Make a <b>Sneak (-2) check.</b> If you pass, search the Sepll deck and take 1 Spell of your choice. If you fail, lose 2 Stamina.<h2>Other</h2><br />Pass a <b>Fight (-1) check</b> to hang on to your prize despite the wind. Draw 1 Spell."
+     },
+
+     {
+       "color": "yellow",
+       "description": "<h2>R'lyeh</h2><br />The city is filled with unnerving alien angles. Pass a <b>Speed (-1) check</b> to avoid touching them or lose 1 Sanity.<h2>Yuggoth</h2><br />A strange creature stares at you with burning eyes. It is as if its gaze were stealing your soul. Pass a <b>Luck (-1) check</b> or roll a die and subtract 2 from it (minimum 0), then lose that much Stamina and Sanity.<h2>Other</h2><br />You are not safe here. A monster appears."
+     },
+
+     {
+       "color": "green",
+       "description": "<h2>City of the Great Race</h2><br />The conical entity tries to teach you some magic. Pass a <b>Lore (-2) [2] check</b> to draw 2 Spells.<h2>Celeano</h2><br />You find secret lore hidden in the mosaics on the wall. Make a <b>Lore (+2) check</b> and gain Clue tokens equal to your successes.<h2>Other</h2><br />You find some vaalualbe items that you can sell back in Arkham. Gain $3."
+     },
+
+     {
+       "color": "green",
+       "description": "<h2>City of the Great Race</h2><br />You must have that device if you are to escape from this accursed city. Pass a <b>Sneak (-1) [2] check</b> to draw 1 Unique Item and return to Arkham. If you fail, your captors are none too kind Lose 3 Sanity and 1 Stamina.<h2>Plateau of Leng</h2><br />The hooved, wide-mouthed traders of this land are wealthy, but dangerous. You may make a <b>Lore (-2) check</b> to trade with them. If you pass, gain $6. If you fail, <i>lost in time and space.</i><h2>Other</h2><br />Pass a <b>Luck (-1) check</b> to discover a vital document. Gain 2 Clue tokens."
+     },
+
+     {
+       "color": "red",
+       "description": "<h2>R'lyeh</h2><br />Hurricane winds smash you against the cyclopean stones. Passa <b>Fight (-1) check</b> or lose 3 Stamina.<h2>The Dreamlands</h2><br />The wind increases, and you feel your feet go numb. Pass a <b>Fight (-1) check</b> or lose 2 Stamina.<h2>Other</h2><br />A lurking monster appears!"
+     },
+
+     {
+       "color": "yellow",
+       "description": "<h2>City of the Great Race</h2><br />You wander the empty streets of the city. No encounter.<h2>The Dreamlands</h2><br />You come across an abandoned onyx quarry whose chiselled vacancies are so vast that it staggers your mind. Pass a <b>Lore (-1) check</b> to aovid awakening anything here, or else lose 3 Sanity.<h2>Other</h2><br />He unending blackness terrifes you. Pass a <b>Will (-1) check</b> or lose 1 Sanity and 1 Stamina from fear and exhaustion."
+     },
+
+     {
+       "color": "red",
+       "description": "<h2>Plateau of Leng</h2><br />The villagers leap around a bonfire on the hoary plain. Pass a <b>Sneak (-1) check</b> or you are captured and subjected to terrible rites. Lose 3 Sanity and 3 Stamina, then stay here next turn.<h2>The Dreamlands</h2><br />In the valley of Pnoth, where the dholes crawl and burrow nastily, you hear a slithering among the mountains of bon. Make a <b>Sneak (-1) check.</b> If you fail, you are <b>devoured.</b> If you pass, gain 3 Clue tokens and return immediately to Arkham. <h2>Other</h2><br />Pass a speed (-1) check to grab the carving before it falls. Draw 1 Spell."
+     },
+
+     {
+       "color": "yellow",
+       "description": "<h2>City of the Great Race</h2><br />The odd plant has you in tis clutches. Pass a <b>Fight (-1) check</b> to break free. If you fail, lose 1 Stamina and 1 Sanity as it partially digest you.<h2>Yuggoth</h2><br />An alien mind forces its way into your body. Pass a <b>Luck (-2) check</b> to guess a way to drie it out, gaining 2 Clue tokens in the process, or else stay here next turn, serving as its host body.<h2>Other</h2><br />A glimmer of gold catches your eye. Gain $2."
+     },
+
+     {
+       "color": "yellow",
+       "description": "<h2>R'lyeh</h2><br />The night stars change and the brazen temple doors open pouring forth a vast, black corpulence. Roll a die and lose that much Sanity.<h2>City of the Great Race</h2><br />The hideous whistling fills your ears. Pass a <b>Will (-1) check</b> or lose 2 Sanity.<h2>Other</h2><br />The sky is spinning. Pass a <b>Will (-2) check</b> or pass out and stay here next turn."
+     },
+
+     {
+       "color": "green",
+       "description": "<h2>City of the Great Race</h2><br />You find yourself in an ancient and abandoned temple. Pass a <b>Luck (-1) check</b> to find a golden statue worth $10. However, if you take it, you are <i>Cursed.</i><h2>Celeano</h2><br />Your red-eyed reflection in the mirror captures your attention. Stay here next turn.<h2>Other</h2><br />The rope seems to extend upwards forever, but it's the only way out of the crevasse you find yourself ij. Pass a <b>Fight (-1) check</b> to climb it and return to Arkham. If you fail, you fall, losing 2 Stamina and staying here next turn."
+     },
+
+     {
+       "color": "red",
+       "description": "<h2>Abyss</h2><br />The stone arch breaks! Pass a <b>Speed (-1) check</b> to dive out of the way or roll a die and lose that much Stamina.<h2>The Dreamlands</h2><br />The ice bridge begins to crack. Pass a <b>Luck (-1) check</b> or fall into the icy depths. If you fall, you are <i>lost in time and space.</i><h2>Other</h2><br />The humidty and heat is exhausting. Lose 1 Stamina."
+     },
+
+     {
+       "color": "yellow",
+       "description": "<h2>R'lyeh</h2><br />You trip over a stone outcropping that shoulnd't be there. Pass a <b>Speed (-1) check</b> or you are <i>lost in time and space.</i><h2>The Dreamlands</h2><br />The meeping of the ghouls in the tunnels echoes in your ears. Pass a <b>Will (-2) check</b> or lose 2 Sanity.<h2>Other</h2><br />A monster appears from the shadows!"
+     }
+   ]
+}
+

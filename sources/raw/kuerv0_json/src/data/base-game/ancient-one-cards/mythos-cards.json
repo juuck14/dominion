@@ -1,0 +1,673 @@
+{
+   "Mythos Cards": [
+     {
+       "name": "A Strange Plague",
+       "type": "Environment (Mystic)",
+       "gate location": "Independence Square",
+       "clue appears at": "The Unnamable",
+       "white": "{square, diamond}",
+       "black": "{circle}",
+       "description": "Investigators cannot gain Stamina except by receiving medical care in St. Mary's Hospital (or from Vincent Lee)."
+     },
+
+     {
+       "name": "Alien Technology",
+       "type": "Environment (Urban)",
+       "gate location": "Unvisited Isle",
+       "clue appears at": "Science Building",
+       "white": "{square, diamond}",
+       "black": "{circle}",
+       "description": "Mi-Go have their toughness increased by 2. If an investigator passes a <b>Combat check</b> against a Mi-Go, he draws 1 extra Unique Item."
+     },
+
+     {
+       "name": "No One Can Help you Now",
+       "type": "Environment (mystic)",
+       "gate location": "The Unnamable",
+       "clue appears at": "Woods",
+       "white": "{cross}",
+       "black": "{moon}",
+       "description": "Gates cannot be <b>sealed</b>, although they can still be <b>closed</b>."
+     },
+
+     {
+       "name": "Gangs Clean Up Easttown!",
+       "type": "Headline",
+       "gate location": "The Witch House",
+       "clue appears at": "Black Cave",
+       "white": "{circle}",
+       "black": "{square, diamond}",
+       "description": "All monsters in the Easttown streets or locations are returned to the cup."
+     },
+
+     {
+       "name": "Private Security Hired in Uptown!",
+       "type": "Headline",
+       "gate location": "Woods",
+       "clue appears at": "Historial Society",
+       "white": "{circle}",
+       "black": "{square, diamond}",
+       "description": "All monsters in the Uptown streets or locations are returned to the cup."
+     },
+
+     {
+       "name": "Sunny and Clear",
+       "type": "Environment (Weather)",
+       "gate location": "Black Cave",
+       "clue appears at": "Hibb's Roadhouse",
+       "white": "{cross}",
+       "black": "{moon}",
+       "description": "<b>Sneak checks</b> in Arkham are made at a -1 penalty.<br /><b>Will checks</b> in Arkham are made at a +1 bonus.<br />If the haunter in Darkness is in play, return it to the cup. If the Haunter in the Darkness enters play, return it to the cup and draw a different monster."
+     },
+
+     {
+       "name": "Slum Murders Continue!",
+       "type": "Headline",
+       "gate location": "Woods",
+       "clue appears at": "Historical Society",
+       "white": "{moon}",
+       "black": "{cross}",
+       "description": "An old basement is opened, releasing 2 monsters in the Easttown streets."
+     },
+
+     {
+       "name": "Manhunt in Arkham!",
+       "type": "Headline",
+       "gate location": "Woods",
+       "clue appears at": "Independence Square",
+       "white": "{slash, triangle, star}",
+       "black": "{hexagon}",
+       "description": "An old basement is opened, releasing 2 monsters in the Easttown streets."
+     },
+
+     {
+       "name": "Miskatonic Arctic Expedition Returns!",
+       "type": "Headline",
+       "gate location": "Hibb's Roadhouse",
+       "clue appears at": "Independence Square",
+       "white": "{moon}",
+       "black": "{cross}",
+       "description": "Any Elder Things previously claimed as monster trophies by players return to life and are placed in the River Docks."
+     },
+
+     {
+       "name": "City Gripped by Blackouts!",
+       "type": "Headline",
+       "gate location": "Unvisited Isle",
+       "clue appears at": "Science Building",
+       "white": "{hexagon}",
+       "black": "{slash, triangle, star}",
+       "description": "The General Store, Curiositie Shoppe, and Ye Olde Magice Shoppe are closde until the end of next turn. Leave this card in play until then to indicate this.<h2>Close:</h2><br />The General Store<br />Curiositie Shoppe<br />Ye Olde Magick Shoppe"
+     },
+
+     {
+       "name": "Fourth of July Parade!",
+       "type": "Headline",
+       "gate location": "The Witch House",
+       "clue appears at": "Black Cave",
+       "white": "{moon}",
+       "black": "{cross}",
+       "description": "Investigators cannot move into or out of the Merchant District streets until the end of next turn. Leave this card in play until then to indicate this."
+     },
+
+     {
+       "name": "Bizarre Dreams Plague Citizens!",
+       "type": "Headline",
+       "gate location": "Science Building",
+       "clue appears at": "The Witch House",
+       "white": "{hexagon}",
+       "black": "{slash, triangle, star}",
+       "description": "All Gugs and Nightgaunts in Arkham are returned to the cup. If at least one monster returns to the cup, raise the terror level by 1."
+     },
+
+     {
+       "name": "The Festival",
+       "type": "Environment (Urban)",
+       "gate location": "Woods",
+       "clue appears at": "Historical Society",
+       "white": "{cross}",
+       "black": "{moon}",
+       "description": "The festival has begun! Cultists and Byakhee have their toughness increased by 1."
+     },
+
+     {
+       "name": "Police Step Up Patrols in Northside!",
+       "type": "Headline",
+       "gate location": "Silver Twilight Lodge",
+       "clue appears at": "Graveyard",
+       "white": "{circle}",
+       "black": "{square, diamond}",
+       "description": "All monsters in the Northside streets or locations are returned to the cup."
+     },
+
+     {
+       "name": "Rivertown Residents Take Back Streets!",
+       "type": "Headline",
+       "gate location": "The Witch House",
+       "clue appears at": "Black Cave",
+       "white": "{circle}",
+       "black": "{square, diamond}",
+       "description": "All monsters in the Rivertown streets or locations are returned to the cup."
+     },
+
+     {
+       "name": "Blue Flu!",
+       "type": "Headline",
+       "gate location": "The Unnamable",
+       "clue appears at": "Woods",
+       "white": "{hexagon}",
+       "black": "{slash, triangle, star}",
+       "description": "All investigators in jail are released. No investigators may be <i>arrested</i> until the end of the next turn. Leave this card in play until then to indicate this"
+     },
+
+     {
+       "name": "Picnickers Panic!",
+       "type": "Headline",
+       "gate location": "Unvisited Isle",
+       "clue appears at": "Science Building",
+       "white": "{moon}",
+       "black": "{cross}",
+       "description": "A careless picnicker unleashes 2 monsters onto the Downtown streets."
+     },
+
+     {
+       "name": "Temperance Fever Sweeps City!",
+       "type": "Headline",
+       "gate location": "The Witch House",
+       "clue appears at": "Hibb's Roadhouse",
+       "white": "{hexagon}",
+       "black": "{Black Cave}",
+       "description": "Any investigator with Whiskey must pass a <b>Sneak (-1) check</b> or get <i>arrested</i> and taken to the Police Station. If this occurs, in addition, Hibb's Roadhouse is closeduntil the end of next turn. Leave this card in play until then to indicate this."
+     },
+
+     {
+       "name": "Raining Cats and Dogs",
+       "type": "Environment (Weather)",
+       "gate location": "Hibb's Roadhouse",
+       "clue appears at": "Independence Square",
+       "white": "{cross}",
+       "black": "{moon}",
+       "description": "<b>Speed checks</b> in Arkham are made at a -1 penalty, and players receive 1 less movement point during the <b>Movement Phase.</b><br /><b>Sneak checks</b> in Arkham are made at a +1 bonus.<br />Return any Fire Vampires in play to the cup. If a Fire Vampire enteres play, return it to the cup and draw a differnt monster."
+     },
+
+     {
+       "name": "Things of Darkness",
+       "type": "Environment (Mystic)",
+       "gate location": "Silver Twilight Lodge",
+       "clue appears at": "Graveyard",
+       "white": "{square, diamond}",
+       "black": "{circle}",
+       "description": "Ghouls, Formless Spawns, Shoggoths, and Flying Polyps have their toughness increased by 1."
+     },
+
+     {
+       "name": "Family Found Butchered!",
+       "type": "Headline",
+       "gate location": "Graveyard",
+       "clue appears at": "Unvisited Isle",
+       "white": "{moon}",
+       "black": "{cross}",
+       "description": "The terror level increases by 1 in light of this tragic news."
+     },
+
+     {
+       "name": "Strange Power Flux Plagues City!",
+       "type": "Headline",
+       "gate location": "Independence Square",
+       "clue appears at": "The Unnamable",
+       "white": "{slash, triangle, star}",
+       "black": "{hexagon}",
+       "description": "All investigators in Other World areas may immediately return to Arkham."
+     },
+
+     {
+       "name": "Darke's Carnival Arrives",
+       "type": "Environment (Urban)",
+       "gate location": "The Unnamable",
+       "clue appears at": "Woods",
+       "white": "{square, diamond}",
+       "black": "{circle}",
+       "description": "Investigators who end their movement in the Northside streets gain 1 Clue token from the sinister wonders they witness, but must pass a <b>Will (-1) check</b> or lose 1 Sanity.<br /><h2>Activity At:</h2><br /> Northside Streets"
+     },
+
+     {
+       "name": "Sheldon Gang Turns to Police for Aid!",
+       "type": "Headline",
+       "gate location": "Graveyard",
+       "clue appears at": "Unvisited Isle",
+       "white": "{circle}",
+       "black": "{square, diamond}",
+       "description": "The Sheldon Gang disturbs a burial mound, releasing 2 monster into the Uptown streets."
+     },
+
+     {
+       "name": "Church Group Reclaims Southside!",
+       "type": "Headline",
+       "gate location": "Black Cave",
+       "clue appears at": "Hibb's Roadhouse",
+       "white": "{hexagon}",
+       "black": "{slash, triangle, star}",
+       "description": "All monster in the Southside streets or locations are returned to the cup."
+     },
+
+     {
+       "name": "Icy Conditions",
+       "type": "Environment (Weather)",
+       "gate location": "Historical Society",
+       "clue appears at": "Silver Twilight Lodge",
+       "white": "{cross}",
+       "black": "{moon}",
+       "description": "Investigators receive 1 less movement point during the <b>Movement Phase.</b><br /><b><i>Fast</i></b> monsters move like normal monsters."
+     },
+
+     {
+       "name": "Merchants March on Crime!",
+       "type": "Headline",
+       "gate location": "Independence Square",
+       "clue appears at": "The Unnamable",
+       "white": "{circle}",
+       "black": "{square, diamond}",
+       "description": "All monsters in the Merchant District streets or locations are returned to the cup."
+     },
+
+     {
+       "name": "Goat-like Creature Spotted in Woods!",
+       "type": "Headline",
+       "gate location": "Independence Square",
+       "clue appears at": "The Unnamable",
+       "white": "{hexagon}",
+       "black": "{slash, triangle, star}",
+       "description": "All Dark Young in Arkham are returned to the cup. If at least one monster returns to the cup, raise the terror level by 1."
+     },
+
+     {
+       "name": "An Evil Fog",
+       "type": "Environment (Weather)",
+       "gate location": "Graveyard",
+       "clue appears at": "Unvisited Isle",
+       "white": "{cross}",
+       "black": "{moon}",
+       "description": "<b>Will checks</b> in Arkham are made at a -1 penalty.<br /><b>Sneak checks</b> in Arkham are made at a +1 bonus.<br />Fliers do not move.<br /><h2>Clue Appears At:</h2>Unvisited Isle"
+     },
+
+     {
+       "name": "Southside Strangler Suspected!",
+       "type": "Headline",
+       "gate location": "Woods",
+       "clue appears at": "Historical Society",
+       "white": "{cross}",
+       "black": "{square, diamond}",
+       "description": "However, the press is mistaken, and the murders were caused by 2 monsters that are released into the Ssouthside streets."
+     },
+
+     {
+       "name": "The Man in Black",
+       "type": "Environment (Mystic)",
+       "gate location": "The Witch House",
+       "clue appears at": "Black Cave",
+       "white": "{cross}",
+       "black": "{moon}",
+       "description": "Investigators who end their movement in the French Hill streets may deal with the Man in Black to gain power. They roll dice equal to their current Sanity, and for every failed die, they lose 1 Sanity. If this reduces them to 0 Sanity, they are <b>devoured</b> and the player must start a new character. Otherwise, they gian 1 Clue token and draw 1 Spell.<br /><b>Activity At:</b><br />French Hill streets"
+     },
+
+     {
+       "name": "Ill Wind Grips Arkham!",
+       "type": "Headline",
+       "gate location": "Graveyard",
+       "clue appears at": "Unvisited Isle",
+       "white": "{hexagon}",
+       "black": "{slash, triangle, star}",
+       "description": "The first player must pass a <b>Luck(-1) check</b> or be <i>Cursed</i>."
+     },
+
+     {
+       "name": "Vigilante Guards the Night!",
+       "type": "Headline",
+       "gate location": "The Unnamable",
+       "clue appears at": "Woods",
+       "white": "{circle}",
+       "black": "{square, diamond}",
+       "description": "All monsters in the Downtown streets or locations are returned to the cup."
+     },
+
+     {
+       "name": "Lodge Members Watch the Night!",
+       "type": "Headline",
+       "gate location": "Univisited Isle",
+       "clue appears at": "Science Building",
+       "white": "{circle}",
+       "black": "{square, diamond}",
+       "description": "All monsters in the French Hill streets or locations are returned to the cup."
+     },
+
+     {
+       "name": "Planetary Alignment",
+       "type": "Environment (Mystic)",
+       "gate location": "The Witch House",
+       "clue appears at": "Black Cave",
+       "white": "{square, diamond}",
+       "black": "{circle}",
+       "description": "Thanks to the mystic energy generated by the planetary alignment, all spells have a Sanity cost of 0."
+     },
+
+     {
+       "name": "Ghost Ship Docks by Itself!",
+       "type": "Headline",
+       "gate location": "The Unnamable",
+       "clue appears at": "Woods",
+       "white": "{moon}",
+       "black": "{cross}",
+       "description": "An ancient ghost ship arrives in Arkham, releasing 2 monsters into the Merchant Distric Streets."
+     },
+
+     {
+       "name": "The Stars Are Right",
+       "type": "Rumor",
+       "gate location": "Science Building",
+       "clue appears at": "",
+       "white": "{slash, triangle, star}",
+       "black": "{hexagon}",
+       "description": "<b>Rumor</b><br /><b>Ongoing  Effect:</b> Roll a die at the end of every <b>Mythos Phase</b> while this card in in play (beginning the turn after it entered play). On a 1 or a 2, place one doom token on the ancient one's doom track.<br /><b>Pass:</b> If a player discards an Ally card while in the Downtown streets during the <b>Arkham Encounter Phase,</b> return this card to the box. Each player draws 2 Common Items.<br /><b>Fail:</b> If the Ancient One awakens, return this card to the box.<br /><b>Activity At:</b><br />Downtown Streets"
+     },
+
+     {
+       "name": "The Stars Are Right",
+       "type": "Environment (Urban)",
+       "gate location": "The Witch House",
+       "clue appears at": "Black Cave",
+       "white": "{square, diamond}",
+       "black": "{circle}",
+       "description": "Investigators who end their movement in the Uptwon streets may draw 2 Unique Items and purchase one, none, or both of them at list price, discarding any that are not purchased."
+     },
+
+     {
+       "name": "Dreams of a Sunken City",
+       "type": "Environment (Mystic)",
+       "gate location": "Independence Square",
+       "clue appears at": "The Unnamable",
+       "white": "{cross}",
+       "black": "{moon}",
+       "description": "Investigators cannot gain Sanity except by receiving psychiatric care at Arkham Asylum (or from Carolyn Fern)."
+     },
+
+     {
+       "name": "Blackest Night",
+       "type": "Environment (Mystic)",
+       "gate location": "Black Cave",
+       "clue appears at": "Hibb's Roadhouse",
+       "white": "{square, diamond}",
+       "black": "{circle}",
+       "description": "<b>Luck checks</b> in Arkham are made at a -1 penalty.<br /><b>Sneak checks</b> in Arkham are made at a +1 bonus."
+     },
+
+     {
+       "name": "Big Storm Sweeps Arkham",
+       "type": "Headline",
+       "gate location": "Independence Square",
+       "clue appears at": "The Unnamable",
+       "white": "{moon}",
+       "black": "{cross}",
+       "description": "All monsters in the Sky and Outskirts are returned to the cup."
+     },
+
+     {
+       "name": "Noden's Favor",
+       "type": "Environment (Mystic)",
+       "gate location": "The Witch House",
+       "clue appears at": "Black Cave",
+       "white": "{slash, triangle, star}",
+       "black": "{hexagon}",
+       "description": "It costs 2 fewer Clue tokens to <b>seal</b> gates."
+     },
+
+     {
+       "name": "R'lyeh Rising",
+       "type": "Environment (Mystic)",
+       "gate location": "Woods",
+       "clue appears at": "Historical Society",
+       "white": "{slash, triangle, star}",
+       "black": "{hexagon}",
+       "description": "Star Spawns and Maniacs have their toughness increased by 1<br />The difficulty to <b>seal</b> or <b>close</b> gates to R'lyeh is increased by 1."
+     },
+
+     {
+       "name": "The Southside Stranagler Strikes",
+       "type": "Rumor",
+       "gate location": "Independence Square",
+       "clue appears at": "",
+       "white": "{slash, triangle, star}",
+       "black": "{hexagon}",
+       "description": "<b>Rumor</b><br /><b>Ongoing Effect:</b> Return one Ally from the Ally deck to the box at random at the end of every <b>Mythos Phase</b> while this card is in play (beginning the turn after it entered play). The Southside Strangler has struck again!<br /><b>Pass:</b> I a single player discards 5 Clue tokens while in Ma's Boarding House during the <b>Arkham Encouneter Phase,</b> return this cards to the box. Each player gains $5 as a reward fro the police.<br/><b>Fail:</b> if there are no Allies to return to the box at the end of the <b>Mythos Phase,</b> return this card to the box. Each player must lower either their maximum Sanity or Stamina (their choice) by 1 for the rest of the game.<br/><b>Activity At:</b><br />Southside Streets"
+     },
+
+     {
+       "name": "All Quiet in Arkham!",
+       "type": "Headline",
+       "gate location": "Woods",
+       "clue appears at": "Historical Society",
+       "white": "{hexagon}",
+       "black": "{slash, triangle, star}",
+       "description": "Each player may pass a <b>Luck (-1) check</b> to be <i>Blessed.</i>"
+     },
+
+     {
+       "name": "Heat Wave",
+       "type": "Environment (Weather)",
+       "gate location": "Woods",
+       "clue appears at": "Independence Square",
+       "white": "{square, diamond}",
+       "black": "{circle}",
+       "description": "<b>Fight checks</b> in Arkham are made at a -1 penalty.<br /><b>Lore checks</b> in Arkham are made at a +1 bonus.<br />Fire Vampires have their toughness increased by 1."
+     },
+
+     {
+       "name": "Solar Eclipse",
+       "type": "Environment (Mystic)",
+       "gate location": "Graveyard",
+       "clue appears at": "Unvisited Isle",
+       "white": "{square, diamond}",
+       "black": "{circle}",
+       "description": "Due to the interference of the solar eclipse, no spell may be cast."
+     },
+
+     {
+       "name": "Curfew Enforced",
+       "type": "Environment (Urban)",
+       "gate location": "Unvisited Isle",
+       "clue appears at": "Science Building",
+       "white": "{cross}",
+       "black": "{moon}",
+       "description": "Any investigators who end their movement in the streets must pass a <b>Will (+0) check</b> or be <i>arrested</i> and taken to the Plice Station."
+     },
+
+     {
+       "name": "Feds Raid Arkham!",
+       "type": "Headline",
+       "gate location": "Black Cave",
+       "clue appears at": "Hibb's Roadhouse",
+       "white": "{moon}",
+       "black": "{cross}",
+       "description": "All monsters in the street are returned to the cup."
+     },
+
+     {
+       "name": "Witch Burning Anniversary!",
+       "type": "Headline",
+       "gate location": "Unvisited Isle",
+       "clue appears at": "Science Buildidng",
+       "white": "{moon}",
+       "black": "{cross}",
+       "description": "An ancient curse strikes Arkham, releasing 2 monsters into the Rivertown streets."
+     },
+
+     {
+       "name": "Terror at the Train Station!",
+       "type": "Headline",
+       "gate location": "The Witch House",
+       "clue appears at": "Black Cave",
+       "white": "{moon}",
+       "black": "{cross}",
+       "description": "A rusty train arrives in Arkham, disgorging 2 monsters into the Northside streets."
+     },
+
+     {
+       "name": "The Great Ritual",
+       "type": "Rumor",
+       "gate location": "Graveyard",
+       "clue appears at": "",
+       "white": "{slash, triangle, star}",
+       "black": "{hexagon}",
+       "description": "<b>Rumor</b><br /><b>Ongoing Effect:</b> Cultists, Witches, Warlocks, and High Priests have their toughness increased by 2 while this card is in play.<br />Place 1 Clue token on this card at the end of every <b>Mythos Phase</b> (beginning the turn after it entered play).<br /><b>Pass:</b> If a single player discards 3 spells (4 if there are 5 or more players) while in the French Hill streets during the <b>Arkham encounter Phase,<b/> return this card to the box. Each player gains 2 Clue tokens.<br /><b>Fail:</b> If there are ever 5 Clue tokens on this card, return it to the box. From now on, draw 2 Mythos card each Mythos Phase. Ignore everything on the first card except for the gate opening.<br /><b>Activity At:</b><br />French Hill Streets"
+     },
+
+     {
+       "name": "Egyptian Exhibit Visits Miskatonic U.",
+       "type": "Environment (Urban)",
+       "gate location": "The Witch House",
+       "clue appears at": "Black Cave",
+       "white": "{cross}",
+       "black": "{moon}",
+       "description": "Any investigator who end their movement in the Miskatonic U. streets may pass a <b>Lore (-1) check</b> to gian 1 Clue token by reading the strange heiroglyphics on the artifacts in the exhibit.<br /><b>Activity At:</b><br />Miskatonic U. Streets"
+     },
+
+     {
+       "name": "Happy Days are Here Again",
+       "type": "Environment (Urban)",
+       "gate location": "Woods",
+       "clue appears at": "Historical Society",
+       "white": "{square, diamond}",
+       "black": "{circle}",
+       "description": "Due to the renewed propserity that has come to Arkham, the terror level cannot increase."
+     },
+
+     {
+       "name": "Disturbing the Dead",
+       "type": "Rumor",
+       "gate location": "Black Cave",
+       "clue appears at": "",
+       "white": "{slash, triangle, star}",
+       "black": "{hexagon}",
+       "description": "<b>Ongoing Effect:</b> Roll a die at the end of every <b>Mythos Phase</b> while this card is in play (beginning the turn after it entered play). On a 1 or 22, increase the terror level by 1.<br /><b>Pass:</b> If a single player discards 2 gate trophies during the <b>Arkham Encounter Phase</b> while in the Rivertown streets, return this card to the box. Each player draws 1 Spell.<br /><b>Fail:</b> if the terror lelve reaches 10, return this card to the box. Every investigator is <i>Cursed</i>.<br /><b>Activity At:</b><br />Rivertown Streets"
+     },
+
+     {
+       "name": "Campus Security Increased!",
+       "type": "Headline",
+       "gate location": "independence Square",
+       "clue appears at": "The Unnamable",
+       "white": "{circle}",
+       "black": "{square, diamond}",
+       "description": "All monsters in the Miskatonic U. streets or locations are returned to the cup."
+     },
+
+     {
+       "name": "Scientist Warns of Dimensional Rift!",
+       "type": "Headline",
+       "gate location": "Unvisited Isle",
+       "clue appears at": "Science Building",
+       "white": "{hexagon}",
+       "black": "{slash, triangle, star}",
+       "description": "All Dimensional Shamblers and Hounds of Tindalos in Arkham are returned to the cup. If at least one monster returns to the cup, raise the terror level by 1."
+     },
+
+     {
+       "name": "Strange Lights on Campus!",
+       "type": "Headline",
+       "gate location": "Woods",
+       "clue appears at": "Historical Society",
+       "white": "{hexagon}",
+       "black": "{slash, triangle, star}",
+       "description": "The Library, Administration Building, and Science Building are all closed until the end of next turn. Leave this card in play until then to indicate this.<br /><b>Close:</b><br />Administration Building<br />Library<br />Science Building"
+     },
+
+     {
+       "name": "Strange Lights on Campus!",
+       "type": "Headline",
+       "gate location": "Woods",
+       "clue appears at": "Historical Society",
+       "white": "{hexagon}",
+       "black": "{slash, triangle, star}",
+       "description": "The Library, Administration Building, and Science Building are all closed until the end of next turn. Leave this card in play until then to indicate this."
+     },
+
+     {
+       "name": "Good Work Undone",
+       "type": "Rumor",
+       "gate location": "Unvisited Isle",
+       "clue appears at": "",
+       "white": "{slash, triangle, star}",
+       "black": "{hexagon}",
+       "description": "When this card enters play, place 6 Clue tokens on it. Any player may spend Clue tokens during the <b>Arkham Encounter Phase</b> while in the Easttown streets to discard Clue tokens from this card on a 1-for-1 basis.<br /><b>Ongoing Effect:</b> Roll two die at the end of every <b>Mythos Phase</b> while this card is in play (beginning the turn after it entered play). For every 1 or 2 rolled, place 1 Clue token on this card.<br /><b>Pass:</b> If there are no Clue tokens on this card, return it to the box. Each player draws 1 Unique Item.<br /><b>Fail:</b> If there are 10 Clue tokens on this card, return it to the box. All elder sign tokens are removed from the board.<br /><b>Activity At:</b><br />Easttown Streets"
+     },
+
+     {
+       "name": "Missing People Return!",
+       "type": "Headline",
+       "gate location": "The Unnamable",
+       "clue appears at": "Woods",
+       "white": "{slash, triangle, star}",
+       "black": "{hexagon}",
+       "description": "All investigators currenlty <i>lost in time and space</i> immediately reutrn to Arkham, appearing in a street or location of their choice."
+     },
+
+     {
+       "name": "The Story Continues...",
+       "type": "",
+       "gate location": "",
+       "clue appears at": "",
+       "white": "",
+       "black": "",
+       "description": "I cannot remember, I <b>must</b> not remember what I saw on that dark and foreboding night...<br /> Shuffle the Mythos deck, being sure to include this card in it. After the deck is shuffled, draw a new Mythos card for the turn."
+     },
+
+     {
+       "name": "The terrible Experiment",
+       "type": "Rumor",
+       "gate location": "Unvisited Isle",
+       "clue appears at": "",
+       "white": "{slash, triangle, star}",
+       "black": "{hexagon}",
+       "description": "When this crad enters play, place 5 monsters from the cup on it. Any player may choose to fight one or more of these monsters while in the Misktonic U. streets during the <b>Arkham Encounter Phase.</b> If defeated, they are claimed as monster trophies. These monsters do not move, are not considered to be on the board, and do not count against the monster limit.<br /><b>Ongoing Effect:</b> Place a monster on this card at the end of every <b>Mythos Phase</b> (beginning the turn after it entered play).<br /><b>Pass:</b> If there are no monsters on this card, return it to the box. Eaach player draws 1 Skill.<br /><b>Fail:</b> If there are 8 monsters on this card, return it to the box. Raise the terror level to 10 and place the monsters that were on it into play in the Miskatoni U. streets.<br /><b>Activity At:</b><br />Miskatonic U. Streets"
+     },
+
+     {
+       "name": "Horror at Groundbreaking!",
+       "type": "Headline",
+       "gate location": "Historical Society",
+       "clue appears at": "Silver Twilight Lodge",
+       "white": "{moon}",
+       "black": "{cross}",
+       "description": "An ancient stone is disturbed by the construction, releasing 2 monsters into the Miskatonic U. streets."
+     },
+
+     {
+       "name": "Lodge Member Held for Questioning!",
+       "type": "Headline",
+       "gate location": "Black Cave",
+       "clue appears at": "Hibb's Roadhouse",
+       "white": "{circle}",
+       "black": "{square, diamond}",
+       "description": "A Silver Lodge ritual lets 2 monsters loose in the French Hill streets."
+     },
+
+     {
+       "name": "Blood Magic",
+       "type": "Environment (Mystic)",
+       "gate location": "Independence Square",
+       "clue appears at": "Rivertown Streets",
+       "white": "{square, diamond}",
+       "black": "{circle}",
+       "description": "Investigators who end their movement in the Rivertown streets may choose to delve into dark mysteries using their life force. Tehy roll dice equal to their current Stamina, and for every failed die, tehy lose 1 Stamina. If this reduces tehm to 0 Stamina, they are <b>devoured</b> and the player must start a new chareter. Otherwise, they gain 3 Clue tokens.<br /><b>Activity At:<b><br />Rivertown Streets<br />"
+     },
+
+     {
+       "name": "The Chill of the Grave",
+       "type": "Environment (Mystic)",
+       "gate location": "Unvisited Isle",
+       "clue appears at": "Science Building",
+       "white": "{cross}",
+       "black": "{moon}",
+       "description": "All <b>Undead</b> monsters have their toughness increased by 1."
+     }
+   ]
+}

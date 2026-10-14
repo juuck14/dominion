@@ -1,0 +1,574 @@
+{
+ "summary": {
+  "pass": 39,
+  "fail": 0,
+  "incomplete": 4,
+  "warn": 1,
+  "errors": 0
+ },
+ "checks": [
+  {
+   "group": "integrity",
+   "check": "json_loads",
+   "result": "pass",
+   "detail": "data/ah2e_base.json"
+  },
+  {
+   "group": "integrity",
+   "check": "unique_ids",
+   "result": "pass",
+   "detail": {
+    "ids": 756,
+    "duplicates": []
+   }
+  },
+  {
+   "group": "integrity",
+   "check": "references_resolve",
+   "result": "pass",
+   "detail": {
+    "broken": []
+   }
+  },
+  {
+   "group": "integrity",
+   "check": "unresolved_name_references",
+   "result": "warn",
+   "detail": {
+    "unresolved": [
+     {
+      "name": "Rivertown Streets",
+      "context": "card.mythos.blood_magic",
+      "index": "location"
+     }
+    ],
+    "note": "names in source records that could not be mapped to an id (kept as '?name' in the conflict record)"
+   }
+  },
+  {
+   "group": "integrity",
+   "check": "only_base_set_in_canonical_lists",
+   "result": "pass",
+   "detail": {
+    "non_base": []
+   }
+  },
+  {
+   "group": "integrity",
+   "check": "no_expansion_only_names_in_base",
+   "result": "pass",
+   "detail": {
+    "names_also_used_by_expansion_records": [
+     "card.mythos.rlyeh_rising"
+    ],
+    "note": "a shared name is legitimate (e.g. expansion re-uses a base location); base records come only from base-tagged source rows"
+   }
+  },
+  {
+   "group": "integrity",
+   "check": "no_lcg_sources",
+   "result": "pass",
+   "detail": {
+    "lcg_sources_used": []
+   }
+  },
+  {
+   "group": "structure",
+   "check": "encounter_cards_match_arkhamdb_rows",
+   "result": "pass",
+   "detail": {
+    "problems": [],
+    "problem_count": 0
+   }
+  },
+  {
+   "group": "structure",
+   "check": "seven_location_cards_per_neighborhood",
+   "result": "pass",
+   "detail": {
+    "cards_per_neighborhood": {
+     "nbh.rivertown": 7,
+     "nbh.french_hill": 7,
+     "nbh.southside": 7,
+     "nbh.uptown": 7,
+     "nbh.miskatonic_university": 7,
+     "nbh.merchant_district": 7,
+     "nbh.downtown": 7,
+     "nbh.northside": 7,
+     "nbh.easttown": 7
+    }
+   }
+  },
+  {
+   "group": "structure",
+   "check": "location_card_has_one_encounter_per_neighborhood_location",
+   "result": "pass",
+   "detail": {
+    "problems": []
+   }
+  },
+  {
+   "group": "structure",
+   "check": "gate_card_shapes",
+   "result": "pass",
+   "detail": {
+    "shapes": {
+     "normal:3": 48,
+     "reshuffle": 1
+    }
+   }
+  },
+  {
+   "group": "structure",
+   "check": "gate_cards_two_worlds_plus_other_and_colour_consistent",
+   "result": "pass",
+   "detail": {
+    "problems": []
+   }
+  },
+  {
+   "group": "structure",
+   "check": "slider_positions_step_by_one",
+   "result": "pass",
+   "detail": {
+    "problems": []
+   }
+  },
+  {
+   "group": "counts",
+   "check": "count:Location Cards",
+   "result": "pass",
+   "detail": {
+    "official": 63,
+    "records": 63,
+    "printed_in_data": 63,
+    "unknown_copies": []
+   }
+  },
+  {
+   "group": "counts",
+   "check": "count:Gate Cards",
+   "result": "pass",
+   "detail": {
+    "official": 49,
+    "records": 49,
+    "printed_in_data": 49,
+    "unknown_copies": []
+   }
+  },
+  {
+   "group": "counts",
+   "check": "count:Mythos Cards",
+   "result": "pass",
+   "detail": {
+    "official": 67,
+    "records": 67,
+    "printed_in_data": 67,
+    "unknown_copies": []
+   }
+  },
+  {
+   "group": "counts",
+   "check": "count:Common Items",
+   "result": "pass",
+   "detail": {
+    "official": 44,
+    "records": 22,
+    "printed_in_data": 44,
+    "unknown_copies": []
+   }
+  },
+  {
+   "group": "counts",
+   "check": "count:Unique Items",
+   "result": "pass",
+   "detail": {
+    "official": 39,
+    "records": 26,
+    "printed_in_data": 39,
+    "unknown_copies": []
+   }
+  },
+  {
+   "group": "counts",
+   "check": "count:Spells",
+   "result": "pass",
+   "detail": {
+    "official": 40,
+    "records": 11,
+    "printed_in_data": 40,
+    "unknown_copies": []
+   }
+  },
+  {
+   "group": "counts",
+   "check": "count:Skills",
+   "result": "pass",
+   "detail": {
+    "official": 20,
+    "records": 10,
+    "printed_in_data": 20,
+    "unknown_copies": []
+   }
+  },
+  {
+   "group": "counts",
+   "check": "count:Allies",
+   "result": "pass",
+   "detail": {
+    "official": 11,
+    "records": 11,
+    "printed_in_data": 11,
+    "unknown_copies": []
+   }
+  },
+  {
+   "group": "counts",
+   "check": "count:Special Cards",
+   "result": "pass",
+   "detail": {
+    "official": 35,
+    "records": 7,
+    "printed_in_data": 35,
+    "unknown_copies": []
+   }
+  },
+  {
+   "group": "counts",
+   "check": "count:Investigator Sheets",
+   "result": "pass",
+   "detail": {
+    "official": 16,
+    "records": 16,
+    "printed_in_data": 16,
+    "unknown_copies": []
+   }
+  },
+  {
+   "group": "counts",
+   "check": "count:Ancient One Sheets",
+   "result": "pass",
+   "detail": {
+    "official": 8,
+    "records": 8,
+    "printed_in_data": 8,
+    "unknown_copies": []
+   }
+  },
+  {
+   "group": "counts",
+   "check": "count:Monster Markers",
+   "result": "incomplete",
+   "detail": {
+    "official": 60,
+    "records": 3,
+    "printed_in_data": 5,
+    "unknown_copies": []
+   }
+  },
+  {
+   "group": "counts",
+   "check": "count:Gate Markers",
+   "result": "incomplete",
+   "detail": {
+    "official": 16,
+    "records": 0,
+    "printed_in_data": 0,
+    "unknown_copies": []
+   }
+  },
+  {
+   "group": "counts",
+   "check": "count:Investigator Cards (total)",
+   "result": "pass",
+   "detail": {
+    "official": 189,
+    "printed_in_data": 189
+   }
+  },
+  {
+   "group": "counts",
+   "check": "count:Ancient One Cards (total)",
+   "result": "pass",
+   "detail": {
+    "official": 179,
+    "printed_in_data": 179
+   }
+  },
+  {
+   "group": "counts",
+   "check": "encounter_texts_vs_arkhamdb_rows",
+   "result": "pass",
+   "detail": {
+    "location_encounters": [
+     189,
+     189
+    ],
+    "gate_encounters": [
+     145,
+     145
+    ],
+    "arkhamdb_base_rows": {
+     "location": 27,
+     "neighbourhoodcard": 63,
+     "locationencounter": 189,
+     "otherworldcard": 49,
+     "otherworldencounter": 145
+    }
+   }
+  },
+  {
+   "group": "counts",
+   "check": "neighborhoods_9_locations_27",
+   "result": "pass",
+   "detail": {
+    "neighborhoods": 9,
+    "locations": 27,
+    "board_locations": 26,
+    "encounter_only": [
+     "loc.silver_twilight_lodge_inner_sanctum"
+    ]
+   }
+  },
+  {
+   "group": "counts",
+   "check": "other_worlds_8",
+   "result": "pass",
+   "detail": {
+    "other_worlds": 8
+   }
+  },
+  {
+   "group": "counts",
+   "check": "board_connections",
+   "result": "incomplete",
+   "detail": {
+    "rows": 0
+   }
+  },
+  {
+   "group": "completeness",
+   "check": "required_fields_present",
+   "result": "incomplete",
+   "detail": {
+    "null_required_values": [
+     {
+      "entity_id": "mon.byakhee",
+      "field": "movement_type",
+      "status": "missing",
+      "reason": "not recorded by pavelius_cpp; fandom wiki (monster source) blocked"
+     },
+     {
+      "entity_id": "mon.byakhee",
+      "field": "dimension_symbol",
+      "status": "missing",
+      "reason": "not recorded by pavelius_cpp; fandom wiki (monster source) blocked"
+     },
+     {
+      "entity_id": "mon.chthonian",
+      "field": "count",
+      "status": "missing",
+      "reason": null
+     },
+     {
+      "entity_id": "mon.chthonian",
+      "field": "awareness",
+      "status": "missing",
+      "reason": null
+     },
+     {
+      "entity_id": "mon.chthonian",
+      "field": "movement_type",
+      "status": "missing",
+      "reason": null
+     },
+     {
+      "entity_id": "mon.chthonian",
+      "field": "dimension_symbol",
+      "status": "missing",
+      "reason": null
+     },
+     {
+      "entity_id": "mon.chthonian",
+      "field": "horror_rating",
+      "status": "missing",
+      "reason": null
+     },
+     {
+      "entity_id": "mon.chthonian",
+      "field": "horror_damage",
+      "status": "missing",
+      "reason": null
+     },
+     {
+      "entity_id": "mon.chthonian",
+      "field": "toughness",
+      "status": "missing",
+      "reason": null
+     },
+     {
+      "entity_id": "mon.chthonian",
+      "field": "combat_rating",
+      "status": "missing",
+      "reason": null
+     },
+     {
+      "entity_id": "mon.chthonian",
+      "field": "combat_damage",
+      "status": "missing",
+      "reason": null
+     },
+     {
+      "entity_id": "mon.zombie",
+      "field": "movement_type",
+      "status": "missing",
+      "reason": "not recorded by pavelius_cpp; fandom wiki (monster source) blocked"
+     },
+     {
+      "entity_id": "mon.zombie",
+      "field": "dimension_symbol",
+      "status": "missing",
+      "reason": "not recorded by pavelius_cpp; fandom wiki (monster source) blocked"
+     }
+    ],
+    "by_kind": {
+     "mon": 13
+    }
+   }
+  },
+  {
+   "group": "completeness",
+   "check": "field_status_distribution",
+   "result": "pass",
+   "detail": {
+    "confirmed": 1508,
+    "single_source": 437,
+    "derived": 140,
+    "none_recorded": 160,
+    "conflict_resolved": 31,
+    "errata_applied": 10,
+    "confirmed_minor_variants": 44,
+    "missing": 4,
+    "conflict": 4
+   }
+  },
+  {
+   "group": "integrity",
+   "check": "manual_quotes_found_in_official_pdfs",
+   "result": "pass",
+   "detail": {
+    "checked": 32,
+    "failed": []
+   }
+  },
+  {
+   "group": "spot_checks",
+   "check": "location_card_adb046_vs_raw_sql",
+   "result": "pass",
+   "detail": {
+    "raw": "sources/raw/arkhamdb_sql/scripts/1_base.sql",
+    "encounters": [
+     "loc.black_cave",
+     "loc.general_store",
+     "loc.graveyard"
+    ]
+   }
+  },
+  {
+   "group": "spot_checks",
+   "check": "gate_card_adb052_reshuffle_vs_raw_sql",
+   "result": "pass",
+   "detail": {
+    "name": "The Stars are Right"
+   }
+  },
+  {
+   "group": "spot_checks",
+   "check": "mythos_all_quiet_vs_raw_helper_ts_and_ellebaum",
+   "result": "pass",
+   "detail": {
+    "gate": [
+     "loc.woods"
+    ],
+    "clue": "loc.historical_society",
+    "movement": {
+     "white": [
+      "hexagon"
+     ],
+     "black": [
+      "slash",
+      "star",
+      "triangle"
+     ]
+    }
+   }
+  },
+  {
+   "group": "spot_checks",
+   "check": "investigator_joe_diamond_vs_raw_kuerv0_and_sheet_transcription",
+   "result": "pass",
+   "detail": {
+    "sanity": 4,
+    "stamina": 6,
+    "focus": 3,
+    "image": "joe_diamond.png"
+   }
+  },
+  {
+   "group": "spot_checks",
+   "check": "ancient_one_yig_vs_sheet_transcription_and_raw_ts",
+   "result": "pass",
+   "detail": {
+    "doom_track": 10,
+    "note": "jesseflorig_json has an empty doomTrack for Yig (recorded as null)"
+   }
+  },
+  {
+   "group": "spot_checks",
+   "check": "common_item_lantern_vs_raw_kuerv0_and_faq_errata",
+   "result": "pass",
+   "detail": {
+    "price": 3,
+    "raw_base_game_json": 3,
+    "raw_per_type_file": 1,
+    "all_source_values_recorded": [
+     1,
+     2,
+     3
+    ],
+    "note": "FAQ: 'Lantern (Common Item) should cost $3'"
+   }
+  },
+  {
+   "group": "spot_checks",
+   "check": "component_counts_vs_rulebook_text",
+   "result": "pass",
+   "detail": {
+    "page": 2
+   }
+  },
+  {
+   "group": "spot_checks",
+   "check": "location_arkham_asylum_vs_raw_wiki_scrape",
+   "result": "pass",
+   "detail": {
+    "stability": "stable"
+   }
+  },
+  {
+   "group": "spot_checks",
+   "check": "encounter_check_extraction_adb046_1",
+   "result": "pass",
+   "detail": {
+    "checks": [
+     {
+      "skill": "lore",
+      "modifier": -2,
+      "difficulty": 1,
+      "quote": "Lore (-2) check"
+     }
+    ]
+   }
+  }
+ ]
+}

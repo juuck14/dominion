@@ -1,0 +1,2431 @@
+{
+ "source_id": "jesseflorig_json",
+ "parser": "ah2e.parsers.jesseflorig_json",
+ "parsed_at": "2026-10-14T19:38:14+00:00",
+ "status": "ok",
+ "commit_sha": "a9c7bf6cc9a08888950204b4df7b40aa3c7f89f7",
+ "warnings": [
+  "data/ancient-ones.json: not valid strict JSON (Illegal trailing comma before end of array: line 67 column 10 (char 3185)); read with lenient parser",
+  "data/ancient-ones.json: empty value at line 348 (read as null)",
+  "data/ancient-ones.json: duplicate Ancient One 'Ithaqua' at [4] (first at [3])",
+  "data/investigators.json: empty - no data",
+  "data/skills.json: empty - no data",
+  "data/special.json: empty - no data",
+  "data/spells.json: empty - no data",
+  "data/unique-items.json: empty - no data",
+  "data/other-world.json: empty - no data",
+  "data/epic-battles.json: empty - no data",
+  "data/common-items.json (template only): empty - no data"
+ ],
+ "stats": {
+  "allies": 33,
+  "ancient_ones": 8,
+  "mythos_cards": 68,
+  "arkham_cards": 7,
+  "locations": 3,
+  "empty_files": [
+   "data/investigators.json",
+   "data/skills.json",
+   "data/special.json",
+   "data/spells.json",
+   "data/unique-items.json",
+   "data/other-world.json",
+   "data/epic-battles.json",
+   "data/common-items.json (template only)"
+  ]
+ },
+ "records": {
+  "allies": [
+   {
+    "name": "Anna Kaslow",
+    "bonuses": [
+     {
+      "type": "luck",
+      "value": 2
+     }
+    ],
+    "text": "Gain 2 clue tokens when Anna Kaslow joins you.",
+    "acquired": "Encounter at Independence Square",
+    "set": "base",
+    "src_ref": "data/allies.json#allies[0]"
+   },
+   {
+    "name": "Duke",
+    "bonuses": [
+     {
+      "type": "sanity",
+      "value": 1
+     }
+    ],
+    "text": "Discard to immediately restore your Sanity to its maximum.",
+    "acquired": "Encounter at the Woods",
+    "set": "base",
+    "src_ref": "data/allies.json#allies[1]"
+   },
+   {
+    "name": "Eric Colt",
+    "bonuses": [
+     {
+      "type": "speed",
+      "value": 2
+     }
+    ],
+    "text": "You take no Sanity loss from the Nightmarish ability.",
+    "acquired": "Encounter at The Unnamable",
+    "set": "base",
+    "src_ref": "data/allies.json#allies[2]"
+   },
+   {
+    "name": "John Legrasse",
+    "bonuses": [
+     {
+      "type": "will",
+      "value": 2
+     }
+    ],
+    "text": "You can claim monsters with the Endless ability as trophies.",
+    "acquired": "Encounter at the Unvisited Isle",
+    "set": "base",
+    "src_ref": "data/allies.json#allies[3]"
+   },
+   {
+    "name": "Professor Armitage",
+    "bonuses": [
+     {
+      "type": "lore",
+      "value": 2
+     }
+    ],
+    "text": "Your attacks are not affected by Magical Resistance.",
+    "acquired": "Encounter at the Historical Society",
+    "set": "base",
+    "src_ref": "data/allies.json#allies[4]"
+   },
+   {
+    "name": "Richard Upton Pickman",
+    "bonuses": [
+     {
+      "type": "luck",
+      "value": 1
+     },
+     {
+      "type": "speed",
+      "value": 1
+     }
+    ],
+    "text": "Your attacks are not affected by Physical Resistance.",
+    "acquired": "Encounter at the Graveyard",
+    "set": "base",
+    "src_ref": "data/allies.json#allies[5]"
+   },
+   {
+    "name": "Ruby Standish",
+    "bonuses": [
+     {
+      "type": "sneak",
+      "value": 2
+     }
+    ],
+    "text": "Draw 1 Unique Item when Ruby Standish joins you.",
+    "acquired": "Encounter at the Silver Twilight Lodge",
+    "set": "base",
+    "src_ref": "data/allies.json#allies[6]"
+   },
+   {
+    "name": "Ryan Dean",
+    "bonuses": [
+     {
+      "type": "sneak",
+      "value": 1
+     },
+     {
+      "type": "will",
+      "value": 1
+     }
+    ],
+    "text": "Draw 1 Common Item when Ryan Dean joins you.",
+    "acquired": "Encounter at Hibb's Roadhouse",
+    "set": "base",
+    "src_ref": "data/allies.json#allies[7]"
+   },
+   {
+    "name": "Sir William Brinton",
+    "bonuses": [
+     {
+      "type": "stamina",
+      "value": 1
+     }
+    ],
+    "text": "Discard to immediately restore your Stamina to its maximum.",
+    "acquired": "Encounter at the Science Building",
+    "set": "base",
+    "src_ref": "data/allies.json#allies[8]"
+   },
+   {
+    "name": "Thomas F. Malone",
+    "bonuses": [
+     {
+      "type": "fight",
+      "value": 1
+     },
+     {
+      "type": "lore",
+      "value": 1
+     }
+    ],
+    "text": "Draw 1 Spell when Thomas F. Malone joins you.",
+    "acquired": "Encounter at the Witch House",
+    "set": "base",
+    "src_ref": "data/allies.json#allies[9]"
+   },
+   {
+    "name": "Tom \"Mountain\" Murphy",
+    "bonuses": [
+     {
+      "type": "fight",
+      "value": 2
+     }
+    ],
+    "text": "You take no Stamina Loss from the Overwhelming ability.",
+    "acquired": "Encounter at the Black Cave",
+    "set": "base",
+    "src_ref": "data/allies.json#allies[10]"
+   },
+   {
+    "name": "David Packard",
+    "bonuses": [
+     {
+      "type": "fight",
+      "value": 1
+     },
+     {
+      "type": "sneak",
+      "value": 1
+     }
+    ],
+    "text": "Draw 1 Skill card when David Packard joins you.",
+    "acquired": "Encounter at the Woods or Marsh Refinery",
+    "set": "curse_of_the_dark_pharaoh",
+    "src_ref": "data/allies.json#allies[11]"
+   },
+   {
+    "name": "Dr. Ali Kafour",
+    "bonuses": [
+     {
+      "type": "will",
+      "value": 1
+     },
+     {
+      "type": "lore",
+      "value": 1
+     }
+    ],
+    "text": "Search the Unique Item deck, taking the first tome you find.",
+    "acquired": "Encounter at the Unnamable or Esoteric Order of Dagon",
+    "set": "curse_of_the_dark_pharaoh",
+    "src_ref": "data/allies.json#allies[12]"
+   },
+   {
+    "name": "Erica Carlyle",
+    "bonuses": [
+     {
+      "type": "spell",
+      "value": 2
+     }
+    ],
+    "text": "Gain a Retainer card when Erica Carlyle joins you.",
+    "acquired": "Encounter at Hibb's Roadhouse or Devil Reef",
+    "set": "curse_of_the_dark_pharaoh",
+    "src_ref": "data/allies.json#allies[13]"
+   },
+   {
+    "name": "Erich Weiss",
+    "bonuses": [
+     {
+      "type": "evade",
+      "value": 2
+     }
+    ],
+    "text": "You cannot be delayed",
+    "acquired": "Encounter at the Witch House or Devil Reef",
+    "set": "curse_of_the_dark_pharaoh",
+    "src_ref": "data/allies.json#allies[14]"
+   },
+   {
+    "name": "Father Iwanicki",
+    "bonuses": [
+     {
+      "type": "horror",
+      "value": 2
+     }
+    ],
+    "text": "You cannot be cursed.",
+    "acquired": "Encounter at the Graveyard or Esoteric Order of Dagon",
+    "set": "curse_of_the_dark_pharaoh",
+    "src_ref": "data/allies.json#allies[15]"
+   },
+   {
+    "name": "The Messenger",
+    "bonuses": [
+     {
+      "type": "all",
+      "value": -1
+     }
+    ],
+    "text": "After being devoured, return this card to the box and remove two doom tokens from the doom track.",
+    "acquired": "Encounter at the Unvisited Isle",
+    "set": "curse_of_the_dark_pharaoh",
+    "src_ref": "data/allies.json#allies[16]"
+   },
+   {
+    "name": "Ammi Pierce",
+    "bonuses": [
+     {
+      "type": "luck",
+      "value": 1
+     },
+     {
+      "type": "will",
+      "value": 1
+     }
+    ],
+    "text": "Any Phase: Exhaust instead of losing 1 Sanity. Discard Ammi Pierce if the Ancient Once awakens.",
+    "acquired": "Encounter at Gardener's Place",
+    "set": "dunwich_horror",
+    "src_ref": "data/allies.json#allies[17]"
+   },
+   {
+    "name": "Corianna Jones",
+    "bonuses": [
+     {
+      "type": "focus",
+      "value": 1
+     }
+    ],
+    "text": "Draw 1 Skill when Corianna joins you.",
+    "acquired": "Encounter at Cold Spring Glen",
+    "set": "dunwich_horror",
+    "src_ref": "data/allies.json#allies[18]"
+   },
+   {
+    "name": "Earl Sawyer",
+    "bonuses": [
+     {
+      "type": "fight",
+      "value": 1
+     },
+     {
+      "type": "sneak",
+      "value": 1
+     }
+    ],
+    "text": "Any Phase: Exhaust instead of losing 1 Stamina. Discard Earl Sawer if the Ancient One awakens.",
+    "acquired": "Encounter at Whateley Farm",
+    "set": "dunwich_horror",
+    "src_ref": "data/allies.json#allies[19]"
+   },
+   {
+    "name": "Professor Rice",
+    "bonuses": [
+     {
+      "type": "lore",
+      "value": 1
+     },
+     {
+      "type": "luck",
+      "value": 1
+     }
+    ],
+    "text": "Place 1 Clue token on each unstable location witout an open gate when Professor Rice joins you.",
+    "acquired": "Encounter at Wizard's Hill",
+    "set": "dunwich_horror",
+    "src_ref": "data/allies.json#allies[20]"
+   },
+   {
+    "name": "Asenath Waite",
+    "bonuses": [
+     {
+      "type": "sneak",
+      "value": 1
+     },
+     {
+      "type": "speed",
+      "value": 1
+     }
+    ],
+    "text": "Gain $10 when Asenath Waite joins you.",
+    "acquired": "Encounter at Hall School",
+    "set": "kingsport_horror",
+    "src_ref": "data/allies.json#allies[21]"
+   },
+   {
+    "name": "Basil Elton",
+    "bonuses": [
+     {
+      "type": "fight",
+      "value": 1
+     },
+     {
+      "type": "will",
+      "value": 1
+     }
+    ],
+    "text": "Discard to cancel the Ancient One's attack for one turn.",
+    "acquired": "Encounter at the North Point Lighthouse",
+    "set": "kingsport_horror",
+    "src_ref": "data/allies.json#allies[22]"
+   },
+   {
+    "name": "Charles Dexter Ward",
+    "bonuses": [
+     {
+      "type": "lore",
+      "value": 1
+     },
+     {
+      "type": "speed",
+      "value": 1
+     }
+    ],
+    "text": "Increase your Combat check bonuses from Spells by 1.",
+    "acquired": "Encounter at Niel's Cirosite Shop",
+    "set": "kingsport_horror",
+    "src_ref": "data/allies.json#allies[23]"
+   },
+   {
+    "name": "Dr. Herbert West",
+    "bonuses": [
+     {
+      "type": "spped",
+      "value": 1
+     },
+     {
+      "type": "will",
+      "value": 1
+     }
+    ],
+    "text": "Upkeep: Pay 1 Focus and exhaust to gain 1 Stamina. Discard Dr. Herbert West if the Ancient One awakens.",
+    "acquired": "Encounter at Congregational Hospital",
+    "set": "kingsport_horror",
+    "src_ref": "data/allies.json#allies[24]"
+   },
+   {
+    "name": "Foolishness",
+    "bonuses": [
+     {
+      "type": "fight",
+      "value": 1
+     },
+     {
+      "type": "luck",
+      "value": 1
+     },
+     {
+      "type": "sneek",
+      "value": 1
+     }
+    ],
+    "text": "Discard if you gain Young Zoog as an Ally.",
+    "acquired": "Encounter at Artists' Colony",
+    "set": "kingsport_horror",
+    "src_ref": "data/allies.json#allies[25]"
+   },
+   {
+    "name": "Granny Orne",
+    "bonuses": [
+     {
+      "type": "lore",
+      "value": 1
+     },
+     {
+      "type": "sneak",
+      "value": 1
+     }
+    ],
+    "text": "Any Phase: Exhaust instead of spending 1 Clue token.",
+    "acquired": "Encounter at St. Erasmus's Home",
+    "set": "kingsport_horror",
+    "src_ref": "data/allies.json#allies[26]"
+   },
+   {
+    "name": "Professor Morgan",
+    "bonuses": [
+     {
+      "type": "speed",
+      "value": 1
+     },
+     {
+      "type": "fight",
+      "value": 1
+     }
+    ],
+    "text": "Increase your Combat check bonuses from Weapons by +1.",
+    "acquired": "Encounter at 7th House on the Left",
+    "set": "kingsport_horror",
+    "src_ref": "data/allies.json#allies[27]"
+   },
+   {
+    "name": "Terrible Old Man",
+    "bonuses": [
+     {
+      "type": "fight",
+      "value": 1
+     },
+     {
+      "type": "luck",
+      "value": 1
+     }
+    ],
+    "text": "Upkeep: Pay 1 Focus and exhaust to gain 1 Sanity. Discard Terrible Old Man if the Ancient One awakens.",
+    "acquired": "Encounter at 607 Water St.",
+    "set": "kingsport_horror",
+    "src_ref": "data/allies.json#allies[28]"
+   },
+   {
+    "name": "Thomas Olney",
+    "bonuses": [
+     {
+      "type": "luck",
+      "value": 1
+     },
+     {
+      "type": "sneak",
+      "value": 1
+     }
+    ],
+    "text": "You are Blessed when Thomas Olney joins you.",
+    "acquired": "Encounter at the Rope and Anchor",
+    "set": "kingsport_horror",
+    "src_ref": "data/allies.json#allies[29]"
+   },
+   {
+    "name": "William Bain",
+    "bonuses": [
+     {
+      "type": "luck",
+      "value": 1
+     },
+     {
+      "type": "speed",
+      "value": 1
+     }
+    ],
+    "text": "Remove 1 doom token from the doom track when William Bain joins you.",
+    "acquired": "Encounter at the Strainge High House",
+    "set": "kingsport_horror",
+    "src_ref": "data/allies.json#allies[30]"
+   },
+   {
+    "name": "Young Zoog",
+    "bonuses": [
+     {
+      "type": "lore",
+      "value": 1
+     },
+     {
+      "type": "speed",
+      "value": 1
+     },
+     {
+      "type": "will",
+      "value": 1
+     }
+    ],
+    "text": "Discard if you gain Foolishness as an ally.",
+    "acquired": "Encounter in the Deamlands",
+    "set": "kingsport_horror",
+    "src_ref": "data/allies.json#allies[31]"
+   },
+   {
+    "name": "Oliver Grayson",
+    "bonuses": [
+     {
+      "type": "luck",
+      "value": 1
+     },
+     {
+      "type": "speed",
+      "value": 1
+     }
+    ],
+    "text": "When you fail an Evade check, monsters do not deal combar damage to you.",
+    "acquired": null,
+    "set": "promo",
+    "src_ref": "data/allies.json#allies[32]"
+   }
+  ],
+  "ancient_ones": [
+   {
+    "name": "Azathoth",
+    "combat_rating": "-∞",
+    "defenses": "None",
+    "worshippers": "Since Azathoth promises nothing except destruction, only the insane worship him. However, their fanaticism gives them strength. Maniacs have their toughness increased by 1.",
+    "power_name": "Absolute Destruction",
+    "power": "If Azathoth awakens, the game is over and the investigators lose.",
+    "start_of_battle": null,
+    "attack": "The end is here! Azathoth destroys the world.",
+    "doom_track": 14,
+    "active_text": [
+     "Maniacs have +1 toughness "
+    ],
+    "has_epic_battle_plots": false,
+    "set": "base",
+    "src_ref": "data/ancient-ones.json#ancientOnes[0]"
+   },
+   {
+    "name": "Cthulhu",
+    "combat_rating": "-6",
+    "defenses": "Special (See Attack)",
+    "worshippers": "Cthulhu's worshippers often have the Innsmouth Look, a sign of monstrous ancestors. Cultists have a horror rating of -2 and a horror damage of 2 Sanity.",
+    "power_name": "Dreams of Madness",
+    "power": "While Cthulhu stirs in his slumber, investigators have their maximum Sanity and maximum Stamina reduced by 1.",
+    "start_of_battle": null,
+    "attack": "Each investigator lowers either his maximum Sanity or Maximum Stamina by 1 (his choice). After Cthulhu attacks 1 doom token is placed back on Cthulhu's doom track if it isn't already full.",
+    "doom_track": 13,
+    "active_text": [
+     "Cultists horror rating is -2 and a horror damage of 2 Sanity",
+     "Investigators have -1 to max Sanity and max Stamina"
+    ],
+    "has_epic_battle_plots": true,
+    "set": "base",
+    "src_ref": "data/ancient-ones.json#ancientOnes[1]"
+   },
+   {
+    "name": "Hastur",
+    "combat_rating": "-X",
+    "defenses": "Physical Resistance",
+    "worshippers": "Hastur's worshippers ride byakhee mounts that they call with enchanted whistles. Cultists are flying monsters and their combat rating is -2.",
+    "power_name": "The King in Yellow",
+    "power": "While Hastur stirs in his slumber, the cost to seal a gate is 8 Clue tokens instead of 5.",
+    "start_of_battle": "X is set to the current terror level",
+    "attack": "Each investigator must pass a Luck (+1) check or lose 2 Sanity. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+    "doom_track": 13,
+    "active_text": [
+     "Cultists are flying monsters and their combat rating is -2",
+     "The cost to seal a gate is 8 Clue tokens instead of 5"
+    ],
+    "has_epic_battle_plots": true,
+    "set": "base",
+    "src_ref": "data/ancient-ones.json#ancientOnes[2]"
+   },
+   {
+    "name": "Ithaqua",
+    "combat_rating": "-3",
+    "defenses": "None",
+    "worshippers": "Ithaqua's worshippers eat the flesh of their fellow men, gaining supernatural power through their dark practice. Cultists have their toughness increased by 2.",
+    "power_name": "Icy Winds",
+    "power": "While Ithaqua stirs in his slumber, any investigator in a street area at the end of the Mythos phase loses 1 Stamina. In addition, all Weather cards are discarded without their special effects taking place.",
+    "start_of_battle": "Investigators must roll a die for every item they have, discarding the item on a failure",
+    "attack": "Each investigator must pass a Fight (+1) check or lose 2 Stamina. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+    "doom_track": 11,
+    "active_text": [
+     "Cultists have +2 toughness",
+     "All weather cards are discarded without their special effects taking place",
+     "Any investigator in a street area at the end of the Mythos phase loses 1 Stamina"
+    ],
+    "has_epic_battle_plots": true,
+    "set": "base",
+    "src_ref": "data/ancient-ones.json#ancientOnes[3]"
+   },
+   {
+    "name": "Nyarlathotep",
+    "combat_rating": "-4",
+    "defenses": "Magical Resistance",
+    "worshippers": "Nyarlathotep has innumberable cults all over the world. <strong>Cultitsts</strong> have the <strong>Endless</strong> ability.",
+    "power_name": "A Thousand Masks",
+    "power": "At the start of the game add the 5 <strong>Mask</strong> monsters to the cup. Mutluple <strong>Mask</strong> monsters can be in play at once.",
+    "start_of_battle": "Any investigator with no Clue tokens is <strong>devoured</strong>.",
+    "attack": "Each investigator must pass a <strong>Lore(+1) check</strong> or lise one Clue token. Any investigator with no Clue tokens left is <strong>devoured</strong>. This check's modifier decreases by 1 each turn (+0 on the 2nd turn, -1 on the 3rd turn, etc.)",
+    "doom_track": 11,
+    "active_text": [
+     "Cultists have Endless",
+     "Add all Mask monsters to the cup at the beginning of the game"
+    ],
+    "has_epic_battle_plots": true,
+    "set": "base",
+    "src_ref": "data/ancient-ones.json#ancientOnes[5]"
+   },
+   {
+    "name": "Shub-Niggurath",
+    "combat_rating": "-5",
+    "defenses": "Physical Immunity",
+    "worshippers": "Shub-Niggurath's young are numberless. <strong>Dark Young</strong> have the <strong>Endless</strong> ability.",
+    "power_name": "Black Goat of the Woods",
+    "power": "While Shib-Niggurath stirs in her slumber, all monsters have their toughness increased by 1",
+    "start_of_battle": "Any investigator with no monster trophies is <strong>devoured</strong>",
+    "attack": "Each investigator myst pass a <strong>Sneak(+1) check</strong> or lose 1 monster trophy. Any investigator with no monster trophies left is <strong>devoured</strong>. The check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+    "doom_track": 12,
+    "active_text": [
+     "Dark Young have the endless ability",
+     "All monsters have +1 toughness"
+    ],
+    "has_epic_battle_plots": true,
+    "set": "base",
+    "src_ref": "data/ancient-ones.json#ancientOnes[6]"
+   },
+   {
+    "name": "Yig",
+    "combat_rating": "-3",
+    "defenses": "None",
+    "worshippers": "Yig's worshippers are actually disguised serpent people. Their bite is highly poisonous. <strong>Cultists</strong> have a combat rating of +0 and a combat damage of 4 Stamina.",
+    "power_name": "Yig's Anger",
+    "power": "While Yig stirs in his slumber, he gains a doom token whenever a Cultist is defeated or an investigator is <em>Lost in Time and Space</em>.",
+    "start_of_battle": "Every investigator is <em>Cursed</em>. Any investigator that already has a Curse is <strong>devoured</strong>.",
+    "attack": "Each investigator must pass a <strong>Speed(+1) check</strong> or lose 1 Sanity and 1 Stamina. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+    "doom_track": null,
+    "active_text": [
+     "Cultists have a combat rating of +0 and a combat damage of 4 Stamina",
+     "When a cultists is defeated, add a doom token to the doom track",
+     "When an investigator is lost in time and space, add a doom token to the doom track"
+    ],
+    "has_epic_battle_plots": true,
+    "set": "base",
+    "src_ref": "data/ancient-ones.json#ancientOnes[7]"
+   },
+   {
+    "name": "Yog-Sothoth",
+    "combat_rating": "-5",
+    "defenses": "Magical Immunity",
+    "worshippers": "Yog-Sothoth's worshippers have powerful magical abilities. Cultitsts have Magical Immunity and a combat rating of -1.",
+    "power_name": "The Key and the Gate",
+    "power": "While Yog-Sothoth stirs in his slumber, the difficulty to close a gate is increased by 1. In addition, any investigator <em>lost in time and space</em> is <strong>devoured</strong>.",
+    "start_of_battle": "Any investigator with no gate trophies is <strong>devoured</strong>.",
+    "attack": "Each investigator must pass a <strong>Will(+1) check</strong> or lose 1 gate trophy. Any investigator with no gate trophies left is <strong>devoured</strong>. THis check's modifier decreases by 1 each turn (+0 the second turn, -1 the 3rd turn, etc.)",
+    "doom_track": 12,
+    "active_text": [
+     "Cultists have Magical Immunity and a combat rating of -1",
+     "Difficulty to close a gate is increased by 1",
+     "An investigator lost in time and space is devoured"
+    ],
+    "has_epic_battle_plots": true,
+    "set": "base",
+    "src_ref": "data/ancient-ones.json#ancientOnes[8]"
+   }
+  ],
+  "mythos_cards": [
+   {
+    "title": "A Strange Plague",
+    "type": "environment",
+    "subtype": "mystic",
+    "text_parts": [
+     "Investigators cannot gain Stamina except by receiving medical care in St. Mary's Hospital (or from Vincent Lee)."
+    ],
+    "clue_location": "The Unnamable",
+    "gate_location": "Independence Square",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "square",
+     "diamond"
+    ],
+    "black": [
+     "circle"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[0]"
+   },
+   {
+    "title": "Alien Technology",
+    "type": "environment",
+    "subtype": "urban",
+    "text_parts": [
+     "Mig-Go have their toughness increased by 2. If an investigator passes a **Combat check** against a Mi-Go, he draws 1 extra Unique Item."
+    ],
+    "clue_location": "Science Building",
+    "gate_location": "Unvisited Isle",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "square",
+     "diamond"
+    ],
+    "black": [
+     "circle"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[1]"
+   },
+   {
+    "title": "All Quite in Arkham",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "Each player may pass a **Lick (-1) check** to be *Blessed*"
+    ],
+    "clue_location": "Historical Society",
+    "gate_location": "Woods",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "hexagon"
+    ],
+    "black": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[2]"
+   },
+   {
+    "title": "An Evil Fog",
+    "type": "environment",
+    "subtype": "weather",
+    "text_parts": [
+     "Will checks in Arkham are made at a -1 penalty",
+     "Sneak checks in aArkham are made at a +1 bonus.",
+     "Fliers do not move"
+    ],
+    "clue_location": "Unvisited Isle",
+    "gate_location": "Graveyard",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "cross"
+    ],
+    "black": [
+     "cresecent"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[3]"
+   },
+   {
+    "title": "Blackest Night",
+    "type": "environment",
+    "subtype": "mystic",
+    "text_parts": [
+     "Luck checks in Arkham are made at a -1 penalty.",
+     "Sneak checks in Arkham are made at a +1 bonus."
+    ],
+    "clue_location": "Hibb's Roadhouse",
+    "gate_location": "Black Cave",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "square",
+     "diamond"
+    ],
+    "black": [
+     "circle"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[4]"
+   },
+   {
+    "title": "Blood Magic",
+    "type": "environment",
+    "subtype": "mystic",
+    "text_parts": [
+     "Investigators who end their movement in Rivertown streets may choose to delve into the dark mysteries using their life force. They roll dice equal to their current Stamina, and for every failed die they lose 1 Stamina. If this reduces them to 0 Stamina, they are **devoured** and the player must start a new character. Itherwise, they gain 3 Clue tokens."
+    ],
+    "clue_location": "The Unnamable",
+    "gate_location": "Independence Square",
+    "gate_type": "normal",
+    "activity": "Rivertown Streets",
+    "close": null,
+    "white": [
+     "square",
+     "diamond"
+    ],
+    "black": [
+     "circle"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[5]"
+   },
+   {
+    "title": "Blue Flu!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "All investigators in jail are released. No investigators may be *arrested* until the end of the next turn. Leave this card in play until then to indicate this."
+    ],
+    "clue_location": "Woods",
+    "gate_location": "The Unnamable",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "hexagon"
+    ],
+    "black": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[6]"
+   },
+   {
+    "title": "Big Storm Sweeps Arkham!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "All monster in the Sky and Outskirts are returned to the cup."
+    ],
+    "clue_location": "The Unnamable",
+    "gate_location": "Independence Square",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "crescent"
+    ],
+    "black": [
+     "cross"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[7]"
+   },
+   {
+    "title": "Bizarre Dreams Plague Citizens!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "All Gugs and Nightgaunts in Arkham are returned to the cup. If at least one monster returns to the cup, raise the terror level by 1."
+    ],
+    "clue_location": "The Witch House",
+    "gate_location": "Science Building",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "hexagon"
+    ],
+    "black": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[8]"
+   },
+   {
+    "title": "Campus Security Increased!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "All monsters in the Miskatonic U. streets or locations are returned to the cup."
+    ],
+    "clue_location": "The Unnamable",
+    "gate_location": "Independence Square",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "circle"
+    ],
+    "black": [
+     "square",
+     "diamond"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[9]"
+   },
+   {
+    "title": "Church Group Reclaims Southside!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "All monsters in the Southside streets or locations are returned to the cup."
+    ],
+    "clue_location": "Hibb's Roadhouse",
+    "gate_location": "Black Cave",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "hexagon"
+    ],
+    "black": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[10]"
+   },
+   {
+    "title": "City Gripped by Blackouts!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "The General Store, Curiositie Shoppe, and Ye Olde Magick Shoppe are closed until the end of the next turn. Leave this card in play until then to indicate this."
+    ],
+    "clue_location": "Science Building",
+    "gate_location": "Unvisited Isle",
+    "gate_type": "normal",
+    "activity": null,
+    "close": [
+     "The General Store",
+     "Curiositie Shoppe",
+     "Ye Olde Magick Shoppe"
+    ],
+    "white": [
+     "hexagon"
+    ],
+    "black": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[11]"
+   },
+   {
+    "title": "Curfew Enforced",
+    "type": "environment",
+    "subtype": "urban",
+    "text_parts": [
+     "Any investigator who ends his movement in the streets must pass a **Will (+0) check** or be arrested and taken to the Police Station."
+    ],
+    "clue_location": "Science Building",
+    "gate_location": "Unvisited Isle",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "cross"
+    ],
+    "black": [
+     "crescent"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[12]"
+   },
+   {
+    "title": "Darke's Carnival Arrives",
+    "type": "environment",
+    "subtype": "urban",
+    "text_parts": [
+     "Investigators who end their movement in the Northside streets gain 1 Clue token from the sinister wonders they witness, but must pass a **Will (-1) check** or lose 1 Sanity."
+    ],
+    "clue_location": "Woods",
+    "gate_location": "The Unnamable",
+    "gate_type": "normal",
+    "activity": "Northside Streets",
+    "close": null,
+    "white": [
+     "square",
+     "diamond"
+    ],
+    "black": [
+     "circle"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[13]"
+   },
+   {
+    "title": "Disturbin the Dead",
+    "type": "rumor",
+    "subtype": null,
+    "text_parts": [
+     "**Outgoing Effect**: Roll a die at the end of every **Mythos Phase** while this card is in play (beginning the turn after it entered play). On a 1 or 2, increase the terror level by 1.",
+     "**Pass**: If a single player discards 2 gate trophies during the **Arkham Encounter Phase** while in the Rivertown streets, return this card to the box. Each player draws 1 Spell.",
+     "**Fail**: If the terror level reaches 10, return this card to the box. Every investigator is *Cursed*."
+    ],
+    "clue_location": null,
+    "gate_location": "Black Cave",
+    "gate_type": "normal",
+    "activity": "Rivertown Streets",
+    "close": null,
+    "white": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "black": [
+     "hexagon"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[14]"
+   },
+   {
+    "title": "Dreams of a Sunken City",
+    "type": "environment",
+    "subtype": "mystic",
+    "text_parts": [
+     "Investigators cannot gain Sanity except by recieving psychiatric care in Arkham Asylum (or from Carolyn Fen)."
+    ],
+    "clue_location": "The Unnamable",
+    "gate_location": "Independence Square",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "cross"
+    ],
+    "black": [
+     "crescent"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[15]"
+   },
+   {
+    "title": "Egyptian Exhibit Visits Miskatonic U.",
+    "type": "environment",
+    "subtype": "urban",
+    "text_parts": [
+     "Any investigator who ends his movement in the Miskatonic U. streets may pass a **Lore (-1) check** to gain 1 Clue token by reading the strange heiroglyphics on the artifacts in the exhibit."
+    ],
+    "clue_location": "Black Cave",
+    "gate_location": "The Witch House",
+    "gate_type": "normal",
+    "activity": "Miskatonic U. Streets",
+    "close": null,
+    "white": [
+     "cross"
+    ],
+    "black": [
+     "crescent"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[16]"
+   },
+   {
+    "title": "Estate Sale",
+    "type": "environment",
+    "subtype": "urban",
+    "text_parts": [
+     "Investigators who end their movement in the Uptown streets may draw 2 Unique Items and purchase one, none, or both of them at list price, discarding any that are not purchased."
+    ],
+    "clue_location": "Black Cave",
+    "gate_location": "The Witch House",
+    "gate_type": "normal",
+    "activity": "Uptown Streets",
+    "close": null,
+    "white": [
+     "square",
+     "diamond"
+    ],
+    "black": [
+     "circle"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[17]"
+   },
+   {
+    "title": "Family Found Butchered!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "The terror level increased by 1 in light of this tragic news."
+    ],
+    "clue_location": "Unvisited Isle",
+    "gate_location": "Graveyard",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "crescent"
+    ],
+    "black": [
+     "cross"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[18]"
+   },
+   {
+    "title": "Feds Raid Arkham!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "All monsters in the streets are returned to the cup."
+    ],
+    "clue_location": "Hibb's Roadhouse",
+    "gate_location": "Black Cave",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "crescent"
+    ],
+    "black": [
+     "cross"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[19]"
+   },
+   {
+    "title": "Fourth of July Parade!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "Investigators cannot move into our out of the Merchant Dist. streets until the end of the next turn. Leave this card in play until then to indicate this."
+    ],
+    "clue_location": "Black Cave",
+    "gate_location": "The Witch House",
+    "gate_type": "normal",
+    "activity": null,
+    "close": "Merchant Dist. Streets",
+    "white": [
+     "crescent"
+    ],
+    "black": [
+     "cross"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[20]"
+   },
+   {
+    "title": "Gangs Clean Up Easttown!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "All the monsters in the Easttown streets or locations are returned to the cup."
+    ],
+    "clue_location": "Black Cave",
+    "gate_location": "The Witch House",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "circle"
+    ],
+    "black": [
+     "square",
+     "diamond"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[21]"
+   },
+   {
+    "title": "Ghost Ship Docks by Itself!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "An ancient ghost ship arrives in Arkham, releasing 2 monsters into the Merchant Dist. streets."
+    ],
+    "clue_location": "Woods",
+    "gate_location": "The Unnamable",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "crescent"
+    ],
+    "black": [
+     "cross"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[22]"
+   },
+   {
+    "title": "Goat-like Creature Spotted in Woods!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "All Dark Young in Arkham are returned to the cup. If at least one monster returns to the cup, raise the terror level by 1."
+    ],
+    "clue_location": "The Unnamable",
+    "gate_location": "Independence Square",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "hexagon"
+    ],
+    "black": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[23]"
+   },
+   {
+    "title": "Good Work Undone",
+    "type": "rumor",
+    "subtype": null,
+    "text_parts": [
+     "When this card enters play, place 6 Clue tokens on it. Any player may spend Clue tokens during the **Arkham Encounter Phase** while in the Easttown streets to discard Clue tokens from this card on a 1-for-1 basis.",
+     "**Ongoing effect**: Roll two dice at the end of every **Myhthos"
+    ],
+    "clue_location": null,
+    "gate_location": "Unvisited Isle",
+    "gate_type": "normal",
+    "activity": "Easttown Streets",
+    "close": null,
+    "white": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "black": [
+     "hexagon"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[24]"
+   },
+   {
+    "title": "Happy Days are Here Again",
+    "type": "environment",
+    "subtype": "urban",
+    "text_parts": [
+     "Due to the renewed prosperity that has come to Arkham, the terror level cannot increase."
+    ],
+    "clue_location": "Historical Sociert",
+    "gate_location": "Woods",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "square",
+     "diamond"
+    ],
+    "black": [
+     "circle"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[25]"
+   },
+   {
+    "title": "Heate Wave",
+    "type": "environment",
+    "subtype": "weather",
+    "text_parts": [
+     "Fight checks in Arkham are made at a -1 penalty",
+     "Lore checks in Arkham are made at a +1 bonus.",
+     "Fire Vampires have their tougness increased by 1."
+    ],
+    "clue_location": "Indpendence Square",
+    "gate_location": "Woods",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "square",
+     "diamond"
+    ],
+    "black": [
+     "circle"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[26]"
+   },
+   {
+    "title": "Horror at Groundbreaking!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "An ancient stone is disturbed by the construction, releaseing 2 monsters into the Miskatonic U. streets."
+    ],
+    "clue_location": "Silver Twilight Lodge",
+    "gate_location": "Historical Society",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "crescent"
+    ],
+    "black": [
+     "cross"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[27]"
+   },
+   {
+    "title": "Icy Conditions",
+    "type": "environment",
+    "subtype": "weather",
+    "text_parts": [
+     "Investigators recive 1 less movement point during the Movement Phase."
+    ],
+    "clue_location": "Silver Twilight Lodge",
+    "gate_location": "Historical Society",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "cross"
+    ],
+    "black": [
+     "crescent"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[28]"
+   },
+   {
+    "title": "Ill Wind Grips Arkham!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "The first player must pass a **Luck (-1) check** or be *Cursed*."
+    ],
+    "clue_location": "Unvisited Isle",
+    "gate_location": "Graveyard",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "hexagon"
+    ],
+    "black": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[29]"
+   },
+   {
+    "title": "Lodge Member Held for Questioning!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "A Silver Lodge ritual lets 2 monsters loose in the French Hill streets."
+    ],
+    "clue_location": "Hibb's Roadhouse",
+    "gate_location": "Black Cave",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "circle"
+    ],
+    "black": [
+     "square",
+     "diamond"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[30]"
+   },
+   {
+    "title": "Lodge Members Watch the Night!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "All monsters in the French Hill streets or locations are returned to the cup."
+    ],
+    "clue_location": "Science Building",
+    "gate_location": "Unvisited Isle",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "circle"
+    ],
+    "black": [
+     "square",
+     "diamond"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[31]"
+   },
+   {
+    "title": "Manhunt in Arkham!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "All monsters in location are returned to the cup."
+    ],
+    "clue_location": "Independence Square",
+    "gate_location": "Woods",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "black": [
+     "hexagon"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[32]"
+   },
+   {
+    "title": "Merchants March on Crime!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "All monsters in the Merchant Dist. streets or locations are returned to the cup."
+    ],
+    "clue_location": "The Unnamable",
+    "gate_location": "Independence Square",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "circle"
+    ],
+    "black": [
+     "square",
+     "diamond"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[33]"
+   },
+   {
+    "title": "Miskatonic Arctic Expedition Returns!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "Any Elder Things previously claimed as monster trophies by players return to life and are placed in the River Docks."
+    ],
+    "clue_location": "Independence Square",
+    "gate_location": "Hibb's Roadhouse",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "crescent"
+    ],
+    "black": [
+     "cross"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[34]"
+   },
+   {
+    "title": "Missing People Return!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "All investigators currently *lost in time and space* immediately return to Arkham, appearing in a street or location of their choice."
+    ],
+    "clue_location": "Woods",
+    "gate_location": "The Unnamable",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "black": [
+     "hexagon"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[35]"
+   },
+   {
+    "title": "No Once Can Help You Now",
+    "type": "environment",
+    "subtype": "mystic",
+    "text_parts": [
+     "Gate cannot be **sealed**, although they can still be **closed**."
+    ],
+    "clue_location": "Woods",
+    "gate_location": "The Unnamable",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "cross"
+    ],
+    "black": [
+     "crescent"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[36]"
+   },
+   {
+    "title": "Noden's Favor",
+    "type": "environment",
+    "subtype": "mystic",
+    "text_parts": [
+     "It costs 2 fewer Clue tokens to **seal** gates."
+    ],
+    "clue_location": "Black Cave",
+    "gate_location": "The Witch House",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "black": [
+     "hexagon"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[37]"
+   },
+   {
+    "title": "Picnickers Panic!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "A careless picnicker unleashes 2 monsters on the Downtown streets."
+    ],
+    "clue_location": "Science Building",
+    "gate_location": "Unvisited Isle",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "crescent"
+    ],
+    "black": [
+     "cross"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[38]"
+   },
+   {
+    "title": "Planetary Alignment",
+    "type": "environment",
+    "subtype": "mystic",
+    "text_parts": [
+     "Thanks to the mystic energy generated by the planetary alignment, all spells have a Sanity cost of 0."
+    ],
+    "clue_location": "Black Cave",
+    "gate_location": "The Witch House",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "square",
+     "diamond"
+    ],
+    "black": [
+     "circle"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[39]"
+   },
+   {
+    "title": "Police Step Up Patrols in Northside!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "All monsters in the Northside streets or locations are returned to the cup."
+    ],
+    "clue_location": "Graveyard",
+    "gate_location": "Silver Twilight Lodge",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "circle"
+    ],
+    "black": [
+     "square",
+     "diamond"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[40]"
+   },
+   {
+    "title": "Private Security Hired in Updtown!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "All monsters in the Uptown streets or locations are returned to the cup."
+    ],
+    "clue_location": "Historical Society",
+    "gate_location": "Woods",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "circle"
+    ],
+    "black": [
+     "square",
+     "diamond"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[41]"
+   },
+   {
+    "title": "Raining Cats and Dogs",
+    "type": "environment",
+    "subtype": "weather",
+    "text_parts": [
+     "Speed check in Arkham are made at a -1 penalty, and player receive 1 less movement point during the **Movement Phase**.",
+     "Sneak checks in Arkham are made at a +1 bonus",
+     "Return any Fire Vamipires in play to the cup. If a fire Vamipire enters play, return it to the cup and draw a different monster."
+    ],
+    "clue_location": "Independence Square",
+    "gate_location": "Hibb's Roadhouse",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "cross"
+    ],
+    "black": [
+     "crescent"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[42]"
+   },
+   {
+    "title": "Rivertown Residents Take Back Streets!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "All monsters in Rivertown streets or locations are returned to the cup."
+    ],
+    "clue_location": "Black Cave",
+    "gate_location": "The Witch House",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "circle"
+    ],
+    "black": [
+     "square",
+     "diamond"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[43]"
+   },
+   {
+    "title": "R'yleh Rising",
+    "type": "environment",
+    "subtype": "mystic",
+    "text_parts": [
+     "Star Spanw and Maniacs have their toughness increased by 1.",
+     "The difficulty to **seal** or **close** gates to R'yleh is increased by 1."
+    ],
+    "clue_location": "Historical Society",
+    "gate_location": "Woods",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "black": [
+     "hexagon"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[44]"
+   },
+   {
+    "title": "Scientist Warns of Dimension Rift!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "All Dimensional Shamblers and Hounds of Tindalos in Arkham are returned to the cup. If at least one monster returns to the cup, raise the terror level by 1."
+    ],
+    "clue_location": "Science Building",
+    "gate_location": "Unvisited Isle",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "hexagon"
+    ],
+    "black": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[45]"
+   },
+   {
+    "title": "Sheldon Gang Turns to Police for Aid!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "The Sheldon Gang disturbs a burial mound, releasing 2 monsters in to the Updtown streets."
+    ],
+    "clue_location": "Unvisited Isle",
+    "gate_location": "Graveyard",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "circle"
+    ],
+    "black": [
+     "square",
+     "diamond"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[46]"
+   },
+   {
+    "title": "Slum Murders Continue!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "An old basement is opened. releasing 2 monsters into the Easttown streets."
+    ],
+    "clue_location": "Historical Society",
+    "gate_location": "Woods",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "crescent"
+    ],
+    "black": [
+     "cross"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[47]"
+   },
+   {
+    "title": "Solar Eclipse",
+    "type": "environment",
+    "subtype": "mystic",
+    "text_parts": [
+     "Due to the interference of the solar eclipse, no spells may be cast."
+    ],
+    "clue_location": "Unvisited Isle",
+    "gate_location": "Graveyard",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "square",
+     "diamond"
+    ],
+    "black": [
+     "circle"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[48]"
+   },
+   {
+    "title": "Southside Strangler Suspected",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "However, the press is mistaken, and the murders were caused by 2 monsters that are released into the Southside streets."
+    ],
+    "clue_location": "Historical Society",
+    "gate_location": "Woods",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "circle"
+    ],
+    "black": [
+     "square",
+     "diamond"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[49]"
+   },
+   {
+    "title": "Strange Lights on Campus!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "The Library, Administration Building, and Science Building are all closed until the end of the next turn. Leave this card in play until then to indicate this."
+    ],
+    "clue_location": "Historical Society",
+    "gate_location": "Woods",
+    "gate_type": "normal",
+    "activity": null,
+    "close": [
+     "Administration Building",
+     "Library",
+     "Science Building"
+    ],
+    "white": [
+     "hexagon"
+    ],
+    "black": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[50]"
+   },
+   {
+    "title": "Strange Power Flux Plagues City!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "All investigators in Other World aras may immediately return to Arkham."
+    ],
+    "clue_location": "The Unnamable",
+    "gate_location": "Independence Square",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "black": [
+     "hexagon"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[51]"
+   },
+   {
+    "title": "Strange Tremors Cease!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "All the Chthonians and Dholes in Arkham are returned to the cup. If at least one monster returns to the cup, raise the terror level by 1."
+    ],
+    "clue_location": "The Unnamable",
+    "gate_location": "Independence Square",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "hexagon"
+    ],
+    "black": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[52]"
+   },
+   {
+    "title": "Sunny and Clear",
+    "type": "environment",
+    "subtype": "weather",
+    "text_parts": [
+     "Sneak checks in Arkham are made at a -1 penalty.",
+     "Will checks in Arkham are made at a +1 bonus.",
+     "If the Haunter in Darkness is in play, return it to the cup. If the Haunter in Darkness enters play, return it to the cup and draw a difference monster."
+    ],
+    "clue_location": "Hibb's Roadhouse",
+    "gate_location": "Black Cave",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "cross"
+    ],
+    "black": [
+     "crescent"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[53]"
+   },
+   {
+    "title": "Temperence Fever Sweeps City",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "Any investigator with Whiskey must pass a **Sneak (-1) check** or get arrested and take to the Police Station. If this occurs the must discard their Whiskey. In addition, Hibb's Roadhouse is closed until the end of the next turn. Leave this card in play until then to indicate this."
+    ],
+    "clue_location": "Black Cave",
+    "gate_location": "The Witch House",
+    "gate_type": "normal",
+    "activity": null,
+    "close": [
+     "Hibb's Roadhouse"
+    ],
+    "white": [
+     "hexagon"
+    ],
+    "black": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[54]"
+   },
+   {
+    "title": "Terror at the Train Station!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "A rusty train arrives in Arkham, disgorgin 2 monsters in the Northside streets"
+    ],
+    "clue_location": "Black Cave",
+    "gate_location": "The Witch House",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "crescent"
+    ],
+    "black": [
+     "cross"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[55]"
+   },
+   {
+    "title": "The Chill of the Grave",
+    "type": "environment",
+    "subtype": "mystic",
+    "text_parts": [
+     "All **Undead** monsters have their toughness increased by 1."
+    ],
+    "clue_location": "Science Building",
+    "gate_location": "Unvisited Isle",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "cross"
+    ],
+    "black": [
+     "crescent"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[56]"
+   },
+   {
+    "title": "The Festival",
+    "type": "environment",
+    "subtype": "urban",
+    "text_parts": [
+     "The festival has begun! Cultists and Byahkee have their toughness increased by 1."
+    ],
+    "clue_location": "Historical Society",
+    "gate_location": "Woods",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "cross"
+    ],
+    "black": [
+     "crescent"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[57]"
+   },
+   {
+    "title": "The Great Ritual",
+    "type": "rumor",
+    "subtype": null,
+    "text_parts": [
+     "**Ongoing Effect**: Cultists, Witches, Warlocks, and High Priests have their toughness increased by 2 while this card is in play.",
+     "Place 1 Clue token on this card at the end of every **Mythos Phase** (beginning the turn after it entered play).",
+     "**Pass**: If a single player discards 3 spells (4 if there are 5 or more players) while in the French HIll streets during the **Arkham Encounters Phase**, return this card to the box. Each player gains 2 Clue tokens.",
+     "**Fail**: If there are ever 5 or more Clue tokens on this card, return it to the box. From now on, draw 2 mythos cards each **Mythos Phase**. Ignore everything on the first card except for gate opening."
+    ],
+    "clue_location": null,
+    "gate_location": "Graveyard",
+    "gate_type": "normal",
+    "activity": "French Hill Streets",
+    "close": null,
+    "white": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "black": [
+     "hexagon"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[58]"
+   },
+   {
+    "title": "The Man in Black",
+    "type": "environment",
+    "subtype": "mystic",
+    "text_parts": [
+     "Investigators who end their movment in the French Hill streets may deal with the Man in Black to gain power. They roll dice equal to their current Sanity, and for every failed die, the lose 1 Sanity. If this reduces them to 0 Sanity, they are **devoured** and the player must start a new character. Otherwise, they gain 1 Clue token and draw 1 Spell"
+    ],
+    "clue_location": "Black Cave",
+    "gate_location": "The Witch House",
+    "gate_type": "normal",
+    "activity": "French Hill Streets",
+    "close": null,
+    "white": [
+     "cross"
+    ],
+    "black": [
+     "crescent"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[59]"
+   },
+   {
+    "title": "The Southside Strangler Strikes",
+    "type": "rumor",
+    "subtype": null,
+    "text_parts": [
+     "**Ongoing Effect**: Return one Ally from the Ally deck to the box box at random at the end of every **Mythos Phase** while this card is in play (beginning the turn after it entered play). The Southside Strangler has struck again!",
+     "**Pass**: If a single player discards 5 Clue tokens while in Ma's Boarding House during the **Arkham Encounter Phase**, return this card to the box. Each player gains $5 as a reward from the police.",
+     "**Fail**: If there are no Allies to return to the box at the end of the **Mythos Phase**, return this card to the box. Each player must lower either their maximum Sanity or Stamina (their choice) by 1 for the rest of the game."
+    ],
+    "clue_location": null,
+    "gate_location": "Independence Square",
+    "gate_type": "normal",
+    "activity": "Southside Streets",
+    "close": null,
+    "white": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "black": [
+     "hexagon"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[60]"
+   },
+   {
+    "title": "The Stars Are Right",
+    "type": "rumor",
+    "subtype": null,
+    "text_parts": [
+     "**Ongoing Effect**: Roll a die at the end of every **Mythos Phase** while this card is in play (beginning the turn after it entered play). On a 1 or 2, place one doom token on the ancient one's doom tack.",
+     "**Pass**: If a player discards an Ally card while in the Downtown streets during the **Arkham Encounters Phase**, return this card to the box. Each player draws 2 Common Items.",
+     "**Fail**: If the Ancient One awakens, return this card to the box."
+    ],
+    "clue_location": null,
+    "gate_location": "Science Building",
+    "gate_type": "normal",
+    "activity": "Downtown Streets",
+    "close": null,
+    "white": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "black": [
+     "hexagon"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[61]"
+   },
+   {
+    "title": "The Story Continues...",
+    "type": "shuffle",
+    "subtype": null,
+    "text_parts": [
+     "I cannot remember, I **must** not remember what I saw on that dark and foreboding night...",
+     "Shuffle the mythos deck, being sure to include this card in it. After the deck is shuffled, draw a new mythos card for the turn."
+    ],
+    "clue_location": null,
+    "gate_location": null,
+    "gate_type": null,
+    "activity": null,
+    "close": null,
+    "white": null,
+    "black": null,
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[62]"
+   },
+   {
+    "title": "The Terrible Experiment",
+    "type": "rumor",
+    "subtype": null,
+    "text_parts": [
+     "When this card enter play, place 5 monsters form the cup on it. Any player may choose to fight one or more of these monsters while in the Miskatonic U. streets during the **Arkham Encounter Phase**. If defeated, they are claimed as trophies. These monsters do not move, are not considered to be on the board, and do not count against the monster limit.",
+     "**Ongoing Effect**: Place a monster on this card at the end of every **Mythos Phase** (beginning the turn after it entered play.",
+     "**Pass**: If there are no monsters on this card, return it to the box. Each player draws 1 skill.",
+     "**Fail**: If there are 8 monsters on this card return it to the box. Raise the terror level to 10 and place the monsters that were on it into play in the Miskatonic U. streeets."
+    ],
+    "clue_location": null,
+    "gate_location": "Unvisited Isle",
+    "gate_type": "normal",
+    "activity": "Miskatonic U. Streets",
+    "close": null,
+    "white": [
+     "slash",
+     "triangle",
+     "star"
+    ],
+    "black": [
+     "hexagon"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[63]"
+   },
+   {
+    "title": "Things of Darkness",
+    "type": "environment",
+    "subtype": "mystic",
+    "text_parts": [
+     "Ghouls, Formless Spawns, Shaggoths, and Flying Polyps have their toughtness increased by 1."
+    ],
+    "clue_location": "Graveyard",
+    "gate_location": "Silver Twilight Lodge",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "square",
+     "diamond"
+    ],
+    "black": [
+     "circle"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[64]"
+   },
+   {
+    "title": "Vigilante Guard the Night!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "All monsters in the Downtown streets or locations are returned to the cup."
+    ],
+    "clue_location": "Woods",
+    "gate_location": "The Unnamable",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "circle"
+    ],
+    "black": [
+     "square",
+     "diamond"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[65]"
+   },
+   {
+    "title": "Witch Burning Anniversary!",
+    "type": "headline",
+    "subtype": null,
+    "text_parts": [
+     "An ancient curse strikes Arkham, releasing 2 monsters in to the Rivertown streets"
+    ],
+    "clue_location": "Science Building",
+    "gate_location": "Unvisited Isle",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "crescent"
+    ],
+    "black": [
+     "cross"
+    ],
+    "set": "base",
+    "src_ref": "data/mythos.json#mythos[66]"
+   },
+   {
+    "title": "Songs from the Woods",
+    "type": "environment",
+    "subtype": "urban",
+    "text_parts": [
+     "Goat Span, Tcho-tchos, and Dark Young have their toughness increased by 1."
+    ],
+    "clue_location": "C",
+    "gate_location": "",
+    "gate_type": "normal",
+    "activity": null,
+    "close": null,
+    "white": [
+     "cross"
+    ],
+    "black": [
+     "crescent"
+    ],
+    "set": "dunwich_horror",
+    "src_ref": "data/mythos.json#mythos[67]"
+   }
+  ],
+  "arkham_cards": [
+   {
+    "neighborhood": "downtown",
+    "set": "base",
+    "encounters": [
+     {
+      "location": "Arkham Asylum",
+      "text_md": "In the Docot's study, you find a book of helpful notes gathered from inate interviews. Make a **Lore (+0) check** and consult the following chart: Successes: 0) Their stories fill you with horror even as you learn a few bits of knowledge. Lose 1 Sanity and gain 1 Clue token. 1-2) You find several pieces of useful information. Gain 2 Clue tokens. 3+) One of the interviews contains vital information. Gain 3 Clue tokens.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[0].locationEncounters[0]"
+     },
+     {
+      "location": "Bank of Arkham",
+      "text_md": "One of the other cusomers in the bank recognizes you and offers you al ift. Move to any location or street area in Arkham. If you move to a location, immediately have an encounter there.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[0].locationEncounters[1]"
+     },
+     {
+      "location": "Independence Square",
+      "text_md": "A pair of friendly picnickers share their lunch with you. Gain 1 Stamina.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[0].locationEncounters[2]"
+     }
+    ],
+    "src_ref": "data/arkhamEncounters.json#arkhamEncounters[0]"
+   },
+   {
+    "neighborhood": "downtown",
+    "set": "base",
+    "encounters": [
+     {
+      "location": "Arkham Asylum",
+      "text_md": "You are mistaken for an inamate. Doctor Mintz has the guards subdue you and conducts an expirement. Make a **Will (-1)[2] check** to discover the reuslts. If you pass, the injections seems to increase your capacity for learning. Draw 1 Skill. If you fail, his memory drug fails miserably, resulting in lost knowledge. You must discard on of the following (your choice), if able: 4 Clue tokens, or 2 Spells, or 1 Skill.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[1].locationEncounters[0]"
+     },
+     {
+      "location": "Bank of Arkham",
+      "text_md": "You see a richly dress man making a large withdrawal. On the way out, he lights his cigar with a piece of green paper which he then drops o the ground. Pass a **Speed (-1) check** to stub it out with your toe before it burns up. You discover it to be a slightly singed two dollar bill. Gain $2.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[1].locationEncounters[1]"
+     },
+     {
+      "location": "Independence Square",
+      "text_md": "pass a **Fight (-1) check** to intimidate a policeman or he rousts you from the park. Move to the street.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[1].locationEncounters[2]"
+     }
+    ],
+    "src_ref": "data/arkhamEncounters.json#arkhamEncounters[1]"
+   },
+   {
+    "neighborhood": "downtown",
+    "set": "base",
+    "encounters": [
+     {
+      "location": "Arkham Asylum",
+      "text_md": "You find some strange medicine labeled 'Dream Enhancers' in a dusty cabinet. If you choose to take it, make a **Lore (-1) check**. If you pass, your visions show you how to perform a ritual. Draw 1 Spell. Otherwise, nothing happens.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[2].locationEncounters[0]"
+     },
+     {
+      "location": "Bank of Arkham",
+      "text_md": "You find a penny with a strang sigil carved into it. Amused, you flip it in the air, then gasp as you feel the sudden gathering of magical forces around you. Make a **Luck (-2) check**. If you pass, the penny comes up heads. You are *Blessed*. If you fial, it comes up tails. You are *Cursed*.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[2].locationEncounters[1]"
+     },
+     {
+      "location": "Independence Square",
+      "text_md": "There are gypisies camped in the park. THey are master thieves and you are their target. Pass a **Luck (-2) check** or lose 1 item of your choice.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[2].locationEncounters[2]"
+     }
+    ],
+    "src_ref": "data/arkhamEncounters.json#arkhamEncounters[2]"
+   },
+   {
+    "neighborhood": "downtown",
+    "set": "base",
+    "encounters": [
+     {
+      "location": "Arkham Asylum",
+      "text_md": "Nurse Heather accidentally injects you with a sleeping draight. You may make a **Fight (-2) check** to resits. If you fial or chose not to resist, lose your next turn and gain 2 sanity from the prolonged rest. If you pass, nothing happens.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[3].locationEncounters[0]"
+     },
+     {
+      "location": "Bank of Arkham",
+      "text_md": "A teller you've never seen before insists she just saw you come in and make a depoisite the day before. She proves it by showing you your signature. Gain $5, but lose 1 Sanity.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[3].locationEncounters[1]"
+     },
+     {
+      "location": "Independence Square",
+      "text_md": "You touch Founder's Rock. Make a **Luck (-1) check**. If you pass there is an electrifying shock that opens your mind to the elder things of eons past. Lose 1 Stamina, but gain 2 Clue tokens and draw 1 Spell. If you failm you find a strange carving. As you finger the grooves, a gate open here and you are drawn through it.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[3].locationEncounters[2]"
+     }
+    ],
+    "src_ref": "data/arkhamEncounters.json#arkhamEncounters[3]"
+   },
+   {
+    "neighborhood": "downtown",
+    "set": "base",
+    "encounters": [
+     {
+      "location": "Arkham Asylum",
+      "text_md": "Nurse Heather is coming! Make a **SPeed (-1) check** to hide in time. If you pass, you see her drop something as she walks by. Draw 1 Unique Item. If you fail, she throws you out. Move to the street.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[4].locationEncounters[0]"
+     },
+     {
+      "location": "Bank of Arkham",
+      "text_md": "A man wearing dirty and tattered clothing is loitering outside the bank. He offers to sell you his last possession to get some food money for him and his family. If you accept, pay $2 and make a **Luck (-1) check**. If you pass, draw 1 Unique Item. If you fail, draw 1 Common Item.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[4].locationEncounters[1]"
+     },
+     {
+      "location": "Independence Square",
+      "text_md": "Make a **Will (-1) check. If you pass it, **Anna Kaslow** the fortune tell offers her help in your investigation. Taker her Ally card if it is still available. Otherwise gain 2 Clue tokens. If you fail, nothing happens.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[4].locationEncounters[2]"
+     }
+    ],
+    "src_ref": "data/arkhamEncounters.json#arkhamEncounters[4]"
+   },
+   {
+    "neighborhood": "downtown",
+    "set": "base",
+    "encounters": [
+     {
+      "location": "Arkham Asylum",
+      "text_md": "You hear screaming. When you open a heavy cell door to investigate, a dark shape leaps out ad you! It's an insane man in a straighjacket babbling about invisible horros. Make a **Lore (-2) check** to glean some useful information from him. If you pass, gain 2 Clue tokens. If you fail, lose 1 Stamina as he attacks you.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[5].locationEncounters[0]"
+     },
+     {
+      "location": "Bank of Arkham",
+      "text_md": "A little old lady stand in front of you in line counting out a bag of pennies to deposit. Lose 1 Sanity.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[5].locationEncounters[1]"
+     },
+     {
+      "location": "Independence Square",
+      "text_md": "There are gypsies camped in the park. Make a **Luck (-1) check** if you wish to interact with them. If you pass, an old man has spread several items on a blanket for sale. Draw 1 Unique item and you may pay $1 less than the list price. If you fail, a hag comes up to you and tells you death bestows you. You scoff at her and she cuts the side of your face with her fingernail, drawing blood. Lose 1 Stamina and you are *Cursed*.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[5].locationEncounters[2]"
+     }
+    ],
+    "src_ref": "data/arkhamEncounters.json#arkhamEncounters[5]"
+   },
+   {
+    "neighborhood": "downtown",
+    "set": "base",
+    "encounters": [
+     {
+      "location": "Arkham Asylum",
+      "text_md": "The guards of the sanitarium are aware that there is an intruder. Make a **Sneak (-1) check** to escape. If you pass, move to the street. If you fail, you are arrested and taken to the Police Station.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[6].locationEncounters[0]"
+     },
+     {
+      "location": "Bank of Arkham",
+      "text_md": "'This is a stick-up, see? Nobody move!' Three men armed with tommy guns rob the bank while you're standing in line. Make a **Combat (-1) checl**. If you pass, you drive them off. Nothing happens. If you fail, lose all of your money.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[6].locationEncounters[1]"
+     },
+     {
+      "location": "Independence Square",
+      "text_md": "A shadow falls across you form no apparent source and you shiver with more than just cold. Pass a ** Will (-1) check** or lose 1 Stamina and 1 Sanity.",
+      "src_ref": "data/arkhamEncounters.json#arkhamEncounters[6].locationEncounters[2]"
+     }
+    ],
+    "src_ref": "data/arkhamEncounters.json#arkhamEncounters[6]"
+   }
+  ],
+  "locations": [
+   {
+    "name": "Arkham Asylum",
+    "neighborhood": "Downtown",
+    "city": "Arkham",
+    "type": "normal",
+    "stability": "stable",
+    "features": [
+     "clues"
+    ],
+    "ability": "Recover stamina",
+    "set": "base",
+    "src_ref": "data/locations.json#locations[0].locations[0]"
+   },
+   {
+    "name": "Bank of Arkham",
+    "neighborhood": "Downtown",
+    "city": "Arkham",
+    "type": "normal",
+    "stability": "stable",
+    "features": [
+     "blessing"
+    ],
+    "ability": "$10 Bank Loan",
+    "set": "base",
+    "src_ref": "data/locations.json#locations[0].locations[1]"
+   },
+   {
+    "name": "Independence Square",
+    "neighborhood": "Downtown",
+    "city": "Arkham",
+    "type": "normal",
+    "stability": "highly unstable",
+    "features": [
+     "clues",
+     "unique items",
+     "ally"
+    ],
+    "ability": null,
+    "set": "base",
+    "src_ref": "data/locations.json#locations[0].locations[2]"
+   }
+  ]
+ }
+}

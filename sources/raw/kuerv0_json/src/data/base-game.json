@@ -1,0 +1,3501 @@
+{
+  "investigatorSheets": [
+    {
+      "image": "./images/investigators/amanda-sharpe.png",
+      "name": "Amanda Sharpe",
+      "occupation": "the Student",
+      "sanity": 5,
+      "stamina": 5,
+      "home": "Bank of Arkham",
+      "possessions": {
+        "fixed": {
+          "money": 1,
+          "clueToken": 1,
+          "investigatorCards": [],
+          "specialCards": []
+        },
+        "random": [
+          {"deck": "common", "count": 1},
+          {"deck": "unique", "count": 1},
+          {"deck": "spell",  "count": 1},
+          {"deck": "skill",  "count": 3}
+        ]
+      },
+      "focus": 3,
+      "ability": {
+        "name": "Studious",
+        "phase": "Any Phase",
+        "description": "Whenever Amanda draws one or more cards from the Skill deck, she draws one extra card and then discards one of the cards."
+      },
+      "slider": {
+        "spSn": [1, 4],
+        "fiWi": [1, 4],
+        "loLu": [1, 4]
+      }
+    },
+
+    {
+      "image": "./images/investigators/ashcan-pete.png",
+      "name": "Ashcan Pete",
+      "occupation": "the Drifter",
+      "sanity": 4,
+      "stamina": 6,
+      "home": "River Docks",
+      "possessions": {
+        "fixed": {
+          "money": 1,
+          "clueToken": 3,
+          "investigatorCards": [
+            {"deck": "ally", "search": ["Duke"]}
+          ],
+          "specialCards": []
+        },
+        "random": [
+          {"deck": "common", "count": 1},
+          {"deck": "unique", "count": 1},
+          {"deck": "skill", "count": 1}
+        ]
+      },
+      "focus": 1,
+      "ability": {
+        "name": "Scrounge",
+        "phase": "Any Phase",
+        "description": "When Pete draws from the Common item, Unique item, or Spell deck, he may draw from either the top or the bottom of that deck, his choice. Pete may look at the bottom card of those decks at any time."
+      },
+      "slider": {
+        "spSn": [0, 6],
+        "fiWi": [2, 5],
+        "loLu": [0, 3]
+      }
+    },
+
+    {
+      "image": "./images/investigators/bob-jenkins.png",
+      "name": "Bob Jenkins",
+      "occupation": "the Salesman",
+      "sanity": 4,
+      "stamina": 6,
+      "home": "General Store",
+      "possessions": {
+        "fixed": {
+          "money": 9,
+          "clueToken": 0,
+          "investigatorCards": [],
+          "specialCards": []
+        },
+        "random": [
+          {"deck": "common", "count": 3},
+          {"deck": "unique", "count": 2},
+          {"deck": "skill", "count": 1}
+        ]
+      },
+      "focus": 1,
+      "ability": {
+        "name": "Shrewd Dealer",
+        "phase": "Any Phase",
+        "description": "Whenever Bob draws one or more cards from the Common item deck, he draws one extra card and then discards one of the cards."
+      },
+      "slider": {
+        "spSn": [2, 3],
+        "fiWi": [1, 6],
+        "loLu": [0, 4]
+      }
+    },
+
+    {
+      "image": "./images/investigators/carolyn-fern.png",
+      "name": "Carolyn Fern",
+      "occupation": "the Psychologist",
+      "sanity": 6,
+      "stamina": 4,
+      "home": "Arkham Asylum",
+      "possessions": {
+        "fixed": {
+          "money": 7,
+          "clueToken": 1,
+          "investigatorCards": [],
+          "specialCards": []
+        },
+        "random": [
+          {"deck": "common", "count": 2},
+          {"deck": "unique", "count": 2},
+          {"deck": "skill", "count": 1}
+        ]
+      },
+      "focus": 2,
+      "ability": {
+        "name": "Psychology",
+        "phase": "Upkeep",
+        "description": "Dr. Fern may restore 1 Sanity to herself or another character in her location. She cannot raise a character's Sanity higher than that character's maximum Sanity."
+      },
+      "slider": {
+        "spSn": [0,3],
+        "fiWi": [1,4],
+        "loLu": [2,5]
+      }
+    },
+
+    {
+      "image": "./images/investigators/darrell-simmons.png",
+      "name": "Darrell Simmons",
+      "occupation": "the Photographer",
+      "sanity": 4,
+      "stamina": 6,
+      "home": "Newspaper",
+      "possessions": {
+        "fixed": {
+          "money": 4,
+          "clueToken": 1,
+          "investigatorCards": [],
+          "specialCards": [
+            "retainer"
+          ]
+        },
+        "random": [
+          {"deck": "common", "count": 1},
+          {"deck": "unique", "count": 2},
+          {"deck": "skill", "count": 1}
+        ]
+      },
+      "focus": 2,
+      "ability": {
+        "name": "Hometown Advantage",
+        "phase": "Town Encounter",
+        "description": "When drawing location encounters in Arkham, Darrell draws two cards and may choose whichever one of the two he wants. This ability does not work when drawing gate encounters in Other Worlds."
+      },
+      "slider": {
+        "spSn": [2,3],
+        "fiWi": [2,4],
+        "loLu": [0,4]
+      }
+    },
+
+    {
+      "image": "./images/investigators/dexter-drake.png",
+      "name": "Dexter Drake",
+      "occupation": "the Magician",
+      "sanity": 5,
+      "stamina": 5,
+      "home": "Ye Olde Magick Shoppe",
+      "possessions": {
+        "fixed": {
+          "money": 5,
+          "clueToken": 0,
+          "investigatorCards": [
+            {"deck": "spell", "search": ["Shrivelling"]}
+          ],
+          "specialCards": []
+        },
+        "random": [
+          {"deck": "common", "count": 1},
+          {"deck": "unique", "count": 1},
+          {"deck": "spell", "count": 3},
+          {"deck": "skill", "count": 1}
+        ]
+      },
+      "focus": 2,
+      "ability": {
+        "name": "Magical Gift",
+        "phase": "Any Phase",
+        "description": "Whenever The Great Drake draws one or more cards from the Spell deck, he draws one extra card and then discards one of the cards."
+      },
+      "slider": {
+        "spSn": [2,4],
+        "fiWi": [1,3],
+        "loLu": [2,3]
+      }
+    },
+
+    {
+      "image": "./images/investigators/gloria-goldberg.png",
+      "name": "Gloria Goldberg",
+      "occupation": "the Author",
+      "sanity": 6,
+      "stamina": 4,
+      "home": "Velma's Diner",
+      "possessions": {
+        "fixed": {
+          "money": 7,
+          "clueToken": 7,
+          "investigatorCards": [],
+          "specialCards": []
+        },
+        "random": [
+          {"deck": "common", "count": 2},
+          {"deck": "spell", "count": 2},
+          {"deck": "skill", "count": 1}
+        ]
+      },
+      "focus": 2,
+      "ability": {
+        "name": "Psychic Sensitivity",
+        "phase": "Other World Encounter",
+        "description": "When drawing gate encounters in Other Worlds, Gloria draws two cards that match the color of one of the Other World's encounter symbols, then chooses whichever one of the two she wants. This ability does not work when drawing location encounters in Arkham."
+      },
+      "slider": {
+        "spSn": [1,3],
+        "fiWi": [0,5],
+        "loLu": [1,5]
+      }
+    },
+
+    {
+      "image": "./images/investigators/harvey-walters.png",
+      "name": "Harvey Walters",
+      "occupation": "the Professor",
+      "sanity": 7,
+      "stamina": 3,
+      "home": "Administration Building",
+      "possessions": {
+        "fixed": {
+          "money": 5,
+          "clueToken": 1,
+          "investigatorCards": [],
+          "specialCards": []
+        },
+        "random": [
+          {"deck": "unique", "count": 2},
+          {"deck": "spell", "count": 2},
+          {"deck": "skill", "count": 1}
+        ]
+      },
+      "focus": 2,
+      "ability": {
+        "name": "Strong Mind",
+        "phase": "Any Phase",
+        "description": "Harvey reduces all Sanity losses he suffers by 1, to a minimum of 0."
+      },
+      "slider": {
+        "spSn": [0,5],
+        "fiWi": [0,3],
+        "loLu": [3,4]
+      }
+    },
+
+    {
+      "image": "./images/investigators/jenny-barnes.png",
+      "name": "Jenny Barnes",
+      "occupation": "the Dilettante",
+      "sanity": 6,
+      "stamina": 4,
+      "home": "Train Station",
+      "possessions": {
+        "fixed": {
+          "money": 10,
+          "clueToken": 0,
+          "investigatorCards": [],
+          "specialCards": []
+        },
+        "random": [
+          {"deck": "common", "count": 2},
+          {"deck": "unique", "count": 1},
+          {"deck": "spell", "count": 1},
+          {"deck": "skill", "count": 1}
+        ]
+      },
+      "focus": 1,
+      "ability": {
+        "name": "Trust Fund",
+        "phase": "Upkeep",
+        "description": "Jenny gains $1."
+      },
+      "slider": {
+        "spSn": [0,4],
+        "fiWi": [1,5],
+        "loLu": [1,5]
+      }
+    },
+
+    {
+      "image": "./images/investigators/joe-diamond.png",
+      "name": "Joe Diamond",
+      "occupation": "the Private Eye",
+      "sanity": 4,
+      "stamina": 6,
+      "home": "Police Station",
+      "possessions": {
+        "fixed": {
+          "money": 8,
+          "clueToken": 3,
+          "investigatorCards": [
+            {"deck": "common", "search": [".45 Automatic"]}
+          ],
+          "specialCards": []
+        },
+        "random": [
+          {"deck": "common", "count": 2},
+          {"deck": "skill", "count": 1}
+        ]
+      },
+      "focus": 3,
+      "ability": {
+        "name": "Hunches",
+        "phase": "Any Phase",
+        "description": "Joe rolls one extra bonus die when he spends a Clue token to add to a roll."
+      },
+      "slider": {
+        "spSn": [3,4],
+        "fiWi": [2,3],
+        "loLu": [0,3]
+      }
+    },
+
+    {
+      "image": "./images/investigators/kate-winthrop.png",
+      "name": "Kate Winthrop",
+      "occupation": "the Scientist",
+      "sanity": 6,
+      "stamina": 4,
+      "home": "Science Building",
+      "possessions": {
+        "fixed": {
+          "money": 7,
+          "clueToken": 2,
+          "investigatorCards": [],
+          "specialCards": []
+        },
+        "random": [
+          {"deck": "common", "count": 1},
+          {"deck": "unique", "count": 1},
+          {"deck": "spell", "count": 2},
+          {"deck": "skill", "count": 1}
+        ]
+      },
+      "focus": 1,
+      "ability": {
+        "name": "Science!",
+        "phase": "Any Phase",
+        "description": "Gates and monsters cannot appear in Kate's location due to her flux stabilizer. Monsters and gates do not disappear if she enters their location, however, and monsters can move into her location as usual. Do not place a Clue token on the Science Building to start the game."
+      },
+      "slider": {
+        "spSn": [1,5],
+        "fiWi": [1,3],
+        "loLu": [2,4]
+      }
+    },
+
+    {
+      "image": "./images/investigators/mandy-thompson.png",
+      "name": "Mandy Thompson",
+      "occupation": "the Researcher",
+      "sanity": 5,
+      "stamina": 5,
+      "home": "Library",
+      "possessions": {
+        "fixed": {
+          "money": 6,
+          "clueToken": 4,
+          "investigatorCards": [],
+          "specialCards": []
+        },
+        "random": [
+          {"deck": "common", "count": 2},
+          {"deck": "unique", "count": 1},
+          {"deck": "skill", "count": 1}
+        ]
+      },
+      "focus": 2,
+      "ability": {
+        "name": "Research",
+        "phase": "Any Phase",
+        "description": "Once per turn, Mandy can activate this ability after any investigator (including herself) makes a skill check. That investigator then re-rolls all of the dice rolled for that check that did not result in successes."
+      },
+      "slider": {
+        "spSn": [1,5],
+        "fiWi": [0,5],
+        "loLu": [1,3]
+      }
+    },
+
+    {
+      "image": "./images/investigators/michael-mcglen.png",
+      "name": "Michael McGlen",
+      "occupation": "the Gangster",
+      "sanity": 3,
+      "stamina": 7,
+      "home": "Ma's Boarding House",
+      "possessions": {
+        "fixed": {
+          "money": 8,
+          "clueToken": 0,
+          "investigatorCards": [
+            {"deck": "common", "search": ["Dynamite", "Tommy Gun"]}
+          ],
+          "specialCards": []
+        },
+        "random": [
+          {"deck": "unique", "count": 1},
+          {"deck": "skill", "count": 1}
+        ]
+      },
+      "focus": 1,
+      "ability": {
+        "name": "Strong Body",
+        "phase": "Any Phase",
+        "description": "Michael reduces all Stamina losses he suffers by 1, to a minimum of 0."
+      },
+      "slider": {
+        "spSn": [2,4],
+        "fiWi": [3,4],
+        "loLu": [0,3]
+      }
+    },
+
+    {
+      "image": "./images/investigators/monterey-jack.png",
+      "name": "Monterey Jack",
+      "occupation": "the Archaeologist",
+      "sanity": 3,
+      "stamina": 7,
+      "home": "Curiositie Shoppe",
+      "possessions": {
+        "fixed": {
+          "money": 7,
+          "clueToken": 1,
+          "investigatorCards": [
+            {"deck": "common", "search": ["Bull Whip", ".38 Revolver"]}
+          ],
+          "specialCards": []
+        },
+        "random": [
+          {"deck": "unique", "count": 2},
+          {"deck": "skill", "count": 1}
+        ]
+      },
+      "focus": 2,
+      "ability": {
+        "name": "Archaeology",
+        "phase": "Any Phase",
+        "description": "Whenever Monterey draws one or more cards from the Unique item deck, he draws one extra card and then discards one of the cards."
+      },
+      "slider": {
+        "spSn": [1,3],
+        "fiWi": [2,3],
+        "loLu": [1,5]
+      }
+    },
+
+    {
+      "image": "./images/investigators/sister-mary.png",
+      "name": "Sister Mary",
+      "occupation": "the Nun",
+      "sanity": 7,
+      "stamina": 3,
+      "home": "South Church",
+      "possessions": {
+        "fixed": {
+          "money": 0,
+          "clueToken": 0,
+          "blessing": 1,
+          "investigatorCards": [
+            {"deck": "common", "search": ["Cross"]},
+            {"deck": "unique", "search": ["Holy Water"]}
+          ],
+          "specialCards": []
+        },
+        "random": [
+          {"deck": "spell", "count": 2},
+          {"deck": "skill", "count": 1}
+        ]
+      },
+      "focus": 1,
+      "ability": {
+        "name": "Guardian Angel",
+        "phase": "Any Phase",
+        "description": "Sister Mary is never Lost in Time and Space. Instead, if her Sanity is 0, she returns to Arkham Asylum. If her Stamina is 0, she returns to St. Mary's Hospital. If neither her Sanity or her Stamina are 0, she returns to South Church."
+      },
+      "slider": {
+        "spSn": [1,4],
+        "fiWi": [0,4],
+        "loLu": [1,6]
+      }
+    },
+
+    {
+      "image": "./images/investigators/vincent-lee.png",
+      "name": "Vincent Lee",
+      "occupation": "the Doctor",
+      "sanity": 5,
+      "stamina": 5,
+      "home": "St. Mary's Hospital",
+      "possessions": {
+        "fixed": {
+          "money": 9,
+          "clueToken": 1,
+          "investigatorCards": [],
+          "specialCards": []
+        },
+        "random": [
+          {"deck": "common", "count": 2},
+          {"deck": "spell", "count": 2},
+          {"deck": "skill", "count": 1}
+        ]
+      },
+      "focus": 2,
+      "ability": {
+        "name": "Physician",
+        "phase": "Upkeep",
+        "description": "Dr. Lee may restore 1 Stamina to himself or another character in his location. He cannot raise a character's Stamina higher than that character's maximum Stamina."
+      },
+      "slider": {
+        "spSn": [0,5],
+        "fiWi": [0,4],
+        "loLu": [2,4]
+      }
+    }
+  ],
+
+  "investigatorCards": {
+    "common": [
+      {
+        "id": 1,
+        "image": "./images/common/18-derringer.png",
+        "name": ".18 Derringer",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": 2, "check": "Combat checks"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": ".18 Derringer cannot be lost or stolen unless you choose to allow it."
+          }
+        ],
+        "hands": 1,
+        "price": 3,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 2,
+        "image": "./images/common/18-derringer.png",
+        "name": ".18 Derringer",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": 2, "check": "Combat checks"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": ".18 Derringer cannot be lost or stolen unless you choose to allow it."
+          }
+        ],
+        "hands": 1,
+        "price": 3,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 3,
+        "image": "./images/common/38-revolver.png",
+        "name": ".38 Revoler",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": 3, "check": "Combat checks"}
+        ],
+        "description": [],
+        "hands": 1,
+        "price": 4,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 4,
+        "image": "./images/common/38-revolver.png",
+        "name": ".38 Revoler",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": 3, "check": "Combat checks"}
+        ],
+        "description": [],
+        "hands": 1,
+        "price": 4,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 5,
+        "image": "./images/common/45-automatic.png",
+        "name": ".45 Automatic",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": 4, "check": "Combat checks"}
+        ],
+        "description": [],
+        "hands": 1,
+        "price": 5,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 6,
+        "image": "./images/common/45-automatic.png",
+        "name": ".45 Automatic",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": 4, "check": "Combat checks"}
+        ],
+        "description": [],
+        "hands": 1,
+        "price": 5,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 7,
+        "image": "./images/common/ancient-tome.png",
+        "name": "Ancient Tome",
+        "type": "Tome",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Movement",
+            "text": "Exhaust and spend 2 movement points to make a Lore (-1) check. If you pass, draw 1 Spell and discard Ancient Tome. If you fail, nothing happens."
+          }
+        ],
+        "hands": "",
+        "price": 4,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 8,
+        "image": "./images/common/ancient-tome.png",
+        "name": "Ancient Tome",
+        "type": "Tome",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Movement",
+            "text": "Exhaust and spend 2 movement points to make a Lore (-1) check. If you pass, draw 1 Spell and discard Ancient Tome. If you fail, nothing happens."
+          }
+        ],
+        "hands": "",
+        "price": 4,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 9,
+        "image": "./images/common/axe.png",
+        "name": "Axe",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": "+2 (+3 instead if your other hand is empty)", "check": "Combat checks"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": ""
+          }
+        ],
+        "hands": 1,
+        "price": 3,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 10,
+        "image": "./images/common/axe.png",
+        "name": "Axe",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": "+2 (+3 instead if your other hand is empty)", "check": "Combat checks"}
+        ],
+        "description": [],
+        "hands": 1,
+        "price": 3,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 11,
+        "image": "./images/common/bullwhip.png",
+        "name": "Bullwhip",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": 1, "check": "Combat checks"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Exhaust to re-roll 1 die after making a Combat check."
+          }
+        ],
+        "hands": 1,
+        "price": 2,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 12,
+        "image": "./images/common/bullwhip.png",
+        "name": "Bullwhip",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": 1, "check": "Combat checks"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Exhaust to re-roll 1 die after making a Combat check."
+          }
+        ],
+        "hands": 1,
+        "price": 2,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 13,
+        "image": "./images/common/cavalry-saber.png",
+        "name": "Cavalry Saber",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": 2, "check": "Combat checks"}
+        ],
+        "description": [],
+        "hands": 1,
+        "price": 3,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 14,
+        "image": "./images/common/cavalry-saber.png",
+        "name": "Cavalry Saber",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": 2, "check": "Combat checks"}
+        ],
+        "description": [],
+        "hands": 1,
+        "price": 3,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 15,
+        "image": "./images/common/cross.png",
+        "name": "Cross",
+        "type": "Magical Weapon",
+        "bonus": [
+          {"value": "+0 (+3 if Opponent is Undead)", "check": "Combat checks"},
+          {"value": 1, "check": "Horror checks"}
+        ],
+        "description": [],
+        "hands": 1,
+        "price": 3,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 16,
+        "image": "./images/common/cross.png",
+        "name": "Cross",
+        "type": "Magical Weapon",
+        "bonus": [
+          {"value": "+0 (+3 if Opponent is Undead)", "check": "Combat checks"},
+          {"value": 1, "check": "Horror checks"}
+        ],
+        "description": [],
+        "hands": 1,
+        "price": 3,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 17,
+        "image": "./images/common/dark-cloak.png",
+        "name": "Dark Cloak",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Evade checks"}
+        ],
+        "description": [],
+        "hands": "",
+        "price": 2,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 18,
+        "image": "./images/common/dark-cloak.png",
+        "name": "Dark Cloak",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Evade checks"}
+        ],
+        "description": [],
+        "hands": "",
+        "price": 2,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 19,
+        "image": "./images/common/dynamite.png",
+        "name": "Dynamite",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": 8, "check": "Combat checks"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "(Discard after use)"
+          }
+        ],
+        "hands": 2,
+        "price": 4,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 20,
+        "image": "./images/common/dynamite.png",
+        "name": "Dynamite",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": 8, "check": "Combat checks"}
+        ],
+        "description": [],
+        "hands": 2,
+        "price": 4,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 21,
+        "image": "./images/common/food.png",
+        "name": "Food",
+        "type": "",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Discard Food to reduce any Stamina loss by 1."
+          }
+        ],
+        "hands": "",
+        "price": 1,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 22,
+        "image": "./images/common/food.png",
+        "name": "Food",
+        "type": "",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Discard Food to reduce any Stamina loss by 1."
+          }
+        ],
+        "hands": "",
+        "price": 1,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 23,
+        "image": "./images/common/knife.png",
+        "name": "Knife",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": 1, "check": "Combat checks"}
+        ],
+        "description": [],
+        "hands": 1,
+        "price": 2,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 24,
+        "image": "./images/common/knife.png",
+        "name": "Knife",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": 1, "check": "Combat checks"}
+        ],
+        "description": [],
+        "hands": 1,
+        "price": 2,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 25,
+        "image": "./images/common/lantern.png",
+        "name": "Lantern",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Luck checks"}
+        ],
+        "description": [],
+        "hands": "",
+        "price": 3,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 26,
+        "image": "./images/common/lantern.png",
+        "name": "Lantern",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Luck checks"}
+        ],
+        "description": [],
+        "hands": "",
+        "price": 3,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 27,
+        "image": "./images/common/lucky-cigarette-case.png",
+        "name": "Lucky Cigarette Case",
+        "type": "",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Discard Lucky Cigarette Case to re-roll any one Skill check."
+          }
+        ],
+        "hands": "",
+        "price": 1,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 28,
+        "image": "./images/common/lucky-cigarette-case.png",
+        "name": "Lucky Cigarette Case",
+        "type": "",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Discard Lucky Cigarette Case to re-roll any one Skill check."
+          }
+        ],
+        "hands": "",
+        "price": 1,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 29,
+        "image": "./images/common/map-of-arkham.png",
+        "name": "Map of Arkham",
+        "type": "",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Exhaust to get 1 extra movement point."
+          }
+        ],
+        "hands": "",
+        "price": 2,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 30,
+        "image": "./images/common/map-of-arkham.png",
+        "name": "Map of Arkham",
+        "type": "",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Exhaust to get 1 extra movement point."
+          }
+        ],
+        "hands": "",
+        "price": 2,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 31,
+        "image": "./images/common/motorcycle.png",
+        "name": "Motorcycle",
+        "type": "",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Exhaust to get 2 extra movement points."
+          }
+        ],
+        "hands": "",
+        "price": 4,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 32,
+        "image": "./images/common/motorcycle.png",
+        "name": "Motorcycle",
+        "type": "",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Exhaust to get 2 extra movement points."
+          }
+        ],
+        "hands": "",
+        "price": 4,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 33,
+        "image": "./images/common/old-journal.png",
+        "name": "Old Journal",
+        "type": "Tome",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Exhaust and spend 1 movement point to make a Lore (-1) check. If you pass, gain 3 Clue tokens and discard Old Journal. If you fail, nothing happens."
+          }
+        ],
+        "hands": "",
+        "price": 1,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 34,
+        "image": "./images/common/old-journal.png",
+        "name": "Old Journal",
+        "type": "Tome",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Exhaust and spend 1 movement point to make a Lore (-1) check. If you pass, gain 3 Clue tokens and discard Old Journal. If you fail, nothing happens."
+          }
+        ],
+        "hands": "",
+        "price": 1,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 35,
+        "image": "./images/common/research-materials.png",
+        "name": "Research Materials",
+        "type": "",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Discard Research Materials instead of spending 1 Clue token."
+          }
+        ],
+        "hands": "",
+        "price": 1,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 36,
+        "image": "./images/common/research-materials.png",
+        "name": "Research Materials",
+        "type": "",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Discard Research Materials instead of spending 1 Clue token."
+          }
+        ],
+        "hands": "",
+        "price": 1,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 37,
+        "image": "./images/common/rifle.png",
+        "name": "Rifle",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": 5, "check": "Combat checks"}
+        ],
+        "description": [],
+        "hands": 2,
+        "price": 6,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 38,
+        "image": "./images/common/rifle.png",
+        "name": "Rifle",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": 5, "check": "Combat checks"}
+        ],
+        "description": [],
+        "hands": 2,
+        "price": 6,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 39,
+        "image": "./images/common/shotgun.png",
+        "name": "Shotgun",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": 4, "check": "Combat checks"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "When using Shotgun in Combat, all 6's rolled count as 2 successes."
+          }
+        ],
+        "hands": 2,
+        "price": 6,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 40,
+        "image": "./images/common/shotgun.png",
+        "name": "Shotgun",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": 4, "check": "Combat checks"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "When using Shotgun in Combat, all 6's rolled count as 2 successes."
+          }
+        ],
+        "hands": 2,
+        "price": 6,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 41,
+        "image": "./images/common/tommy-gun.png",
+        "name": "Tommy Gun",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": 6, "check": "Combat checks"}
+        ],
+        "description": [],
+        "hands": 2,
+        "price": 7,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 42,
+        "image": "./images/common/tommy-gun.png",
+        "name": "Tommy Gun",
+        "type": "Physical Weapon",
+        "bonus": [
+          {"value": 6, "check": "Combat checks"}
+        ],
+        "description": [],
+        "hands": 2,
+        "price": 7,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 43,
+        "image": "./images/common/whiskey.png",
+        "name": "Whiskey",
+        "type": "",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Discard Whiskey to reduce any Sanity loss by 1."
+          }
+        ],
+        "hands": "",
+        "price": 1,
+        "deck": "common",
+        "exhausted": false
+      },
+
+      {
+        "id": 44,
+        "image": "./images/common/whiskey.png",
+        "name": "Whiskey",
+        "type": "",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Discard Whiskey to reduce any Sanity loss by 1."
+          }
+        ],
+        "hands": "",
+        "price": 1,
+        "deck": "common",
+        "exhausted": false
+      }
+    ],
+
+    "unique": [
+      {
+        "id": 1,
+        "image": "./images/unique/alien-statue.png",
+        "name": "Alien Statue",
+        "type": "",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Exhaust and spend 2 movement points and 1 Sanity to roll a die. If the die is a success, draw 1 Spell or gain 3 Clue tokens. If it is a failure, lose 2 Stamina."
+          }
+        ],
+        "hands": "",
+        "price": 5,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 2,
+        "image": "./images/unique/ancient-tablet.png",
+        "name": "Ancient Tablet",
+        "type": "",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Spend 3 movement points and discard Ancient Tablet to roll 2 dice. For every success rolled, draw 1 Spell. For every failure rolled, gain 2 Clue tokens."
+          }
+        ],
+        "hands": "",
+        "price": 8,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 3,
+        "image": "./images/unique/blue-watcher-of-the-pyramid.png",
+        "name": "Blue Watcher of the Pyramid",
+        "type": "",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Lose 2 Stamina and discard Blue Watcher of the Pyramid to automatically succeed at a Combat check or a Fight check or Lore check made to close a gate. This cannot be used against an Ancient One."
+          }
+        ],
+        "hands": "",
+        "price": 4,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 4,
+        "image": "./images/unique/book-of-dzyan.png",
+        "name": "Book of Dzyan",
+        "type": "Tome",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Exhaust and spend 2 movement points to make a Lore (-1) check. If you pass, draw 1 Spell, lose 1 Sanity, and put 1 Stamina token from the bank on Book of Dzyan. If there are 2 Stamina tokens on it, discard Book of Dzyan. If you fail, nothing happens."
+          }
+        ],
+        "hands": "",
+        "price": 3,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 5,
+        "image": "./images/unique/cabala-of-saboth.png",
+        "name": "Cabala of Saboth",
+        "type": "Tome",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Exhaust and spend 2 movement points to make a Lore (-2) check. If you pass, draw 1 Skill and discard Cabala of Saboth. If you fail, nothing happens."
+          }
+        ],
+        "hands": "",
+        "price": 5,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 6,
+        "image": "./images/unique/cabala-of-saboth.png",
+        "name": "Cabala of Saboth",
+        "type": "Tome",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Exhaust and spend 2 movement points to make a Lore (-2) check. If you pass, draw 1 Skill and discard Cabala of Saboth. If you fail, nothing happens."
+          }
+        ],
+        "hands": "",
+        "price": 5,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 7,
+        "image": "./images/unique/cultes-des-goules.png",
+        "name": "Cultes des Goules",
+        "type": "Tome",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Exhaust and spend 2 movement points to make a Lore (-2) check. If you pass, draw 1 Spell and gain 1 Clue token, but lose 2 Sanity and discard Cultes Des Goules. If you fail, nothing happens."
+          }
+        ],
+        "hands": "",
+        "price": 3,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 8,
+        "image": "./images/unique/cultes-des-goules.png",
+        "name": "Cultes des Goules",
+        "type": "Tome",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Exhaust and spend 2 movement points to make a Lore (-2) check. If you pass, draw 1 Spell and gain 1 Clue token, but lose 2 Sanity and discard Cultes Des Goules. If you fail, nothing happens."
+          }
+        ],
+        "hands": "",
+        "price": 3,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 9,
+        "image": "./images/unique/dragons-eye.png",
+        "name": "Dragon's Eye",
+        "type": "",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Exhaust and lose 1 Sanity after drawing a gate or location card to draw a new card in its place."
+          }
+        ],
+        "hands": "",
+        "price": 6,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 10,
+        "image": "./images/unique/elder-sign.png",
+        "name": "Elder Sign",
+        "type": "",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "When sealing a gate, lose 1 Stamina and 1 Sanity and return this card to the box. You do not need to make a skill check or spend any Clue tokens to seal the gate. In addition, remove one doom token from the Ancient One's doom track."
+          }
+        ],
+        "hands": "",
+        "price": 5,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 11,
+        "image": "./images/unique/elder-sign.png",
+        "name": "Elder Sign",
+        "type": "",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "When sealing a gate, lose 1 Stamina and 1 Sanity and return this card to the box. You do not need to make a skill check or spend any Clue tokens to seal the gate. In addition, remove one doom token from the Ancient One's doom track."
+          }
+        ],
+        "hands": "",
+        "price": 5,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 12,
+        "image": "./images/unique/elder-sign.png",
+        "name": "Elder Sign",
+        "type": "",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "When sealing a gate, lose 1 Stamina and 1 Sanity and return this card to the box. You do not need to make a skill check or spend any Clue tokens to seal the gate. In addition, remove one doom token from the Ancient One's doom track."
+          }
+        ],
+        "hands": "",
+        "price": 5,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 13,
+        "image": "./images/unique/elder-sign.png",
+        "name": "Elder Sign",
+        "type": "",
+        "bonus": [
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "When sealing a gate, lose 1 Stamina and 1 Sanity and return this card to the box. You do not need to make a skill check or spend any Clue tokens to seal the gate. In addition, remove one doom token from the Ancient One's doom track."
+          }
+        ],
+        "hands": "",
+        "price": 5,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 14,
+        "image": "./images/unique/enchanted-blade.png",
+        "name": "Enchanted Blade",
+        "type": "",
+        "bonus": [
+          {"value": 4, "check": "Combat checks"}
+        ],
+        "description": [],
+        "hands": 1,
+        "price": 6,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 15,
+        "image": "./images/unique/enchanted-blade.png",
+        "name": "Enchanted Blade",
+        "type": "",
+        "bonus": [
+          {"value": 4, "check": "Combat checks"}
+        ],
+        "description": [],
+        "hands": 1,
+        "price": 6,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 16,
+        "image": "./images/unique/enchanted-jewelry.png",
+        "name": "Enchanted Jewelry",
+        "type": "",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Put 1 Stamina token from the bank on Enchanted Jewelry to avoid losing 1 Stamina. If there are 3 Stamina tokens on it, discard Enchanted Jewelry."
+          }
+        ],
+        "hands": "",
+        "price": 3,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 17,
+        "image": "./images/unique/enchanted-knife.png",
+        "name": "Enchanted Knife",
+        "type": "Magical Weapon",
+        "bonus": [
+          {"value": 3, "check": "Combat checks"}
+        ],
+        "description": [],
+        "hands": 1,
+        "price": 5,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 18,
+        "image": "./images/unique/enchanted-knife.png",
+        "name": "Enchanted Knife",
+        "type": "Magical Weapon",
+        "bonus": [
+          {"value": 3, "check": "Combat checks"}
+        ],
+        "description": [],
+        "hands": 1,
+        "price": 5,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 19,
+        "image": "./images/unique/flute-of-the-outer-gods.png",
+        "name": "Flute of the Outer Gods",
+        "type": "",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Lose 3 Sanity and 3 Stamina and discard Flute of the Outer Gods before making a Combat check to defeat all monsters in your current area. This does not affect Ancient Ones."
+          }
+        ],
+        "hands": "",
+        "price": 8,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 20,
+        "image": "./images/unique/gate-box.png",
+        "name": "Gate Box",
+        "type": "",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "When you return to Arkham from an Other World, you can return to any location with an open gate, not just those leading to the Other World you were in."
+          }
+        ],
+        "hands": "",
+        "price": 4,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 21,
+        "image": "./images/unique/healing-stone.png",
+        "name": "Healing Stone",
+        "type": "",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Upkeep Phase",
+            "text": "You may gain 1 Stamina or 1 Sanity."
+          },
+
+          {
+            "phase": "",
+            "text": "Discard Healing Stone if the Ancient One awakens."
+          }
+        ],
+        "hands": "",
+        "price": 8,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 22,
+        "image": "./images/unique/holy-water.png",
+        "name": "Holy Water",
+        "type": "Magical Weapon",
+        "bonus": [
+          {"value": 6, "check": "Combat checks"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "(Discard after use)"
+          }
+        ],
+        "hands": 2,
+        "price": 4,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 23,
+        "image": "./images/unique/holy-water.png",
+        "name": "Holy Water",
+        "type": "Magical Weapon",
+        "bonus": [
+          {"value": 6, "check": "Combat checks"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "(Discard after use)"
+          }
+        ],
+        "hands": 2,
+        "price": 4,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 24,
+        "image": "./images/unique/holy-water.png",
+        "name": "Holy Water",
+        "type": "Magical Weapon",
+        "bonus": [
+          {"value": 6, "check": "Combat checks"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "(Discard after use)"
+          }
+        ],
+        "hands": 2,
+        "price": 4,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 25,
+        "image": "./images/unique/holy-water.png",
+        "name": "Holy Water",
+        "type": "Magical Weapon",
+        "bonus": [
+          {"value": 6, "check": "Combat checks"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "(Discard after use)"
+          }
+        ],
+        "hands": 2,
+        "price": 4,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 26,
+        "image": "./images/unique/lamp-of-alhazred.png",
+        "name": "Lamp of Alhazred",
+        "type": "Magical Weapon",
+        "bonus": [
+          {"value": 5, "check": "Combat checks"}
+        ],
+        "description": [],
+        "hands": 2,
+        "price": 7,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 27,
+        "image": "./images/unique/nameless-cults.png",
+        "name": "Nameless Cults",
+        "type": "Tome",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Exhaust and spend 1 movement point to make a Lore (-1) check. If you pass, draw 1 Spell, lose 1 Sanity, and discard Nameless Cults. If you fail, nothing happens."
+          }
+        ],
+        "hands": "",
+        "price": 3,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 28,
+        "image": "./images/unique/nameless-cults.png",
+        "name": "Nameless Cults",
+        "type": "Tome",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Exhaust and spend 1 movement point to make a Lore (-1) check. If you pass, draw 1 Spell, lose 1 Sanity, and discard Nameless Cults. If you fail, nothing happens."
+          }
+        ],
+        "hands": "",
+        "price": 3,
+        "deck": "unique",
+        "exhausted": false
+      },
+      
+      {
+        "id": 29,
+        "image": "./images/unique/necronomicon.png",
+        "name": "Necronomicon",
+        "type": "Tome",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Exhaust and spend 2 movement points to make a Lore (-2) check. If you pass, draw 1 Spell and lose 2 Sanity. If you fail, nothing happens."
+          }
+        ],
+        "hands": "",
+        "price": 6,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 30,
+        "image": "./images/unique/obsidian-statue.png",
+        "name": "Obsidian Statue",
+        "type": "",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Discard Obsidian Statue to cancel all Stamina or Sanity loss being dealt to you from one source."
+          }
+        ],
+        "hands": "",
+        "price": 4,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 31,
+        "image": "./images/unique/pallid-mask.png",
+        "name": "Pallid Mask",
+        "type": "",
+        "bonus": [
+          {"value": 2, "check": "Evade checks"}
+        ],
+        "description": [],
+        "hands": "",
+        "price": 4,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 32,
+        "image": "./images/unique/powder-of-ibn-ghazi.png",
+        "name": "Powder of Ibn-Ghazi",
+        "type": "Magical Weapon",
+        "bonus": [
+          {"value": 9, "check": "Combat checks"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "(Lose 1 Sanity and discard after use)"
+          }
+        ],
+        "hands": 2,
+        "price": 6,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 33,
+        "image": "./images/unique/powder-of-ibn-ghazi.png",
+        "name": "Powder of Ibn-Ghazi",
+        "type": "Magical Weapon",
+        "bonus": [
+          {"value": 9, "check": "Combat checks"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "(Lose 1 Sanity and discard after use)"
+          }
+        ],
+        "hands": 2,
+        "price": 6,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 34,
+        "image": "./images/unique/ruby-of-rlyeh.png",
+        "name": "Ruby of R'lyeh",
+        "type": "",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "You get 3 extra movement points."
+          }
+        ],
+        "hands": "",
+        "price": 8,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 35,
+        "image": "./images/unique/silver-key.png",
+        "name": "Silver Key",
+        "type": "",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Put 1 Stamina token from the bank on Silver Key before making an Evade check to automatically pass it. Discard Silver Key after using it if there are 3 Stamina tokens on it."
+          }
+        ],
+        "hands": "",
+        "price": 4,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 36,
+        "image": "./images/unique/sword-of-glory.png",
+        "name": "Sword of Glory",
+        "type": "Magical Weapon",
+        "bonus": [
+          {"value": 6, "check": "Combat checks"}
+        ],
+        "description": [],
+        "hands": 2,
+        "price": 8,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 37,
+        "image": "./images/unique/the-king-in-yellow.png",
+        "name": "The King in Yellow",
+        "type": "Tome",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Exhaust and spend 2 movement points to make a Lore (-2) check. If you pass, gain 4 Clue tokens, lose 1 Sanity and discard The King in Yellow. If you fail nothing happens."
+          }
+        ],
+        "hands": "",
+        "price": 2,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 38,
+        "image": "./images/unique/the-king-in-yellow.png",
+        "name": "The King in Yellow",
+        "type": "Tome",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Exhaust and spend 2 movement points to make a Lore (-2) check. If you pass, gain 4 Clue tokens, lose 1 Sanity and discard The King in Yellow. If you fail nothing happens."
+          }
+        ],
+        "hands": "",
+        "price": 2,
+        "deck": "unique",
+        "exhausted": false
+      },
+
+      {
+        "id": 39,
+        "image": "./images/unique/warding-statue.png",
+        "name": "The King in Yellow",
+        "type": "",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Discard Warding Statue after failing a Combat check to reduce the monster's combat damage to 0 Stamina. This can also be used to cancel an Ancient One's entire attack for 1 turn."
+          }
+        ],
+        "hands": "",
+        "price": 6,
+        "deck": "unique",
+        "exhausted": false
+      }
+    ],
+
+    "spell": [
+      {
+        "id": 1,
+        "image": "./images/spell/bind-monster.png",
+        "name": "Bind Monster",
+        "type": "",
+        "bonus": [
+          {"value": 4, "check": "Casting Modifier"},
+          {"value": 2, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and Discard this spell to pass one Combat check. You must roll successes equal to the monster's toughness to cast this spell. This spell doesn't work on Ancient Ones."
+          }
+        ],
+        "hands": 2,
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 2,
+        "image": "./images/spell/bind-monster.png",
+        "name": "Bind Monster",
+        "type": "",
+        "bonus": [
+          {"value": 4, "check": "Casting Modifier"},
+          {"value": 2, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and Discard this spell to pass one Combat check. You must roll successes equal to the monster's toughness to cast this spell. This spell doesn't work on Ancient Ones."
+          }
+        ],
+        "hands": 2,
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 3,
+        "image": "./images/spell/dread-curse-of-azathoth.png",
+        "name": "Dread Curse of Azathoth",
+        "type": "",
+        "bonus": [
+          {"value": -2, "check": "Casting Modifier"},
+          {"value": 2, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to gain +9 to Combat checks until the end of this combat."
+          }
+        ],
+        "hands": 2,
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 4,
+        "image": "./images/spell/dread-curse-of-azathoth.png",
+        "name": "Dread Curse of Azathoth",
+        "type": "",
+        "bonus": [
+          {"value": -2, "check": "Casting Modifier"},
+          {"value": 2, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to gain +9 to Combat checks until the end of this combat."
+          }
+        ],
+        "hands": 2,
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 5,
+        "image": "./images/spell/dread-curse-of-azathoth.png",
+        "name": "Dread Curse of Azathoth",
+        "type": "",
+        "bonus": [
+          {"value": -2, "check": "Casting Modifier"},
+          {"value": 2, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to gain +9 to Combat checks until the end of this combat."
+          }
+        ],
+        "hands": 2,
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 6,
+        "image": "./images/spell/dread-curse-of-azathoth.png",
+        "name": "Dread Curse of Azathoth",
+        "type": "",
+        "bonus": [
+          {"value": -2, "check": "Casting Modifier"},
+          {"value": 2, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to gain +9 to Combat checks until the end of this combat."
+          }
+        ],
+        "hands": 2,
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 7,
+        "image": "./images/spell/enchant-weapon.png",
+        "name": "Enchant Weapon",
+        "type": "",
+        "bonus": [
+          {"value": 0, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to make one Physical weapon a Magical weapon until the end of this combat."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 8,
+        "image": "./images/spell/enchant-weapon.png",
+        "name": "Enchant Weapon",
+        "type": "",
+        "bonus": [
+          {"value": 0, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to make one Physical weapon a Magical weapon until the end of this combat."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 9,
+        "image": "./images/spell/enchant-weapon.png",
+        "name": "Enchant Weapon",
+        "type": "",
+        "bonus": [
+          {"value": 0, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to make one Physical weapon a Magical weapon until the end of this combat."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 10,
+        "image": "./images/spell/find-gate.png",
+        "name": "Find Gate",
+        "type": "",
+        "bonus": [
+          {"value": -1, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Cast and exhaust to immediately return to Arkham from an Other World."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 11,
+        "image": "./images/spell/find-gate.png",
+        "name": "Find Gate",
+        "type": "",
+        "bonus": [
+          {"value": -1, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Cast and exhaust to immediately return to Arkham from an Other World."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 12,
+        "image": "./images/spell/find-gate.png",
+        "name": "Find Gate",
+        "type": "",
+        "bonus": [
+          {"value": -1, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Cast and exhaust to immediately return to Arkham from an Other World."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 13,
+        "image": "./images/spell/find-gate.png",
+        "name": "Find Gate",
+        "type": "",
+        "bonus": [
+          {"value": -1, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Movement Phase",
+            "text": "Cast and exhaust to immediately return to Arkham from an Other World."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 14,
+        "image": "./images/spell/flesh-ward.png",
+        "name": "Flesh Ward",
+        "type": "",
+        "bonus": [
+          {"value": -2, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to ignore all Stamina loss being dealt to you from one source. Discard this spell if the Ancient One awakens."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 15,
+        "image": "./images/spell/flesh-ward.png",
+        "name": "Flesh Ward",
+        "type": "",
+        "bonus": [
+          {"value": -2, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to ignore all Stamina loss being dealt to you from one source. Discard this spell if the Ancient One awakens."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 16,
+        "image": "./images/spell/flesh-ward.png",
+        "name": "Flesh Ward",
+        "type": "",
+        "bonus": [
+          {"value": -2, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to ignore all Stamina loss being dealt to you from one source. Discard this spell if the Ancient One awakens."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 17,
+        "image": "./images/spell/flesh-ward.png",
+        "name": "Flesh Ward",
+        "type": "",
+        "bonus": [
+          {"value": -2, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to ignore all Stamina loss being dealt to you from one source. Discard this spell if the Ancient One awakens."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 18,
+        "image": "./images/spell/heal.png",
+        "name": "Heal",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Upkeep Phase",
+            "text": "You may cast and exhaust. You or another investigator in your area gains Stamina equal to the successes you rolled on your Spell check. This Stamina cannot be split between multiple investigators."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 19,
+        "image": "./images/spell/heal.png",
+        "name": "Heal",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Upkeep Phase",
+            "text": "You may cast and exhaust. You or another investigator in your area gains Stamina equal to the successes you rolled on your Spell check. This Stamina cannot be split between multiple investigators."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 20,
+        "image": "./images/spell/heal.png",
+        "name": "Heal",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Upkeep Phase",
+            "text": "You may cast and exhaust. You or another investigator in your area gains Stamina equal to the successes you rolled on your Spell check. This Stamina cannot be split between multiple investigators."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 21,
+        "image": "./images/spell/mists-of-releh.png",
+        "name": "Mists of Releh",
+        "type": "",
+        "bonus": [
+          {"value": "special", "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to pass an Evade check. The casting modifier is equal to the monster's Awareness."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 22,
+        "image": "./images/spell/mists-of-releh.png",
+        "name": "Mists of Releh",
+        "type": "",
+        "bonus": [
+          {"value": "special", "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to pass an Evade check. The casting modifier is equal to the monster's Awareness."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 23,
+        "image": "./images/spell/mists-of-releh.png",
+        "name": "Mists of Releh",
+        "type": "",
+        "bonus": [
+          {"value": "special", "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to pass an Evade check. The casting modifier is equal to the monster's Awareness."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 24,
+        "image": "./images/spell/mists-of-releh.png",
+        "name": "Mists of Releh",
+        "type": "",
+        "bonus": [
+          {"value": "special", "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to pass an Evade check. The casting modifier is equal to the monster's Awareness."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 25,
+        "image": "./images/spell/red-sign-of-shudde-mell.png",
+        "name": "Red Sign of Shudde M'ell",
+        "type": "",
+        "bonus": [
+          {"value": -1, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to lower a monster's toughness by 1 (to a minimum of 1) and ignore one of its special abilities other than Magical Immunity until the end of this combat."
+          }
+        ],
+        "hands": 1,
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 26,
+        "image": "./images/spell/red-sign-of-shudde-mell.png",
+        "name": "Red Sign of Shudde M'ell",
+        "type": "",
+        "bonus": [
+          {"value": -1, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to lower a monster's toughness by 1 (to a minimum of 1) and ignore one of its special abilities other than Magical Immunity until the end of this combat."
+          }
+        ],
+        "hands": 1,
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 27,
+        "image": "./images/spell/shrivelling.png",
+        "name": "Shrivelling",
+        "type": "",
+        "bonus": [
+          {"value": -1, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to gain +6 to Combat checks until the end of this combat."
+          }
+        ],
+        "hands": 1,
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 28,
+        "image": "./images/spell/shrivelling.png",
+        "name": "Shrivelling",
+        "type": "",
+        "bonus": [
+          {"value": -1, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to gain +6 to Combat checks until the end of this combat."
+          }
+        ],
+        "hands": 1,
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 29,
+        "image": "./images/spell/shrivelling.png",
+        "name": "Shrivelling",
+        "type": "",
+        "bonus": [
+          {"value": -1, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to gain +6 to Combat checks until the end of this combat."
+          }
+        ],
+        "hands": 1,
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 30,
+        "image": "./images/spell/shrivelling.png",
+        "name": "Shrivelling",
+        "type": "",
+        "bonus": [
+          {"value": -1, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to gain +6 to Combat checks until the end of this combat."
+          }
+        ],
+        "hands": 1,
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 31,
+        "image": "./images/spell/shrivelling.png",
+        "name": "Shrivelling",
+        "type": "",
+        "bonus": [
+          {"value": -1, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to gain +6 to Combat checks until the end of this combat."
+          }
+        ],
+        "hands": 1,
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 32,
+        "image": "./images/spell/voice-of-ra.png",
+        "name": "Voice of Ra",
+        "type": "",
+        "bonus": [
+          {"value": -1, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Upkeep Phase",
+            "text": "You may cast and exhaust to gain +1 to all skill checks for the rest of this turn."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 33,
+        "image": "./images/spell/voice-of-ra.png",
+        "name": "Voice of Ra",
+        "type": "",
+        "bonus": [
+          {"value": -1, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Upkeep Phase",
+            "text": "You may cast and exhaust to gain +1 to all skill checks for the rest of this turn."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 34,
+        "image": "./images/spell/voice-of-ra.png",
+        "name": "Voice of Ra",
+        "type": "",
+        "bonus": [
+          {"value": -1, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Upkeep Phase",
+            "text": "You may cast and exhaust to gain +1 to all skill checks for the rest of this turn."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 35,
+        "image": "./images/spell/voice-of-ra.png",
+        "name": "Voice of Ra",
+        "type": "",
+        "bonus": [
+          {"value": -1, "check": "Casting Modifier"},
+          {"value": 1, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Upkeep Phase",
+            "text": "You may cast and exhaust to gain +1 to all skill checks for the rest of this turn."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 36,
+        "image": "./images/spell/wither.png",
+        "name": "Wither",
+        "type": "",
+        "bonus": [
+          {"value": 0, "check": "Casting Modifier"},
+          {"value": 0, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to gain +3 to Combat checks until the end of this combat."
+          }
+        ],
+        "hands": 1,
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 37,
+        "image": "./images/spell/wither.png",
+        "name": "Wither",
+        "type": "",
+        "bonus": [
+          {"value": 0, "check": "Casting Modifier"},
+          {"value": 0, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to gain +3 to Combat checks until the end of this combat."
+          }
+        ],
+        "hands": 1,
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 38,
+        "image": "./images/spell/wither.png",
+        "name": "Wither",
+        "type": "",
+        "bonus": [
+          {"value": 0, "check": "Casting Modifier"},
+          {"value": 0, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to gain +3 to Combat checks until the end of this combat."
+          }
+        ],
+        "hands": 1,
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 39,
+        "image": "./images/spell/wither.png",
+        "name": "Wither",
+        "type": "",
+        "bonus": [
+          {"value": 0, "check": "Casting Modifier"},
+          {"value": 0, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to gain +3 to Combat checks until the end of this combat."
+          }
+        ],
+        "hands": 1,
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      },
+
+      {
+        "id": 40,
+        "image": "./images/spell/wither.png",
+        "name": "Wither",
+        "type": "",
+        "bonus": [
+          {"value": 0, "check": "Casting Modifier"},
+          {"value": 0, "check": "Sanity Cost"}
+        ],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Cast and exhaust to gain +3 to Combat checks until the end of this combat."
+          }
+        ],
+        "hands": 1,
+        "price": "",
+        "deck": "spell",
+        "exhausted": false
+      }
+    ],
+
+    "skill": [
+      {
+        "id": 1,
+        "image": "",
+        "name": "Bravery",
+        "type": "",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Exhaust to re-roll a Horror check."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "skill",
+        "exhausted": false
+      },
+
+      {
+        "id": 2,
+        "image": "",
+        "name": "Bravery",
+        "type": "",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Exhaust to re-roll a Horror check."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "skill",
+        "exhausted": false
+      },
+
+      {
+        "id": 3,
+        "image": "",
+        "name": "Expert Occultist",
+        "type": "",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Exhaust to re-roll a Spell check."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "skill",
+        "exhausted": false
+      },
+
+      {
+        "id": 4,
+        "image": "",
+        "name": "Expert Occultist",
+        "type": "",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Exhaust to re-roll a Spell check."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "skill",
+        "exhausted": false
+      },
+
+      {
+        "id": 5,
+        "image": "",
+        "name": "Fight",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Fight"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "When you spend a Clue token to add to any Fight check, add one extra bonus die."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "skill",
+        "exhausted": false
+      },
+
+      {
+        "id": 6,
+        "image": "",
+        "name": "Fight",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Fight"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "When you spend a Clue token to add to any Fight check, add one extra bonus die."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "skill",
+        "exhausted": false
+      },
+
+      {
+        "id": 7,
+        "image": "",
+        "name": "Lore",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Lore"}
+        ],
+        "description": [],
+        "hands": "",
+        "price": "",
+        "deck": "skill",
+        "exhausted": false
+      },
+
+      {
+        "id": 8,
+        "image": "",
+        "name": "Lore",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Lore"}
+        ],
+        "description": [],
+        "hands": "",
+        "price": "",
+        "deck": "skill",
+        "exhausted": false
+      },
+
+      {
+        "id": 9,
+        "image": "",
+        "name": "Luck",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Luck"}
+        ],
+        "description": [],
+        "hands": "",
+        "price": "",
+        "deck": "skill",
+        "exhausted": false
+      },
+
+      {
+        "id": 10,
+        "image": "",
+        "name": "Luck",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Luck"}
+        ],
+        "description": [],
+        "hands": "",
+        "price": "",
+        "deck": "skill",
+        "exhausted": false
+      },
+
+      {
+        "id": 11,
+        "image": "",
+        "name": "Marksman",
+        "type": "",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Exhaust to re-roll a Combat check."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "skill",
+        "exhausted": false
+      },
+
+      {
+        "id": 12,
+        "image": "",
+        "name": "Marksman",
+        "type": "",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Exhaust to re-roll a Combat check."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "skill",
+        "exhausted": false
+      },
+
+      {
+        "id": 13,
+        "image": "",
+        "name": "Sneak",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Sneak"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "When you spend a Clue token to add to any Sneak check, add one extra bonus die."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "skill",
+        "exhausted": false
+      },
+
+      {
+        "id": 14,
+        "image": "",
+        "name": "Sneak",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Sneak"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "When you spend a Clue token to add to any Sneak check, add one extra bonus die."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "skill",
+        "exhausted": false
+      },
+
+      {
+        "id": 15,
+        "image": "",
+        "name": "Speed",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Speed"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "When you spend a Clue token to add to any Speed check, add one extra bonus die."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "skill",
+        "exhausted": false
+      },
+
+      {
+        "id": 16,
+        "image": "",
+        "name": "Speed",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Speed"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "When you spend a Clue token to add to any Speed check, add one extra bonus die."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "skill",
+        "exhausted": false
+      },
+
+      {
+        "id": 17,
+        "image": "",
+        "name": "Stealth",
+        "type": "",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Exhaust to re-roll an Evade check."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "skill",
+        "exhausted": false
+      },
+
+      {
+        "id": 18,
+        "image": "",
+        "name": "Stealth",
+        "type": "",
+        "bonus": [],
+        "description": [
+          {
+            "phase": "Any Phase",
+            "text": "Exhaust to re-roll an Evade check."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "skill",
+        "exhausted": false
+      },
+
+      {
+        "id": 19,
+        "image": "",
+        "name": "Will",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Will"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "When you spend a Clue token to add to any Will check, add one extra bonus die."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "skill",
+        "exhausted": false
+      },
+
+      {
+        "id": 20,
+        "image": "",
+        "name": "Will",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Will"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "When you spend a Clue token to add to any Will check, add one extra bonus die."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "skill",
+        "exhausted": false
+      }
+    ],
+
+    "ally": [
+      {
+        "id": 1,
+        "image": "./images/ally/anna-kaslow.png",
+        "name": "Anna Kaslow",
+        "type": "",
+        "bonus": [
+          {"value": 2, "check": "Luck"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "Gain 2 Clue tokens when Anna Kaslow joins you."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "ally",
+        "exhausted": false
+      },
+      
+      {
+        "id": 2,
+        "image": "./images/ally/duke.png",
+        "name": "Duke",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Maximum Sanity"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "Discard to immediately restore your Sanity to its maximum."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "ally",
+        "exhausted": false
+      },
+
+      {
+        "id": 3,
+        "image": "./images/ally/eric-colt.png",
+        "name": "Eric Colt",
+        "type": "",
+        "bonus": [
+          {"value": 2, "check": "Speed"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "You take no Sanity loss from the Nightmarish ability"
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "ally",
+        "exhausted": false
+      },
+
+      {
+        "id": 4,
+        "image": "./images/ally/john-legrasse.png",
+        "name": "John Legrasse",
+        "type": "",
+        "bonus": [
+          {"value": 2, "check": "Will"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "You can claim monsters with the Endless ability as trophies."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "ally",
+        "exhausted": false
+      },
+
+      {
+        "id": 5,
+        "image": "./images/ally/professor-armitage.png",
+        "name": "Professor Armitage",
+        "type": "",
+        "bonus": [
+          {"value": 2, "check": "Lore"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "Your attacks are not affected by Magical Resistance."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "ally",
+        "exhausted": false
+      },
+
+      {
+        "id": 6,
+        "image": "./images/ally/richard-upton-pickman.png",
+        "name": "Richard Upton Pickman",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Luck"},
+          {"value": 1, "check": "Speed"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "Your attacks are not affected by Physical Resistance."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "ally",
+        "exhausted": false
+      },
+
+      {
+        "id": 7,
+        "image": "./images/ally/ruby-standish.png",
+        "name": "Ruby Standish",
+        "type": "",
+        "bonus": [
+          {"value": 2, "check": "Sneak"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "Draw 1 Unique item when Ruby Standish joins you."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "ally",
+        "exhausted": false
+      },
+
+      {
+        "id": 8,
+        "image": "./images/ally/ryan-dean.png",
+        "name": "Ryan Dean",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Sneak"},
+          {"value": 1, "check": "Will"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "Draw 1 Common item when Ryan Dean joins you."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "ally",
+        "exhausted": false
+      },
+
+      {
+        "id": 9,
+        "image": "./images/ally/sir-william-brinton.png",
+        "name": "Sir William Brinton",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Maximum Stamina"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "Discard to immediately restore your Stamina to its maximum."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "ally",
+        "exhausted": false
+      },
+
+      {
+        "id": 10,
+        "image": "./images/ally/thomas-f-malone.png",
+        "name": "Thomas F. Malone",
+        "type": "",
+        "bonus": [
+          {"value": 1, "check": "Fight"},
+          {"value": 1, "check": "Lore"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "Draw 1 Spell when Thomas F. Malone joins you."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "ally",
+        "exhausted": false
+      },
+      
+      {
+        "id": 11,
+        "image": "./images/ally/tom-moutain-murphy.png",
+        "name": "Tom Mountain Murphy",
+        "type": "",
+        "bonus": [
+          {"value": 2, "check": "Fight"}
+        ],
+        "description": [
+          {
+            "phase": "",
+            "text": "You take no Stamina loss from the Overwhelming ability."
+          }
+        ],
+        "hands": "",
+        "price": "",
+        "deck": "ally",
+        "exhausted": false
+      }
+    ],
+
+    "special": [
+      { "name": "special1" },
+      { "name": "special2" },
+      { "name": "special3" }
+    ]
+  },
+
+  "ancientOneSheets": [
+      { "name": "ancientOne1" },
+      { "name": "ancientOne2" },
+      { "name": "ancientOne3" },
+      { "name": "ancientOne4" },
+      { "name": "ancientOne5" },
+      { "name": "ancientOne6" }
+  ],
+
+  "ancientOneCards": {
+    "location": {
+    },
+
+    "gate": [
+      { "name": "gate1" },
+      { "name": "gate2" },
+      { "name": "gate3" },
+      { "name": "gate4" },
+      { "name": "gate5" },
+      { "name": "gate6" }
+    ],
+
+    "mythos": [
+      { "name": "mythos1" },
+      { "name": "mythos2" },
+      { "name": "mythos3" },
+      { "name": "mythos4" },
+      { "name": "mythos5" },
+      { "name": "mythos6" }
+    ]
+  }
+}

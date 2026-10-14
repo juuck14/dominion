@@ -1,0 +1,678 @@
+{
+ "source_id": "official_docs",
+ "parser": "ah2e.parsers.official_docs",
+ "parsed_at": "2026-10-14T19:38:14+00:00",
+ "status": "ok",
+ "commit_sha": "350ddf1594f9682a3291bcd942013d5378fed98c",
+ "warnings": [],
+ "stats": {
+  "components": 37,
+  "quote_checks": 32,
+  "quote_failures": 0
+ },
+ "records": {
+  "documents": [
+   {
+    "doc_id": "core_rulebook",
+    "title": "Arkham Horror Rulebook (2nd edition, FFG)",
+    "official_url": "https://images-cdn.fantasyflightgames.com/filer_public/e8/17/e817095d-ac80-482b-867b-41b2e41a57f1/arkham_horror_core_rulebook.pdf",
+    "official_url_note": "URL found via web search; host blocked in the build environment, so the file was taken from the helper repository copy and identified by SHA-256.",
+    "official": true,
+    "source_path": "rulebooks/arkham_horror_core_rulebook.pdf",
+    "sha256": "97bd20dd2dca5fe7c07206fe25966937b453cd54404749712f3ed5aff2c6f9e5",
+    "pages": 24,
+    "extractor": "pdftotext",
+    "text_cache": ".cache/text/core_rulebook.pages.json",
+    "text_from": "cache:pdftotext",
+    "pages_available": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "doc_id": "complete_faq",
+    "title": "Complete Arkham Horror FAQ (FFG)",
+    "official_url": null,
+    "official_url_note": "Official FFG CDN URL not verified (host blocked); file taken from the helper repository copy.",
+    "official": true,
+    "source_path": "rulebooks/complete_arkham_horror_faq.pdf",
+    "sha256": "0c7a5fea0f4aa77f7d7594c8ba34280c4a5551083649830bcbe8eb715594d4a8",
+    "pages": 43,
+    "extractor": "pdftotext",
+    "text_cache": ".cache/text/complete_faq.pages.json",
+    "text_from": "cache:pdftotext",
+    "pages_available": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43
+    ]
+   },
+   {
+    "doc_id": "eog_rules_summary",
+    "title": "Esoteric Order of Gamers - Arkham Horror rules summary & reference v7.6 (Oct 2017)",
+    "official_url": "https://www.orderofgamers.com",
+    "official_url_note": "Fan-made, NOT official. Used only as a secondary cross-reference.",
+    "official": false,
+    "source_path": "rulebooks/ArkhamHorror_v7.6.pdf",
+    "sha256": "150c6c7c068f1c5cc504a3c8811b5fc4b865bc63402db4f5a77d974b63d8b6fc",
+    "pages": 20,
+    "extractor": "pdftotext",
+    "text_cache": ".cache/text/eog_rules_summary.pages.json",
+    "text_from": "cache:pdftotext",
+    "pages_available": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20
+    ]
+   }
+  ],
+  "components": [
+   {
+    "name": "Rule Book",
+    "quantity": 1,
+    "detail": "this book",
+    "quote": "1 Rule Book (this book)",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Game Board",
+    "quantity": 1,
+    "detail": null,
+    "quote": "1 Game Board",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "First Player Marker",
+    "quantity": 1,
+    "detail": null,
+    "quote": "1 First Player Marker",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Dice",
+    "quantity": 5,
+    "detail": null,
+    "quote": "5 Dice",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Investigator Sheets",
+    "quantity": 16,
+    "detail": null,
+    "quote": "16 Investigator Sheets",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Investigator Markers",
+    "quantity": 16,
+    "detail": null,
+    "quote": "16 Investigator Markers",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Plastic Investigator Stands",
+    "quantity": 16,
+    "detail": null,
+    "quote": "16 Plastic Investigator Stands",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Investigator Status Tokens",
+    "quantity": 196,
+    "detail": null,
+    "quote": "196 Investigator Status Tokens",
+    "children_sum": 196,
+    "children_sum_ok": true,
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Money Tokens",
+    "quantity": 56,
+    "detail": null,
+    "quote": "56 Money Tokens",
+    "parent": "Investigator Status Tokens",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Sanity Tokens",
+    "quantity": 34,
+    "detail": "10 “threes” and 24 “ones”",
+    "quote": "34 Sanity Tokens (10 “threes” and 24 “ones”)",
+    "parent": "Investigator Status Tokens",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Stamina Tokens",
+    "quantity": 34,
+    "detail": "10 “threes” and 24 “ones”",
+    "quote": "34 Stamina Tokens (10 “threes” and 24 “ones”)",
+    "parent": "Investigator Status Tokens",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Clue Tokens",
+    "quantity": 48,
+    "detail": null,
+    "quote": "48 Clue Tokens",
+    "parent": "Investigator Status Tokens",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Skill Sliders",
+    "quantity": 24,
+    "detail": null,
+    "quote": "24 Skill Sliders",
+    "parent": "Investigator Status Tokens",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Investigator Cards",
+    "quantity": 189,
+    "detail": null,
+    "quote": "189 Investigator Cards",
+    "children_sum": 189,
+    "children_sum_ok": true,
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Common Items",
+    "quantity": 44,
+    "detail": null,
+    "quote": "44 Common Items",
+    "parent": "Investigator Cards",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Unique Items",
+    "quantity": 39,
+    "detail": null,
+    "quote": "39 Unique Items",
+    "parent": "Investigator Cards",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Spells",
+    "quantity": 40,
+    "detail": null,
+    "quote": "40 Spells",
+    "parent": "Investigator Cards",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Skills",
+    "quantity": 20,
+    "detail": null,
+    "quote": "20 Skills",
+    "parent": "Investigator Cards",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Allies",
+    "quantity": 11,
+    "detail": null,
+    "quote": "11 Allies",
+    "parent": "Investigator Cards",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Special Cards",
+    "quantity": 35,
+    "detail": null,
+    "quote": "35 Special Cards",
+    "parent": "Investigator Cards",
+    "children_sum": 35,
+    "children_sum_ok": true,
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Retainers",
+    "quantity": 8,
+    "detail": null,
+    "quote": "8 Retainers",
+    "parent": "Special Cards",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Silver Twilight Lodge Memberships",
+    "quantity": 8,
+    "detail": null,
+    "quote": "8 Silver Twilight Lodge Memberships",
+    "parent": "Special Cards",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Bank Loans",
+    "quantity": 8,
+    "detail": null,
+    "quote": "8 Bank Loans",
+    "parent": "Special Cards",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Blessing/Curse Cards",
+    "quantity": 8,
+    "detail": null,
+    "quote": "8 Blessing/Curse Cards",
+    "parent": "Special Cards",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Deputy Cards",
+    "quantity": 3,
+    "detail": null,
+    "quote": "3 Deputy Cards",
+    "parent": "Special Cards",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Ancient One Sheets",
+    "quantity": 8,
+    "detail": null,
+    "quote": "8 Ancient One Sheets",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Doom Tokens",
+    "quantity": 20,
+    "detail": null,
+    "quote": "20 Doom Tokens",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Ancient One Cards",
+    "quantity": 179,
+    "detail": null,
+    "quote": "179 Ancient One Cards",
+    "children_sum": 179,
+    "children_sum_ok": true,
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Location Cards",
+    "quantity": 63,
+    "detail": null,
+    "quote": "63 Location Cards",
+    "parent": "Ancient One Cards",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Mythos Cards",
+    "quantity": 67,
+    "detail": null,
+    "quote": "67 Mythos Cards",
+    "parent": "Ancient One Cards",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Gate Cards",
+    "quantity": 49,
+    "detail": null,
+    "quote": "49 Gate Cards",
+    "parent": "Ancient One Cards",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Monster Markers",
+    "quantity": 60,
+    "detail": null,
+    "quote": "60 Monster Markers",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Gate Markers",
+    "quantity": 16,
+    "detail": null,
+    "quote": "16 Gate Markers",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Activity Markers",
+    "quantity": 3,
+    "detail": null,
+    "quote": "3 Activity Markers",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Explored Markers",
+    "quantity": 3,
+    "detail": null,
+    "quote": "3 Explored Markers",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Terror Track Marker",
+    "quantity": 1,
+    "detail": null,
+    "quote": "1 Terror Track Marker",
+    "doc_id": "core_rulebook",
+    "page": 2
+   },
+   {
+    "name": "Closed Markers",
+    "quantity": 6,
+    "detail": null,
+    "quote": "6 Closed Markers",
+    "doc_id": "core_rulebook",
+    "page": 2
+   }
+  ],
+  "quote_checks": [
+   {
+    "file": "manual/errata_base.json",
+    "id": "errata.inv.jenny_barnes.random_common_items",
+    "page": 1,
+    "ok": true
+   },
+   {
+    "file": "manual/errata_base.json",
+    "id": "errata.inv.bob_jenkins.money",
+    "page": 1,
+    "ok": true
+   },
+   {
+    "file": "manual/errata_base.json",
+    "id": "errata.card.flesh_ward.sanity_cost",
+    "page": 1,
+    "ok": true
+   },
+   {
+    "file": "manual/errata_base.json",
+    "id": "errata.card.flesh_ward.text",
+    "page": 1,
+    "ok": true
+   },
+   {
+    "file": "manual/errata_base.json",
+    "id": "errata.card.healing_stone.price",
+    "page": 1,
+    "ok": true
+   },
+   {
+    "file": "manual/errata_base.json",
+    "id": "errata.card.healing_stone.text",
+    "page": 1,
+    "ok": true
+   },
+   {
+    "file": "manual/errata_base.json",
+    "id": "errata.card.lantern.price",
+    "page": 1,
+    "ok": true
+   },
+   {
+    "file": "manual/errata_base.json",
+    "id": "errata.card.lantern.text",
+    "page": 1,
+    "ok": true
+   },
+   {
+    "file": "manual/errata_base.json",
+    "id": "errata.card.elder_sign.text",
+    "page": 1,
+    "ok": true
+   },
+   {
+    "file": "manual/errata_base.json",
+    "id": "errata.encounter.police_station.deputy_dingby",
+    "page": 2,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "monster_movement_types.quote",
+    "page": 21,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "monster_special_abilities.ambush",
+    "page": 24,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "monster_special_abilities.endless",
+    "page": 24,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "monster_special_abilities.physical_resistance",
+    "page": 24,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "monster_special_abilities.magical_resistance",
+    "page": 24,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "monster_special_abilities.physical_immunity",
+    "page": 24,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "monster_special_abilities.magical_immunity",
+    "page": 24,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "monster_special_abilities.nightmarish",
+    "page": 24,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "monster_special_abilities.overwhelming",
+    "page": 24,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "awakening_open_gates.quote",
+    "page": 24,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "monster_limit.quote",
+    "page": 24,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "monster_limit.note_quote",
+    "page": 24,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "outskirts_limit.quote",
+    "page": 24,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "terror_level_events.quote",
+    "page": 24,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "location_stability.quote",
+    "page": 24,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "board_structure.quote",
+    "page": 21,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "board_structure.special_areas_quote",
+    "page": 21,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "special_card_limit.quote",
+    "page": 23,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "victory_conditions.quote",
+    "page": 12,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "victory_conditions.close_the_gates",
+    "page": 12,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "victory_conditions.seal_the_gates",
+    "page": 12,
+    "ok": true
+   },
+   {
+    "file": "manual/rulebook_reference.json",
+    "id": "victory_conditions.banish_the_ancient_one",
+    "page": 12,
+    "ok": true
+   }
+  ],
+  "faq_meta": {
+   "version": "v2.0",
+   "date": "December 5, 2012",
+   "quote": "Arkham Horror FAQ v2.0\nDecember 5, 2012"
+  },
+  "rulebook_meta": {
+   "copyright_years": "2005, 2006",
+   "quote": "© 2005, 2006 Fantasy Flight Publishing",
+   "note": "'2005, 2006' = revised-printing rulebook (FAQ: revised printing Fall 2006)"
+  }
+ }
+}

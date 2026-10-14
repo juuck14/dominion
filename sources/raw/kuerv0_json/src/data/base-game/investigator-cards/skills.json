@@ -1,0 +1,73 @@
+{
+   "Skills": [
+     {
+       "name": "bravery",
+       "modifier": "",
+       "description": "<b>Any Phase:</b> Exhaust to re-roll a <b>Horror check</b>.",
+       "count": 2
+     },
+
+     {
+       "name": "expert occultist",
+       "modifier": "",
+       "description": "<b>Any Phase:</b> Exhaust to re-roll a <b>Spell check</b>.",
+       "count": 2
+     },
+
+     {
+       "name": "fight",
+       "modifier": "+1 Fight",
+       "description": "When you spend a Clue token to add to any <b>Fight check</b>, add one extra bonus die.",
+       "count": 2
+     },
+
+     {
+       "name": "lore",
+       "modifier": "+1 Lore",
+       "description": "When you spend a Clue token to add to any <b>Lore check</b>, add one extra bonus die.",
+       "count": 2
+     },
+
+     {
+       "name": "marksman",
+       "modifier": "",
+       "description": "<b>Any Phase:</b> Exhaust to re-roll a <b>Combat check</b>.",
+       "count": 2
+     },
+
+     {
+       "name": "stealth",
+       "modifier": "",
+       "description": "<b>Any Phase:</b> Exhaust to re-roll a <b>Evade check</b>.",
+       "count": 2
+     },
+
+     {
+       "name": "speed",
+       "modifier": "+1 Speed",
+       "description": "When you spend a Clue token to add to any <b>Speed check</b>, add one extra bonus die.",
+       "count": 2
+     },
+
+     {
+       "name": "luck",
+       "modifier": "+1 Luck",
+       "description": "When you spend a Clue token to add to any <b>Luck check</b>, add one extra bonus die.",
+       "count": 2
+     },
+
+     {
+       "name": "sneak",
+       "modifier": "+1 Sneak",
+       "description": "When you spend a Clue token to add to any <b>Sneak check</b>, add one extra bonus die.",
+       "count": 2
+     },
+
+     {
+       "name": "will",
+       "modifier": "+1 Will",
+       "description": "When you spend a Clue token to add to any <b>Will check</b>, add one extra bonus die.",
+       "count": 2
+     }
+   ]
+}

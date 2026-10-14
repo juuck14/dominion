@@ -1,0 +1,106 @@
+Q: When a location encounter states that an investigator has an Other World encounter and then immediately
+returns, what should occur if the Other World encounter
+delays the player?
+A: The investigator immediately returns to the location in
+which he had his location encounter and is delayed there.
+
+Arkham Mythos Card affect the first player in Other
+Worlds?
+A: Yes. The text of the effect does not mention “in
+Arkham.”
+Q: When a card or other game effect instructs a player to
+draw a Mythos Card outside of the Mythos Phase, does the
+card have any effect beyond that described by that specific
+game effect?
+A: No. It is discarded without further effect.
+
+Q: When an encounter in the Other World refers to “the
+gate you entered” does it mean the exact gate or does it
+mean any gate that leads to the Other World you’re in?
+A: The exact gate.
+
+Q: If a special ability activates by the drawing of a Mythos
+Card, such as Ghroth’s Mystic ability (Herald) [KH], when
+does it activate? Are these special abilities activated if
+Mythos Cards are drawn for ancillary information, such
+as to find a gate location for a new Servant of Glaaki
+(Monster) [DH]?
+A: The special ability is resolved before any part of the
+Mythos card is resolved. The ability is only triggered if the
+Mythos Card is being resolved in full.
+
+Q: An Abyss encounter says “the caverns split” and make
+a Luck check. If the result is 0-1 successes, the investigator must “Move to the Black Cave.” If there is a gate on
+the Black Cave location (not necessarily to the Abyss),
+would the investigator get an explored marker since the
+card does not say “return to Arkham?”
+A: No. The investigator got spat out of an unexpected exit
+and was not returned to Arkham.
+Q: Are doom tokens added even if a gate doesn’t appear
+(i.e. if a gate opens on Kate Winthrop’s location)?
+A: No.
+
+Q: When the Fourth of July Parade! is resolved, where
+does an investigator go if he is kicked out or Barred
+[CotDP] from a location in the Merchant District?
+A: Immediately move the shortest distance needed to
+leave. If 2 or more spaces are tied for the shortest, the
+player chooses.
+
+Mythos Cards
+
+Q: Is the Deputy subject to the “Curfew Enforced” Mythos
+card? In other words – if the Deputy stays on the streets at
+the end of his turn, can he be sent to jail?
+A: No. The Deputy is not subject to the penalty for being
+on the streets when Curfew is active.
+
+Q: If investigators fail The Terrible Experiment while the
+Raining Cats and Dogs environment is in play, would that
+send Fire Vampires that were on the card to the cup?
+A: Yes.
+
+Q: Do cards that affect monsters at Miskatonic University
+(such as the “Campus Security Increased” Mythos card or
+the “Flute of the Outer Gods” Unique Item) affect monsters spawned by “The Terrible Experiment”?
+A: No. Those monsters are not actually on the board; they
+can only be fought as if they were.
+
+Q: When a Mythos Card says all Chthonians and Dholes
+in Arkham are returned to the cup, does the Outskirts
+count as “in Arkham?”
+A: No.
+Q: Do the effects of environment cards supersede other
+game effects, for example if the Planetary Alignment card
+is in play (which sets Sanity costs of spells at zero) at
+the same time as the Miriam Beecher Blight Card [KiY]
+(which increases the Sanity costs of spells by one), how
+are the two effects reconciled?
+A: The environment card takes precedence, even in conflicts with other mythos cards. In the example, Sanity costs
+for spell would be zero and the increase in the cost mentioned of Miriam Beecher’s Blight Card is disregarded.
+
+Q: What do activity markers do? Are they just referenced
+by cards that I haven’t seen yet?
+A: Activity markers are just reminders of activity that is
+occurring in an area. They are most often used to mark
+where a Rumor is active, but may be used for other activities that occur from the Mythos cards as well.
+Q: Do environment cards affect investigators in Other
+Worlds? Since most cards specifically state “in Arkham,”
+does the absence of this phrase include the Other Worlds?
+In particular, do cards that increase the toughness of monsters also increase any monsters that appear in the Other
+World as a result of an encounter?
+A: Yes. If the phrase “in Arkham” is not within the text of
+the effect, then it affects investigators in the Other Worlds.
+
+Q: If an investigator with an explored marker is in the
+same location or street area as a gate and a Clue token is
+placed in that location or street area during the Mythos
+Phase, does the investigator gain the Clue token or does it
+not appear due to the gate?
+A: The Clue token does not appear due to the gate.
+
+Q: Does the All Quiet in Arkham! Mythos Card affect
+investigators in Other Worlds? Does the Ill Wind Grips
+
+10
+

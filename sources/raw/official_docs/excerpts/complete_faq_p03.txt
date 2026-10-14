@@ -1,0 +1,100 @@
+Investigator Status
+
+an open gate (and therefore a monster is placed at every
+location with an open gate), this is now called a monster
+surge. When a monster surge occurs, the number of monsters drawn and placed is now equal to the number of open
+gates or the number of players, whichever is greater.
+When placing monsters, they must be divided as evenly as
+possible among the open gates, with no gate having more
+monsters placed on it than the gate where the monster surge
+occurred this turn. If there are more monsters to be placed
+than allowed by the monster limit, the players should
+decide where monsters will be placed. The players must
+make this decision before monsters have been drawn from
+the cup. If the players cannot agree where the monsters are
+to be placed, the first player decides the placement.
+
+(page 16 in the first printing of the Arkham Horror rules)
+If an investigator is reduced to both 0 Sanity and 0
+Stamina at the same time, that investigator is devoured.
+If an investigator’s maximum sanity or maximum stamina is reduced to 0, that investigator is devoured.
+The above change has been incorporated into the rulebook included in the revised edition of Arkham Horror.
+
+The Terror Track
+
+(page 18 in the first printing of the Arkham Horror rules)
+Once the terror level has reached 10, if it ever increases
+again (via a Mythos card special ability, for example),
+instead of moving the terror track marker, add one doom
+token to the Ancient One’s doom track for each point the
+terror level should have increased.
+
+Example: There are 3 open gates (at the Black Cave,
+Science Building, and Unvisited Isle), 7 players, and no
+monsters in play when a mythos card is drawn that opens
+a gate at the Black Cave. This causes a monster surge: 7
+monsters are drawn from the cup and placed on the open
+gates. They must be distributed as evenly as possible, so
+each of the 3 gates has 2 monsters placed on it, and the 7th
+monster is placed on the Black Cave, where the monster
+surge occurred. The Black Cave now has 3 monsters, while
+the other 2 open gates each have 2 monsters on them.
+
+The above changes have been incorporated into the rulebook included in the revised edition of Arkham Horror.
+When the Terror Track reaches 10, return all monsters in
+the Outskirts to the monster cup.
+
+The Ancient One Awakens
+
+The above changes have been incorporated into the rulebook included in the revised edition of Arkham Horror.
+
+(pages 18-19 in the first printing of the Arkham
+Horror rules)
+
+Encounters that Close Gates
+
+The Ancient One also awakens if a monster should be
+drawn from the monster cup, but there are no monsters in
+the cup.
+
+Some encounters or other card effects state that a gate
+closes or that the investigator may close a gate if they
+wish. In such cases, the gate marker is not taken as a trophy, but is instead placed on the bottom of the gate marker
+stack. This gate cannot be sealed, even if the current
+player has an Elder Sign, sufficient Clue tokens to seal it,
+or both.
+
+The Ancient One also awakens if a new gate would open,
+but there are no gate markers available.
+The Ancient One also awakens if the terror level has
+reached 10 and there are monsters in play equal to twice
+the normal monster limit (for example, 16 monsters in a
+five-player game).
+
+Gates in Stable Locations or the Streets
+
+Occasionally, a game effect may make it possible to close
+a gate either in a stable location or in the streets. A gate
+may only be sealed when it is located on an unstable location. Gates in a stable location or in the streets can be
+closed, but cannot be sealed.
+
+The above changes have been incorporated into the rulebook included in the revised edition of Arkham Horror.
+For determining if the Ancient One will awaken after the
+terror level has reached 10, only count those monsters in
+the Sky or an Arkham neighborhood. Do not count monsters on an expansion game board.
+
+Weapons and Spell Limits
+
+(page 15 in the first printing of the Arkham Horror rules)
+A spell or weapon that gives you a bonus (even one that
+says it lasts until the end of combat) only continues to give
+you the bonus while you devote the required number of
+hands to it. You can choose to switch weapons/spells in
+later combat rounds, but as soon as you “release” a spell or
+weapon, it stops working for you. Similarly, spells that are
+refreshed (such as at the beginning of each combat round
+in the Final Battle) cease to work and must be re-cast.
+The above change has been incorporated into the rulebook included in the revised edition of Arkham Horror.
+
+3
+

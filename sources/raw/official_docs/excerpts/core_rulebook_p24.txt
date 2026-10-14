@@ -1,0 +1,199 @@
+Location Icons
+Above each location on the game board is either a green or red
+diamond. This diamond indicates the relative danger of the location.
+Locations with green diamonds are stable. Monsters and gates
+will never appear in these locations, although it is possible for
+monsters to move to them in certain circumstances.
+Locations with red diamonds are unstable. Monsters and gates
+can appear in these locations, sometimes even as a result of
+encounters. These locations should be approached with caution.
+Each location on the map also has several icons associated with
+it. These icons tell the players the most likely outcomes they can
+expect when they go to that location. The following is a key to
+the icons you will find at different locations on the board:
+Allies
+
+Sanity
+
+Blessing
+
+Skills
+
+Clue Tokens
+
+Spells
+
+Common Items
+
+Stamina
+
+Money
+
+Unique Items
+
+Additionally, each unstable location gives players the possibility of encountering an Ally, and Clue tokens will often appear
+in these locations as a result of resolving Mythos cards.
+Some locations have special location icons that have their colors reversed, such as the Sanity icon on Arkham Asylum.
+These icons indicate that there is a guaranteed method of
+acquiring the described item at that location.
+
+Monster Special Abilities
+
+Common monster special abilities are described in detail below.
+
+Ambush: Once combat has begun with this creature, the investigator no longer has the option to flee it, but must instead fight until
+one or the other is defeated.
+Endless: A monster with this ability cannot be collected as a monster
+trophy. Instead, each time it is defeated, return it to the cup.
+Physical/Magical Resistance: A Weapon or Spell that adds a bonus of
+the resisted type can only provide half its normal bonus (rounded up).
+Example: Using a Tommy Gun (normally a +6 Physical bonus)
+against a monster with Physical Resistance only gives a +3 bonus.
+Physical/Magical Immunity: A Weapon or Spell that adds a bonus
+of the resisted type provides none of its normal bonus.
+Example: Using a Tommy Gun (normally a +6 Physical bonus)
+against a monster with Physical Immunity gives a +0 bonus.
+Nightmarish X: Any investigator that passes a Horror check when
+facing this monster still loses X Sanity. This ability doesn’t apply if
+the investigator fails the Horror check.
+Example: A Dark Young (Nightmarish 1) causes an investigator to
+lose 3 Sanity if the investigator fails his Horror check or 1 Sanity if the
+investigator passes. The Sanity loss from Nightmarish 1 doesn’t apply
+if the investigator has already failed the Horror check.
+Overwhelming X: Any investigator that defeats this monster in
+combat still loses X Stamina. This ability doesn’t apply when the
+investigator fails his Combat check against the monster.
+
+24
+
+Phase Summary
+The phases of the turn are as follows:
+Phase I: Upkeep
+Phase II: Movement
+Phase III: Arkham Encounters
+Phase IV: Other World Encounters
+Phase V: Mythos
+During Upkeep, players perform any upkeep actions that are
+required of them from turn to turn. This can include collecting
+their pay, making payments on loans, refreshing their equipment, and adjusting their skill sliders.
+During Movement, investigators in Arkham move according to
+their current Speed value. Investigators in Other Worlds advance
+to the next area of the Other World, returning to Arkham if they
+were already in the second area of the Other World.
+During Arkham Encounters, any investigator in a location
+without a gate draws one location card from the location deck
+for that neighborhood and follows the instructions on it. Usually,
+Arkham encounters involve a skill check.
+During Other World Encounters, any investigator in an Other
+World draws cards from the gate deck until he gets a gate card
+matching the encounter symbol of the Other World he’s in, then
+follows the instructions on it. Like Arkham encounters, Other
+World encounters often involve skill checks.
+During Mythos, the first player draws 1 Mythos card and
+resolves it. First, one or more new monsters appear in Arkham,
+sometimes along with a new gate, and a Clue token will usually
+be placed as well. Next, some of the monsters on the board may
+move through the city. Finally, the special effects of the Mythos
+card take place, which can cause the rules of the game to
+change, either momentarily or for multiple turns.
+
+Skill Checks
+Investigators are often called upon to perform skill checks in
+order to avoid harm or gain advantages. These skill checks list
+the skill to be used, which determines the number of dice the
+player rolls for the check; the modifier to the check, which may
+provide a bonus or penalty to the number of dice the player rolls;
+and the difficulty, which determines the number of successes the
+player must roll to pass the check (die results of 5 and 6 count
+as successes).
+Special Skill Checks
+There are four special types of skill checks that players should be
+aware of: Evade checks, Horror checks, Combat checks, and
+Spell checks. Each of these special skill checks use the value of
+one of the six basic skills. Bonuses to the skill that a special
+check uses apply to the special check as well. However, bonuses
+to special checks cannot be used when making normal checks.
+Evade checks are based on Sneak (see “Evading Monsters”, pg. 13).
+Combat checks are based on Fight (see “Fight”, pg. 14).
+Horror checks are based on Will (see “Horror Check”, pg. 14).
+Spell checks are based on Lore (see “Casting Spells”, pg. 15).
+
+Too Many Gates
+
+If too many gates are open at once, the Ancient One can immediately awaken.
+Number of Players
+1–2
+3–4
+5–6
+7–8
+
+The Ancient One Awakens at:
+8 Open Gates
+7 Open Gates
+6 Open Gates
+5 Open Gates
+
+Very Important: If the Ancient One awakens this way, fill
+the doom track with doom tokens before proceeding to the
+final battle!
+
+Monster Limit
+The number of monsters allowed on the board at one time is
+limited by the number of players. Any monsters that would be
+placed on the board beyond this limit are instead placed in the
+Outskirts.
+Monster Limit = (Number of Players) + 3
+Important: If the terror level reaches 10, Arkham is overrun,
+which means that the monster limit is removed for the rest of the
+game.
+
+Monsters in the Outskirts
+If adding a monster to the board would bring the total number of
+monsters in Arkham above the monster limit, then the monster
+is placed in the Outskirts instead. Monsters in the Outskirts remain
+there until the Outskirts becomes too full, as shown below:
+Number of Players
+
+Maximum Monsters in Outskirts
+
+1
+2
+3
+4
+5
+6
+7
+8
+
+7
+6
+5
+4
+3
+2
+1
+0
+
+When the number of monsters in the Outskirts of Arkham
+exceeds this limit, place all of those monsters back in the cup
+and raise the terror level by 1.
+
+Terror Level Summary
+
+To summarize the effects of the terror level:
+For every step the terror level increases, return one Ally at random from the Ally deck to the box.
+Additionally, the following events happen when a certain terror level is reached:
+Terror Level
+3
+6
+9
+10
+		
+
+Event
+The General Store closes.
+The Curiositie Shoppe closes.
+Ye Olde Magick Shoppe closes.
+Arkham is overrun (no monster limit and
+add one doom token).
+

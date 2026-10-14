@@ -1,0 +1,375 @@
+{
+ "description": "Evidence obtained through the WebSearch tool (search-engine summaries of arkham-horror-second-edition.fandom.com pages) while the wiki itself was blocked by the build environment's network policy. These are NOT raw page contents: they are summaries produced by the search tool and are used ONLY as tie-breaking evidence when two machine-readable sources disagree. Re-verify with `python -m ah2e fetch` once the wiki is reachable.",
+ "source_id": "web_search_fandom",
+ "retrieved_at": "2026-10-14",
+ "records": [
+  {
+   "query": "Amanda Sharpe the Student Arkham Horror second edition wiki sanity stamina focus home Bank of Arkham",
+   "url": "https://arkham-horror-second-edition.fandom.com/wiki/Amanda_Sharpe",
+   "claims": [
+    {
+     "entity": "Amanda Sharpe",
+     "field": "sanity",
+     "value": 5
+    },
+    {
+     "entity": "Amanda Sharpe",
+     "field": "stamina",
+     "value": 5
+    },
+    {
+     "entity": "Amanda Sharpe",
+     "field": "focus",
+     "value": 3
+    }
+   ]
+  },
+  {
+   "query": "Arkham Horror second edition wiki Investigator list base game sanity stamina Ashcan Pete Carolyn Fern Gloria Goldberg Harvey Walters",
+   "url": "https://arkham-horror-second-edition.fandom.com/wiki/%22Ashcan%22_Pete",
+   "claims": [
+    {
+     "entity": "\"Ashcan\" Pete",
+     "field": "sanity",
+     "value": 4
+    },
+    {
+     "entity": "\"Ashcan\" Pete",
+     "field": "stamina",
+     "value": 6
+    }
+   ],
+   "note": "Summary also reports a page clarification that Pete effectively starts with 5 Sanity because Duke (+1 maximum Sanity) is a fixed possession - which explains the value 5 in the Gorlith app."
+  },
+  {
+   "query": "(same as above)",
+   "url": "https://arkham-horror-second-edition.fandom.com/wiki/Joe_Diamond",
+   "claims": [
+    {
+     "entity": "Joe Diamond",
+     "field": "sanity",
+     "value": 4
+    },
+    {
+     "entity": "Joe Diamond",
+     "field": "stamina",
+     "value": 6
+    }
+   ]
+  },
+  {
+   "query": "(same as above)",
+   "url": "https://arkham-horror-second-edition.fandom.com/wiki/Bob_Jenkins",
+   "claims": [
+    {
+     "entity": "Bob Jenkins",
+     "field": "sanity",
+     "value": 4
+    },
+    {
+     "entity": "Bob Jenkins",
+     "field": "stamina",
+     "value": 6
+    }
+   ]
+  },
+  {
+   "query": "(same as above)",
+   "url": "https://arkham-horror-second-edition.fandom.com/wiki/Jenny_Barnes",
+   "claims": [
+    {
+     "entity": "Jenny Barnes",
+     "field": "sanity",
+     "value": 6
+    },
+    {
+     "entity": "Jenny Barnes",
+     "field": "stamina",
+     "value": 4
+    }
+   ]
+  },
+  {
+   "query": "(same as above)",
+   "url": "https://arkham-horror-second-edition.fandom.com/wiki/Kate_Winthrop",
+   "claims": [
+    {
+     "entity": "Kate Winthrop",
+     "field": "sanity",
+     "value": 6
+    },
+    {
+     "entity": "Kate Winthrop",
+     "field": "stamina",
+     "value": 4
+    }
+   ]
+  },
+  {
+   "query": "Carolyn Fern the Psychologist Arkham Horror second edition sanity stamina",
+   "url": "https://arkham-horror-second-edition.fandom.com/wiki/Carolyn_Fern",
+   "claims": [
+    {
+     "entity": "Carolyn Fern",
+     "field": "sanity",
+     "value": 6
+    },
+    {
+     "entity": "Carolyn Fern",
+     "field": "stamina",
+     "value": 4
+    },
+    {
+     "entity": "Carolyn Fern",
+     "field": "focus",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "query": "Gloria Goldberg the Author Arkham Horror second edition sanity stamina",
+   "url": "https://arkham-horror-second-edition.fandom.com/wiki/Gloria_Goldberg",
+   "claims": [
+    {
+     "entity": "Gloria Goldberg",
+     "field": "sanity",
+     "value": 6
+    },
+    {
+     "entity": "Gloria Goldberg",
+     "field": "stamina",
+     "value": 4
+    },
+    {
+     "entity": "Gloria Goldberg",
+     "field": "focus",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "query": "Arkham Horror second edition wiki Spell list base game count Wither Voice of Ra Shrivelling Find Gate number of copies",
+   "url": "https://arkham-horror-second-edition.fandom.com/wiki/Spell",
+   "claims": [
+    {
+     "entity": "Wither",
+     "kind": "spell",
+     "field": "copies",
+     "value": 6
+    },
+    {
+     "entity": "Wither",
+     "kind": "spell",
+     "field": "casting_modifier",
+     "value": 0
+    },
+    {
+     "entity": "Wither",
+     "kind": "spell",
+     "field": "sanity_cost",
+     "value": 0
+    },
+    {
+     "entity": "Wither",
+     "kind": "spell",
+     "field": "hands",
+     "value": 1
+    },
+    {
+     "entity": "Shrivelling",
+     "kind": "spell",
+     "field": "copies",
+     "value": 5
+    },
+    {
+     "entity": "Shrivelling",
+     "kind": "spell",
+     "field": "casting_modifier",
+     "value": -1
+    },
+    {
+     "entity": "Shrivelling",
+     "kind": "spell",
+     "field": "sanity_cost",
+     "value": 1
+    },
+    {
+     "entity": "Shrivelling",
+     "kind": "spell",
+     "field": "hands",
+     "value": 1
+    },
+    {
+     "entity": "Find Gate",
+     "kind": "spell",
+     "field": "copies",
+     "value": 4
+    },
+    {
+     "entity": "Find Gate",
+     "kind": "spell",
+     "field": "casting_modifier",
+     "value": -1
+    },
+    {
+     "entity": "Find Gate",
+     "kind": "spell",
+     "field": "sanity_cost",
+     "value": 1
+    },
+    {
+     "entity": "Find Gate",
+     "kind": "spell",
+     "field": "hands",
+     "value": 0
+    },
+    {
+     "entity": "Voice of Ra",
+     "kind": "spell",
+     "field": "copies",
+     "value": 3
+    },
+    {
+     "entity": "Voice of Ra",
+     "kind": "spell",
+     "field": "casting_modifier",
+     "value": -1
+    },
+    {
+     "entity": "Voice of Ra",
+     "kind": "spell",
+     "field": "sanity_cost",
+     "value": 1
+    },
+    {
+     "entity": "Voice of Ra",
+     "kind": "spell",
+     "field": "hands",
+     "value": 0
+    }
+   ],
+   "note": "Summary quoted table rows such as 'Wither | 0 | 0 | 1 | | 6' (casting modifier | sanity cost | hands | ... | count); an empty hands cell is read as 0 hands."
+  },
+  {
+   "query": "Arkham Horror second edition wiki Unique Item list base game count The King in Yellow Warding Statue Elder Sign Holy Water copies",
+   "url": "https://arkham-horror-second-edition.fandom.com/wiki/Unique_Item",
+   "claims": [
+    {
+     "entity": "Elder Sign",
+     "kind": "unique_item",
+     "field": "copies",
+     "value": 4
+    },
+    {
+     "entity": "Elder Sign",
+     "kind": "unique_item",
+     "field": "price",
+     "value": 5
+    },
+    {
+     "entity": "Holy Water",
+     "kind": "unique_item",
+     "field": "copies",
+     "value": 4
+    },
+    {
+     "entity": "Warding Statue",
+     "kind": "unique_item",
+     "field": "copies",
+     "value": 1
+    },
+    {
+     "entity": "The King in Yellow",
+     "kind": "unique_item",
+     "field": "copies",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "query": "Arkham Horror second edition wiki Common Item list price .45 Automatic Dynamite Lucky Cigarette Case Lantern base game",
+   "url": "https://arkham-horror-second-edition.fandom.com/wiki/Common_Item",
+   "claims": [
+    {
+     "entity": ".45 Automatic",
+     "kind": "common_item",
+     "field": "price",
+     "value": 5
+    },
+    {
+     "entity": ".45 Automatic",
+     "kind": "common_item",
+     "field": "copies",
+     "value": 2
+    },
+    {
+     "entity": "Dynamite",
+     "kind": "common_item",
+     "field": "price",
+     "value": 4
+    },
+    {
+     "entity": "Dynamite",
+     "kind": "common_item",
+     "field": "hands",
+     "value": 2
+    },
+    {
+     "entity": "Dynamite",
+     "kind": "common_item",
+     "field": "copies",
+     "value": 2
+    },
+    {
+     "entity": "Lantern",
+     "kind": "common_item",
+     "field": "price",
+     "value": 3
+    },
+    {
+     "entity": "Lantern",
+     "kind": "common_item",
+     "field": "copies",
+     "value": 2
+    },
+    {
+     "entity": "Lucky Cigarette Case",
+     "kind": "common_item",
+     "field": "price",
+     "value": 1
+    },
+    {
+     "entity": "Lucky Cigarette Case",
+     "kind": "common_item",
+     "field": "copies",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "query": "Arkham Horror second edition wiki Mists of Releh spell casting modifier sanity cost hands Voice of Ra hands",
+   "url": "https://arkham-horror-second-edition.fandom.com/wiki/Mists_of_Releh",
+   "claims": [
+    {
+     "entity": "Mists of Releh",
+     "kind": "spell",
+     "field": "name",
+     "value": "Mists of Releh"
+    },
+    {
+     "entity": "Mists of Releh",
+     "kind": "spell",
+     "field": "casting_modifier",
+     "value": "special"
+    },
+    {
+     "entity": "Mists of Releh",
+     "kind": "spell",
+     "field": "sanity_cost",
+     "value": 0
+    }
+   ],
+   "note": "Summary: casting modifier 'Special' (equal to the monster's Awareness), Sanity cost 0; hands not stated."
+  }
+ ]
+}

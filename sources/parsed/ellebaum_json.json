@@ -1,0 +1,1946 @@
+{
+ "source_id": "ellebaum_json",
+ "parser": "ah2e.parsers.ellebaum_json",
+ "parsed_at": "2026-10-14T19:38:14+00:00",
+ "status": "ok",
+ "commit_sha": "e91c99b2d18f1410981245c0c1fc1f0df515f4ae",
+ "warnings": [
+  "mythos.json[1] 'Horror at Groundbreaking!': key 'text:' (typo) used for card text"
+ ],
+ "stats": {
+  "mythos_cards": 67,
+  "gate_cards": 49
+ },
+ "records": {
+  "mythos_cards": [
+   {
+    "title": "Feds Raid Arkham!",
+    "type": "Headline",
+    "text": "All monsters in the street are returned to the cup.",
+    "clue_location": "Hibb's Roadhouse",
+    "gate_location": "Black Cave",
+    "activity_at": null,
+    "close": null,
+    "white": "moon",
+    "black": "cross",
+    "set": "base",
+    "src_ref": "mythos.json#[0]"
+   },
+   {
+    "title": "Horror at Groundbreaking!",
+    "type": "Headline",
+    "text": "An ancient stone is disturbed by the construction, releasing 2 monsters into Miskatonic U. streets.",
+    "clue_location": "Silver Twilight Lodge",
+    "gate_location": "Historical Society",
+    "activity_at": null,
+    "close": null,
+    "white": "moon",
+    "black": "cross",
+    "set": "base",
+    "src_ref": "mythos.json#[1]"
+   },
+   {
+    "title": "Lodge Member Held for Questioning!",
+    "type": "Headline",
+    "text": "A Silver Lodge ritual lets 2 monsters loose in the French Hill streets.",
+    "clue_location": "Hibb's Roadhouse",
+    "gate_location": "Black Cave",
+    "activity_at": null,
+    "close": null,
+    "white": "circle",
+    "black": "square, diamond",
+    "set": "base",
+    "src_ref": "mythos.json#[2]"
+   },
+   {
+    "title": "Lodge Members Watch the Night!",
+    "type": "Headline",
+    "text": "All monsters in the French Hill streets or locations are returned to the cup.",
+    "clue_location": "Science Building",
+    "gate_location": "Unvisited Isle",
+    "activity_at": null,
+    "close": null,
+    "white": "circle",
+    "black": "square, diamond",
+    "set": "base",
+    "src_ref": "mythos.json#[3]"
+   },
+   {
+    "title": "Merchants March on Crime!",
+    "type": "Headline",
+    "text": "All monsters in the Merchant District streets or locations are returned to the cup.",
+    "clue_location": "The Unnameable",
+    "gate_location": "Independence Square",
+    "activity_at": null,
+    "close": null,
+    "white": "circle",
+    "black": "square, diamond",
+    "set": "base",
+    "src_ref": "mythos.json#[4]"
+   },
+   {
+    "title": "Gangs Clean up Easttown!",
+    "type": "Headline",
+    "text": "All monsters in the Easttown streets or locations are returned to the cup.",
+    "clue_location": "Black Cave",
+    "gate_location": "The Witch House",
+    "activity_at": null,
+    "close": null,
+    "white": "circle",
+    "black": "square, diamond",
+    "set": "base",
+    "src_ref": "mythos.json#[5]"
+   },
+   {
+    "title": "Strange Tremors Cease!",
+    "type": "Headline",
+    "text": "All Cthonians and Dholes in Arkham are returned to the cup. If at least one monster returns to the cup, raise the terror level by 1.",
+    "clue_location": "The Unnameable",
+    "gate_location": "Independence Square",
+    "activity_at": null,
+    "close": null,
+    "white": "hexagon",
+    "black": "bar, triangle, star",
+    "set": "base",
+    "src_ref": "mythos.json#[6]"
+   },
+   {
+    "title": "Private Security Hired in Uptown!",
+    "type": "Headline",
+    "text": "All monsters in the Uptown streets or locations are returned to the cup.",
+    "clue_location": "Historical Society",
+    "gate_location": "Woods",
+    "activity_at": null,
+    "close": null,
+    "white": "circle",
+    "black": "square, diamond",
+    "set": "base",
+    "src_ref": "mythos.json#[7]"
+   },
+   {
+    "title": "Campus Security Increased!",
+    "type": "Headline",
+    "text": "All monsters in the Miskatonic U. streets or locations are returned to the cup.",
+    "clue_location": "The Unnameable",
+    "gate_location": "Independence Square",
+    "activity_at": null,
+    "close": null,
+    "white": "circle",
+    "black": "square, diamond",
+    "set": "base",
+    "src_ref": "mythos.json#[8]"
+   },
+   {
+    "title": "Temperence Fever Sweeps City!",
+    "type": "Headline",
+    "text": "Any investigator with Whiskey must pass a Sneak (-1) check or get ARRESTED and taken to the Police Station. If this occurs, they must discard their Whiskey. In addition, Hibb's Roadhouse is closed until the end of next turn. Leave this card in play until then to indicate this.",
+    "clue_location": "Black Cave",
+    "gate_location": "The Witch House",
+    "activity_at": null,
+    "close": [
+     "Hibb's Roadhouse"
+    ],
+    "white": "hexagon",
+    "black": "bar, triangle, star",
+    "set": "base",
+    "src_ref": "mythos.json#[9]"
+   },
+   {
+    "title": "Bizarre Dreams Plague Citizens!",
+    "type": "Headline",
+    "text": "All gugs and Nightgaunts in Arkham are returned to the cup. If at least one monster returns to the cup, raise the terror level by 1.",
+    "clue_location": "The Witch House",
+    "gate_location": "Science Building",
+    "activity_at": null,
+    "close": null,
+    "white": "hexagon",
+    "black": "bar, triangle, star",
+    "set": "base",
+    "src_ref": "mythos.json#[10]"
+   },
+   {
+    "title": "Witch Burning Anniversary!",
+    "type": "Headline",
+    "text": "An ancient curse strikes Arkham, releasing 2 monsters into the Rivertown streets.",
+    "clue_location": "Science Building",
+    "gate_location": "Unvisited Isle",
+    "activity_at": null,
+    "close": null,
+    "white": "moon",
+    "black": "cross",
+    "set": "base",
+    "src_ref": "mythos.json#[11]"
+   },
+   {
+    "title": "Sheldon Gang Turns to Police for Aid!",
+    "type": "Headline",
+    "text": "The Sheldon Gang disturbs a burial mound, releasing 2 monsters into the Uptown streets.",
+    "clue_location": "Unvisited Isle",
+    "gate_location": "Graveyard",
+    "activity_at": null,
+    "close": null,
+    "white": "circle",
+    "black": "square, diamond",
+    "set": "base",
+    "src_ref": "mythos.json#[12]"
+   },
+   {
+    "title": "Missing People Return!",
+    "type": "Headline",
+    "text": "All investigators currently LOST IN TIME AND SPACE immediately return to Arkham, appearing in a street or location of their choice.",
+    "clue_location": "Woods",
+    "gate_location": "The Unnamable",
+    "activity_at": null,
+    "close": null,
+    "white": "bar, square, star",
+    "black": "hexagon",
+    "set": "base",
+    "src_ref": "mythos.json#[13]"
+   },
+   {
+    "title": "Big Storm Sweeps Arkham!",
+    "type": "Headline",
+    "text": "All monsters in the Sky and Outskirts are returned to the cup.",
+    "clue_location": "The Unnamable",
+    "gate_location": "Independence Square",
+    "activity_at": null,
+    "close": null,
+    "white": "moon",
+    "black": "cross",
+    "set": "base",
+    "src_ref": "mythos.json#[14]"
+   },
+   {
+    "title": "Ill Wind Grips Arkham!",
+    "type": "Headline",
+    "text": "The first player must pass a Luck (-1) check or be CURSED.",
+    "clue_location": "Unvisited Isle",
+    "gate_location": "Graveyard",
+    "activity_at": null,
+    "close": null,
+    "white": "hexagon",
+    "black": "bar, triangle, star",
+    "set": "base",
+    "src_ref": "mythos.json#[15]"
+   },
+   {
+    "title": "Family Found Butchered!",
+    "type": "Headline",
+    "text": "The terror level increases by 1 in light of this tragic news.",
+    "clue_location": "Unvisited Isle",
+    "gate_location": "Graveyard",
+    "activity_at": null,
+    "close": null,
+    "white": "moon",
+    "black": "cross",
+    "set": "base",
+    "src_ref": "mythos.json#[16]"
+   },
+   {
+    "title": "Church Group Reclaims Southside!",
+    "type": "Headline",
+    "text": "All monsters in the Southside streets or locations are returned to the cup.",
+    "clue_location": "Hibb's Roadhouse",
+    "gate_location": "Black Cave",
+    "activity_at": null,
+    "close": null,
+    "white": "hexagon",
+    "black": "bar, triangle, star",
+    "set": "base",
+    "src_ref": "mythos.json#[17]"
+   },
+   {
+    "title": "Vigilante Guards the Night!",
+    "type": "Headline",
+    "text": "All monsters in the Downtown streets or locations are returned to the cup.",
+    "clue_location": "Woods",
+    "gate_location": "The Unnamable",
+    "activity_at": null,
+    "close": null,
+    "white": "circle",
+    "black": "square, diamond",
+    "set": "base",
+    "src_ref": "mythos.json#[18]"
+   },
+   {
+    "title": "Rivertown Residents Take Back Streets!",
+    "type": "Headline",
+    "text": "All monsters in the Rivertown streets or locations are returned to the cup.",
+    "clue_location": "Black Cave",
+    "gate_location": "The Witch House",
+    "activity_at": null,
+    "close": null,
+    "white": "circle",
+    "black": "square, diamond",
+    "set": "base",
+    "src_ref": "mythos.json#[19]"
+   },
+   {
+    "title": "Miskatonic Arctic Expedition Returns!",
+    "type": "Headline",
+    "text": "Any Elder Things previously claimed as monster trophies by players return to life and are placed in the River Docks.",
+    "clue_location": "Independence Square",
+    "gate_location": "Hibb's Roadhouse",
+    "activity_at": null,
+    "close": null,
+    "white": "moon",
+    "black": "cross",
+    "set": "base",
+    "src_ref": "mythos.json#[20]"
+   },
+   {
+    "title": "City Gripped by Blackouts!",
+    "type": "Headline",
+    "text": "The General Store, Curiositie Shoppe, and Ye Olde Magick Shoppe are closed until the end of next turn. Leave this card in play until then to indicate this.",
+    "clue_location": "Science Building",
+    "gate_location": "Unvisited Isle",
+    "activity_at": null,
+    "close": [
+     "The General Store",
+     "Curiositie Shoppe",
+     "Ye Olde Magick Shoppe"
+    ],
+    "white": "hexagon",
+    "black": "bar, triangle, star",
+    "set": "base",
+    "src_ref": "mythos.json#[21]"
+   },
+   {
+    "title": "Fourth of July Parade!",
+    "type": "Headline",
+    "text": "Investigators cannot move into or out of the Merchant District streets until the end of next turn. Leave this card in play until then to indicate this.",
+    "clue_location": "Black Cave",
+    "gate_location": "The Witch House",
+    "activity_at": null,
+    "close": [
+     "Merchant District Streets"
+    ],
+    "white": "moon",
+    "black": "cross",
+    "set": "base",
+    "src_ref": "mythos.json#[22]"
+   },
+   {
+    "title": "Strange Power Flux Plagues City!",
+    "type": "Headline",
+    "text": "All investigators in Other World areas may immediately return to Arkham.",
+    "clue_location": "The Unnamable",
+    "gate_location": "Independence Square",
+    "activity_at": null,
+    "close": null,
+    "white": "bar, triangle, star",
+    "black": "hexagon",
+    "set": "base",
+    "src_ref": "mythos.json#[23]"
+   },
+   {
+    "title": "Manhunt in Arkham!",
+    "type": "Headline",
+    "text": "All monsters in locations are returned to the cup.",
+    "clue_location": "Independence Square",
+    "gate_location": "Woods",
+    "activity_at": null,
+    "close": null,
+    "white": "bar, triangle, star",
+    "black": "hexagon",
+    "set": "base",
+    "src_ref": "mythos.json#[24]"
+   },
+   {
+    "title": "Terror at the Train Station!",
+    "type": "Headline",
+    "text": "A rusty train arrives in Arkham, disgorging 2 monsters into the Northside streets.",
+    "clue_location": "Black Cave",
+    "gate_location": "The Witch House",
+    "activity_at": null,
+    "close": null,
+    "white": "moon",
+    "black": "cross",
+    "set": "base",
+    "src_ref": "mythos.json#[25]"
+   },
+   {
+    "title": "Police Step Up Patrols in Northside!",
+    "type": "Headline",
+    "text": "All monsters in the Northside streets or locations are returned to the cup.",
+    "clue_location": "Graveyard",
+    "gate_location": "Silver Twilight Lodge",
+    "activity_at": null,
+    "close": null,
+    "white": "circle",
+    "black": "square, diamond",
+    "set": "base",
+    "src_ref": "mythos.json#[26]"
+   },
+   {
+    "title": "Slum Murders Continue!",
+    "type": "Headline",
+    "text": "An old basement is opened, releasing 2 monsters into the Easttown streets.",
+    "clue_location": "Historical Society",
+    "gate_location": "Woods",
+    "activity_at": null,
+    "close": null,
+    "white": "moon",
+    "black": "cross",
+    "set": "base",
+    "src_ref": "mythos.json#[27]"
+   },
+   {
+    "title": "Blue Flu!",
+    "type": "Headline",
+    "text": "All investigators in jail are released. No investigators may be ARRESTED until the end of next turn. Leave this card in play until then to indicate this.",
+    "clue_location": "Woods",
+    "gate_location": "The Unnamable",
+    "activity_at": null,
+    "close": null,
+    "white": "hexagon",
+    "black": "bar, triangle, star",
+    "set": "base",
+    "src_ref": "mythos.json#[28]"
+   },
+   {
+    "title": "Ghost Ship Docks by Itself!",
+    "type": "Headline",
+    "text": "An ancient ghost ship arrives in Arkham, releasing 2 monsters into the Merchant District streets.",
+    "clue_location": "Woods",
+    "gate_location": "The Unnamable",
+    "activity_at": null,
+    "close": null,
+    "white": "moon",
+    "black": "cross",
+    "set": "base",
+    "src_ref": "mythos.json#[29]"
+   },
+   {
+    "title": "Goat-like Creature Spotted in Woods!",
+    "type": "Headline",
+    "text": "All Dark Young in Arkham are returned to the cup. If at least one monster returns to the cup, raise the terror level by 1.",
+    "clue_location": "The Unnamable",
+    "gate_location": "Independence Square",
+    "activity_at": null,
+    "close": null,
+    "white": "hexagon",
+    "black": "bar, triangle, star",
+    "set": "base",
+    "src_ref": "mythos.json#[30]"
+   },
+   {
+    "title": "Scientist Warns of Dimensional Rift!",
+    "type": "Headline",
+    "text": "All Dimensional Shamblers and Hounds of Tindalos in Arkham are returned to the cup. If at least one monster returns to the cup, raise the terror level by 1.",
+    "clue_location": "Science Building",
+    "gate_location": "Unvisited Isle",
+    "activity_at": null,
+    "close": null,
+    "white": "hexagon",
+    "black": "bar, triangle, star",
+    "set": "base",
+    "src_ref": "mythos.json#[31]"
+   },
+   {
+    "title": "All Quiet in Arkham!",
+    "type": "Headline",
+    "text": "Each player may pass a Luck (-1) check to be BLESSED.",
+    "clue_location": "Historical Society",
+    "gate_location": "Woods",
+    "activity_at": null,
+    "close": null,
+    "white": "hexagon",
+    "black": "bar, triangle, star",
+    "set": "base",
+    "src_ref": "mythos.json#[32]"
+   },
+   {
+    "title": "Picnickers Panic!",
+    "type": "Headline",
+    "text": "A careless picnicker unleashes 2 monsters onto the Downtown streets.",
+    "clue_location": "Science Building",
+    "gate_location": "Unvisited Isle",
+    "activity_at": null,
+    "close": null,
+    "white": "moon",
+    "black": "cross",
+    "set": "base",
+    "src_ref": "mythos.json#[33]"
+   },
+   {
+    "title": "Strange Lights on Campus!",
+    "type": "Headline",
+    "text": "The Library, Administration Building, and Science Building are closed until the end of next turn. Leave this card in play until then to indicate this.",
+    "clue_location": "Historical Society",
+    "gate_location": "Woods",
+    "activity_at": null,
+    "close": [
+     "Administration Building",
+     "Library",
+     "Science Building"
+    ],
+    "white": "hexagon",
+    "black": "bar, triangle, star",
+    "set": "base",
+    "src_ref": "mythos.json#[34]"
+   },
+   {
+    "title": "Southside Strangler Suspected!",
+    "type": "Headline",
+    "text": "However, the press is mistaken, and the murders were caused by 2 monsters that are released into the Southside streets.",
+    "clue_location": "Historical Society",
+    "gate_location": "Woods",
+    "activity_at": null,
+    "close": null,
+    "white": "circle",
+    "black": "square, diamond",
+    "set": "base",
+    "src_ref": "mythos.json#[35]"
+   },
+   {
+    "title": "A Strange Plague",
+    "type": "Environment (Mystic)",
+    "text": "Investigators cannot gain Stamina except by receiving medical care in St. Mary's Hospital (or from Vincent Lee).",
+    "clue_location": "The Unnamable",
+    "gate_location": "Independence Square",
+    "activity_at": null,
+    "close": null,
+    "white": "square, diamond",
+    "black": "circle",
+    "set": "base",
+    "src_ref": "mythos.json#[36]"
+   },
+   {
+    "title": "The Chill of the Grave",
+    "type": "Environment (Mystic)",
+    "text": "All Undead monsters have their toughness increased by 1.",
+    "clue_location": "Science Building",
+    "gate_location": "Unvisited Isle",
+    "activity_at": null,
+    "close": null,
+    "white": "cross",
+    "black": "moon",
+    "set": "base",
+    "src_ref": "mythos.json#[37]"
+   },
+   {
+    "title": "Noden's Favor",
+    "type": "Environment (Mystic)",
+    "text": "It costs 2 fewer Clue tokens to SEAL gates.",
+    "clue_location": "Black Cave",
+    "gate_location": "The Witch House",
+    "activity_at": null,
+    "close": null,
+    "white": "bar, triangle, star",
+    "black": "hexagon",
+    "set": "base",
+    "src_ref": "mythos.json#[38]"
+   },
+   {
+    "title": "Dreams of a Sunken City",
+    "type": "Environment (Mystic)",
+    "text": "Investigators cannot gain Sanity except by receiving psychiatric care in Arkham Asylum (or from Carolyn Fern)",
+    "clue_location": "The Unnamable",
+    "gate_location": "Independence Square",
+    "activity_at": null,
+    "close": null,
+    "white": "cross",
+    "black": "moon",
+    "set": "base",
+    "src_ref": "mythos.json#[39]"
+   },
+   {
+    "title": "Blackest Night",
+    "type": "Environment (Mystic)",
+    "text": "Luck checks in Arkham are made at a -1 penalty. Sneak checks in Arkham are made at a +1 bonus.",
+    "clue_location": "Hibb's Roadhouse",
+    "gate_location": "Black Cave",
+    "activity_at": null,
+    "close": null,
+    "white": "square, diamond",
+    "black": "circle",
+    "set": "base",
+    "src_ref": "mythos.json#[40]"
+   },
+   {
+    "title": "Things of Darkness",
+    "type": "Environment (Mystic)",
+    "text": "Ghouls, Formless Spawns, Shoggoths, and Flying Polyps have their toughness increased by 1.",
+    "clue_location": "Graveyard",
+    "gate_location": "Silver Twilight Lodge",
+    "activity_at": null,
+    "close": null,
+    "white": "square, diamond",
+    "black": "circle",
+    "set": "base",
+    "src_ref": "mythos.json#[41]"
+   },
+   {
+    "title": "Blood Magic",
+    "type": "Environment (Mystic)",
+    "text": "Investigators who end their movement in the Rivertown streets may choose to delve into dark mysteries using their life force. They roll dice equal to their current Stamina, and for every failed die, they lose 1 Stamina. If this reduces them to 0 Stamina, they are DEVOURED and the player must start a new character. Otherwise, they gain 3 Clue tokens.",
+    "clue_location": "The Unnamable",
+    "gate_location": "Independence Square",
+    "activity_at": [
+     "Rivertown Streets"
+    ],
+    "close": null,
+    "white": "square, diamond",
+    "black": "circle",
+    "set": "base",
+    "src_ref": "mythos.json#[42]"
+   },
+   {
+    "title": "Solar Eclipse",
+    "type": "Environment (Mystic)",
+    "text": "Due to the interference of the solar eclipse, no spells may be cast.",
+    "clue_location": "Unvisited Isle",
+    "gate_location": "Graveyard",
+    "activity_at": null,
+    "close": null,
+    "white": "square, diamond",
+    "black": "circle",
+    "set": "base",
+    "src_ref": "mythos.json#[43]"
+   },
+   {
+    "title": "The Man in Black",
+    "type": "Environment (Mystic)",
+    "text": "Investigators who end their movement in the French Hill streets may deal with the Man in Black to gain power. They roll dice equal to their current Sanity, and for every failed die, they lose 1 Sanity. If this reduces them to 0 Sanity, they are DEVOURED and the player must start a new character. Otherwise, they gain 1 Clue token and draw 1 Spell.",
+    "clue_location": "Black Cave",
+    "gate_location": "The Witch House",
+    "activity_at": [
+     "French Hill Streets"
+    ],
+    "close": null,
+    "white": "cross",
+    "black": "moon",
+    "set": "base",
+    "src_ref": "mythos.json#[44]"
+   },
+   {
+    "title": "Planetary Alignment",
+    "type": "Environment (Mystic)",
+    "text": "Thanks to the mystic energy generated by the planetary alignment, all spells have a Sanity cost of 0.",
+    "clue_location": "Black Cave",
+    "gate_location": "The Witch House",
+    "activity_at": null,
+    "close": null,
+    "white": "square, diamond",
+    "black": "circle",
+    "set": "base",
+    "src_ref": "mythos.json#[45]"
+   },
+   {
+    "title": "No One Can Help You Now",
+    "type": "Environment (Mystic)",
+    "text": "Gates cannot be SEALED, although they can still be CLOSED.",
+    "clue_location": "Woods",
+    "gate_location": "The Unnamable",
+    "activity_at": null,
+    "close": null,
+    "white": "cross",
+    "black": "moon",
+    "set": "base",
+    "src_ref": "mythos.json#[46]"
+   },
+   {
+    "title": "R'lyeh Rising",
+    "type": "Environment (Mystic)",
+    "text": "Star Spawn and Maniacs have their toughness increased by 1. The difficulty to seal or close gates to R'lyeh is increased by 1.",
+    "clue_location": "Historical Society",
+    "gate_location": "Woods",
+    "activity_at": null,
+    "close": null,
+    "white": "bar, triangle, star",
+    "black": "hexagon",
+    "set": "base",
+    "src_ref": "mythos.json#[47]"
+   },
+   {
+    "title": "Heat Wave",
+    "type": "Environment (Weather)",
+    "text": "Fight checks in Arkham are made at a -1 penalty. Lore checks in Arkham are made at a +1 bonus. Fire Vampires have their toughness increased by 1.",
+    "clue_location": "Independence Square",
+    "gate_location": "Woods",
+    "activity_at": null,
+    "close": null,
+    "white": "square, diamond",
+    "black": "circle",
+    "set": "base",
+    "src_ref": "mythos.json#[48]"
+   },
+   {
+    "title": "Sunny and Clear",
+    "type": "Environment (Weather)",
+    "text": "Sneak checks in Arkham are made at a -1 penalty. Will checks in Arkham are made at a +1 bonus. If the Haunter in Darkness is in play, return it to the cup. If the Haunter in Darkness enters play, return it to the cup and draw a different monster.",
+    "clue_location": "Hibb's Roadhouse",
+    "gate_location": "Black Cave",
+    "activity_at": null,
+    "close": null,
+    "white": "cross",
+    "black": "moon",
+    "set": "base",
+    "src_ref": "mythos.json#[49]"
+   },
+   {
+    "title": "Icy Conditions",
+    "type": "Environment (Weather)",
+    "text": "Investigators receive 1 less movement point during the Movement Phase. FAST monsters move like normal monsters.",
+    "clue_location": "Silver Twilight Lodge",
+    "gate_location": "Historical Society",
+    "activity_at": null,
+    "close": null,
+    "white": "cross",
+    "black": "moon",
+    "set": "base",
+    "src_ref": "mythos.json#[50]"
+   },
+   {
+    "title": "Raining Cats and Dogs",
+    "type": "Environment (Weather)",
+    "text": "Speed checks in Arkham are made at a -1 penalty, and players receive 1 less movement point during the Movement Phase. Sneak checks in Arkham are made at a +1 bonus. Return any Fire Vampires in play to the cup. If a Fire Vampire enters play, return it to the cup and draw a different monster.",
+    "clue_location": "Independence Square",
+    "gate_location": "Hibb's Roadhouse",
+    "activity_at": null,
+    "close": null,
+    "white": "cross",
+    "black": "moon",
+    "set": "base",
+    "src_ref": "mythos.json#[51]"
+   },
+   {
+    "title": "An Evil Fog",
+    "type": "Environment (Weather)",
+    "text": "Will checks in Arkham are made at a -1 penalty. Sneak checks in Arkham are made at a +1 bonus. Fliers do not move.",
+    "clue_location": "Unvisited Isle",
+    "gate_location": "Graveyard",
+    "activity_at": null,
+    "close": null,
+    "white": "cross",
+    "black": "moon",
+    "set": "base",
+    "src_ref": "mythos.json#[52]"
+   },
+   {
+    "title": "Alien Technology",
+    "type": "Environment (Urban)",
+    "text": "Mi-Go have their toughness increased by 2. If any investigator passes a Combat check against a Mi-Go, he draws 1 extra Unique Item.",
+    "clue_location": "Science Building",
+    "gate_location": "Unvisited Isle",
+    "activity_at": null,
+    "close": null,
+    "white": "square, diamond",
+    "black": "circle",
+    "set": "base",
+    "src_ref": "mythos.json#[53]"
+   },
+   {
+    "title": "Darke's Carnival Arrives",
+    "type": "Environment (Urban)",
+    "text": "Investigators who end their movement in the Northside streets gain 1 Clue token from the sinister wonders they witness, but must pass a Will (-1) check or lose 1 Sanity.",
+    "clue_location": "Woods",
+    "gate_location": "The Unnamable",
+    "activity_at": [
+     "Northside Streets"
+    ],
+    "close": null,
+    "white": "square, diamond",
+    "black": "circle",
+    "set": "base",
+    "src_ref": "mythos.json#[54]"
+   },
+   {
+    "title": "The Festival",
+    "type": "Environment (Urban)",
+    "text": "The festival has begun! Cultists and Byakhee have their toughness increased by 1.",
+    "clue_location": "Historical Society",
+    "gate_location": "Woods",
+    "activity_at": null,
+    "close": null,
+    "white": "cross",
+    "black": "moon",
+    "set": "base",
+    "src_ref": "mythos.json#[55]"
+   },
+   {
+    "title": "Egyptian Exhibit Visits Miskatonic U.",
+    "type": "Environment (Urban)",
+    "text": "Any investigators who end their movement in the Miskatonic U. streets may pass a Lore (-1) check to gain 1 Clue token by reading the strange hieroglyphics on the artifacts in the exhibit.",
+    "clue_location": "Black Cave",
+    "gate_location": "The Witch House",
+    "activity_at": [
+     "Miskatonic U. Streets"
+    ],
+    "close": null,
+    "white": "cross",
+    "black": "moon",
+    "set": "base",
+    "src_ref": "mythos.json#[56]"
+   },
+   {
+    "title": "Happy Days are Here Again",
+    "type": "Environment (Urban)",
+    "text": "Due to the renewed prosperity that has come to Arkham, the terror level cannot increase.",
+    "clue_location": "Historical Society",
+    "gate_location": "Woods",
+    "activity_at": null,
+    "close": null,
+    "white": "square, diamond",
+    "black": "circle",
+    "set": "base",
+    "src_ref": "mythos.json#[57]"
+   },
+   {
+    "title": "Estate Sale",
+    "type": "Environment (Urban)",
+    "text": "Investigators who end their movement in the Uptown streets may draw 2 Unique Items and purchase one, none, or both of them at list price, discarding any that are not purchased.",
+    "clue_location": "Black Cave",
+    "gate_location": "The Witch House",
+    "activity_at": [
+     "Uptown Streets"
+    ],
+    "close": null,
+    "white": "square, diamond",
+    "black": "circle",
+    "set": "base",
+    "src_ref": "mythos.json#[58]"
+   },
+   {
+    "title": "Curfew Enforced",
+    "type": "Environment (Urban)",
+    "text": "Any investigators who end their movement in the streets must pass a Will (+0) check or be ARRESTED and taken to the Police Station.",
+    "clue_location": "Science Building",
+    "gate_location": "Unvisited Isle",
+    "activity_at": null,
+    "close": null,
+    "white": "cross",
+    "black": "moon",
+    "set": "base",
+    "src_ref": "mythos.json#[59]"
+   },
+   {
+    "title": "Good Work Undone",
+    "type": "Rumor",
+    "text": "When this card enters play, place 6 Clue tokens on it. Any player may spend Clue tokens during the Arkham Encounter Phase while in the Easttown streets to discard Clue tokens from this card on a 1-for-1 basis. \n Ongoing Effect: Roll two dice at the end of every Mythos Phase while this card is in play (beginning the turn after it entered play). For every 1 or 2 rolled, place 1 Clue token on this card. \n Pass: If there are no Clue tokens on this card, return it to the box. Each player draws 1 Unique Item. \n Fail: If there are 10 Clue tokens on this card, return it to the box. All elder sign tokens are removed from the board.",
+    "clue_location": "0",
+    "gate_location": "Unvisited Isle",
+    "activity_at": [
+     "Easttown Streets"
+    ],
+    "close": null,
+    "white": "bar, triangle, star",
+    "black": "hexagon",
+    "set": "base",
+    "src_ref": "mythos.json#[60]"
+   },
+   {
+    "title": "The Southside Strangler Strikes",
+    "type": "Rumor",
+    "text": "Ongoing Effect: Return one Ally from the Ally deck to the box at random at the end of every Mythos Phase while this card is in play (beginning the turn after it entered play). The Southside Strangler has struck again! \n Pass: If a single player discards 5 Clue tokens while in Ma's Boarding House during the Arkham Encounter Phase, return this card to the box. Each player gains $5 as a reward from the police. \n Fail: If there are no Allies to return to the box at the end of the Mythos Phase, return this card to the box. Each player must lower either their maximum Sanity or Stamina (their choice) by 1 for the rest of the game.",
+    "clue_location": "0",
+    "gate_location": "Independence Square",
+    "activity_at": [
+     "Southside Streets"
+    ],
+    "close": null,
+    "white": "bar, triangle, star",
+    "black": "hexagon",
+    "set": "base",
+    "src_ref": "mythos.json#[61]"
+   },
+   {
+    "title": "Disturbing the Dead",
+    "type": "Rumor",
+    "text": "Ongoing Effect: Roll a die at the end of every Mythos Phase while this card is in play (beginning the turn after it entered play). On a 1 or 2, increase the terror level by 1. \n Pass: If a single player discards 2 gate trophies during the Arkham Encounter Phase while in the Rivertown streets, return this card to the box. Each player draws 1 Spell. \n Fail: If the terror level reaches 10, return this card to the box. Every investigator is CURSED.",
+    "clue_location": "0",
+    "gate_location": "Black Cave",
+    "activity_at": [
+     "Rivertown Streets"
+    ],
+    "close": null,
+    "white": "bar, triangle, star",
+    "black": "hexagon",
+    "set": "base",
+    "src_ref": "mythos.json#[62]"
+   },
+   {
+    "title": "The Stars are Right",
+    "type": "Rumor",
+    "text": "Ongoing Effect: Roll a die at the end of every Mythos Phase while this card is in play (beginning the turn after it entered play). On a 1 or a 2, place one doom token on the ancient one's doom track. \n Pass: If a player discards an Ally card while in the Downtown streets during the Arkham Encounter Phase, return this card to the box. Each player draws 2 Common Items. \n Fail: If the Ancient One awakens, return this card to the box.",
+    "clue_location": "0",
+    "gate_location": "Science Building",
+    "activity_at": [
+     "Downtown Streets"
+    ],
+    "close": null,
+    "white": "bar, triangle, star",
+    "black": "hexagon",
+    "set": "base",
+    "src_ref": "mythos.json#[63]"
+   },
+   {
+    "title": "The Great Ritual",
+    "type": "Rumor",
+    "text": "Ongoing Effect: Cultists, Witches, Warlocks, and High Priests have their toughness increased by 2 while this card is in play. \n Place 1 Clue token on this card at the end of every Mythos Phase (beginning the turn after it entered play). \n Pass: If a single player discards 3 Spells (4 if there are 5 or more players) while in the French Hill streets during the Arkham Encounter Phase, return this card to the box. Each player gains 2 Clue tokens. \n Fail: If there are ever 5 Clue tokens on this card, return it to the box. From now on, draw 2 Mythos cards each Mythos Phase. Ignore everything on the first card except for the gate opening.",
+    "clue_location": "0",
+    "gate_location": "Graveyard",
+    "activity_at": [
+     "French Hill Streets"
+    ],
+    "close": null,
+    "white": "bar, triangle, star",
+    "black": "hexagon",
+    "set": "base",
+    "src_ref": "mythos.json#[64]"
+   },
+   {
+    "title": "The Terrible Experiment",
+    "type": "Rumor",
+    "text": "When this card enters play, place 5 monsters from the cup on it. Any player may choose to fight one or more of these monsters while in the Miskatonic U. streets during the Arkham Encounter Phase. If defeated, they are claimed as monster trophies. These monsters do not move, are not considered to be on the board, and do not count against the monster limit. \n Ongoing Effect: Place a monster on this card at the end of every Mythos Phase (beginning the turn after it entered play). \n Pass: If there are no monsters on this card, return it to the box. Each player draws 1 Skill. \n Fail: If there are 8 monsters on this card, return it to the box. Raise the terror level to 10 and place the monsters that were on it into play in the Miskatonic U. streets.",
+    "clue_location": "0",
+    "gate_location": "Unvisited Isle",
+    "activity_at": [
+     "Miskatonic U. Streets"
+    ],
+    "close": null,
+    "white": "bar, triangle, star",
+    "black": "hexagon",
+    "set": "base",
+    "src_ref": "mythos.json#[65]"
+   },
+   {
+    "title": "The Story Continues...",
+    "type": "Unique",
+    "text": "'I cannot remember, I MUST not remember what I saw on that dark and foreboding night...' \n Shuffle the Mythos deck, being sure to include this card in it. After the deck is shuffled, draw a new Mythos card for the turn.",
+    "clue_location": null,
+    "gate_location": null,
+    "activity_at": null,
+    "close": null,
+    "white": null,
+    "black": null,
+    "set": "base",
+    "src_ref": "mythos.json#[66]"
+   }
+  ],
+  "gate_cards": [
+   {
+    "colors": [
+     "red"
+    ],
+    "encounters": [
+     {
+      "world": "R'lyeh",
+      "text": "Slip on wet stones and slide into a pit. Pass a Luck (+0) check to climb out. If you fail, lose 1 Sanity and stay here next turn."
+     },
+     {
+      "world": "Plateau of Leng",
+      "text": "A vast stirring rumbles through the plateau. Pass a Sneak (+0) check or roll a die and lose that much Stamina."
+     },
+     {
+      "world": "Other",
+      "text": "There is nothing here but barren wastes. No encounter."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[0]"
+   },
+   {
+    "colors": [
+     "red"
+    ],
+    "encounters": [
+     {
+      "world": "R'lyeh",
+      "text": "The shadow tries to force its way between your lips. Pass a Fight (-2) check or lose 2 Stamina and stay here next turn."
+     },
+     {
+      "world": "The Dreamlands",
+      "text": "While wandering the phosphorescent woods, you are surrounded by hungry zoogs! Make a Luck (-2) check. If you pass, they take a liking to you and give you a gourd of moon-tree wine. Gain 1 Sanity and 1 Clue token. If you fail, the zoogs close in around you, their teeth gleaming. You are LOST IN TIME AND SPACE."
+     },
+     {
+      "world": "Other",
+      "text": "Pass a Luck (-1) check to find a quiet spot to rest. Gain 2 Stamina and 2 Sanity."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[1]"
+   },
+   {
+    "colors": [
+     "red"
+    ],
+    "encounters": [
+     {
+      "world": "Abyss",
+      "text": "You are disturbed by unsettling echoes. Pass a Sneak (-1) check to quiet them or lose 2 Sanity."
+     },
+     {
+      "world": "Plateau of Leng",
+      "text": "The loathsome villagers send out their strongest warrior to fight you in unarmed combat. Pass a Fight (-1) [2] check to defeat him and draw 1 Unique Item and gain 1 Clue token. Otherwise lose 1 Sanity and 2 Stamina."
+     },
+     {
+      "world": "Other",
+      "text": "You push yourself to the limit. Roll 1 die for each point of Stamina you have. Lose 1 Stamina for each die that does not roll a success. If you do not fall unconscious, gain 1 Clue token for each die that rolled a success."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[2]"
+   },
+   {
+    "colors": [
+     "red"
+    ],
+    "encounters": [
+     {
+      "world": "Plateau of Leng",
+      "text": "The villagers leap around a bonfire on the hoary plain. Pass a Sneak (-1) check or you are captured and subjected to terrible rites. Lose 3 Sanity and 3 Stamina, then stay here next turn."
+     },
+     {
+      "world": "The Dreamlands",
+      "text": "In the valley of Pnoth, where the dholes crawl and burrow nastily, you hear a slithering among the mountains of bone. Make a Sneak (-1) check. If you fail, you are DEVOURED. If you pass, gain 3 Clue tokens and return immediately to Arkham."
+     },
+     {
+      "world": "Other",
+      "text": "Pass a Speed (-1) check to grab the carving before it falls. Draw 1 Spell."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[3]"
+   },
+   {
+    "colors": [
+     "red"
+    ],
+    "encounters": [
+     {
+      "world": "R'lyeh",
+      "text": "Hurricane winds smash you against the cyclopean stones. Pass a Fight (-1) check or lose 3 Stamina."
+     },
+     {
+      "world": "The Dreamlands",
+      "text": "The wind increases, and you feel your feet go numb. Pass a Fight (-1) check or lose 2 Stamina."
+     },
+     {
+      "world": "Other",
+      "text": "A lurking monster appears!"
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[4]"
+   },
+   {
+    "colors": [
+     "red"
+    ],
+    "encounters": [
+     {
+      "world": "R'lyeh",
+      "text": "You become tangled in the damp seaweed. Pass a Luck (-1) check to pull free before something finds you while you're helpless. If you fail, roll a die and lose that much Stamina."
+     },
+     {
+      "world": "Plateau of Leng",
+      "text": "You are taken to a prehistoric monastery, where a high priest in a yellow silken mask questions you. Pass a Lore (-2) check to answer him to his satisfaction. Gain your freedom and 1 Spell. Otherwise, you are LOST IN SPACE AND TIME."
+     },
+     {
+      "world": "Other",
+      "text": "Pass a Luck (-1) check to discover a useful object in your wanderings. Draw 1 Unique Item."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[5]"
+   },
+   {
+    "colors": [
+     "red"
+    ],
+    "encounters": [
+     {
+      "world": "Abyss",
+      "text": "Starving, you consider eating some of the glowing mushrooms. If you decide to do so, make a Luck (-1) check. If you fail, roll a die and lose that much Stamina. If you succeed, roll a die and gain that much Stamina."
+     },
+     {
+      "world": "Plateau of Leng",
+      "text": "A monster appears from the shadows!"
+     },
+     {
+      "world": "Other",
+      "text": "The pinkish rays nearly get you. Pass a Sneak (+0) check or lose 2 Stamina."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[6]"
+   },
+   {
+    "colors": [
+     "red"
+    ],
+    "encounters": [
+     {
+      "world": "R'lyeh",
+      "text": "A slimy monster appears!"
+     },
+     {
+      "world": "Abyss",
+      "text": "Pass a Speed (-1) check to avoid a monstrous mass. If you fail, you are LOST IN TIME AND SPACE."
+     },
+     {
+      "world": "Other",
+      "text": "The colors are blinding. Pass a Lore (-1) check or stay here next turn."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[7]"
+   },
+   {
+    "colors": [
+     "red"
+    ],
+    "encounters": [
+     {
+      "world": "Abyss",
+      "text": "The stone arch breaks! Pass a Speed (-1) check to dive out of the way or roll a die and lose that much Stamina."
+     },
+     {
+      "world": "The Dreamlands",
+      "text": "The ice bridge begins to crack. Pass a Luck (-1) check or fall into the icy depths. If you fall, you are LOST IN TIME AND SPACE."
+     },
+     {
+      "world": "Other",
+      "text": "The humidity and heat is exhausting. Lose 1 Stamina."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[8]"
+   },
+   {
+    "colors": [
+     "red"
+    ],
+    "encounters": [
+     {
+      "world": "Abyss",
+      "text": "A monster appears!"
+     },
+     {
+      "world": "The Dreamlands",
+      "text": "The shantak claws at you as it swoops past overhead. Pass a Speed (-2) check or lose 2 Stamina as its claws rake your chest."
+     },
+     {
+      "world": "Other",
+      "text": "You sleep, fitfully, and awaken to the sound of your own voice chanting something. Make a Luck (-2) check. If you pass, you are able to retain what you are saying. Draw 1 Spell and gain 2 Clue tokens. If you fail, the chant attracts something unsavory. A monster appears!"
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[9]"
+   },
+   {
+    "colors": [
+     "red"
+    ],
+    "encounters": [
+     {
+      "world": "Plateau of Leng",
+      "text": "While you are climbing a high cliff, you begin to slip. Pass a Speed (-1) check or crash down the mountain, losing 2 Stamina."
+     },
+     {
+      "world": "The Dreamlands",
+      "text": "Avalanche! Pass a Speed (-1) check or lose 3 Stamina."
+     },
+     {
+      "world": "Other",
+      "text": "The shadowy entity gives up the chase. Lose 1 Stamina from exhaustion."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[10]"
+   },
+   {
+    "colors": [
+     "red"
+    ],
+    "encounters": [
+     {
+      "world": "R'lyeh",
+      "text": "Pass a Speed (-1) check or you slip and slide down a barnacled surface, slashing your skin to ribbons. Lose 3 Stamina."
+     },
+     {
+      "world": "Abyss",
+      "text": "Pass a Luck (-1) check or you are faced with an enormous mountain with a strange symbol carved into it, as if by the claw of a gigantic creature. The world swims around you and you lose 3 Sanity."
+     },
+     {
+      "world": "Other",
+      "text": "The obsidian door refuses to open. Pass a Fight (-1) check or stay here next turn, struggling with it."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[11]"
+   },
+   {
+    "colors": [
+     "yellow"
+    ],
+    "encounters": [
+     {
+      "world": "Yuggoth",
+      "text": "Your only hope is to steal a byakhee and some space mead! Pass a Sneak (-2) check to escape. Return to Arkham and gain 2 Clue tokens. If you fail, you are LOST IN TIME AND SPACE."
+     },
+     {
+      "world": "The Dreamlands",
+      "text": "The golden city of your dreams is threatening to become an obsession. Pass a Luck (-1) check or stay here next turn to hunt for it."
+     },
+     {
+      "world": "Other",
+      "text": "You stare into the face of madness. Roll 1 die for each point of Sanity you have. Lose 1 Sanity for each die that does not roll a success. If you do not go insane, gain 1 Clue token for each die that rolled a success."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[12]"
+   },
+   {
+    "colors": [
+     "yellow"
+    ],
+    "encounters": [
+     {
+      "world": "R'lyeh",
+      "text": "The night stars change and the brazen temple doors open, pouring forth a vast, black corpulence. Roll a die and lose that much Sanity."
+     },
+     {
+      "world": "City of the Great Race",
+      "text": "The hideous whistling fills your ears. Pass a Will (-1) check or lose 2 Sanity."
+     },
+     {
+      "world": "Other",
+      "text": "The sky is spinning. Pass a Will (-2) check or pass out and stay here next turn."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[13]"
+   },
+   {
+    "colors": [
+     "yellow"
+    ],
+    "encounters": [
+     {
+      "world": "R'lyeh",
+      "text": "You trip over a stone outcropping that shouldn't be there. Pass a Speed (-1) check or you are LOST IN TIME AND SPACE."
+     },
+     {
+      "world": "The Dreamlands",
+      "text": "The meeping of the ghouls in the tunnels echoes in your ears. Pass a Will (-2) check or lose 2 Sanity."
+     },
+     {
+      "world": "Other",
+      "text": "A monster appears from the shadows!"
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[14]"
+   },
+   {
+    "colors": [
+     "yellow"
+    ],
+    "encounters": [
+     {
+      "world": "City of the Great Race",
+      "text": "Glancing behind you, you see that the beasts are still chasing you. Pass a Speed (-1) check or be LOST IN TIME AND SPACE."
+     },
+     {
+      "world": "The Dreamlands",
+      "text": "The stone face reveals to you one of the deepest secrets of the Dreamlands. Pass a Lore (-1) [2] check to gain 4 Clue tokens. If you fail the check, however, the sight claims the last shred of your sanity. Lose all your Sanity."
+     },
+     {
+      "world": "Other",
+      "text": "Suddenly you notice something that you had previously missed. Gain 1 Clue token."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[15]"
+   },
+   {
+    "colors": [
+     "yellow"
+    ],
+    "encounters": [
+     {
+      "world": "R'lyeh",
+      "text": "The stink of this place is unbearable. Pass a Will (-1) check or lose 1 Stamina, 1 Sanity, and your lunch."
+     },
+     {
+      "world": "City of the Great Race",
+      "text": "In a flash of insight, you realize the purpose of the bladed artifact. Shivering, you put it back where you found it. Lose 1 Sanity but gain 1 Clue token."
+     },
+     {
+      "world": "Other",
+      "text": "Time and space bend around you. Make a Luck (-1) check. If you pass, return to Arkham. If you fail, stay here next turn."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[16]"
+   },
+   {
+    "colors": [
+     "yellow"
+    ],
+    "encounters": [
+     {
+      "world": "R'lyeh",
+      "text": "The city is filled with unnerving alien angles. Pass a Speed (-1) check to avoid touching them or lose 1 Sanity."
+     },
+     {
+      "world": "Yuggoth",
+      "text": "A strange creature stares at you with burning eyes. It is as if its gaze were stealing your soul. Pass a Luck (-1) check or roll a die and subtract 2 from it (minimum 0), then lose that much Stamina and Sanity."
+     },
+     {
+      "world": "Other",
+      "text": "You are not safe here. A monster appears!"
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[17]"
+   },
+   {
+    "colors": [
+     "yellow"
+    ],
+    "encounters": [
+     {
+      "world": "Yuggoth",
+      "text": "Fear grabs you as the buzzing entities approach. Pass a Will (-1) check or lose 2 Sanity."
+     },
+     {
+      "world": "The Dreamlands",
+      "text": "You see the mountains move. Lose 1 Sanity from terror."
+     },
+     {
+      "world": "Other",
+      "text": "A ripple in the air passes over you. Pass a Lore (-1) check or lose 1 Spell of your choice as it is burned from your mind."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[18]"
+   },
+   {
+    "colors": [
+     "yellow"
+    ],
+    "encounters": [
+     {
+      "world": "City of the Great Race",
+      "text": "You wander the empty streets of the city. No encounter."
+     },
+     {
+      "world": "The Dreamlands",
+      "text": "You come across an abandoned onyx quarry whose chiselled vacancies are so vast that it staggers your mind. Pass a Lore (-1) check to avoid awakening anything here, or else lose 3 Sanity."
+     },
+     {
+      "world": "Other",
+      "text": "The unending blackness terrifies you. Pass a Will (-1) check or lose 1 Sanity and 1 Stamina from fear and exhaustion."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[19]"
+   },
+   {
+    "colors": [
+     "yellow"
+    ],
+    "encounters": [
+     {
+      "world": "City of the Great Race",
+      "text": "The buzzing language of your captors begins to make sense to you. Gain 2 Clue tokens. Then you must pass a Luck (-1) check to avoid hearing about the origins of mankind and thereby losing 2 Sanity."
+     },
+     {
+      "world": "Yuggoth",
+      "text": "The cylindered head mocks your hopes. 'You'll never return home!' it cackles. Pass a Will (-2) check or lose 2 Sanity."
+     },
+     {
+      "world": "Other",
+      "text": "A monster appears!"
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[20]"
+   },
+   {
+    "colors": [
+     "yellow"
+    ],
+    "encounters": [
+     {
+      "world": "R'lyeh",
+      "text": "A horrible visage captures your gaze. Pass a Will (+0) check to look away or lose 1 Stamina and stay here next turn."
+     },
+     {
+      "world": "The Dreamlands",
+      "text": "Pass a Luck (+0) check or stumble into a spider's web. Lose 2 Sanity and stay here next turn while struggling to get free"
+     },
+     {
+      "world": "Other",
+      "text": "Suddenly, the things you've seen make sense! Gain 1 Clue token."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[21]"
+   },
+   {
+    "colors": [
+     "yellow"
+    ],
+    "encounters": [
+     {
+      "world": "R'lyeh",
+      "text": "You run for the boat. Pass a Speed (-1) [2] check to reach it in time. If you do, you escape with vital information. Gain 5 Clue tokens. If you fail, stay here next turn, hiding from your pursuer."
+     },
+     {
+      "world": "Yuggoth",
+      "text": "Breathing hard, you stay huddled against the rock until the sounds of pursuit fade into the distance. No encounter"
+     },
+     {
+      "world": "Other",
+      "text": "Your mind is flooded with knowledge. Make a Lore (-2) check. If you pass it, draw 1 Spell, but lose 1 Sanity."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[22]"
+   },
+   {
+    "colors": [
+     "yellow"
+    ],
+    "encounters": [
+     {
+      "world": "City of the Great Race",
+      "text": "The odd plant has you in its clutches. Pass a Fight (-1) check to break free. If you fail, lose 1 Stamina and 1 Sanity as it partially digests you."
+     },
+     {
+      "world": "Yuggoth",
+      "text": "An alien mind forces its way into your body. Pass a Luck (-2) check to guess a way to drive it out, gaining 2 Clue tokens in the process, or else stay here next turn, serving as its host body."
+     },
+     {
+      "world": "Other",
+      "text": "A glimmer or gold catches your eye. Gain $2."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[23]"
+   },
+   {
+    "colors": [
+     "green"
+    ],
+    "encounters": [
+     {
+      "world": "The Dreamlands",
+      "text": "Pass a Will (-1) check to convince the Rulers of Rokol to share their wealth with you. If so, roll two dice and add them together. Gain that much money."
+     },
+     {
+      "world": "Plateau of Leng",
+      "text": "Pass a Luck (-2) check to find some useful things among the bones. If so, draw 1 Common Item and 1 Spell."
+     },
+     {
+      "world": "Other",
+      "text": "Pass a Luck (-1) check to find the gate back. If so, immediately return to Arkham."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[24]"
+   },
+   {
+    "colors": [
+     "green"
+    ],
+    "encounters": [
+     {
+      "world": "Plateau of Leng",
+      "text": "Your mind and body are toughened by your experiences. Pass a Will (+0) [2] check to draw 1 Skill."
+     },
+     {
+      "world": "Celeano",
+      "text": "Pass a Luck (-2) check to find a valuable book. If so, search the Unique Item deck and take the first Tome you find."
+     },
+     {
+      "world": "Other",
+      "text": "Wedged beneath a fallen stone is a scroll. Draw 1 Spell."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[25]"
+   },
+   {
+    "colors": [
+     "green"
+    ],
+    "encounters": [
+     {
+      "world": "The Dreamlands",
+      "text": "Make a Luck (-1) check. If you pass, then, waving goodbye, the happy villagers bestow a gift upon you. Draw 1 Common Item."
+     },
+     {
+      "world": "Celeano",
+      "text": "Pass a Luck (-2) check to find a book small enough to carry. Search the Unique Item deck and take the first Tome you find."
+     },
+     {
+      "world": "Other",
+      "text": "You find a quiet spot to rest and recuperate. Gain 1 Stamina."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[26]"
+   },
+   {
+    "colors": [
+     "green"
+    ],
+    "encounters": [
+     {
+      "world": "Plateau of Leng",
+      "text": "You wander the frozen wastes. No encounter."
+     },
+     {
+      "world": "Celeano",
+      "text": "An old professor from Earth teaches you a thing or two. Pass a Luck (-1) [2] check to draw 1 Skill."
+     },
+     {
+      "world": "Other",
+      "text": "You come across a sleeping horror with a tentacle draped across a small gold idol. Silence is of the essence as you attempt to gently ease the idol out from under the creature's pseudopod. Make a Sneak (-1) check. If you pass, gain $3. If you fail, lose 2 Stamina."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[27]"
+   },
+   {
+    "colors": [
+     "green"
+    ],
+    "encounters": [
+     {
+      "world": "City of the Great Race",
+      "text": "You may choose to try and infiltrate one of the angled structures. If so, make a Sneak (-1) check. If you pass, draw 2 Unique Items and keep 1 of them. If you fail, you are LOST IN TIME AND SPACE."
+     },
+     {
+      "world": "Plateau of Leng",
+      "text": "Your peril clears your mind. Pass a Will (+0) check to restore your Sanity to its maximum value."
+     },
+     {
+      "world": "Other",
+      "text": "You are beginning to understand the strange creatures here. Gain 1 Clue token."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[28]"
+   },
+   {
+    "colors": [
+     "green"
+    ],
+    "encounters": [
+     {
+      "world": "City of the Great Race",
+      "text": "You must have that device if you are to escape from this accursed city. Pass a Sneak (-1) [2] check to draw 1 Unique Item and return to Arkham. If you fail, your captors are none too kind. Lose 3 Sanity and 1 Stamina"
+     },
+     {
+      "world": "Plateau of Leng",
+      "text": "The hooved, wide-mouthed traders of this land are wealthy, but dangerous. You may make a Lore (-2) check to trade with them. If you pass, gain $6. If you fail, you are LOST IN TIME AND SPACE"
+     },
+     {
+      "world": "Other",
+      "text": "Pass a Luck (-1) check to discover a vital document. Gain 2 Clue tokens."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[29]"
+   },
+   {
+    "colors": [
+     "green"
+    ],
+    "encounters": [
+     {
+      "world": "The Dreamlands",
+      "text": "You encounter the talking cats of Ulthar. Pass a Will (+0) check to draw 1 Spell."
+     },
+     {
+      "world": "City of the Great Race",
+      "text": "Pass a Luck (-1) check to find something useful among the incomprehensible artifacts. If so, draw 1 Unique Item."
+     },
+     {
+      "world": "Other",
+      "text": "A glimpse of home gives you hope. Gain 1 Sanity."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[30]"
+   },
+   {
+    "colors": [
+     "green"
+    ],
+    "encounters": [
+     {
+      "world": "City of the Great Race",
+      "text": "The conical entity tries to teach you some magic. Pass a Lore (-2) [2] check to draw 2 Spells."
+     },
+     {
+      "world": "Celeano",
+      "text": "You find secret lore hidden in the mosaics on the wall. Make a Lore (+2) check to gain Clue tokens equal to your successes."
+     },
+     {
+      "world": "Other",
+      "text": "You find some valuable items that you can sell back in Arkham. Gain $3"
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[31]"
+   },
+   {
+    "colors": [
+     "green"
+    ],
+    "encounters": [
+     {
+      "world": "The Dreamlands",
+      "text": "Pass a Luck (-1) check to come across a riding zebra and save some traveling time. If you are in the first area of the Dreamlands, move to the second area. If you are in the second area, return to Arkham."
+     },
+     {
+      "world": "Plateau of Leng",
+      "text": "The rickety bridge collapses as you cross it. Pass a Fight (-1) check to hang on, finding a relic on the other side. Draw 1 Unique Item. If you fail, you plummet into darkness. You are LOST IN TIME AND SPACE."
+     },
+     {
+      "world": "Other",
+      "text": "You come across a slaughtered creature. Pass a Luck (-1) check to claim a monster trophy from the cup (even if it is Endless) and gain 2 Clue tokens."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[32]"
+   },
+   {
+    "colors": [
+     "green"
+    ],
+    "encounters": [
+     {
+      "world": "The Dreamlands",
+      "text": "Pass a Luck (-1) check to chance across one of the little red singing birds of Celephais. Its song brings solace and strength to your heart. Restore your Sanity and Stamina to their maximum values."
+     },
+     {
+      "world": "Celeano",
+      "text": "You come across a wizened old creature who debates with you for some time. If you pass a Lore (-1) check, the creature is amused by your discussion and you are Blessed."
+     },
+     {
+      "world": "Other",
+      "text": "Pass a Fight (-2) check to pry open a grate you find built into the wall. Inside, you find something fascinating. Draw 1 Unique Item."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[33]"
+   },
+   {
+    "colors": [
+     "green"
+    ],
+    "encounters": [
+     {
+      "world": "City of the Great Race",
+      "text": "You find yourself in an ancient and abandoned temple. Pass a Luck (-1) check to find a golden statue worth $10. However, if you take it, you are CURSED."
+     },
+     {
+      "world": "Celeano",
+      "text": "Your red-eyed reflection in the mirror captures your attention. Stay here next turn."
+     },
+     {
+      "world": "Other",
+      "text": "The rope seems to extend upwards forever, but it's the only way out of the crevasse you find yourself in. Pass a Fight (-1) check to climb it and return to Arkham. If you fail, you fall, losing 2 Stamina and staying here next turn."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[34]"
+   },
+   {
+    "colors": [
+     "green"
+    ],
+    "encounters": [
+     {
+      "world": "The Dreamlands",
+      "text": "Touring the perfumed jungles of Kied, you come across an ancient ivory palace. Pass a Luck (-1) check to explore it without getting caught. Draw 1 Spell. If you fail the check, lose 1 item of your choice."
+     },
+     {
+      "world": "City of the Great Race",
+      "text": "Sometimes, violence is the answer. Pass a Fight (-1) check to break free of your captors and return to Arkham."
+     },
+     {
+      "world": "Other",
+      "text": "Carefully, you avoid the gaze of a gigantic eye watching an altar. You may try to pass a Sneak (-1) check to steal a scroll from the dais. Draw 1 Spell. If you fail, you are wracked by pain and lose 3 Sanity."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[35]"
+   },
+   {
+    "colors": [
+     "blue"
+    ],
+    "encounters": [
+     {
+      "world": "The Dreamlands",
+      "text": "A thief attempts to rob you. Pass a Sneak (+0) check to notice him. If you fail, lose half your items (your choice) and half your money (rounded up)."
+     },
+     {
+      "world": "Yuggoth",
+      "text": "You're dizzy from the strange ray. Pass a Will (-2) check or lose 1 item of your choice."
+     },
+     {
+      "world": "Other",
+      "text": "The strain is too much for your mind. Lose 1 Sanity."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[36]"
+   },
+   {
+    "colors": [
+     "blue"
+    ],
+    "encounters": [
+     {
+      "world": "Abyss",
+      "text": "A glowing light ahead draws you toward it. Make a Luck (-1) check. If you pass, the glow is a way home. Return to Arkham. If you fail, the light is a trap set by one of the creatures that lives here. A monster appears!"
+     },
+     {
+      "world": "Celeano",
+      "text": "That's it! That's the document you need! Quietly, you reach for it, trying not to disturb its guardian. Make a Sneak (-2) check. If you pass, search the Spell deck and take 1 Spell of your choice. If you fail, lose 2 Stamina."
+     },
+     {
+      "world": "Other",
+      "text": "Pass a Fight (-1) check to hang on to your prize despite the wind. Draw 1 Spell."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[37]"
+   },
+   {
+    "colors": [
+     "blue"
+    ],
+    "encounters": [
+     {
+      "world": "The Dreamlands",
+      "text": "Pass a Lore (+0) check to fight off your desire to sleep. If you fail, you freeze in the night. You are LOST IN SPACE AND TIME. If you succeed, return to Arkham."
+     },
+     {
+      "world": "Yuggoth",
+      "text": "The stone creature pursues you. Pass a Speed (-1) check to escape with the statue, gaining $5 and 2 Clue tokens. If you fail, the creature smashes you off the cliff. You are LOST IN TIME AND SPACE."
+     },
+     {
+      "world": "Other",
+      "text": "Luck is with you. You stumble on a cache of supplies. Draw 1 Common Item."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[38]"
+   },
+   {
+    "colors": [
+     "blue"
+    ],
+    "encounters": [
+     {
+      "world": "Abyss",
+      "text": "The caverns split. Make a Luck (+1) check and consult the chart below: \n Successes: \n 0-1: Move to the Black Cave. \n 2: Move to the Dreamlands. \n 3+: You enter a dark temple. Pass a Luck (-1) check to draw a Unique Item."
+     },
+     {
+      "world": "Celeano",
+      "text": "The huge book opens noiselessly at your approach. If you choose, you may read it, in which case you must pass a Fight (-1) [2] check to defeat its guardian. If you do, draw 3 Spells and keep 2 of them. If you fail, lose 3 Stamina."
+     },
+     {
+      "world": "Other",
+      "text": "A monster appears!"
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[39]"
+   },
+   {
+    "colors": [
+     "blue"
+    ],
+    "encounters": [
+     {
+      "world": "Yuggoth",
+      "text": "Exposure and fear weaken your mind. Pass a Will (-2) check or you must either lose 2 Spells of your choice or lose 2 Sanity."
+     },
+     {
+      "world": "Celeano",
+      "text": "A lurking monster appears!"
+     },
+     {
+      "world": "Other",
+      "text": "Monsters lurk everywhere. Pass a Sneak (-2) check or stay here next turn."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[40]"
+   },
+   {
+    "colors": [
+     "blue"
+    ],
+    "encounters": [
+     {
+      "world": "The Dreamlands",
+      "text": "At the south gates of Thran, you are stopped by a red-robed sentry until you can tell three dreams beyond belief. Pass a Luck (-1) check to tour the golden spires of Thran, gaining 2 Clue tokens in the process. If you fail, stay here next turn."
+     },
+     {
+      "world": "Celeano",
+      "text": "The symbol above the doorway glows. Make a Luck (-1) check. If you pass, gain 2 Stamina and 2 Sanity. If you fail, discard 2 items of your choice."
+     },
+     {
+      "world": "Other",
+      "text": "Pass a Fight (-2) check to lever back the lid of the stone chest. Inside, you find $8. If you fail, lose 1 Stamina."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[41]"
+   },
+   {
+    "colors": [
+     "blue"
+    ],
+    "encounters": [
+     {
+      "world": "The Dreamlands",
+      "text": "As you are climbing the cliffs in the underworld, your pocket gets caught and tears open. Pass a Speed (-1) check or lose all your money."
+     },
+     {
+      "world": "Celeano",
+      "text": "As you read the page, you realize that you have stumbled into a written trap. Pass a Lore (-1) check or you are CURSED."
+     },
+     {
+      "world": "Other",
+      "text": "A hideous monster appears!"
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[42]"
+   },
+   {
+    "colors": [
+     "blue"
+    ],
+    "encounters": [
+     {
+      "world": "The Dreamlands",
+      "text": "You drink impure water from the River Kra. Pass a Luck (-1) check or lose 1 Stamina and stay here next turn due to illness."
+     },
+     {
+      "world": "Abyss",
+      "text": "You are lost in the darkness. Pass a Luck (-2) check or lose 1 Sanity and stay here next turn."
+     },
+     {
+      "world": "Other",
+      "text": "You are lost in a labyrinth of high walls. Pass a Lore (-1) check or stay here next turn."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[43]"
+   },
+   {
+    "colors": [
+     "blue"
+    ],
+    "encounters": [
+     {
+      "world": "The Dreamlands",
+      "text": "You wander the frozen wastes. No encounter."
+     },
+     {
+      "world": "Abyss",
+      "text": "You rest a bit beside a small, glowing pool filled with black, blind fish. Pass a Luck (-1) check to notice an unusual object in the water. Fishing it out, you draw 1 Unique Item and gain $3."
+     },
+     {
+      "world": "Other",
+      "text": "Pass a Luck (-1) check to discover a cache of ancient papers containing valuable information about the Mythos. Gain 1 Clue token for every success you rolled on your Luck check."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[44]"
+   },
+   {
+    "colors": [
+     "blue"
+    ],
+    "encounters": [
+     {
+      "world": "Abyss",
+      "text": "The feeble glow and warmth of the candle is enough to restore you a bit. Gain 1 Stamina."
+     },
+     {
+      "world": "Yuggoth",
+      "text": "The creature's grip is like steel! Pass a Fight (-2) check to break free and escape. If you fail, the creature's grip tightens with a sickening pop. You are LOST IN TIME AND SPACE."
+     },
+     {
+      "world": "Other",
+      "text": "You've completed your task, but now you must escape before the portal closes! Pass a Speed (-2) check to return to Arkham. If you fail, you are LOST IN TIME AND SPACE. In either event, you automatically close the gate you entered through."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[45]"
+   },
+   {
+    "colors": [
+     "blue"
+    ],
+    "encounters": [
+     {
+      "world": "Abyss",
+      "text": "You are bewildered. Pass a Lore (-1) check or stay here next turn."
+     },
+     {
+      "world": "Yuggoth",
+      "text": "Pass a Sneak (-1) check or the creatures capture and experiment on you. Lose half of your items, then immediately return to Arkham with no memory of the experiments."
+     },
+     {
+      "world": "Other",
+      "text": "The insanity of this place finally hits you. Lose 1 Sanity."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[46]"
+   },
+   {
+    "colors": [
+     "blue"
+    ],
+    "encounters": [
+     {
+      "world": "Yuggoth",
+      "text": "A monster appears from the darkness!"
+     },
+     {
+      "world": "Celeano",
+      "text": "Pass a Luck (-1) check or the book is a prison. If you fail, roll a die. On a failure, a monster appears from the book. On a success, you are drawn into the book for a time. Stay here next turn."
+     },
+     {
+      "world": "Other",
+      "text": "Pass a Luck (-1) check to find something to defend yourself with. Take the first Weapon from the Common Item deck."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[47]"
+   },
+   {
+    "colors": [
+     "white"
+    ],
+    "encounters": [
+     {
+      "world": "The Stars are Right",
+      "text": "Shuffle the Gate deck and keep drawing until you get an encounter of the right color."
+     }
+    ],
+    "set": "base",
+    "src_ref": "otherWorldEncounters.json#[48]"
+   }
+  ]
+ }
+}

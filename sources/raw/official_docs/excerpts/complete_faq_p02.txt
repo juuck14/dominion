@@ -1,0 +1,125 @@
+Location Encounters
+
+circular Arkham Locations. The following paragraphs outline usages of the word “location” which are not meant to
+be limited to just Arkham locations.
+
+A Police Station encounter begins “If you succeed at a
+Luck (–1) check, then Deputy Dingby absentmindedly
+leaves you holding his gun.” The reward should be the
+“.38 Revolver” instead of the “.45 Revolver.”
+
+The following investigator abilities can be used in any
+location, street area, or Other World area, unless otherwise
+noted: Carolyn Fern’s Psychology ability, Kate Winthrop’s
+Science! ability, Minh Thi Phan’s [IH] Synergy and Team
+Player abilities, Silas Marsh’s [IH] Able Seaman ability,
+Tommy Muldoon’s [IH] Hero ability, and Vincent Lee’s
+Physician ability.
+
+Rule Changes and Clarifications
+The following rules have been changed or clarified to
+improve the game.
+
+Game Setup
+
+The Implant Suggestion [KH] Spell can be used in any
+location, street area, or Other World area, unless otherwise
+noted. Summon Monster [BGotW] can be used in any
+street area or location, but not in an Other World area.
+
+(page 5 in the first printing of the Arkham Horror rules)
+If a Rumor is drawn during step 14 of Game Setup, discard it and draw again until you draw a mythos card that
+isn’t a Rumor.
+
+An investigator using the Carcosan Page [KiY] Unique
+Item may choose another investigator in any location,
+street area, or Other World area. Milk of Shub-Niggurath
+[BGotW] can be used in any street area or location, but
+not in an Other World area.
+
+The above change has been incorporated into the rulebook included in the revised edition of Arkham Horror.
+If a mythos card with no gate is drawn during step 14 of
+Game Setup, discard it and draw again until you draw a
+mythos card that depicts a gate.
+
+The investigators chosen when using the Psychic Benefit
+card [CotDP] may be in any location, street area, or Other
+World area.
+
+Investigators vs. Players
+
+The rulebook assumes that each player is controlling only
+one investigator. In the event there are more investigators
+than players, all rules and components that refer to the
+number of players should refer instead to the number of
+investigators.
+
+Any investigator who ends his movement in the same
+street area or Other World area as an investigator with the
+“The Skin Crawls” Corruption card [BGotW] must pass a
+Will (-2) check or lose 2 Sanity, in the same manner as if
+the investigators were in the same location.
+
+The Start of the Upkeep Phase or a Turn
+
+Stable vs. Unstable Locations
+
+Note that some effects use either the phrase “at the start of
+the Upkeep Phase” or “at the start of a turn.” In cases where
+the text refers to refreshing a card (or to not refreshing a
+card), the effect is resolved during the “Refresh Exhausted
+Cards” step. In all other cases, the effect is resolved during
+the “Perform Upkeep Actions” step.
+
+An unstable location is a location that has a red diamond
+printed above it on the board and does not have an elder
+sign on it.
+Any location that has a green diamond printed above it on
+the board or has an elder sign on it is considered a stable
+location.
+
+Refresh Exhausted Cards
+
+Arkham Encounters
+
+To represent that a card is exhausted, rotate it 90°. At the
+start of the Upkeep Phase, each investigator refreshes all
+of his or her exhausted cards by rotating them back to their
+upright positions. Those cards can now be used again.
+
+(pages 8-9 in the first printing of the Arkham Horror rules)
+If an investigator is drawn through a gate that appears as
+a result of an encounter (such as “A gate appears!” or “A
+gate and a monster appear!”), then he is delayed, just as if
+he had been drawn through a gate in the Mythos Phase.
+
+Perform Upkeep Actions
+
+(page 6 in the first printing of the Arkham Horror rules)
+Investigators do not make an upkeep roll for Bless, Curse,
+Bank Loan, and Retainer cards during the first Upkeep
+Phase after an investigator acquires them.
+
+The above change has been incorporated into the rulebook included in the revised edition of Arkham Horror.
+
+The above change has been incorporated into the rulebook included in the revised edition of Arkham Horror.
+
+(page 9 in the first printing of the Arkham Horror rules)
+
+Open Gate and Spawn Monster
+
+When opening a gate in a location where there is no elder
+sign or gate, if there are five or more investigators playing,
+then draw and place two monsters instead of one.
+
+Locations
+
+“Location” is typically defined as the circular space represented in the neighborhoods (for example, the Woods
+or the General Store). In some cases, however, the word
+“location” is used but not meant to be restricted to these
+
+When, at the beginning of the Mythos Phase, the first player
+draws a mythos card that shows a location that already has
+
+2
+

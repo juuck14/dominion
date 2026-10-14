@@ -1,0 +1,90 @@
+{
+   "Investigators": [
+     {
+       "name": "Dexter Drake",
+       "maxSanity": 5,
+       "maxStamina": 5,
+       "home": "Ye Olde Magick Shoppe",
+       "fixedPossessions": {
+         "money": 5,
+         "spells": ["shrivelling"]
+       },
+       "randomPossessions": {
+         "commonItem": 1,
+         "uniqueItem": 1,
+         "spells": 2,
+         "skills": 2
+       },
+       "focus": 2,
+       "Ability": {
+         "name": "Magical Gift",
+         "description": "<b>Any Phase: Whenever 'The Great' Drake draws one or more cards from the <b>Spell</b> deck, he draws one extra card and then discards one of the cards.</b>"
+       },
+       "points": {
+         "speedSneak": [[2, 4], [3, 3], [4,2], [5,1]],
+         "fightWill": [[1, 3], [2, 2], [3, 1], [4, 0]],
+         "loreLuck": [[2, 3], [3, 2], [4, 1], [5, 0]]
+       }
+     },
+
+     {
+       "name": "Mandy Thompson"
+     },
+
+     {
+       "name": "Darrell Simmons"
+     },
+
+     {
+       "name": "Bob Jenkins"
+     },
+
+     {
+       "name": "Joe Diamond"
+     },
+
+     {
+       "name": "Carolyn Fern"
+     },
+
+     {
+       "name": "Sister Mary"
+     },
+
+     {
+       "name": "Jenny Barnes"
+     },
+
+     {
+       "name": "Michael McGlen"
+     },
+
+     {
+       "name": "Ashcan Pete"
+     },
+
+     {
+       "name": "Monterey Jack"
+     },
+
+     {
+       "name": "Amanda Sharpe"
+     },
+
+     {
+       "name": "Harvey Walters"
+     },
+
+     {
+       "name": "Vincent Lee"
+     },
+
+     {
+       "name": "Kate Winthrop"
+     },
+
+     {
+       "name": "Gloria Goldberg"
+     }
+   ]
+}

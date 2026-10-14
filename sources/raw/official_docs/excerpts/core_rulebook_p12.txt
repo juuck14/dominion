@@ -1,0 +1,140 @@
+4. Activate Mythos Ability
+
+Finally, the first player looks at the special text on the
+Mythos card, examining the trait listed at the top of the
+card. The various traits indicate different types of
+Mythos cards, and they are resolved in different ways as
+described below.
+Headline: The first player immediately resolves the
+special text of a Headline Mythos card. He then discards the Mythos card face down to the bottom of the
+Mythos deck.
+
+Turn End
+Once the first player has resolved all steps of the Mythos
+Phase, the first player marker is passed to the left.
+The turn is now over and a new one begins with the
+Upkeep Phase. Play continues in this way until the end
+of the game.
+
+Ending the Game
+
+Environment: The special text of an Environment
+Mythos card remains in play for several turns, possibly
+even until the end of the game. The first player places
+the card face up next to the game board, discarding any
+previous Environment Mythos card face down to the
+bottom of the Mythos deck. This means that only one
+Environment Mythos card can be in play at a time.
+
+The game ends in one of two ways: The investigators
+either overcome the Mythos threat, or they are defeated
+by it.
+
+Rumor: The special text of a Rumor Mythos card
+remains in effect until either the Pass or Fail condition
+on the card is met, at which point the card is resolved
+and is discarded face down to the bottom of the Mythos
+deck.
+
+A. Close the Gates
+
+Only one Rumor can be in play at once. If there is
+already a Rumor Mythos card in play, ignore the special
+text of the newly drawn Rumor and discard it face down
+to the bottom of the Mythos deck after resolving its
+other effects for the turn (such as gate opening and monster movement).
+Other Effects: Additionally, the Mythos card may call
+for one or more “activity” or “closed” markers to be
+placed on specific locations. Simply place the respective
+markers on the locations indicated by the card. If the
+card leaves play, remove the markers from the locations
+as well.
+
+V ictory
+
+The investigators win the game in any of the following
+three ways:
+To satisfy this victory condition, the players must
+accomplish two objectives:
+• An investigator must close the last gate on the board,
+such that there are currently no open gates.
+• When the last gate is closed, the players must have a
+number of gate trophies equal to or greater than the
+number of players. These gate trophies do include the
+one just awarded for closing the last gate, but do not
+include any trophies the players have spent.
+If these two conditions are met, the players immediately
+win. Stability is restored to Arkham as the Ancient One
+slips back into a deep slumber for a few more millennia.
+
+B. Seal the Gates
+
+If, at any time, there are six or more elder sign tokens on
+the board, the players immediately win. The Ancient
+One is driven away and peace returns to Arkham.
+
+C. Banish the Ancient One
+
+If the Ancient One awakens (see page 20) but the investigators manage to defeat it, the players immediately win.
+The Ancient One is banished beyond time and space.
+
+S coring V ictories
+
+If the players achieve one of the preceding victory conditions, the investigators have defeated the Mythos
+threat and saved Arkham. The player with the most gate
+trophies is awarded the honorary title of First Citizen of
+Arkham. In the case of a tie, the title goes to the player
+with the most monster trophies.
+You can rate your victory by using the following scoring
+system. Start with the highest printed number on the
+doom track of the Ancient One. Subtract the terror level
+
+12
+
+at the end of the game from this number. Now apply the
+following modifiers:
+–1 per unpaid/defaulted Bank Loan
+–1 per elder sign played during the game
++1 per unspent gate trophy at the end of the game
++1 for every three unspent monster trophies held at the
+end of the game.
++1 per sane, surviving investigator at the end of the
+game
+Example: The courageous investigators close the final
+gate, returning Azathoth to his fitful slumber just as the
+terror level climbs to 6. Subtracting the terror level (6)
+from the highest printed number on Azathoth’s doom
+track (14) gives a base score of 8. The group had two
+defaulted Bank Loans (–2), played three elder signs during the game (–3), had eight unspent gate trophies (+8),
+had 17 unspent monster trophies (+5), and had 5 sane,
+surviving investigators at the end of the game (+5) for a
+total of 21 points.
+
+D efeat
+
+If the Ancient One awakens and defeats all of the investigators in battle, the space-time continuum ruptures, the
+Ancient One is unleashed, and all of mankind suffers for
+the investigators’ failure. In this unfortunate event, all
+players lose the game.
+
+Other Rules
+After reading the rules up to this point, you should be
+familiar with the overall flow of the game, including
+what you must accomplish to win. The remaining sections of this rulebook offer everything you’ll need to
+know to meet those objectives: how to make skill checks
+for your investigator, how to evade and fight monsters,
+how to cast spells, how to close or seal gates, and more.
+
+Skills
+These are the basic abilities investigators use to accomplish things in the game. Every investigator has six
+skills, listed below. Investigators also have a value for
+each of these skills, depending on how they have positioned their skill sliders (see page 6). A skill value represents the number of dice the investigator rolls for a
+check based on that skill.
+Fight: Used for physical feats of strength and endurance. Also used in combat.
+Lore: Used for tests of mystic knowledge and ability.
+Also used in casting spells.
+Luck: Used to determine the whims of chance. It is the
+most common skill used in encounters.
+Sneak: Used for feats of stealth and thievery. Also used
+when evading monsters.
+

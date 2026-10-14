@@ -1,0 +1,237 @@
+{
+   "Unique Items": [
+     {
+       "name": "alien statue",
+       "type": "",
+       "description": "<b>Movement:</b> Exhaust and spend 2 movemtn pints and 1 Sanity to roll a die. If the die is a success, draw 1 Spell or gain 3 Clue tokens. If it is a failure, lose 2 Stamina.",
+       "price": 5,
+       "hands": "",
+       "count": 1
+     },
+
+     {
+       "name": "ancient tablet",
+       "type": "",
+       "description": "<b>Movement:</b> Spend 3 movement points and discard Ancient Tablet to roll 2 dice. For every success rolled, draw 1 Spell. For every failure rolled, gain 2 Clue tokens.",
+       "price": 8,
+       "hands": "",
+       "count": 1
+     },
+
+     {
+       "name": "blue watcher of the pyramid",
+       "type": "",
+       "description": "<b>Any Phase:</b> Lose 2 Stamina and discard Blue Watcher of the Pyramid to automatically succed at a <b>Combat check</b> or a <b>Fight</b> or <b>Lore check</b> made to close a gate. This cannot be used against an Ancient One.",
+       "price": 4,
+       "hands": "",
+       "count": 1
+     },
+
+     {
+       "name": "book of dzyan",
+       "type": "Tome",
+       "description": "<b>Movement:</b> Exhaust and spend 2 movement points to make a <b>Lore (-1) check</b>. if you pass, draw 1 Spell, lose 1 Sanity, and put 1 Stamina token from the bank on Book of Dzyan. If there are 2 Stamina tokens on it, discard book of Dzyan. If you fail, nothing happens.",
+       "price": 3,
+       "hands": "",
+       "count": 1
+     },
+
+     {
+       "name": "cabala of saboth",
+       "type": "Tome",
+       "description": "<b>Movement:</b> Exhaust and spend 2 movement points to make <b>Lore (-2) check</b>. If you pass, draw 1 Skill and discard Cabala of Saboth. If you fail, nothing happens.",
+       "price": 5,
+       "hands": "",
+       "count": 2
+     },
+
+     {
+       "name": "cultes des goules",
+       "type": "Tome",
+       "description": "<b>Movement:</b> Exhaust and spend 2 movement points to make a <b>Lore (-2) check</b>. If you pass, draw 1 Spell and gain 1 Clue token, but lose 2 Sanity and discard Cultes des Goules. If you fail, nothing happens.",
+       "price": 3,
+       "hands": "",
+       "count": 2
+     },
+
+     {
+       "name": "dragon's eye",
+       "type": "",
+       "description": "<b>Any Phase:</b> Exhaust and lose 1 Sanity after drawing a gate or location card to draw a new card in its place.",
+       "price": 6,
+       "hands": "",
+       "count": 1
+     },
+
+     {
+       "name": "elder sign",
+       "type": "",
+       "description": "<b>Arkham Encounter Phase:</b> When closing a gate, lose 1 Stamina and 1 Sanity and return this card to the box. you do not need to make a skill check or spend any Clue tokens to seal the gate. In addition, remove one doom token from the Ancient One's doom track.",
+       "price": 5,
+       "hands": "",
+       "count": 4
+     },
+
+     {
+       "name": "enchanted blade",
+       "type": "Magical Weapon",
+       "description": "+4 to <b>Combat checks</b>.",
+       "price": 6,
+       "hands": 1,
+       "count": 2
+     },
+
+     {
+       "name": "enchanted jewerly",
+       "type": "",
+       "description": "<b>Any Phase:</b> Put 1 Stamina token from the bank on Enchanted Jewelry to avoid losing 1 Stamina. If there are 3 Stamina tokens on it, discard Enchanted Jewelry.",
+       "price": 3,
+       "hands": "",
+       "count": 1
+     },
+
+     {
+       "name": "enchanted knife",
+       "type": "Magical Weapon",
+       "description": "+3 to <b>Combat checks</b>.",
+       "price": 5,
+       "hands": 1,
+       "count": 2
+     },
+
+     {
+       "name": "flute of the outer gods",
+       "type": "",
+       "description": "<b>Any Phase:</b> Lose 3 Sanity and 3 Stamina and discard Flute of the outer Gods before making a <b>Combat check</b> to defeat all monsters in your current area. This does not affect Ancient Ones.",
+       "price": 8,
+       "hands": "",
+       "count": 1
+     },
+
+     {
+       "name": "gate box",
+       "type": "",
+       "description": "<b>Any Phase:</b> When you return to Arkham from an Other World, you can return to any location with an open gate, not just those leading to the Other World you were in.",
+       "price": 4,
+       "hands": "",
+       "count": 1
+     },
+
+     {
+       "name": "healing stone",
+       "type": "",
+       "description": "<b>Upkeep:</b> Exhaust to gain 1 Stamina or 1 Sanity.<br /> Discard this card if the Ancient One awakens.",
+       "price": 8,
+       "hands": "",
+       "count": 1
+     },
+
+     {
+       "name": "holy water",
+       "type": "Magical Weapon",
+       "description": "+6 to <b>Combat checks</b>.<br/>(Discard after use).",
+       "price": 4,
+       "hands": 2,
+       "count": 4
+     },
+
+     {
+       "name": "lamp of alhazred",
+       "type": "Magical Weapon",
+       "description": "+5 to <b>Combat checks</b>.",
+       "price": 7,
+       "hands": 2,
+       "count": 1
+     },
+
+     {
+       "name": "nameless cults",
+       "type": "Tome",
+       "description": "<b>Movement:</b> Exhaust and spend 1 movement point to make a <b>Lore (-1) check</b>. If you pass, draw 1 Spell, lose 1 Sanity, and discard Nameless Cults. If you fail, nothing happens.",
+       "price": 3,
+       "hands": "",
+       "count": 2
+     },
+
+     {
+       "name": "necronomicon",
+       "type": "Tome",
+       "description": "<b>Movement:</b> Exhaust and spend 2 movement points to make a <b>Lore (-2) check</b>. If you pass, draw 1 Spell and lose 2 Sanity. If you fail, nothing happens.",
+       "price": 6,
+       "hands": "",
+       "count": 1
+     },
+
+     {
+       "name": "obsidian statue",
+       "type": "",
+       "description": "<b>Any Phase:</b> Discard Obsidian Statue to cancel all Stamina or Sanity loss being dealt to you from one source.",
+       "price": 4,
+       "hands": "",
+       "count": 1
+     },
+
+     {
+       "name": "pallid mask",
+       "type": "",
+       "description": "+2 to <b>Evade checks</b>.",
+       "price": 4,
+       "hands": "",
+       "count": 1
+     },
+
+     {
+       "name": "powder of ibn-ghazi",
+       "type": "Magical Weapon",
+       "description": "+9 to <b>Combat checks</b>.<br />(Lose 1 Sanity and discard after use).",
+       "price": 6,
+       "hands": 2,
+       "count": 2
+     },
+
+     {
+       "name": "ruby of r'lyeh",
+       "type": "",
+       "description": "<b>Movement:</b> You get 3 extra movement points.",
+       "price": 8,
+       "hands": "",
+       "count": 1
+     },
+
+     {
+       "name": "silver key",
+       "type": "",
+       "description": "<b>Any Phase:</b> Put 1 Stamina token from the bank on Silver Key before making an <b>Evade check</b> to automatically pass it. Discard Silver Key after using it if there are 3 Stamina tokens on it.",
+       "price": 4,
+       "hands": "",
+       "count": 1
+     },
+
+     {
+       "name": "sword of glory",
+       "type": "Magical Weapon",
+       "description": "+6 to <b>Combat checks</b>.",
+       "price": 8,
+       "hands": 2,
+       "count": 1
+     },
+
+     {
+       "name": "the king in yellow",
+       "type": "Tome",
+       "description": "<b>Movement:</b> Exhaust and spend 2 movement points to make a <b>Lore (-2) check.</b> If you pass, gain 4 Clue tokens, lose 1 Sanity and discard The King in Yellow. If you fail, nothing happens.",
+       "price": 2,
+       "hands": "",
+       "count": 2
+     },
+
+     {
+       "name": "warding statue",
+       "type": "",
+       "description": "<b>Any Phase:</b> Discard Warding Statue after failing a <b>Combat check</b> to reduce the mosnter's combat damage to 0 Stamina. This can also be used to cancel an Ancient One's entire Attack for 1 turn.",
+       "price": 6,
+       "hands": "",
+       "count": 1
+     }
+   ]
+}

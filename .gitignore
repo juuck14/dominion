@@ -1,0 +1,4 @@
+# local download cache (large binaries such as PDFs/images); rebuilt by `python -m ah2e fetch`
+.cache/
+__pycache__/
+*.pyc

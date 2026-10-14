@@ -1,0 +1,84 @@
+Q: When can a character perform actions during a phase?
+For example, if a player with the ally Duke (“discard to
+immediately restore your Sanity to its maximum”) draws
+an encounter and has to roll a die and lose that much
+Sanity, when can he discard Duke to restore Sanity: not at
+all once the encounter card is drawn, before the roll, or
+after the roll?
+A: He may discard Duke after the roll, provided he
+has not been driven insane. Actions can be performed
+at any time during their listed phase as long as any given
+conditions are met. How­ever, once an encounter is drawn,
+it must be resolved before any more actions can be performed. So, in the case of Duke, you can use him before
+or after drawing an encounter card, but if you draw the
+encounter card and it inflicts Sanity loss that reduces you
+to 0 Sanity, you go insane before you can use Duke. Flesh
+Ward is one exception to this rule because it prevents a
+Stamina loss and is intended to be used in response to such
+events. The Premonition Spell [CotDP] is another exception.
+
+Q: Is “cost” and “sacrifice” the same thing? For example
+Harvey Walters (Investigator) is working on Sealing the
+Beast’s Power (Unique Item) [DH], would his Strong Mind
+ability stop him from losing the Sanity or would it be considered a cost like a Spell?
+A: Yes, sacrifice is meant to be synonymous with cost.
+Harvey would not reduce the Sanity loss.
+
+Q: How does a re-roll work? Can you re-roll only the skill
+dice that you have before spending Clue tokens, or can you
+re-roll all the dice you’ve rolled on a given check, including
+the extra dice gained from spending Clue tokens?
+A: You re-roll all the dice you’ve rolled for the skill check
+so far, so you can re-roll dice gained from spending Clue
+tokens as long as you spend your Clue tokens before using
+your re-roll.
+
+Q: If an encounter or other event tells you to give or spend
+all of some resource (Money, Stamina, Sanity, Clue tokens,
+Focus, etc.), but you have zero of that resource, does this
+count as having given or spent that resource?
+A: No, you must have that resource to give away or spend
+in order to meet the requirements.
+
+Q: What happens if the general supply of Clue tokens
+is depleted?
+A: Use pennies, poker chips, or some other small items
+to stand in for the Clue tokens until the general supply
+is replenished. Alternatively, if no more Clue tokens are
+available, track any Clue tokens that are gained or placed
+in play with paper and pencil.
+Q: Can you voluntarily fail a check, or ignore successes
+(e.g. when you roll dice during an encounter and consult
+a table)?
+A: No, you cannot ignore successes or voluntarily fail
+a check.
+
+Q: If the devouring of an investigator is what leads to the
+Ancient One waking up – such as by successfully casting Call Ancient One (Spell) [BGotW] or using Massa di
+Requiem per Shuggay (Unique Item) [KH] - do you draw a
+new investigator for the Final Battle?
+A: No, the player who’s investigator was devoured is
+eliminated from the game. The number of successes necessary to remove a doom token from the doom track is not
+reduced as a result, however.
+
+Q: Do you immediately gain any Clues at locations
+you move to during Upkeep (from being Lost in Time
+and Space)?
+A: No.
+Q: Do you immediately gain any Clues at locations you
+move to during Arkham Encounters (through being redirected by an encounter)?
+A: No.
+
+Q: When starting a new investigator after a previous one
+has been devoured, at what point in the turn does the new
+investigator start?
+A: The new investigator starts at the beginning of the
+next turn.
+
+Q: How do you resolve an encounter that says “your
+turn ends?”
+A: Your investigator may do nothing further for the
+remainder of this turn until the Mythos Phase.
+
+14
+

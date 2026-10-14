@@ -1,0 +1,115 @@
+The Final Battle
+
+Q: When must an investigator evade or fight a monster?
+A: Investigators must evade or fight monsters in only two
+cases:
+
+(page 19 in the first printing of the Arkham Horror rules)
+Before the final battle begins, discard any active
+Environment or Rumor cards. Additionally, once the final
+battle begins, investigators should no longer collect money
+or roll for Retainers or Bank Loans.
+
+1. During the Movement Phase, if an investigator ends his movement in an Arkham location or
+street area containing one or more monster tokens,
+or attempts to leave a location or street area containing one or more monster tokens, he must evade or
+combat those monsters (one at a time, in any order of
+his choosing). Investigators must do this during their
+Movement Phase even if they are delayed.
+
+The above change has been incorporated into the rulebook included in the revised edition of Arkham Horror.
+Once the final battle begins, investigators can no longer
+gain Clue tokens.
+
+2. During the Arkham Encounters Phase and the
+Other Worlds Encounter Phase, when an encounter
+says “a monster appears,” he must evade or combat
+that monster. If an investigator is instructed by an
+encounter to move to a different location or street area
+during the Arkham Encounters Phase or the Other
+World Encounters Phase, he does not evade or combat
+monsters there.
+
+Monsters in Encounters
+
+(page 20 in the first printing of the Arkham Horror rules)
+Many encounters state that “A gate and a monster
+appear!” For these encounters, both the monster and the
+gate stay on the board. However, many other encounters
+state that just a monster appears. For example, one of the
+Black Cave encounters states “A monster appears!” and
+one of the Hibb’s Roadhouse encounters states “A horrible
+monster appears!” When a monster but not a gate appears
+in an encounter, the monster does not stay on the board. If
+such a monster is defeated, players may take it as a trophy
+(unless its special ability states otherwise). If the monster
+is not defeated, it is returned to the monster cup, regardless of whether the investigator evades the monster or is
+knocked unconscious or driven insane by it.
+
+When an investigator returns from an Other World to a
+location or street area that contains monsters, he is not
+required to evade or combat any of those monsters during
+that Movement Phase. However, he may choose to evade
+or combat any number of those monsters.
+Q: When is an investigator drawn through a gate?
+A: Investigators are drawn through gates in only three
+cases:
+
+The above change has been incorporated into the rulebook included in the revised edition of Arkham Horror.
+
+1. During the Arkham Encounters Phase, if an
+investigator without an explored token is in the same
+location or street area as a gate, he is drawn through
+that gate. Note that some encounters may cause a gate
+to open in an investigator’s location or to move on to
+the location. When this happens, the investigator is
+drawn through the gate and delayed.
+
+Frequently Asked Questions
+The following questions have been frequently asked about
+Arkham Horror.
+
+When Does an Investigator…
+
+2. During the Mythos Phase, when a gate opens
+in the same location as an investigator, he is drawn
+through the gate and delayed. The same is true if a
+gate is moved on to the investigator’s location or
+street area.
+
+Q: When does an investigator pick up Clue tokens on the
+board?
+A: Investigators pick up Clue tokens in only two cases:
+1. During the Movement Phase, if an investigator
+ends his movement in an Arkham location or street area
+containing Clue tokens, he picks them up after evading or combating any monsters in the same location or
+area. Investigators cannot pick up Clue tokens from a
+location or street area and then continue moving.
+
+3. An investigator is instructed to be drawn through
+a gate by a specific card or ability. In this case, simply
+follow the instructions provided.
+Notice: the following question and answer combination is
+a correction of previous versions of this FAQ.
+
+2. During the Mythos Phase, when a Clue token is
+placed in the same location as one or more investigators, one of them may immediately pick it up. If they
+cannot agree who gets the Clue token, the first player
+decides.
+
+Q: Exactly where, when, and what can investigators
+trade?
+A: Investigators may trade any time during the Movement
+Phase when they are in the same location, street area, or
+Other World area except during combat. They may trade
+before, during or after movement, which means trading
+does not end a move. Investigators who are delayed or
+who have lost their turn may still trade with other inves-
+
+Note that investigators do not pick up any Clue tokens
+when they are sent to a location with a Clue token during
+the Upkeep Phase, the Arkham Encounters Phase, or the
+Other World Encounters Phase.
+
+4
+

@@ -1,0 +1,87 @@
+Arkham Horror FAQ v2.0
+December 5, 2012
+
+Expansion Errata and FAQs
+
+Following are the frequently asked questions, errata, and
+clarifications for the Arkham Horror board game and
+its expansions. Sections that are new to version 2.0 of the
+FAQ are printed in blue.
+
+Errata and FAQs for expansions can be found later in this
+document on the following pages:
+The Curse of the Dark Pharaoh (page 15)
+The Curse of the Dark Pharaoh (Revised Edition)
+(page 21)
+Dunwich Horror (page 24)
+The King in Yellow (page 27)
+Kingsport Horror (page 29)
+The Black Goat of the Woods (page 34)
+Innsmouth Horror (page 36)
+The Lurker at the Threshold (page 40)
+Miskatonic Horror (page 42)
+Promotional Products (page 43)
+
+Errata
+Investigator Sheets
+
+Jenny Barnes should start with 2 Common Items rather than
+1, and Bob Jenkins should start with $9 rather than $8.
+Corrected versions of the above investigator sheets are
+included in the revised edition of Arkham Horror.
+
+Revised Printing
+
+Investigator Cards
+
+FFG reprinted Arkham Horror in Fall 2006, and much of
+the errata and rule changes in this document were incorporated into the rulebook and components of this revised
+edition, as noted throughout.
+
+Flesh Ward (Spell) should have a Sanity cost of 1, and
+its text should read: “Any Phase: Cast and exhaust to
+ignore all Stamina loss being dealt to you from one source.
+Discard this spell if the Ancient One awakens.”
+
+Identifying Abbreviations
+
+Healing Stone (Unique Item) should cost $8 and include
+the text “Discard this card if the Ancient One awakens.”
+
+When a reference is made to a rule or component from a
+product other than the one being discussed, it is followed
+by an abbreviation to indicate which product is the source
+of that rule or component. The abbreviations are:
+
+Lantern (Common Item) should cost $3 and read “+1 to
+Luck checks.”
+
+[AH]
+The Arkham Horror Board Game
+[CotDP]
+The Curse of the Dark Pharaoh
+[CotDP(R)] The Curse of the Dark Pharaoh
+(Revised Edition)
+[DH]
+Dunwich Horror
+[KiY]
+The King in Yellow
+[KH]
+Kingsport Horror
+[BGotW] The Black Goat of the Woods
+[IH]
+Innsmouth Horror
+[LatT]
+The Lurker at the Threshold
+[MH]
+Miskatonic Horror
+
+Corrected versions of the above cards are included
+both in the revised edition of Arkham Horror and in
+Dunwich Horror.
+Elder Sign (Unique Item) should say “Arkham
+Encounter Phase: When closing a gate…” instead of
+“Any Phase: When sealing a gate…”
+
+1
+

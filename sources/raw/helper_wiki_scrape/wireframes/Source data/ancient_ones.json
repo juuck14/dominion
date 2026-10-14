@@ -1,0 +1,1049 @@
+[
+  {
+    "name": "Abhoth",
+    "doom_track": 11,
+    "expansion": "Dunwich Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Abhoth",
+    "details": {
+      "page_title": "Abhoth",
+      "description": "Abhoth is an Ancient One. He first appeared in the Dunwich Horror expansion.",
+      "images": [
+        "Abhoth2.png",
+        "EpicBattleAbhothBack.png",
+        "EpicBattleAbhoth1.png",
+        "EpicBattleAbhoth2.png",
+        "EpicBattleAbhoth3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-4",
+          "defenses": "Magical Resistance",
+          "worshippers": "Abhoth has no human worshippers. Return all Cultists to the box at the start of the game. Place the 3 Child of Abhoth monsters on this sheet. Children of Abhoth that are defeated return to this sheet. They can never be claimed as trophies.",
+          "power_name": "Abominations",
+          "power": "While Abhoth stirs in his slumber, each time a monster surge occurs, place a random Child of Abhoth on the surging gate. If all 3 Children of Abhoth are already on the board, raise the terror level by 2 and add 1 doom token to the doom track.",
+          "attack": "Each investigator must discard a total of 3 Clue tokens, monster trophies, gate trophies, and/or Items or be devoured.",
+          "doom_track": 11,
+          "other_fields": {}
+        }
+      ],
+      "plot_images": [
+        "EpicBattleAbhothBack.png",
+        "EpicBattleAbhoth1.png",
+        "EpicBattleAbhoth2.png",
+        "EpicBattleAbhoth3.png"
+      ],
+      "mythos_source": "Abhoth first appears in The Seven Geases (1934), written by Clark Ashton Smith.",
+      "clarification": "",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Atlach-Nacha",
+    "doom_track": 13,
+    "expansion": "Kingsport Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Atlach-Nacha",
+    "details": {
+      "page_title": "Atlach-Nacha",
+      "description": "Atlach-Nacha is an Ancient One. He first appeared in the Kingsport Horror expansion.",
+      "images": [
+        "Atlach-Nacha.png",
+        "EpicBattleAtlach-NachaBack.png",
+        "EpicBattleAtlach-Nacha1.png",
+        "EpicBattleAtlach-Nacha2.png",
+        "EpicBattleAtlach-Nacha3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-5",
+          "defenses": "Magical Resistance and Physical Resistance",
+          "worshippers": "Atlach-Nacha is worshipped by the terrible Leng Spiders. Leng Spiders are fast, and their toughness is increased by 2.",
+          "power_name": "Web Between Worlds",
+          "power": "While Atlach-Nacha stirs in his slumber, all gate openings are gate bursts. In addition, all Mystic cards are discarded without their special effects taking place.",
+          "attack": "The Investigators must, as a group, choose one Ally in play or one investigator. If an Ally is chosen, it is returned to the box. If an investigator is chosen, that investigator is devoured.",
+          "doom_track": 13,
+          "other_fields": {}
+        }
+      ],
+      "plot_images": [
+        "EpicBattleAtlach-NachaBack.png",
+        "EpicBattleAtlach-Nacha1.png",
+        "EpicBattleAtlach-Nacha2.png",
+        "EpicBattleAtlach-Nacha3.png"
+      ],
+      "mythos_source": "Atlach-Nacha first appears in The Seven Geases (1934), written by Clark Ashton Smith.",
+      "clarification": "",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Azathoth",
+    "doom_track": 14,
+    "expansion": "Arkham Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Azathoth",
+    "details": {
+      "page_title": "Azathoth",
+      "description": "Azathoth is an Ancient One. He first appeared in the Arkham Horror board game.",
+      "images": [
+        "Azathoth.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-∞",
+          "defenses": "None",
+          "worshippers": "Since Azathoth promises nothing except destruction, only the insane worship him. However, their fanaticism gives them strength. Maniacs have their toughness increased by 1.",
+          "power_name": "Absolute Destruction",
+          "power": "If Azathoth awakens, the game is over and the investigators lose.",
+          "attack": "The end is here! Azathoth destroys the world.",
+          "doom_track": 14,
+          "other_fields": {}
+        }
+      ],
+      "plot_images": [],
+      "mythos_source": "Azathoth first appears in Azathoth (1922), written by H.P. Lovecraft.",
+      "clarification": "",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Bokrug",
+    "doom_track": 12,
+    "expansion": "Innsmouth Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Bokrug",
+    "details": {
+      "page_title": "Bokrug",
+      "description": "Bokrug is an Ancient One. He first appeared in the Innsmouth Horror board game.",
+      "images": [
+        "Bokrug.jpg",
+        "EpicBattleBokrugBack.png",
+        "EpicBattleBokrug1.png",
+        "EpicBattleBokrug2.png",
+        "EpicBattleBokrug3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-X",
+          "defenses": "Magical Resistance, Physical Resistance",
+          "worshippers": "Bokrug is worshipped by the ghosts of its followers, the Beings of Ib. At the start of the game, place the four Being of Ib monster tokens on this sheet.\n\nInvestigators suffer the penalties listed on each Being of Ib on this sheet.",
+          "power_name": "Vengeance for the Dead",
+          "power": "While Bokrug stirs in his slumber, any investigator may spend 2 gate trophies, 10 toughness worth of monster trophies, or 1 gate trophy and 5 toughness worth of monster trophies during the Upkeep Phase while in any Other World to remove one Being of Ib of his choice from this sheet.",
+          "attack": "Add 1 clue token to this sheet. If this brings the total number of clues and Beings of Ib on this sheet to eight or more, the investigators are devoured and lose the game.",
+          "doom_track": 12,
+          "other_fields": {
+            "start of battle": "X is set to twice the number of Beings of Ib on this sheet."
+          }
+        }
+      ],
+      "plot_images": [
+        "EpicBattleBokrugBack.png",
+        "EpicBattleBokrug1.png",
+        "EpicBattleBokrug2.png",
+        "EpicBattleBokrug3.png"
+      ],
+      "mythos_source": "Bokrug first appeared in the story The Doom That Came to Sarnath (1919), written by H.P. Lovecraft. Bokrug was a god worshiped by the beings of the city of Ib. The beings of Ib were killed by the men that founded the city Sarnath. 1,000 years after the massacre Bokrug helped the ghosts of the Beings of Ib take their revenge on Sarnath.",
+      "clarification": "",
+      "errata": "",
+      "sections": {
+        "See also": "*Being of Ib\n*Being of Ib (2)\n*Being of Ib (3)\n*Being of Ib (4)"
+      }
+    }
+  },
+  {
+    "name": "Chaugnar Faugn",
+    "doom_track": 12,
+    "expansion": "Innsmouth Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Chaugnar_Faugn",
+    "details": {
+      "page_title": "Chaugnar Faugn",
+      "description": "Chaugnar Faugn is an Ancient One. He first appeared in the Innsmouth Horror board game.",
+      "images": [
+        "Chaugnar_Faugn.jpg",
+        "EpicBattleChaugnarFaugnBack.png",
+        "EpicBattleChaugnarFaugn1.png",
+        "EpicBattleChaugnarFaugn2.png",
+        "EpicBattleChaugnarFaugn3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-4",
+          "defenses": "Physical Immunity",
+          "worshippers": "Chaugnar Faugn is worshipped by a fierce and fanatical jungle tribe. All Tcho-tchos and Tcho-tcho Priests gain +2 toughness.",
+          "power_name": "Curse of the Jungle",
+          "power": "While Chaugnar Faugn stirs in his slumber, any investigator carrying an Elder Sign or in the same neighborhood as an elder sign token suffers a -1 penalty to all skill checks.",
+          "attack": "Each investigator must discard three Clue tokens, one Ally, or be devoured. Chaugnar Faugn cannot have more than three doom tokens removed from his doom track during a single round of combat - he ignores all further successes.",
+          "doom_track": 12,
+          "other_fields": {}
+        }
+      ],
+      "plot_images": [
+        "EpicBattleChaugnarFaugnBack.png",
+        "EpicBattleChaugnarFaugn1.png",
+        "EpicBattleChaugnarFaugn2.png",
+        "EpicBattleChaugnarFaugn3.png"
+      ],
+      "mythos_source": "Chaugnar Faugn first appears in The Horror from the Hills (1931), written by Frank B. Long.",
+      "clarification": "",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Cthugha",
+    "doom_track": 13,
+    "expansion": "Innsmouth Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Cthugha",
+    "details": {
+      "page_title": "Cthugha",
+      "description": "Cthugha is an Ancient One. He first appeared in the Innsmouth Horror board game.",
+      "images": [
+        "Cthugha.jpg",
+        "EpicBattleCthughaBack.png",
+        "EpicBattleCthugha1.png",
+        "EpicBattleCthugha2.png",
+        "EpicBattleCthugha3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-5",
+          "defenses": "Physical Resistance",
+          "worshippers": "Cthugha is worshipped by its smaller brethren. Fire Vampires gain +2 toughness and deal 1 extra Stamina as combat damage.",
+          "power_name": "Sweltering Heat",
+          "power": "While Cthugha stirs in its slumber, each investigator loses 1 Stamina for each movement point over 3 he spends each turn. Reading Tomes does not count towards this total. In addition, all Weather cards are ignored when drawn - a new card being drawn instead.",
+          "attack": "Roll a die. Each investigator must lose a total of that many Clue tokens, Stamina, and/or Sanity or be devoured. Any weapon used in an attack against Cthugha is discarded after the attack is made.",
+          "doom_track": 13,
+          "other_fields": {}
+        }
+      ],
+      "plot_images": [
+        "EpicBattleCthughaBack.png",
+        "EpicBattleCthugha1.png",
+        "EpicBattleCthugha2.png",
+        "EpicBattleCthugha3.png"
+      ],
+      "mythos_source": "Cthugha first appears in The House on Curwen Street (1944), written by August Derleth.",
+      "clarification": "",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Cthulhu",
+    "doom_track": 13,
+    "expansion": "Arkham Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Cthulhu",
+    "details": {
+      "page_title": "Cthulhu",
+      "description": "Cthulhu is an Ancient One. He first appeared in the Arkham Horror board game.",
+      "images": [
+        "Cthulhu.png",
+        "Cthulhu_II_AO.jpg",
+        "EpicBattleCthulhuBack.png",
+        "EpicBattleCthulhu1.png",
+        "EpicBattleCthulhu2.png",
+        "EpicBattleCthulhu3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Original Sheet info",
+          "combat_rating": "-6",
+          "defenses": "Special (See Attack)",
+          "worshippers": "Cthulhu's worshippers often have the Innsmouth Look, a sign of monstrous ancestors. Cultists have a horror rating of -2 and a horror damage of 2 Sanity.",
+          "power_name": "Dreams of Madness",
+          "power": "While Cthulhu stirs in his slumber, investigators have their maximum Sanity and maximum Stamina reduced by 1.",
+          "attack": "Each investigator lowers either his maximum Sanity or Maximum Stamina by 1 (his choice). After Cthulhu attacks 1 doom token is placed back on Cthulhu's doom track if it isn't already full.",
+          "doom_track": 13,
+          "other_fields": {}
+        },
+        {
+          "name": "Arkham Nights Sheet info",
+          "combat_rating": "-6",
+          "defenses": "Special (See Attack)",
+          "worshippers": "Cthulhu's worshippers often have the Innsmouth Look, a sign of monstrous ancestors. Cultists are Aquatic, have a horror rating of -2 and a horror damage of 2 Sanity.",
+          "power_name": "Madness Without End",
+          "power": "While Cthulhu stirs in his slumber, investigators have their maximum Sanity and maximum Stamina reduced by 1. Each time an investigator is knocked unconscious, his maximum Stamina is reduced by 1. Each time an investigator is driven insane, his maximum Santiy is reduced by 1.",
+          "attack": "Each investigator lowers either his maximum Sanity or Maximum Stamina by 1 (his choice). After Cthulhu attacks 1 doom token is placed back on Cthulhu's doom track if it isn't already full.",
+          "doom_track": 13,
+          "other_fields": {}
+        }
+      ],
+      "plot_images": [
+        "EpicBattleCthulhuBack.png",
+        "EpicBattleCthulhu1.png",
+        "EpicBattleCthulhu2.png",
+        "EpicBattleCthulhu3.png"
+      ],
+      "mythos_source": "Cthulhu was introduced in The Call of Cthulhu (1926), written by H.P. Lovecraft.",
+      "clarification": "",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Daoloth",
+    "doom_track": 12,
+    "expansion": "Promotional offer",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Daoloth",
+    "details": {
+      "page_title": "Daoloth",
+      "description": "Daoloth is an Ancient One. He first appeared as a free giveaway to attendees of Arkham Nights, October 22-24, 2010.",
+      "images": [
+        "Daoloth_AO.jpg"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-4",
+          "defenses": "Special (See Attack)",
+          "worshippers": "The followers of Daoloth are astronomers that can see into both the past and the future. When Cultists move, they do not follow normal movement rules. Instead, they move to the nearest investigator in a street area or unstable location.",
+          "power_name": "The Render of Veils",
+          "power": "While Daoloth stirs in his slumber, immediately after each monster surge, replace all open gates, one at a time. Do this by reshuffling the gate into the pile of gate markers and drawing a new one to take its place. Then, discard all explored markers. This is not treated as a new gate opening (no doom tokens are added to the doom track and no monsters are drawn). Investigators are not drawn through these gates until the Arkham Encounter phase.",
+          "attack": "Draw a Mythos Card. If the card instructs the players to place a gate in a location that does not have an elder sign on it, the first player is devoured. If the card instructs players to place a gate in a location that does have an elder sign on it, remove the elder sign from that location. If the Mythos Card does not instruct players to place a gate in a location, 1 token is placed back on Daoloth's doom track if it is not full.",
+          "doom_track": 12,
+          "other_fields": {}
+        }
+      ],
+      "plot_images": [],
+      "mythos_source": "Daoloth first appeared in The Render of the Veils (1964), written by Ramsey Campbell.",
+      "clarification": "",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Eihort",
+    "doom_track": 12,
+    "expansion": "Kingsport Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Eihort",
+    "details": {
+      "page_title": "Eihort",
+      "description": "Eihort is an Ancient One. He first appeared in the Kingsport Horror expansion.",
+      "images": [
+        "Eihort.png",
+        "EpicBattleEihortBack.png",
+        "EpicBattleEihort1.png",
+        "EpicBattleEihort2.png",
+        "EpicBattleEihort3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-4",
+          "defenses": "Physical Immunity",
+          "worshippers": "Eihort's worshippers are infested with his blood. Each time an investigator defeats a Cultist, that investigator gains a brood token.",
+          "power_name": "Eihort's Bargain",
+          "power": "While Eihort stirs in his slumber, any investigator who seals a gate gains 1 brood token. Any brood tokens on an investigator who is devoured are immediately added to Eihort's doom track as doom tokens. Eihort can exceed 12 doom tokens on his doom track.\n\nEihort's Brood: Each time an investigator gains a brood token, roll a die. If the roll is lower than the number of brood tokens possessed by that investigator, he is devoured.",
+          "attack": "The first player gains one brood token.",
+          "doom_track": 12,
+          "other_fields": {
+            "start of battle": "When Eihort awakens, each investigator gains one brood token."
+          }
+        }
+      ],
+      "plot_images": [
+        "EpicBattleEihortBack.png",
+        "EpicBattleEihort1.png",
+        "EpicBattleEihort2.png",
+        "EpicBattleEihort3.png"
+      ],
+      "mythos_source": "Eihort first appeared in Before the Storm (1980), written by Ramsey Campbell.",
+      "clarification": "",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Ghatanothoa",
+    "doom_track": 13,
+    "expansion": "Innsmouth Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Ghatanothoa",
+    "details": {
+      "page_title": "Ghatanothoa",
+      "description": "Ghatanothoa is an Ancient One. He first appeared in the Innsmouth Horror board game.",
+      "images": [
+        "Ghatanothoa.jpg",
+        "EpicBattleGhatanothoaBack.png",
+        "EpicBattleGhatanothoa1.png",
+        "EpicBattleGhatanothoa2.png",
+        "EpicBattleGhatanothoa3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-6",
+          "defenses": "None",
+          "worshippers": "Ghatanothoa is worshipped by certain ancient reptiles and fungi from Yuggoth. Lloigor and Mi-Go gain +2 toughness.",
+          "power_name": "Annihilating Gaze",
+          "power": "While Ghatanothoa stirs in his slumber, place the eight visage tokens facedown on this sheet. Each time an investigator gains 2 or more Clue tokens at once, he must turn a visage token faceup. If it has Ghatanothoa's face on it, he is devoured. If not, leave the token faceup. Once four visage tokens are faceup, turn them facedown and shuffle the visage tokens.",
+          "attack": "Each investigator must spend 1 movement point or be devoured. This increases by 1 point in each successive round (e.g. 2 points in round 2, 3 in round three, etc.).\n\nEach investigator's attack against Ghatanothoa deals one less success than normal.",
+          "doom_track": 13,
+          "other_fields": {}
+        }
+      ],
+      "plot_images": [
+        "EpicBattleGhatanothoaBack.png",
+        "EpicBattleGhatanothoa1.png",
+        "EpicBattleGhatanothoa2.png",
+        "EpicBattleGhatanothoa3.png"
+      ],
+      "mythos_source": "Ghatanothoa first appeared in Out of the Aeons (1933), written by H.P. Lovecraft and Hazel Heald.",
+      "clarification": "",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Glaaki",
+    "doom_track": 12,
+    "expansion": "Dunwich Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Glaaki",
+    "details": {
+      "page_title": "Glaaki",
+      "description": "Glaaki is an Ancient One. He first appeared in the Dunwich Horror expansion.",
+      "images": [
+        "Glaaki2.png",
+        "EpicBattleGlaakiBack.png",
+        "EpicBattleGlaaki1.png",
+        "EpicBattleGlaaki2.png",
+        "EpicBattleGlaaki3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-5",
+          "defenses": "Physical Resistance",
+          "worshippers": "Glaaki's worshippers are relentless undead creatures. Cultists are Undead and stalkers. Place the 5 Servant of Glaaki monsters on this sheet. Servants of Glaaki that are defeated return to this sheet. They can never be claimed as trophies.",
+          "power_name": "Undead Servants",
+          "power": "While Glaaki stirs in his slumber, each time an Ally is discarded or removed from the game, draw a mythos card and place a random Servant of Glaaki on the gate location shown (even if it is sealed). If all 5 Servants of Glaaki are already on the board, Glaaki immediately awakens. If an investigator is devoured, raise the terror level by 2.",
+          "attack": "Raise the terror level by 1. If it is 10 or higher, all investigators are devoured.",
+          "doom_track": 12,
+          "other_fields": {}
+        }
+      ],
+      "plot_images": [
+        "EpicBattleGlaakiBack.png",
+        "EpicBattleGlaaki1.png",
+        "EpicBattleGlaaki2.png",
+        "EpicBattleGlaaki3.png"
+      ],
+      "mythos_source": "Glaaki first appeared in The Inhabitant of the Lake (1964), written by Ramsey Campbell.",
+      "clarification": "",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Hastur",
+    "doom_track": 13,
+    "expansion": "Arkham Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Hastur",
+    "details": {
+      "page_title": "Hastur",
+      "description": "Hastur is an Ancient One. He first appeared in the Arkham Horror board game.",
+      "images": [
+        "Hastur.png",
+        "Hastur_II_AO.jpg",
+        "EpicBattleHasturBack.png",
+        "EpicBattleHastur1.png",
+        "EpicBattleHastur2.png",
+        "EpicBattleHastur3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-X",
+          "defenses": "Physical Resistance",
+          "worshippers": "Hastur's worshippers ride byakhee mounts that they call with enchanted whistles. Cultists are flying monsters and their combat rating is -2.",
+          "power_name": "The King in Yellow",
+          "power": "While Hastur stirs in his slumber, the cost to seal a gate is 8 Clue tokens instead of 5.",
+          "attack": "Each investigator must pass a Luck (+1) check or lose 2 Sanity. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+          "doom_track": 13,
+          "other_fields": {
+            "start of battle": "X is set to the current terror level."
+          }
+        },
+        {
+          "name": "Arkham Nights Sheet info",
+          "combat_rating": "-5",
+          "defenses": "Physical Resistance",
+          "worshippers": "Hastur's worshippers ride byakhee mounts that they call with enchanted whistles. Cultists are flying monsters and their combat rating is –2.",
+          "power_name": "The Unspeakable One",
+          "power": "While Hastur stirs in his slumber, immediately after an investigator seals a gate, he or she must reduce his or her maximum Sanity by 1. (An investigator may seal a gate even if doing so would reduce his or her maximum Sanity to 0.)\n\nEach time an investigator in Arkham is driven insane or devoured, raise the Terror\nLevel by 1.",
+          "attack": "Each investigator must pass a Luck (+1) check or lose 2 Sanity. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+          "doom_track": 13,
+          "other_fields": {}
+        }
+      ],
+      "plot_images": [
+        "EpicBattleHasturBack.png",
+        "EpicBattleHastur1.png",
+        "EpicBattleHastur2.png",
+        "EpicBattleHastur3.png"
+      ],
+      "mythos_source": "The name Hastur first appeared in Haita the Shepherd (1893), written by Ambrose Bierce, where he was a benevolent god of shepherds. Robert W. Chambers appropriated the name for use in his anthology The King in Yellow (1895). The first Mythos story to use the name was The Whisperer in Darkness (1930), written by H.P. Lovecraft.",
+      "clarification": "",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Ithaqua",
+    "doom_track": 11,
+    "expansion": "Arkham Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Ithaqua",
+    "details": {
+      "page_title": "Ithaqua",
+      "description": "Ithaqua is an Ancient One. He first appeared in the Arkham Horror board game.",
+      "images": [
+        "Ithaqua.png",
+        "EpicBattleIthaquaBack.png",
+        "EpicBattleIthaqua1.png",
+        "EpicBattleIthaqua2.png",
+        "EpicBattleIthaqua3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-3",
+          "defenses": "None",
+          "worshippers": "Ithaqua's worshippers eat the flesh of their fellow men, gaining supernatural power through their dark practice. Cultists have their toughness increased by 2.",
+          "power_name": "Icy Winds",
+          "power": "While Ithaqua stirs in his slumber, any investigator in a street area at the end of the Mythos phase loses 1 Stamina. In addition, all Weather cards are discarded without their special effects taking place.",
+          "attack": "Each investigator must pass a Fight (+1) check or lose 2 Stamina. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+          "doom_track": 11,
+          "other_fields": {
+            "start of battle": "Investigators must roll a die for every item they have, discarding the item on a failure."
+          }
+        }
+      ],
+      "plot_images": [
+        "EpicBattleIthaquaBack.png",
+        "EpicBattleIthaqua1.png",
+        "EpicBattleIthaqua2.png",
+        "EpicBattleIthaqua3.png"
+      ],
+      "mythos_source": "Ithaqua first appeared in The Thing that Walked on the Wind (1933), written by August Derleth.",
+      "clarification": "",
+      "errata": "If a non-weather environment card is in play and a new Mythos card is drawn with a weather environmental effect, all functions of the card are followed except for the environmental effect. The card is then discarded.\n\nAt the start of battle, each investigator must roll one die separately for each item the investigator has.",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Nyarlathotep",
+    "doom_track": 11,
+    "expansion": "Arkham Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Nyarlathotep",
+    "details": {
+      "page_title": "Nyarlathotep",
+      "description": "Nyarlathotep is an Ancient One. He first appeared in the Arkham Horror board game.",
+      "images": [
+        "Nyarlathotep.png",
+        "EpicBattleNyarlathotepBack.png",
+        "EpicBattleNyarlathotep1.png",
+        "EpicBattleNyarlathotep2.png",
+        "EpicBattleNyarlathotep3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-4",
+          "defenses": "Magical Resistance",
+          "worshippers": "Nyarlathotep has innumerable cults all over the world. Cultists have the Endless ability.",
+          "power_name": "A Thousand Masks",
+          "power": "At the start of the game add the 5 Mask monsters to the cup. Multiple Mask monsters can be in play at once.",
+          "attack": "Each investigator must pass a Lore (+1) check or lose 1 Clue token. Any investigator with no Clue tokens left is devoured. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+          "doom_track": 11,
+          "other_fields": {
+            "start of battle": "Any investigator with no Clue tokens is devoured."
+          }
+        }
+      ],
+      "plot_images": [
+        "EpicBattleNyarlathotepBack.png",
+        "EpicBattleNyarlathotep1.png",
+        "EpicBattleNyarlathotep2.png",
+        "EpicBattleNyarlathotep3.png"
+      ],
+      "mythos_source": "Nyarlathotep is first mentioned in the prose poem Nyarlathotep (1920), written by H.P. Lovecraft. The first piece of fiction to feature him is The Rats in the Walls (1924), also written by H.P. Lovecraft.",
+      "clarification": "Add ALL Mask monsters to the cup at the beginning of the game.",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Nyogtha",
+    "doom_track": 12,
+    "expansion": "Innsmouth Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Nyogtha",
+    "details": {
+      "page_title": "Nyogtha",
+      "description": "Nyogtha is an Ancient One. He first appeared in the Innsmouth Horror board game.",
+      "images": [
+        "Nyogtha.jpg",
+        "EpicBattleNyogthaBack.png",
+        "EpicBattleNyogtha1.png",
+        "EpicBattleNyogtha2.png",
+        "EpicBattleNyogtha3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-8",
+          "defenses": "None",
+          "worshippers": "Nyogtha is worshipped by a variety of beings in return for teaching them spells. Witches, Warlocks, and Ghouls gain +1 toughness and Physical Resistance.",
+          "power_name": "Tendrils from Below",
+          "power": "While Nyogtha stirs in its slumber, at the start of the game, place the Tendril of Nyogtha monster token on this sheet. Each time a monster (but not a gate) appears during an encounter, the Tendril of Nyogtha is encountered instead. If it is defeated, return the Tendril to this sheet. It cannot be claimed as a trophy.",
+          "attack": "The first player is pulled underground. Roll a die. On a success, that player escapes with their life; otherwise they are devoured.\n\nNyogtha's combat rating is -3 for the first player only.",
+          "doom_track": 12,
+          "other_fields": {}
+        }
+      ],
+      "plot_images": [
+        "EpicBattleNyogthaBack.png",
+        "EpicBattleNyogtha1.png",
+        "EpicBattleNyogtha2.png",
+        "EpicBattleNyogtha3.png"
+      ],
+      "mythos_source": "Nyogtha first appeared in The Salem Horror (1937), written by Henry Kuttner.",
+      "clarification": "",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Quachil Uttaus",
+    "doom_track": 12,
+    "expansion": "Innsmouth Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Quachil_Uttaus",
+    "details": {
+      "page_title": "Quachil Uttaus",
+      "description": "Quachil Uttaus is an Ancient One. It first appeared in the Innsmouth Horror expansion.",
+      "images": [
+        "QuachilUttaus.jpg",
+        "EpicBattleQuachilUttausBack.png",
+        "EpicBattleQuachilUttaus1.png",
+        "EpicBattleQuachilUttaus2.png",
+        "EpicBattleQuachilUttaus3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-3",
+          "defenses": "Physical Immunity, Magical Immunity",
+          "worshippers": "Quachil Uttaus is worshipped by wizards who call upon him for immortality. Warlocks gain +2 toughness and Endless. Investigators do not collect clue tokens from defeating a Warlock unless they can ignore the Endless ability.",
+          "power_name": "Footprints in the Dust",
+          "power": "While Quachil Uttaus stirs in his slumber, shuffle the three dust decks at the start of the game and place them facedown on this sheet.\n\nAt the start of each turn, the first player must either spend 2 clue tokens or draw a card from the lowest-numbered dust deck that still has undrawn cards in it.",
+          "attack": "Quachil Uttaus touches the first player, who ages to dust and blows away in the wind. The first player is devoured.",
+          "doom_track": 12,
+          "other_fields": {
+            "start of battle": "All Allies are returned to the box."
+          }
+        }
+      ],
+      "plot_images": [
+        "EpicBattleQuachilUttausBack.png",
+        "EpicBattleQuachilUttaus1.png",
+        "EpicBattleQuachilUttaus2.png",
+        "EpicBattleQuachilUttaus3.png"
+      ],
+      "mythos_source": "Quachil Uttaus first appeared in The Treader of the Dust (1935), written by Clark Ashton Smith.",
+      "clarification": "When Quachil Uttaus is the Ancient One, the first player marker is only moved when the first player is devoured. If a player spends Clue tokens to avoid drawing a Dust card, he still keeps the first player marker.",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Rhan-Tegoth",
+    "doom_track": 11,
+    "expansion": "Innsmouth Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Rhan-Tegoth",
+    "details": {
+      "page_title": "Rhan-Tegoth",
+      "description": "Rhan-Tegoth is an Ancient One. He first appeared in the Innsmouth Horror board game.",
+      "images": [
+        "RhanTegoth.jpg",
+        "EpicBattleRhan-TegothBack.png",
+        "EpicBattleRhan-Tegoth1.png",
+        "EpicBattleRhan-Tegoth2.png",
+        "EpicBattleRhan-Tegoth3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-4",
+          "defenses": "Physical Immunity",
+          "worshippers": "Rhan-Tegoth is worshipped by the twisted creatures of the tundra. Gnoph-Keh gain Nightmarish 1.",
+          "power_name": "Insatiable Hunger",
+          "power": "While Rhan-Tegoth stirs in his slumber, any Cultist that is drawn from the monster cup is placed on this sheet. The terror level then increases by 1, a doom token is added to the doom track, and a replacement monster is drawn.",
+          "attack": "Rhan-Tegoth drains the blood from a victim. The investigator with the highest current Stamina (first player breaks ties) rolls dice equal to his Stamina and loses 1 Stamina for each failed die. For each Stamina Rhan-Tegoth drains, the investigators must inflict one extra success on him in order to defeat him.",
+          "doom_track": 11,
+          "other_fields": {
+            "start of battle": "Rhan-Tegoth gains 2 extra doom tokens for each Cultist on this sheet."
+          }
+        }
+      ],
+      "plot_images": [
+        "EpicBattleRhan-TegothBack.png",
+        "EpicBattleRhan-Tegoth1.png",
+        "EpicBattleRhan-Tegoth2.png",
+        "EpicBattleRhan-Tegoth3.png"
+      ],
+      "mythos_source": "Rhan-Tegoth first appeared in The Horror in the Museum (1932), ghost-written by H.P. Lovecraft for Hazel Heald.",
+      "clarification": "Stamina loss inflicted by Rhan-Tegoth's attack cannot be prevented or reduced by any means.",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Shub-Niggurath",
+    "doom_track": 12,
+    "expansion": "Arkham Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Shub-Niggurath",
+    "details": {
+      "page_title": "Shub-Niggurath",
+      "description": "Shub-Niggurath is an Ancient One. She first appeared in the Arkham Horror board game.",
+      "images": [
+        "Shub-Niggurath.png",
+        "EpicBattleShub-NiggurathBack.png",
+        "EpicBattleShub-Niggurath1.png",
+        "EpicBattleShub-Niggurath2.png",
+        "EpicBattleShub-Niggurath3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-5",
+          "defenses": "Physical Immunity",
+          "worshippers": "Shub-Niggurath's young are numberless. Dark Young have the Endless ability.",
+          "power_name": "Black Goat of the Woods",
+          "power": "While Shub-Niggurath stirs in her slumber, all monsters have their toughness increased by 1.",
+          "attack": "Each investigator must pass a Sneak (+1) check or lose 1 monster trophy. Any investigator with no monster trophies left is devoured. The check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+          "doom_track": 12,
+          "other_fields": {
+            "start of battle": "Any investigator with no monster trophies is devoured."
+          }
+        }
+      ],
+      "plot_images": [
+        "EpicBattleShub-NiggurathBack.png",
+        "EpicBattleShub-Niggurath1.png",
+        "EpicBattleShub-Niggurath2.png",
+        "EpicBattleShub-Niggurath3.png"
+      ],
+      "mythos_source": "Shub-Niggurath first appeared in The Last Test (1927), written by H.P. Lovecraft and Adolphe de Castro. It was also mentioned in The Thing on the Doorstep (1937), written by H.P. Lovecraft.",
+      "clarification": "",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Shudde M'ell",
+    "doom_track": 12,
+    "expansion": "Dunwich Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Shudde_M%27ell",
+    "details": {
+      "page_title": "Shudde M'ell",
+      "description": "Shuddle M'ell is an Ancient One. He first appeared in the Dunwich Horror expansion.",
+      "images": [
+        "ShuddeMell2.png",
+        "EpicBattleShuddeMellBack.png",
+        "EpicBattleShuddeMell1.png",
+        "EpicBattleShuddeMell2.png",
+        "EpicBattleShuddeMell3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-3",
+          "defenses": "Magical Resistance and Physical Resistance",
+          "worshippers": "Shudde M'ell is worshipped by his inhuman children. Chthonians deal their damage when moving on a roll of 2-6 instead of a roll of 4-6.",
+          "power_name": "World Cracking",
+          "power": "While Shudde M'ell stirs in his slumber place the 7 rubble tokens face down near the board. Each time a monster surge occurs, draw a rubble token. The token is placed on the location it shows, closing that location for the rest of the game. If there are no rubble tokens left when one should be drawn, the game is over and the investigators lose.",
+          "attack": "One undrawn rubble token is discarded. If there are no rubble tokens left to discard when Shudde M'ell attacks, Arkham is destroyed by a massive earthquake and all investigators are devoured.",
+          "doom_track": 12,
+          "other_fields": {}
+        }
+      ],
+      "plot_images": [
+        "EpicBattleShuddeMellBack.png",
+        "EpicBattleShuddeMell1.png",
+        "EpicBattleShuddeMell2.png",
+        "EpicBattleShuddeMell3.png"
+      ],
+      "mythos_source": "Shudde M'ell first appeared in Cement Surroundings (1969), written by Brian Lumley.",
+      "clarification": "",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Tsathoggua",
+    "doom_track": 13,
+    "expansion": "Dunwich Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Tsathoggua",
+    "details": {
+      "page_title": "Tsathoggua",
+      "description": "Tsathoggua is an Ancient One. He first appeared in the Dunwich Horror expansion.",
+      "images": [
+        "Tsathoggua2.png",
+        "EpicBattleTsathogguaBack.png",
+        "EpicBattleTsathoggua1.png",
+        "EpicBattleTsathoggua2.png",
+        "EpicBattleTsathoggua3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-6",
+          "defenses": "None",
+          "worshippers": "Tsathoggua is served by black, amorphous creatures. Formless Spawn gain +1 toughness and become stalkers.",
+          "power_name": "Malaise",
+          "power": "While Tsathoggua stirs in his slumber, investigators cannot use the special ability of any locations other than the Arkham Asylum, Curiositie Shoppe, General Store, Ye Olde Magick Shoppe, and St. Mary's Hospital. This does not prevent investigators from having encounters or traveling between cities. In addition, all Urban cards are discarded without their special effects taking place.",
+          "attack": "Each investigator must discard 2 monster trophies and 1 gate trophy or be devoured.",
+          "doom_track": 13,
+          "other_fields": {
+            "start of battle": "Investigators discard all Clue tokens."
+          }
+        }
+      ],
+      "plot_images": [
+        "EpicBattleTsathogguaBack.png",
+        "EpicBattleTsathoggua1.png",
+        "EpicBattleTsathoggua2.png",
+        "EpicBattleTsathoggua3.png"
+      ],
+      "mythos_source": "Tsathoggua was first mentioned in H.P. Lovecraft's The Whisperer in the Darkness (1931) and again in The Shadow Out of Time (1936), although he was invented and first described in Clark Ashton Smith's short story The Tale of Satampra Zeiros (1931). Published only a few month's apart, Smith's story was actually written a year earlier. Tsathoggua is a primary deity in Smith's Hyperborean Cycle.",
+      "clarification": "",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Y'Golonac",
+    "doom_track": 12,
+    "expansion": "Kingsport Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Y%27Golonac",
+    "details": {
+      "page_title": "Y'Golonac",
+      "description": "Y'Golonac is an Ancient One. He first appeared in the Kingsport Horror expansion.",
+      "images": [
+        "YGolonac.png",
+        "EpicBattleYGolonacBack.png",
+        "EpicBattleYGolonac1.png",
+        "EpicBattleYGolonac2.png",
+        "EpicBattleYGolonac3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-4",
+          "defenses": "Physical Resistance",
+          "worshippers": "Y'Golonac's worshippers are possessed by him and revert to their normal form upon death. Each time an investigator defeats a Cultist, increase the terror level by 1.",
+          "power_name": "Corrupting Text",
+          "power": "While Y'Golonac stirs in his slumber, each time an investigator draws a Tome from any deck after dealing out starting equipment (whether he keeps the Tome or not) add one doom token to Y'Golonac's doom track.",
+          "attack": "Wounds from Y'Golonac's hands remain open and bleeding. Each investigator loses 1 point of Sanity and/or Stamina, split between the two however he likes. This increases by 1 point each successive round (e.g., 2 points in round two, 3 in round three, etc.).",
+          "doom_track": 12,
+          "other_fields": {}
+        }
+      ],
+      "plot_images": [
+        "EpicBattleYGolonacBack.png",
+        "EpicBattleYGolonac1.png",
+        "EpicBattleYGolonac2.png",
+        "EpicBattleYGolonac3.png"
+      ],
+      "mythos_source": "Y'Golonac first appeared in Cold Print (1969), written by Ramsey Campbell.",
+      "clarification": "Y'Golonac's Corrupting Text ability does not trigger if an investigator is instructed to look through a deck and take an item of his choice unless he takes a Tome.",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Yibb-Tstll",
+    "doom_track": 11,
+    "expansion": "Kingsport Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Yibb-Tstll",
+    "details": {
+      "page_title": "Yibb-Tstll",
+      "description": "Yibb-Tstll is an Ancient One. She first appeared in the Kingsport Horror expansion.",
+      "images": [
+        "Yibb-Tstll.png",
+        "EpicBattleYibb-TstllBack.png",
+        "EpicBattleYibb-Tstll1.png",
+        "EpicBattleYibb-Tstll2.png",
+        "EpicBattleYibb-Tstll3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-X",
+          "defenses": "Special",
+          "worshippers": "Yibb-Tstll is served by the Nightgaunts. All Nightgaunts have their horror damage increased to 3 Sanity.",
+          "power_name": "All-Seeing",
+          "power": "While Yibb-Tstll stirs in her slumber, the difficulty of all Evade checks is increased by 1.\n\nIn addition, no investigator can have more than 5 Clue tokens at once.\n\nWhen Yibb-Tstll awakens, X is set to the number of Clue tokens left on the board.",
+          "attack": "The first player rolls dice equal to his focus. If he does not roll at least one success, he is devoured. If he rolls two or more successes he is Blessed. It takes twice as many successes as usual to remove each doom token from Yibb-Tstll's doom track.",
+          "doom_track": 11,
+          "other_fields": {
+            "start of battle": "When Yibb-Tstll awakens all investigators lose all Clue tokens."
+          }
+        }
+      ],
+      "plot_images": [
+        "EpicBattleYibb-TstllBack.png",
+        "EpicBattleYibb-Tstll1.png",
+        "EpicBattleYibb-Tstll2.png",
+        "EpicBattleYibb-Tstll3.png"
+      ],
+      "mythos_source": "Yibb-Tstll first appeared in Cement Surroundings (1969), written by Brian Lumley.",
+      "clarification": "",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Yig",
+    "doom_track": 10,
+    "expansion": "Arkham Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Yig",
+    "details": {
+      "page_title": "Yig",
+      "description": "Yig is an Ancient One. He first appeared in the Arkham Horror board game.",
+      "images": [
+        "Yig.png",
+        "EpicBattleYigBack.png",
+        "EpicBattleYig1.png",
+        "EpicBattleYig2.png",
+        "EpicBattleYig3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Original Sheet info",
+          "combat_rating": "-3",
+          "defenses": "None",
+          "worshippers": "Yig's worshippers are actually disguised serpent people. Their bite is highly poisonous. Cultists have a combat rating of +0 and a combat damage of 4 Stamina.",
+          "power_name": "Yig's Anger",
+          "power": "While Yig stirs in his slumber, he gains a doom token whenever a Cultist is defeated or an investigator is Lost in Time and Space.",
+          "attack": "Each investigator must pass a Speed (+1) check or lose 1 Sanity and 1 Stamina. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+          "doom_track": 10,
+          "other_fields": {
+            "start of battle": "Every investigator is Cursed. Any investigator that already has a Curse is devoured."
+          }
+        },
+        {
+          "name": "Arkham Nights Sheet info",
+          "combat_rating": "-3",
+          "defenses": "None",
+          "worshippers": "Yig's worshippers are actually disguised serpent people. Their bite is highly venomous. Cultists have a combat rating of +0 and a combat damage of 4 Stamina.",
+          "power_name": "The Father of Serpents",
+          "power": "While Yig stirs in his slumber, he gains a doom token whenever a Cultist is defeated or an investigator is Lost in Time and Space. When a gate opens (including during setup), each investigator must pass a Sneak (+2) check or be Cursed. Reduce the modifier by 1 for each open gate.",
+          "attack": "Each investigator must pass a Speed (+1) check or lose 1 Sanity and 1 Stamina. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.) If the results of an investigator's skill check include two or more 1s, he loses 1 Sanity and 1 Stamina. If the investigator is devoured as a result, no successes are scored and he fails the check.",
+          "doom_track": 10,
+          "other_fields": {
+            "start of battle": "All Cursed investigators are devoured. Then all remaining investigators are Cursed."
+          }
+        }
+      ],
+      "plot_images": [
+        "EpicBattleYigBack.png",
+        "EpicBattleYig1.png",
+        "EpicBattleYig2.png",
+        "EpicBattleYig3.png"
+      ],
+      "mythos_source": "Yig first appears in The Curse of Yig (1928), written by H.P. Lovecraft and Zealia Bishop.",
+      "clarification": "",
+      "errata": "",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Yog-Sothoth",
+    "doom_track": 12,
+    "expansion": "Arkham Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Yog-Sothoth",
+    "details": {
+      "page_title": "Yog-Sothoth",
+      "description": "Yog-Sothoth is an Ancient One. He first appeared in the Arkham Horror game board.",
+      "images": [
+        "Yog-Sothoth.png",
+        "EpicBattleYog-SothothBack.png",
+        "EpicBattleYog-Sothoth1.png",
+        "EpicBattleYog-Sothoth2.png",
+        "EpicBattleYog-Sothoth3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-5",
+          "defenses": "Magical Immunity",
+          "worshippers": "Yog-Sothoth's worshippers have powerful magical abilities. Cultists have Magical Immunity and a combat rating of -1.",
+          "power_name": "The Key and the Gate",
+          "power": "While Yog-Sothoth stirs in his slumber, the difficulty to close or seal a gate increases by 1. In addition, any investigator Lost in Time and Space is devoured.",
+          "attack": "Each investigator must pass a Will (+1) check or lose 1 gate trophy. Any investigator with no gate trophies left is devoured. This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)",
+          "doom_track": 12,
+          "other_fields": {
+            "start of battle": "Any investigator with no gate trophies is devoured."
+          }
+        }
+      ],
+      "plot_images": [
+        "EpicBattleYog-SothothBack.png",
+        "EpicBattleYog-Sothoth1.png",
+        "EpicBattleYog-Sothoth2.png",
+        "EpicBattleYog-Sothoth3.png"
+      ],
+      "mythos_source": "The name Yog-Sothoth first appears in The Case of Charles Dexter Ward (1927), written by H.P. Lovecraft. Actual details of his attributes appear in The Dunwich Horror (1928), also written by H.P. Lovecraft.",
+      "clarification": "",
+      "errata": "The difficulty increase caused by Yog-Sothoth's power The Key And The Gate does not affect the number of clue tokens required to seal a gate. The power only requires an extra success when attempting to close a gate.",
+      "sections": {}
+    }
+  },
+  {
+    "name": "Zhar",
+    "doom_track": 11,
+    "expansion": "Innsmouth Horror",
+    "url": "https://arkham-horror-second-edition.fandom.com/wiki/Zhar",
+    "details": {
+      "page_title": "Zhar",
+      "description": "Zhar is an Ancient One. He first appeared in the Innsmouth Horror board game.",
+      "images": [
+        "Zhar.jpg",
+        "EpicBattleZharBack.png",
+        "EpicBattleZhar1.png",
+        "EpicBattleZhar2.png",
+        "EpicBattleZhar3.png"
+      ],
+      "sheets": [
+        {
+          "name": "Sheet info",
+          "combat_rating": "-3",
+          "defenses": "Special",
+          "worshippers": "Zhar is worshipped by an evil tribe. Tcho-tchos and Tcho-tcho Priests gain Overwhelming 1",
+          "power_name": "The Twin Horror",
+          "power": "When a new gate opens, roll two dice. If doubles are rolled, immediately draw and resolve a mythos card.\n\nIf Zhar awakens, it must be defeated twice. After removing its last doom token for the first time, any further successes from that attack are ignored and Zhar's doom track is refilled.",
+          "attack": "Each investigator is in turn wrapped in a tentacle, then crushed. If no player has the Zhar token, give the Zhar token to the first player. That player then loses one hand for use in combat. If an investigator already has the Zhar token he is devoured. The first player marker does not get passed until its current holder is devoured.",
+          "doom_track": 11,
+          "other_fields": {
+            "start of battle": "Zhar gains Magical Immunity. Once Zhar has been defeated once, this becomes Physical Immunity instead."
+          }
+        }
+      ],
+      "plot_images": [
+        "EpicBattleZharBack.png",
+        "EpicBattleZhar1.png",
+        "EpicBattleZhar2.png",
+        "EpicBattleZhar3.png"
+      ],
+      "mythos_source": "Zhar first appears in Lair of the Star Spawn (1932), written by August Derleth and Mark Schorer.",
+      "clarification": "",
+      "errata": "",
+      "sections": {}
+    }
+  }
+]

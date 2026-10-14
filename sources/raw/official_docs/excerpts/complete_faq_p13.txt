@@ -1,0 +1,50 @@
+Q: The Warding Statue Unique Item reads: “…can also
+be used to cancel an Ancient One’s entire attack for 1
+turn.” What happens with those Ancient Ones who have a
+decreasing modifier for the Skill check, does the cancelled
+attack count when counting the turns in the final battle?
+For example, if the Investigators are fighting against
+Hastur and one of them uses the Warding Statue on the
+first turn, what is the Luck check modifier on Hastur’s
+attack on the second turn, +1 or +0?
+A: The modifier decreases even if the attack was canceled.
+In the example, the Luck check modifier would be +0.
+
+investigators get 9 successes in the first round of combat,
+they would remove 2 doom tokens, and 1 success would
+carry over to the next round of combat.
+Q: At the start of battle with Ithaqua, how do you roll to
+see if you lose items? Do you choose each item one at a
+time and roll to see if you lose it, or do you roll all the
+dice at once and then choose which items you lose?
+A: You roll separately for each item.
+Q: Are weapons and items that can’t be lost or stolen
+immune to Ithaqua’s Start of Battle ability?
+A: Yes.
+
+Miscellaneous
+
+Q: If a card tells you to “lose your next turn,” does this
+mean skip all phases, including Upkeep?
+A: Yes, all phases except the Mythos Phase. Note that this
+is different from being told to “stay here next turn,” which
+means you are delayed. Any effect that applies to being
+delayed, applies when an investigator is instructed to “stay
+here next turn.” (Even if an investigator is delayed, he
+must still combat or evade each monster in his location or
+area during the Movement Phase. Note that the investigator cannot move, use movement points, or cast spells during this Movement Phase to do so.)
+
+Q: Does the Ancient One’s “Stirs in his Sleep” ability stop
+once the Final Battle begins?
+A: The ability is in effect during the entire game, including the Final Battle.
+Q: The base game rules instructed you to stop collecting money once the Final Battle began. Given that some
+weapons require money to be spent to refresh them, does
+this restriction still apply?
+A: Yes.
+Q: During the final battle, are investigators considered to
+be in the same location for purposes of trading, character
+abilities and other game effects?
+A: Yes.
+
+13
+

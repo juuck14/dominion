@@ -1,0 +1,104 @@
+Q: Are there any restrictions on when “Any Phase” spells
+(like Enchant Weapon, Shrivelling, Wither, Dread Curse
+of Azathoth, and Red Sign of Shudde M’ell) can be cast in
+the combat sequence?
+A: “Any Phase” spells can be cast at any point in the combat sequence. For example, an investigator could legally
+use a Red Sign to cancel a monster’s Nightmarish special
+ability before being forced to make a beginning-of-combat
+Horror Check, or an investigator could determine his success in casting a spell that gives a combat bonus before
+deciding whether to fight or flee.
+
+sale without using money tokens, he does not need at least
+$1 to use a location ability that requires spending money.)
+Q: When spending monster trophies, do you count any
+modifiers to toughness currently in effect?
+A: Yes, use the modified toughness. This bonus applies to
+the use of any monster trophies spent at any location.
+Q: Why wouldn’t investigators just camp out at the
+Curiositie Shoppe and buy the four elder signs?
+A: If an investigator shops at the Curiositie Shoppe or
+General Store, the investigator must purchase one of the
+three items drawn if he or she has enough money to do so.
+The other two items drawn are discarded to the bottom of
+the deck. This makes it significantly harder to “browse”
+the Unique Item deck looking for elder signs.
+
+Q: Can Flesh Ward protect an investigator from all damage caused by a given monster during a whole combat?
+A: No. (In combat, the “one source” of damage Flesh
+Ward allows an investigator to ignore is the Stamina loss
+from a single failed Combat check, not all damage caused
+by a particular monster for the duration of the combat.)
+
+Q: If at the Curiositie Shoppe or General Store, can I purchase more than one of the three items drawn if able?
+A: No.
+
+Q: Does Red Sign of Shudde M’ell allow one to ignore
+“abilities” other than the boldfaced ones - for example,
+the special damage on a Nightgaunt or Elder Thing, or the
+instructions on the Masks that have them?
+A: No. Only bolded special abilities.
+
+Q: When spending monster trophies, do you have to have
+them in exact groups of 5, 10, etc?
+A: No, but you may overspend only as much as is necessary and you get no “change” back.
+
+Skills
+
+Q: At locations where trophies can be traded for items,
+can I use the location’s special ability more than once in a
+turn?
+A: A location’s special ability may only be triggered once
+per turn per investigator, unless a game effect specifically
+allows him to activate it more than once (for example, the
+Summoning Glass Exhibit Item [CotDP]).
+
+Q: The Skill card “Sneak” (and other Skill cards named
+after skills) says “+1 Sneak” in bold letters, then says
+in normal font “When you spend a Clue token to add to
+any Sneak check, add one extra bonus die.” Are there two
+potential bonuses on this card, or is the text in normal font
+explaining what the bolded “+1 Sneak” means?
+A: These are two different bonuses. The Sneak card gives
+you a permanent +1 Sneak bonus, as well as the separate
+ability to add one extra die to Sneak checks whenever you
+spend a Clue token.
+
+Q: Are locations’ special abilities considered “encounters?”
+A: No.
+
+Locations
+
+Arkham Encounters
+
+Q: If a card causes a location to temporarily close, what
+happens to any monsters or investigators at that location?
+A: They are immediately moved into a street area as if the
+location had closed permanently.
+
+Notice: the following question and answer combination is
+a correction of previous versions of this FAQ.
+Q: If a location card tells an investigator that he may
+move to another location and have an encounter there,
+what happens if the location has any monsters, clue
+tokens, and/or a gate on it?
+A: Ignore all monsters and clue tokens at the new location. Monsters on the board are only dealt with during the
+Movement Phase. The investigator has a normal Arkham
+Encounters Phase at the new location, following either
+the “Gate” or “No Gate” instructions on pages 8-9 of the
+rulebook.
+
+Q: How exactly do location special abilities work?
+A: The investigator may use the printed action on a location rather than draw an encounter card for that location
+during the Arkham Encounters Phase. An investigator may
+only use a location’s special ability if he is able to meet the
+ability’s requirements (either have at least $1 to shop with,
+or have the necessary Clue tokens, gates trophies, or monster trophies to spend, etc.). In other words, players cannot
+use the special ability of a location if they cannot actually
+resolve it. (Note: although some Common Items in the
+Dunwich Horror expansion cost $0, investigators still need
+at least $1 to use the special ability in the General Store.
+Also, if an investigator has the Credit Rating skill [KH],
+Mask of Vice Exhibit Item [CotDP(R)], or any other ability that would allow him to acquire or purchase items for
+
+8
+

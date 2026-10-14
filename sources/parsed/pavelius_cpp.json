@@ -1,0 +1,430 @@
+{
+ "source_id": "pavelius_cpp",
+ "parser": "ah2e.parsers.pavelius_cpp",
+ "parsed_at": "2026-10-14T19:38:14+00:00",
+ "status": "ok",
+ "commit_sha": "36a5621babf85d02ea452e6d0f4ad3d25b9e208d",
+ "warnings": [
+  "arkham/monster.cpp:14 Chthonian: name only, no statistics",
+  "item.cpp: spell/skill rows use a uniform placeholder deck_count=2 and no price; only names are used"
+ ],
+ "stats": {
+  "investigator_cards": 42,
+  "investigators": 2,
+  "monsters": 3
+ },
+ "records": {
+  "investigator_cards": [
+   {
+    "name": ".18 Derringer",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:34",
+    "deck_count": 2,
+    "price": 3,
+    "hands": 1,
+    "bonus_stat": "CombatCheck",
+    "bonus_value": 2
+   },
+   {
+    "name": ".38 Revolver",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:35",
+    "deck_count": 2,
+    "price": 4,
+    "hands": 1,
+    "bonus_stat": "CombatCheck",
+    "bonus_value": 3
+   },
+   {
+    "name": ".45 Automatic",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:36",
+    "deck_count": 2,
+    "price": 4,
+    "hands": 1,
+    "bonus_stat": "CombatCheck",
+    "bonus_value": 4
+   },
+   {
+    "name": "Ancient Tome",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:37",
+    "deck_count": 2,
+    "price": 4,
+    "hands": 0,
+    "bonus_stat": null,
+    "bonus_value": null
+   },
+   {
+    "name": "Axe",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:38",
+    "deck_count": 2,
+    "price": 3,
+    "hands": 1,
+    "bonus_stat": "CombatCheck",
+    "bonus_value": 2
+   },
+   {
+    "name": "Bullwhip",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:39",
+    "deck_count": 2,
+    "price": 2,
+    "hands": 1,
+    "bonus_stat": "CombatCheck",
+    "bonus_value": 1
+   },
+   {
+    "name": "Cavalry Saber",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:40",
+    "deck_count": 2,
+    "price": 3,
+    "hands": 1,
+    "bonus_stat": "CombatCheck",
+    "bonus_value": 2
+   },
+   {
+    "name": "Cross",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:41",
+    "deck_count": 2,
+    "price": 3,
+    "hands": 1,
+    "bonus_stat": "HorrorCheck",
+    "bonus_value": 1
+   },
+   {
+    "name": "Dark Cloak",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:42",
+    "deck_count": 2,
+    "price": 2,
+    "hands": 0,
+    "bonus_stat": "EvadeCheck",
+    "bonus_value": 1
+   },
+   {
+    "name": "Dynamite",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:43",
+    "deck_count": 2,
+    "price": 2,
+    "hands": 2,
+    "bonus_stat": "CombatCheck",
+    "bonus_value": 8
+   },
+   {
+    "name": "Food",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:44",
+    "deck_count": 2,
+    "price": 1,
+    "hands": 0,
+    "bonus_stat": "Stamina",
+    "bonus_value": 1
+   },
+   {
+    "name": "Knife",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:45",
+    "deck_count": 2,
+    "price": 2,
+    "hands": 1,
+    "bonus_stat": "CombatCheck",
+    "bonus_value": 3
+   },
+   {
+    "name": "Lantern",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:46",
+    "deck_count": 2,
+    "price": 2,
+    "hands": 0,
+    "bonus_stat": "Luck",
+    "bonus_value": null
+   },
+   {
+    "name": "Lucky Cigarette Case",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:47",
+    "deck_count": 2,
+    "price": 2,
+    "hands": 0,
+    "bonus_stat": "SkillCheck",
+    "bonus_value": null
+   },
+   {
+    "name": "Map of Arkham",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:48",
+    "deck_count": 2,
+    "price": 2,
+    "hands": 0,
+    "bonus_stat": "Movement",
+    "bonus_value": 1
+   },
+   {
+    "name": "Motorcycle",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:49",
+    "deck_count": 2,
+    "price": 4,
+    "hands": 0,
+    "bonus_stat": "Movement",
+    "bonus_value": 2
+   },
+   {
+    "name": "Old Journal",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:50",
+    "deck_count": 2,
+    "price": 1,
+    "hands": 0,
+    "bonus_stat": null,
+    "bonus_value": null
+   },
+   {
+    "name": "Research Materials",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:51",
+    "deck_count": 2,
+    "price": 1,
+    "hands": 0,
+    "bonus_stat": "Clue",
+    "bonus_value": 1
+   },
+   {
+    "name": "Rifle",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:52",
+    "deck_count": 2,
+    "price": 6,
+    "hands": 2,
+    "bonus_stat": "CombatCheck",
+    "bonus_value": 5
+   },
+   {
+    "name": "Shotgun",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:53",
+    "deck_count": 2,
+    "price": 6,
+    "hands": 2,
+    "bonus_stat": "CombatCheck",
+    "bonus_value": 4
+   },
+   {
+    "name": "Tommy Gun",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:54",
+    "deck_count": 2,
+    "price": 7,
+    "hands": 2,
+    "bonus_stat": "CombatCheck",
+    "bonus_value": 6
+   },
+   {
+    "name": "Whiskey",
+    "type": "CommonItem",
+    "src_ref": "arkham/item.cpp:55",
+    "deck_count": 2,
+    "price": 1,
+    "hands": 0,
+    "bonus_stat": "Sanity",
+    "bonus_value": 1
+   },
+   {
+    "name": "Bravery",
+    "type": "Skill",
+    "src_ref": "arkham/item.cpp:57"
+   },
+   {
+    "name": "Expert Occultist",
+    "type": "Skill",
+    "src_ref": "arkham/item.cpp:58"
+   },
+   {
+    "name": "Marksman",
+    "type": "Skill",
+    "src_ref": "arkham/item.cpp:59"
+   },
+   {
+    "name": "Speed",
+    "type": "Skill",
+    "src_ref": "arkham/item.cpp:60"
+   },
+   {
+    "name": "Sneak",
+    "type": "Skill",
+    "src_ref": "arkham/item.cpp:61"
+   },
+   {
+    "name": "Fight",
+    "type": "Skill",
+    "src_ref": "arkham/item.cpp:62"
+   },
+   {
+    "name": "Will",
+    "type": "Skill",
+    "src_ref": "arkham/item.cpp:63"
+   },
+   {
+    "name": "Lore",
+    "type": "Skill",
+    "src_ref": "arkham/item.cpp:64"
+   },
+   {
+    "name": "Luck",
+    "type": "Skill",
+    "src_ref": "arkham/item.cpp:65"
+   },
+   {
+    "name": "Bind Monster",
+    "type": "Spell",
+    "src_ref": "arkham/item.cpp:67"
+   },
+   {
+    "name": "Dread Curse of Azathoth",
+    "type": "Spell",
+    "src_ref": "arkham/item.cpp:68"
+   },
+   {
+    "name": "Enchant Weapon",
+    "type": "Spell",
+    "src_ref": "arkham/item.cpp:69"
+   },
+   {
+    "name": "Find Gate",
+    "type": "Spell",
+    "src_ref": "arkham/item.cpp:70"
+   },
+   {
+    "name": "Flesh Ward",
+    "type": "Spell",
+    "src_ref": "arkham/item.cpp:71"
+   },
+   {
+    "name": "Heal",
+    "type": "Spell",
+    "src_ref": "arkham/item.cpp:72"
+   },
+   {
+    "name": "Mist of Releh",
+    "type": "Spell",
+    "src_ref": "arkham/item.cpp:73"
+   },
+   {
+    "name": "Red Sign of Shuddle Mell",
+    "type": "Spell",
+    "src_ref": "arkham/item.cpp:74"
+   },
+   {
+    "name": "Shrivelling",
+    "type": "Spell",
+    "src_ref": "arkham/item.cpp:75"
+   },
+   {
+    "name": "Voice of Ra",
+    "type": "Spell",
+    "src_ref": "arkham/item.cpp:76"
+   },
+   {
+    "name": "Wither",
+    "type": "Spell",
+    "src_ref": "arkham/item.cpp:77"
+   }
+  ],
+  "investigators": [
+   {
+    "id": "ashcan",
+    "ability_enum": "Scrounge",
+    "home_enum": "RiverDocks",
+    "sanity": 4,
+    "stamina": 6,
+    "focus": 1,
+    "slider_first": {
+     "speed": 0,
+     "sneak": 6,
+     "fight": 2,
+     "will": 5,
+     "lore": 0,
+     "luck": 3
+    },
+    "possessions_enum": [
+     "Add1Money",
+     "Add3Clue",
+     "AddCommonItem",
+     "AddUniqueItem",
+     "AddSpell"
+    ],
+    "items_enum": [
+     "AllyDuke"
+    ],
+    "src_ref": "arkham/hero.cpp:15"
+   },
+   {
+    "id": "joe",
+    "ability_enum": "Hunches",
+    "home_enum": "PoliceStation",
+    "sanity": 4,
+    "stamina": 6,
+    "focus": 3,
+    "slider_first": {
+     "speed": 3,
+     "sneak": 4,
+     "fight": 2,
+     "will": 3,
+     "lore": 0,
+     "luck": 3
+    },
+    "possessions_enum": [
+     "Add7Money",
+     "Add3Clue",
+     "Add2CommonItem",
+     "AddSkill"
+    ],
+    "items_enum": [
+     "PistolAutomatic45"
+    ],
+    "src_ref": "arkham/hero.cpp:16"
+   }
+  ],
+  "monsters": [
+   {
+    "name": "Byakhee",
+    "stats_present": true,
+    "count": 3,
+    "awareness": -2,
+    "horror_rating": -1,
+    "horror_damage": 1,
+    "toughness": 1,
+    "combat_rating": 0,
+    "combat_damage": 2,
+    "flags": [],
+    "src_ref": "arkham/monster.cpp:13"
+   },
+   {
+    "name": "Chthonian",
+    "stats_present": false,
+    "src_ref": "arkham/monster.cpp:14"
+   },
+   {
+    "name": "Zombie",
+    "stats_present": true,
+    "count": 2,
+    "awareness": 1,
+    "horror_rating": -2,
+    "horror_damage": 2,
+    "toughness": 3,
+    "combat_rating": -3,
+    "combat_damage": 3,
+    "flags": [
+     "Undead"
+    ],
+    "src_ref": "arkham/monster.cpp:15"
+   }
+  ]
+ }
+}

@@ -1,0 +1,119 @@
+The Outskirts and Monster Limits
+
+Q: When monsters that move to the “closest investigator”
+are on a board with no investigators, how do they move?
+A: They move towards the investigator with the lowest
+Sneak value on any board. First player chooses if tied.
+
+Q: Can you give an example of how the monster limit and
+the Outskirts work?
+A: The monster limit is equal to the number of players
+plus three. If adding a monster to the board would bring
+the number of monsters above the monster limit, the
+monster is placed in the Outskirts area instead. When the
+Outskirts become too full, the terror level is increased by
+1 and all the monsters in the Outskirts are returned to the
+monster cup. The maximum number of monsters that may
+be in the Outskirts without raising the terror level is 8
+minus the number of players, as listed in the chart on page
+18 of the rulebook.
+
+Q: Does Physical/Magical Immunity/Resistance prevent the
+secondary effects of a Physical/Magical Weapon or Spell?
+A: No. These monster abilities only reduce and/or eliminate the bonus to the combat check provided by a weapon.
+This has no effect on the item’s other abilities.
+Q: Does the Chthonian’s ability to inflict Stamina loss
+instead of moving affect investigators in Other Worlds?
+A: No, the Chthonian creates an earthquake that only affects
+Arkham and the investigators located there. This is one of
+the few times investigators are safer in Other Worlds.
+
+Example: In a 3-player game, the monster limit is 6 and
+
+the maximum number of monsters in the Outskirts is
+5. There are 3 open gates on the board, 6 monsters in
+Arkham, and 4 monsters in the Outskirts. During the
+Mythos Phase, you draw a location that already has
+an open gate, so you have to draw 3 more monsters.
+You would first draw 2 monsters and place them in the
+Outskirts. The Outskirts limit would be exceeded upon
+placing the second monster, so you would then increase
+the terror level by 1 and return the six monsters in the
+Outskirts to the cup. Finally, you would draw the third
+monster and place it in the Outskirts.
+
+Q: Can weapons be used against The Dark Pharaoh
+(Mask monster) as normal?
+A: Yes, because you are still making a Combat check.
+You are merely using Lore to make it instead of Fight.
+Presumably you’re coming up with clever ways to use
+items.
+
+The Sky and Flying Monsters
+
+Q: Please clarify how flying monsters move.
+A: Flying monsters move according to the following rules:
+
+Ancient One Powers
+
+1. Flying monsters only move when their symbol comes
+up in the Mythos Phase, just like other monsters.
+
+Q: Ithaqua’s “Icy Winds” power says “All Weather cards
+are discarded without their special effects taking place.”
+What happens in a game with Ithaqua if a non-Weather
+Environment is already in play, and a Mythos card with a
+Weather Environment effect is drawn?
+A: Do not replace or discard the existing non-Weather
+Environment card. Do the basic upkeep portions of the
+new Weather Mythos card (gate, clues, monsters move),
+but ignore its special ability and then discard it.
+
+2. Flying monsters will not leave a space that already contains an investigator.
+3. When a flying monster in a street area or location
+moves, it will either move to an adjacent street space that
+has an investigator in it, or failing that, move to the Sky.
+4. When a flying monster in the Sky moves, it will move
+to any street space on the board with an investigator in it.
+If there’s more than one investigator to choose from, the
+monster moves into the space of the investigator with the
+lowest Sneak value. If the investigators’ Sneak values are
+the same, the first player chooses which investigator the
+monster moves toward, as usual. If there are no investigators in a street space, the monster remains in the Sky.
+
+Q: Yog-Sothoth’s The Key and the Gate power states that
+“the difficulty to close or seal a gate increases by 1.” Does
+this mean 6 Clue tokens are required to seal gates?
+A: No. It means only that 2 successes are required on the
+Lore or Fight check to close gates.
+
+Battling the Ancient One
+
+Q: In combat with Ancient Ones, do investigators get a
+full Upkeep Phase, or is the Upkeep Phase limited in some
+way during the final battle?
+A: Investigators get a full Upkeep Phase.
+
+Q: If a Gate Burst [DH, KH, BGotW, IH, LatT, MH] is
+prevented for whatever reason, do flying monsters still
+move? If Atlach-Nacha [KH] is the Ancient One, does
+every Mythos Card with a gate cause the flying monsters
+to move?
+A: Yes to both.
+
+Q: In combat with an Ancient One, how do cumulative
+successes in the “Investigators Attack” step work?
+A: To defeat the Ancient One, the players must do a total
+number of successes equal to the number of players multiplied by the number of doom tokens on the Ancient One.
+So, if 4 players are facing Yig (doom track of 10), they
+need 40 successes to win. For every 4 successes they do,
+they remove 1 doom token to track their progress. If the
+
+Q: If the number of monsters in Arkham is at the monster
+limit, and a monster that is on an expansion board moves
+to the Sky, what happens to that monster?
+A: The monster is moved to the Outskirts. The Sky is considered part of Arkham, so a monster moving to the Sky
+from an expansion board counts against the monster limit.
+
+12
+

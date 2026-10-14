@@ -1,0 +1,94 @@
+Monsters and Combat
+
+combat,” last until the end of the combat in which they are
+cast (i.e., for multiple combat rounds until the combat is
+over), as long as the investigator continues to devote the
+required number of hands to keep the spell going. If the
+investigator stops devoting the required number of hands,
+the bonus expires. Since the spell is exhausted at the time
+of casting, it can only be used to fight one monster each
+turn. In the final battle against the Ancient One, however,
+such spells must be re-cast for each attack (and can be,
+since they refresh at the beginning of each round of the
+final battle). Examples include Wither and Shrivelling.
+
+Q: What happens when combat is a stalemate (for example, when Michael McGlen can’t roll enough dice to kill
+the monster, he continually absorbs the combat damage,
+but can’t evade either)?
+A: His sanity is reduced to 0, he goes insane, and the combat ends immediately.
+Q: When encountering multiple monsters as a result of an
+Arkham or Other World encounter, do you draw them all
+at the same time? Can you choose the order in which you
+encounter them?
+A: Yes, you draw them all at the same time and may
+encounter them in any order you choose.
+
+Monster Abilities
+
+Q: What happens if you draw a Nightgaunt (special ability: if you fail a Combat check against a Nightgaunt, you
+are drawn through the nearest open gate) as an Other
+World Encounter?
+A: The nearest gate is the gate back to Arkham, so, if
+you fail a combat or evade check against the Nightgaunt,
+you are immediately returned to Arkham and given an
+“explored” marker. Thematically, as servants of Nodens,
+Nightgaunts sometimes helped investigators.
+
+Q: The rules state that an investigator does not have to
+engage monsters during the same turn that he returns from
+an Other World. Can an investigator choose to engage a
+monster if he wishes to?
+A: Yes, provided he returned during the Movement Phase.
+If he returned during any other phase, he must wait until
+the next Movement Phase to engage the monsters.
+Q: During the turn in which an investigator returns from
+an Other World, if there is more than one monster on his
+location, can he choose to engage one and ignore the
+other?
+A: Yes, provided he returned during the Movement Phase.
+If he returned during any other phase, he must wait until
+the next Movement Phase to engage the monsters.
+
+Q: Does a Nightgaunt also move when dropping you into
+a gate or does it stay where it is?
+A: It stays in its current street area or location.
+Q: If an investigator fails a combat check against a
+Nightgaunt while in Arkham and no gates are open, what
+happens? What about while in an Other World and no
+gates are open? (Note that this can occur if all gates have
+been closed but the investigators do not collectively have
+enough gate trophies to win.)
+A: The combat immediately ends with no effect.
+
+Q: In an area with both monsters and Clues, may investigators pick up Clues before fighting the monsters or must
+they defeat or evade all monsters before picking up Clues?
+A: Monsters first, then Clues.
+
+Q: Who determines where a Hound of Tindalos moves if
+two investigators are tied in being nearest to the hound?
+A: As per the rules governing flying monsters, the hound
+will go after the investigator with the lower Sneak value.
+In case of a tie, the first player chooses.
+
+Q: How long do Combat bonuses from investigator cards
+last?
+A: It depends on the type of weapon or spell granting the
+bonus. All weapons or spells fall into one of the four categories below, and have durations as follows:
+Standard weapons, whose rules text takes the form “+X
+to Combat checks,” have bonuses that last as long as
+the investigator devotes the required number of hands to
+their use. They can be used for multiple rounds of combat
+and in multiple battles each turn. Examples include .38
+Resolver, Shotgun, and Axe.
+One-shot weapons, whose rules text takes the form “+X to
+Combat checks (discard after use),” have bonuses that only
+last for one Combat check, after which the item is discarded. Examples include Dynamite and Molotov Cocktail.
+Burst weapons, whose rules text takes the form “Exhaust
+before making a Combat check to gain +X to that check,”
+have bonuses that last for one Combat check and are then
+exhausted and cannot be used again until refreshed.
+Spells, whose rules text takes the form of “Cast and
+exhaust to gain +X to Combat checks until the end of this
+
+11
+

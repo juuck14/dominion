@@ -1,0 +1,201 @@
+{
+   "Common Items": [
+     {
+       "name": "whiskey",
+       "type": "",
+       "description": "<b>Any Phase:</b> Discard Whiskey to reduce any Sanity loss by 1.",
+       "price": 1,
+       "hands": "",
+       "count": 2
+     },
+
+     {
+       "name": ".18 derringer",
+       "type": "Physical Weapon",
+       "description": "+2 to <b>Combat checks</b><br />.18 Derringer cannot be lost or stolen unless you choose to allow it.",
+       "price": 3,
+       "hands": 1,
+       "count": 2
+     },
+
+     {
+       "name": "knife",
+       "type": "Physical Weapon",
+       "description": "+1 to <b>Combat checks</b>.",
+       "price": 2,
+       "hands": 1,
+       "count": 2
+     },
+
+     {
+       "name": "cavalry saber",
+       "type": "Physical Weapon",
+       "description": "+2 to <b>Combat checks</b>.",
+       "price": 3,
+       "hands": 1,
+       "count": 2
+     },
+
+     {
+       "name": "bullwhip",
+       "type": "Physical Weapon",
+       "description": "+1 to <b>Combat checks</b><br /><b>Any Phase:</b> Exhaust to re-roll 1 die after making a <b>Combat Check</b>.",
+       "price": 2,
+       "hands": 1,
+       "count": 2
+     },
+
+     {
+       "name": ".38 revolver",
+       "type": "Physical Weapon",
+       "description": "+3 to <b>Combat checks</b>.",
+       "price": 4,
+       "hands": 1,
+       "count": 2
+     },
+
+     {
+       "name": ".45 automatic",
+       "type": "Physical Weapon",
+       "description": "+4 to <b>Combat checks</b>.",
+       "price": 5,
+       "hands": 1,
+       "count": 2
+     },
+
+     {
+       "name": "lucky cigarette case",
+       "type": "",
+       "description": "<b>Any Phase:</b> Discard Lucky Cigarette Case to re-roll any one skill check.",
+       "price": 1,
+       "hands": "",
+       "count": 2
+     },
+
+     {
+       "name": "axe",
+       "type": "Physical Weapon",
+       "description": "+2 to <b>Combat checks</b><br />(+3 instead if your other hand is empty).",
+       "price": 3,
+       "hands": 1,
+       "count": 2
+     },
+
+     {
+       "name": "dynamite",
+       "type": "Physical Weapon",
+       "description": "+8 to <b>Combat checks</b><br />(Discard after use).",
+       "price": 4,
+       "hands": 2,
+       "count": 2
+     },
+
+     {
+       "name": "cross",
+       "type": "Magical Weapon",
+       "description": "+0 to <b>Combat checks</b><br />(+3 if Opponent is Undead)<br />+1 to <b>Horror Checks</b>.",
+       "price": 3,
+       "hands": 1,
+       "count": 2
+     },
+
+     {
+       "name": "motorcycle",
+       "type": "",
+       "description": "<b>Movement:</b> Exhaust to get 2 extra movement points.",
+       "price": 4,
+       "hands": "",
+       "count": 2
+     },
+
+     {
+       "name": "map of arkham",
+       "type": "",
+       "description": "<b>Movement:</b> Exhaust to get 1 extra movement point.",
+       "price": 2,
+       "hands": "",
+       "count": 2
+     },
+
+     {
+       "name": "food",
+       "type": "",
+       "description": "<b>Any Phase:</b> Discard Food to reduce any Stamina loss by 1.",
+       "price": 1,
+       "hands": "",
+       "count": 2
+     },
+
+     {
+       "name": "old journal",
+       "type": "Tome",
+       "description": "<b>Movement:</b> Exhaust and spend 1 movement point to make a <b>Lore (-1) check</b>. If you pass, gain 3 Clue tokens and discard Old Journal. If you fail, nothing happens.",
+       "price": 1,
+       "hands": "",
+       "count": 2
+     },
+
+     {
+       "name": "research materials",
+       "type": "",
+       "description": "<b>Any Phase:</b> Discard Research Materials instead of spending 1 Clue token.",
+       "price": 1,
+       "hands": "",
+       "count": 2
+     },
+
+     {
+       "name": "tommy gun",
+       "type": "physical weapon",
+       "description": "+6 to <b>Combat checks</b>.",
+       "price": 7,
+       "hands": 2,
+       "count": 2
+     },
+
+     {
+       "name": "shotgun",
+       "type": "physical weapon",
+       "description": "+4 to <b>Combat checks</b><br /><b>Any Phase:</b> When using Shotgun in Combat, all 6's rolled count as 2 successes.",
+       "price": 6,
+       "hands": 2,
+       "count": 2
+     },
+
+     {
+       "name": "rifle",
+       "type": "physical weapon",
+       "description": "+5 to <b>Combat checks</b>",
+       "price": 6,
+       "hands": 2,
+       "count": 2
+     },
+
+     {
+       "name": "ancient tome",
+       "type": "Tome",
+       "description": "<b>Movement:</b> Exhaust and spend 2 movement points to make a <b>Lore (-1) check</b>. If you pass, draw 1 Spell and discard Ancient Tome. If you fail, nothing happens.",
+       "price": 4,
+       "hands": "",
+       "count": 2
+     },
+
+     {
+       "name": "dark cloak",
+       "type": "",
+       "description": "+1 to <b>Evade checks</b>",
+       "price": 2,
+       "hands": "",
+       "count": 2
+     },
+
+     {
+       "name": "lantern",
+       "type": "",
+       "description": "+1 to <b>Luck checks</b>",
+       "price": 1,
+       "hands": "",
+       "count": 2
+     }
+   ]
+}

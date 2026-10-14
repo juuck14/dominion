@@ -1,0 +1,102 @@
+{
+   "Spells": [
+     {
+       "name": "bind monster",
+       "Casting Modifier": 4,
+       "Sanity Cost": 2,
+       "description": "<b>Magical Spell</b><br /><b>Any Phase:</b> Cast and discard this spell to pass one <b>Combat check</b>. You must roll successes equal to the monster's toughness to cast this spell. This spell doesn't work on Ancient Ones.",
+       "hands": 2,
+       "count": 2
+     },
+
+     {
+       "name": "enchant weapon",
+       "Casting Modifier": 0,
+       "Sanity Cost": 1,
+       "description": "<b>Magical Spell</b><br /><b>Any Phase:</b> Cast and exhaust to make one <b>Physical Weapon</b> a <b>Magical Weapon</b> until the end of this combat.",
+       "hands": "",
+       "count": 3
+     },
+
+     {
+       "name": "find gate",
+       "Casting Modifier": -1,
+       "Sanity Cost": 1,
+       "description": "<b>Magical Spell</b><br /><b>Any Phase:</b> Cast and exhaust to immediately reutrn to Arkham from an <b>Other World</b>.",
+       "hands": "",
+       "count": 4
+     },
+
+     {
+       "name": "flesh ward",
+       "Casting Modifier": -2,
+       "Sanity Cost": 1,
+       "description": "<b>Magical Spell</b><br /><b>Any Phase:</b> Cast and exhaust to ignore all Stamina loss being dealt to you from one source. Discard this card if the Ancient One awakens.",
+       "hands": "",
+       "count": 4
+     },
+
+     {
+       "name": "heal",
+       "Casting Modifier": 1,
+       "Sanity Cost": 1,
+       "description": "<b>Upkeep:</b> You may cast and exhaust. You or another investigator  in your area gains Stamina equal to the successes you rolled on your <b>Spell check</b>. This Stamina cannot be split between multiple investigators.",
+       "hands": "",
+       "count": 3
+     },
+
+     {
+       "name": "mists of releh",
+       "Casting Modifier": "Special",
+       "Sanity Cost": 0,
+       "description": "<b>Magical Spell</b><br /><b>Any Phase:</b> Cast and exhaust to pass an <b>Evade check</b>. The casting modifier is equal to the monster's Awareness.",
+       "hands": "",
+       "count": 4
+     },
+
+     {
+       "name": "red sign of shudde m'ell",
+       "Casting Modifier": -1,
+       "Sanity Cost": 1,
+       "description": "<b>Magical Spell</b><br /><b>Any Phase:</b> Cast and exhaust to lower a monster's toughness by 1 (to a minimum of 1) and ignore one of its special abilities other than <b>Magical Immunity</b> until the end of this combat.",
+       "hands": 1,
+       "count": 2
+     },
+
+     {
+       "name": "shrivelling",
+       "Casting Modifier": -1,
+       "Sanity Cost": 1,
+       "description": "<b>Magical Spell</b><br /><b>Any Phase:</b> Cast and exhaust to gain +6 to <b>Combat checks</b> until thee end of this combat.",
+       "hands": 1,
+       "count": 5
+     },
+
+     {
+       "name": "voice of ra",
+       "Casting Modifier": -1,
+       "Sanity Cost": 1,
+       "description": "<b>Magical Spell</b><br /><b>Upkeep:</b> You may cast and exhaust to gain +1 to all skill checks for the rest of this turn.",
+       "hands": 1,
+       "count": 3
+     },
+
+     {
+       "name": "wither",
+       "Casting Modifier": 0,
+       "Sanity Cost": 0,
+       "description": "<b>Magical Spell</b><br /><b>Any Phase:</b> Cast and exhaust to gain +3 to <b>Combat checks</b> until the end of this combat.",
+       "hands": 1,
+       "count": 6
+     },
+
+     {
+       "name": "dread curse of azathoth",
+       "Casting Modifier": -2,
+       "Sanity Cost": 2,
+       "description": "<b>Magical Spell</b><br /><b>Any Phase:</b> Cast and exhaust to gain +9 to <b>Combat checks</b> until the end of this combat.",
+       "hands": 2,
+       "count": 4
+     }
+   ]
+}

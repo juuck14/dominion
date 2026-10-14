@@ -1,0 +1,157 @@
+S pecial C ard L imitations
+
+In most cases, a player may never have more than one
+copy of each special card at the same time. This rule
+applies to Retainers, Bank Loans, Silver Twilight
+Memberships, and Bless/Curse cards.
+
+S pending M oney
+
+Often, investigators will be told that they can purchase
+items “for list price” or “for $1 over list price.” An
+item’s list price is always found in the card’s lower-right
+corner. Items are purchased by simply discarding money
+tokens equal to the price listed.
+
+S pending T rophies
+
+There are several locations on the game board where
+players can spend the monster and gate trophies they
+have collected. For example, a player can spend monster
+or gate trophies at the River Docks to gain $5. All monster trophies spent in this manner are returned to the
+monster cup, while all gate trophies are placed face
+down on the bottom of the pile of gate markers.
+
+T iming C onflicts
+
+If two or more game effects happen simultaneously, the
+players choose the order in which they occur. If the
+players cannot agree, the first player decides.
+
+T rading E quipment
+
+An investigator in the same street area, Other World
+area, or location as another investigator may trade
+money, Common Items, Unique Items, and Spells. This
+may be done before, during, or after movement, but not
+during combat.
+
+Credits
+Concept: Richard Launius
+Second Edition Game Design: Richard Launius and
+Kevin Wilson
+Additional Development: Kevin Wilson, Shannon
+Appelcline, Greg Benage, and Christian T. Petersen
+Rules: Shannon Appelcline, Kevin Wilson, Christian T.
+Petersen, and Greg Benage
+Editing: Greg Benage and Christian T. Petersen
+Additional Ideas and Support: Christopher Allen
+Additional Design and Development, First Edition:
+Charlie Krank, Sandy Petersen, Lynn Willis
+Graphic Design: Scott Nicely, Brian Schomburg
+Playtesting and Comments for this edition: FFG Staff,
+Christopher Allen, Shannon Appelcline, Michael Arick,
+Michael Blum, Jacob Butcher, Charles Engan, Claire
+Engan, Steve Hill, David K., Evan Kinnie, Pete Lane,
+Richard Launius, Thyme Ludwig, Tess O’Riva, Eric
+Rowe, DT Strain, Julie Strain, Nate Tepe, Thor Wright,
+Mike Zebrowski, and Team XYZZY
+Executive Developer: Greg Benage
+Publisher: Christian T. Petersen
+Special Thanks to: Howard Philips Lovecraft
+
+For online community, FAQ, customer service, and additional information on Arkham Horror, please visit:
+w w w . F a n ta s y F l i g h t G a m e s . c o m
+© 2005, 2006 Fantasy Flight Publishing, Inc. No part of this product may be
+reproduced without specific written permission. Published under license from
+Skotos Tech. Call of Cthulhu is a registered trademark of Chaosium, Inc.,
+licensed from Chaosium, Inc. Arkham Horror, Fantasy Flight Games, Fantasy
+Flight Supply, and the FFG logo are trademarks or registered trademarks of
+Fantasy Flight Publishing, Inc. All rights reserved. Fantasy Flight Games is
+located at 1975 W. Cty. B2, Suite 1, Roseville, MN 55113, USA, and can be
+reached by telephone at 651-639-1905. Retain this information for your
+records. Warning! Not suitable for children under 3 years due to small parts.
+Choking hazard. Actual components may vary from those shown. Made in
+China. THIS PRODUCT IS NOT A TOY. NOT INTENDED FOR USE OF
+PERSONS 13 YEARS OF AGE OR YOUNGER.
+
+Index
+allies: leaving town, 20
+Ambush: 24
+Ancient One: awakening, 20; final battle with, 22; sheet
+breakdown, 19
+Arkham Encounters Phase: 8-9
+Arkham movement: 6-8
+arrested: 16
+Awareness: 21
+Blessed: 17
+closing gates: and winning the game, 12; how to 17-18
+Clue tokens: picking up, 8; placing , 10; spending, 13-14
+combat: 14-16; example of, 15
+combat rating (of monsters): 15, 21
+Cursed: 17
+damage (from monsters): 15, 21
+delayed: 8, 16
+devoured: 17; during Final Battle, 22
+doom track: 9, 19, 20, 22
+elder signs: 18
+encounters: in Other Worlds, 8, 9; monsters appearing
+because of: 22; resolving 8-9
+ending the game: 12
+Endless: 24
+Environment: 12
+evading monsters: 6, 8 14; example of, 14
+exhaust: 6
+explored markers: 4, 8
+final battle: 22
+flying monsters: 11
+focus: 6, 21
+game board breakdown: 21
+gates: and winning the game, 12; closing, 12, 17; monsters guarding: 18; opening during Mythos Phase, 9;
+opening on investigators, 10; sealing, 12, 17, awakening
+the Ancient One, 20, 24
+home dimension: 21
+insane: 16
+investigator sheet breakdown: 19
+locations: closing, 20; encounters at, 8-9; special abilities of, 22
+lost in time and space: 17
+Magical Combat: 16
+
+Magical Immunity: 24
+“Mask” monsters: 5
+monster limits: 18, 24
+monster marker breakdown: 21
+monster movement: 10-11; example of, 10
+monster trophies: collecting, 15; spending, 23
+Movement Phase: 6, 8
+Mythos card (resolving): 9
+Mythos Phase: 9-12
+neighborhoods: 21
+Nightmarish: 24
+Other World Encounters Phase: 9
+Other World movement: 8
+Outskirts: 18, 24
+Overwhelming: 24
+Physical Combat: 16
+Physical Immunity: 24
+refresh: 6
+Rumor: 12
+sealing gates: and winning the game, 12; how to, 18
+setup:
+skills: 12-13; adjusting, 6; skill checks, 13
+skill checks: 13
+special card limitations: 23
+spells, casting: 16
+street area: 21
+terror track: 20, 21; summary of levels: 24
+timing conflicts: 23
+toughness (of monsters): 15, 21
+trading equipment: 23
+unconscious: 16
+Upkeep Phase: 6
+victories, scoring: 12
+weapon and spell limits: 16
+weapons: 16
+
+23
+

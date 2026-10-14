@@ -1,0 +1,69 @@
+{
+   "Allies": [
+     {
+       "name": "anna kaslow",
+       "modifier": "+2 Sneak",
+       "description": "Gain 2 <i>Clue tokens</i> when Anna Kaslow joins you."
+     },
+
+     {
+       "name": "duke",
+       "modifier": "+1 Maximum Sanity",
+       "description": "Discard to immediately restore your Sanity to its maximum."
+     },
+
+     {
+       "name": "eric colt",
+       "modifier": "+2 Speed",
+       "description": "You take no Sanity loss from the <b>Nightmarish</b> ability."
+     },
+
+     {
+       "name": "john legrasse",
+       "modifier": "+2 Will",
+       "description": "You can claim monsters with the <b>Endless</b> ability as trophies."
+     },
+
+     {
+       "name": "professor armitage",
+       "modifier": "+2 Lore",
+       "description": "Your attacks are not affected by <b>Magical Resistance</b>."
+     },
+
+     {
+       "name": "richard upton pickman",
+       "modifier": "+1 Luck, +1 Speed",
+       "description": "Your attacks are not affected by <b>Physical Resistance</b>."
+     },
+
+     {
+       "name": "ruby standish",
+       "modifier": "+2 Sneak",
+       "description": "Draw 1 <i>Unique Item</i> when Ruby Standish joins you."
+     },
+
+     {
+       "name": "ryan dean",
+       "modifier": "+1 Will, +1 Sneak",
+       "description": "Draw 1 <i>Common Item</i> when Ryan Dean joins you."
+     },
+
+     {
+       "name": "sir william brinton",
+       "modifier": "+1 Maximum Stamina",
+       "description": "Discard to immediately restore your Stamina to its maximum."
+     },
+
+     {
+       "name": "thomas f. malone",
+       "modifier": "+1 Lore, +1 Fight",
+       "description": "Draw <i>Spell</i> when Thomas F. Malone joins you."
+     },
+
+     {
+       "name": "tom 'mountain' murphy",
+       "modifier": "+2 Fight",
+       "description": "You take no Stamina loss from the <b>Overwhelming</b> ability."
+     }
+   ]
+}

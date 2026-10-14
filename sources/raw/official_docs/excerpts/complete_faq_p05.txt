@@ -1,0 +1,93 @@
+Q: Does Kate Winthrop’s Science! ability prevent encountering specific monsters (such as the Mi-Go mentioned in
+a specific encounter at the Science Building)? Does it prevent monsters from appearing due to Other World encounters (such as the God of the Bloody Tongue in the Other
+World encounter [CotDP])?
+A: Yes to all of the above.
+
+tigators in the same location, street area, or Other World
+area during the Movement Phase. They may also trade at
+any point during the Investigators Refresh step of battling
+the Ancient One.
+They may trade Common Items, Unique Items, Spells,
+the Patrol Wagon, the Deputy’s Revolver, Exhibit Items
+[CotDP], Rail Passes [DH], and Money. They cannot
+trade Clue tokens, Allies, Skills, Retainers, Deputy of
+Arkham, Loans, a Blessing, a Curse, an Injury [DH], a
+Madness [DH], The White Ship [KH], The Great Seal
+[KH], Monster trophies, Gate trophies or any other card
+not specifically stated as tradable.
+
+Q: Does Kate Winthrop’s Science! ability prevent a Spawn
+monster [DH, KiY, IH] from appearing?
+A: No.
+Q: If Kate Winthrop has an explored token in the same
+location as a gate that has a monster surge, does her
+Science! ability cancel the surge or does she only prevent
+the monsters appearing at that location (and monsters
+may appear in other locations)?
+A: The surge is completely canceled.
+
+Investigator Abilities
+
+Q: Does the Strong Mind ability (reduce all Sanity loss
+by 1) of the professor, Harvey Walters, apply to the casting of spells?
+A: No. The professor’s ability works on losses, not costs.
+The same distinction applies to the gangster, Michael
+McGlen, and his ability to reduce Stamina losses.
+
+Q: When happens during a monster surge when Kate
+Winthrop has an explored token in the same location as a
+gate other than one that has the monster surge?
+A: The surge is resolved as it normally would be, except
+monsters do not appear at Kate’s location. The total number of monsters is distributed as evenly as possible among
+the remaining open gates, with no gate having more monsters placed on it than the gate where the monster surge
+occurred this turn. (Note: her ability does not reduce the
+number of monster tokens drawn as a result of the surge, it
+simply redistributes them to other gates.)
+
+Q: What happens when characters that get to draw
+extra encounter cards at locations (Darrell Simmons for
+Arkham encounters and Gloria Goldberg for Other World
+encounters) have an encounter that instructs them to draw
+2 cards and choose 1 to encounter?
+A: When instructed to draw 2 cards and choose 1, these
+investigators draw an extra card – which means they draw
+3 cards and choose 1 to encounter.
+
+Q: If Kate Winthrop has an explored token in the same
+location as a gate that has a monster surge, and her
+Science! ability cancels the surge, is an uprising token
+added to the Deep One Rising track?
+A: Yes.
+
+Q: If a Gate Burst [DH, KH, BGotW, IH, LatT, MH]
+occurs at Kate Winthrop’s location, what happens? Does
+she prevent a Gate Burst from removing a seal?
+A: The Gate Burst is completely prevented. The seal
+remains.
+
+Investigator Status
+
+Q: How does Kate Winthrop’s Science! ability affect
+Summon Monster (Spell) [BGotW]?
+A: She can’t use it, nor can it be used by an investigator in
+her location or street area.
+
+Q: Can investigators be double delayed?
+A: Delayed is a binary condition, you are either delayed
+or not. You cannot be “double delayed.”
+Q: Can an investigator do anything besides stand his
+marker up during the Movement Phase after he has been
+delayed?
+A: During the Movement Phase after a player’s investigator has been delayed, the only things that player may do
+during his Movement Phase is stand his investigator marker up and participate in trades with other investigators in
+his location, street area, or Other World area. (Although
+once the player has stood his investigator’s marker up
+again, the investigator must still combat or evade each
+monster in his location or street area. Note that the investigator still cannot move, use movement points, use any
+item or ability that replaces his normal movement, or cast
+spells during this Movement Phase to do so.)
+A player whose investigator has been delayed during combat cannot stand up his marker until the Movement Phase
+of his next turn.
+
+5
+
