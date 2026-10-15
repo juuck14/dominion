@@ -1,0 +1,14 @@
+{
+ "title": "George Barnaby",
+ "pageid": 1217,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/George_Barnaby",
+ "revid": 2281,
+ "rev_timestamp": "2020-11-02T18:28:57Z",
+ "retrieved_at": "2026-10-15T01:52:18+00:00",
+ "categories": [
+  "Category:Innsmouth Horror",
+  "Category:Investigators",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroductionAn\n|Name=George Barnaby\n|GameItemType=investigator\n|Pronoun=He\n|Edition=Innsmouth Horror\n}}\n{{Investigator\n|CardFront=GeorgeBarnaby\n|CardBack=GeorgeBarnabyBack\n|Name=George Barnaby\n|Pronoun=He\n|Occupation=the Lawyer\n|Edition=Innsmouth Horror\n|Sanity=7\n|Stamina=3\n|Ability1=Knowledge is Power - Any Phase: When spending a [[Clue token]] to add to a [[skill check]], George may add +1 to the result of one of his rolled dice instead of rolling an extra die.\n\nBail Out - Any Phase: George may spend $2 to prevent any investigator from being [[arrested]], including himself.\n|Home=Library\n|FixedPossessions=\n*$7\n*1 Special ([[Retainer]])\n|RandomPossessions=\n*1 [[Common item]]\n*1 [[Unique item]]\n*1 [[Spell]]\n*1 [[Skill]]\n|Focus=2\n|Speed1=0\n|Speed2=1\n|Speed3=2\n|Speed4=3\n|Sneak1=5\n|Sneak2=4\n|Sneak3=3\n|Sneak4=2\n|Fight1=0\n|Fight2=1\n|Fight3=2\n|Fight4=3\n|Will1=4\n|Will2=3\n|Will3=2\n|Will4=1\n|Lore1=1\n|Lore2=2\n|Lore3=3\n|Lore4=4\n|Luck1=5\n|Luck2=4\n|Luck3=3\n|Luck4=2\n}}\n\n\n'''The Story So Far:''' George Barnaby always had the need for control - control of his life and of his surroundings. That's why, after spending a month in jail at the age of 19 for a crime he didn't commit, George became a lawyer.\n\nPossessing a keen mind and a charismatic personality, he found that he excelled in his chosen field and soon rose to a position of power and wealth. George enjoyed the challenge of practicing law, and the years rolled past in a pleasant blur until he was ready to retire. He figured that he and his wife, Maria, would buy a boat and sail around the world.\n\nThat was before the night when his home was invaded, his wife was murdered, and his house was burned to the ground by two men wearing strange amulets.\n\nNow, he has tracked these men to the city of [[Arkham]]. They will pay for making him feel helpless, and for taking away his dear, sweet Maria. after all, if there's one thing lawyers are known for, it's collecting debts that are owed to them."
+}

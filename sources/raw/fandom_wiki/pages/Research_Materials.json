@@ -1,0 +1,10 @@
+{
+ "title": "Research Materials",
+ "pageid": 412,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Research_Materials",
+ "revid": 659,
+ "rev_timestamp": "2020-11-02T18:02:21Z",
+ "retrieved_at": "2026-10-15T02:00:39+00:00",
+ "categories": [],
+ "wikitext": "{{CommonItemPage\n|ImageFront=ResearchMaterials\n|Name=Research Materials\n|Pronoun=It\n|Edition=Arkham Horror\n|ItemType=\n|ItemBonus=\n|ItemText=\n|ItemHands=\n|UsePhase=Any\n|UsePhaseText=Discard Research Materials instead of spending 1 [[Clue token]].\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=1\n}}"
+}

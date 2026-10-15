@@ -1,0 +1,14 @@
+{
+ "title": "Fine Clothing",
+ "pageid": 697,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Fine_Clothing",
+ "revid": 1239,
+ "rev_timestamp": "2020-11-02T18:28:05Z",
+ "retrieved_at": "2026-10-15T01:52:17+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Pages with broken file links",
+  "Category:The Lurker at the Threshold"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=FineClothingItem\n|Name=Fine Clothing\n|Pronoun=It\n|Edition=The Lurker at the Threshold\n|ItemType=\n|ItemBonus=+1 to all [[skill check]]s during [[Arkham encounter]]s.\n|ItemText=Discard Fine Clothing when you lose any amount of [[Stamina]].\n|ItemHands=\n|UsePhase=\n|UsePhaseText=\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=5\n}}"
+}

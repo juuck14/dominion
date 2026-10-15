@@ -1,0 +1,10 @@
+{
+ "title": "Warlock",
+ "pageid": 321,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Warlock",
+ "revid": 477,
+ "rev_timestamp": "2020-11-02T18:02:12Z",
+ "retrieved_at": "2026-10-15T01:52:23+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=Warlock\n|GameItemType=monster\n|Pronoun=He\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Warlock\n|MarkerFrontImage=Warlock\n|MarkerBackImage=WarlockBack\n|AHCount=2\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-2\n|Movement=Yellow\n|HomeDimension=Circle\n|Spawn=\n|StartingLocation=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=1\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=If you pass a [[Combat check]] against Warlock, return it to the box and gain 2 [[Clue token]]s.\n|HorrorRating=-1\n|HorrorDamage=1\n|CombatRating=-3\n|CombatDamage=1\n|Toughness=2\n}}"
+}

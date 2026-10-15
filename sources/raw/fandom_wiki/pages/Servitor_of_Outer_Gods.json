@@ -1,0 +1,13 @@
+{
+ "title": "Servitor of Outer Gods",
+ "pageid": 1251,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Servitor_of_Outer_Gods",
+ "revid": 3446,
+ "rev_timestamp": "2023-03-28T15:33:25Z",
+ "retrieved_at": "2026-10-15T01:52:21+00:00",
+ "categories": [
+  "Category:Innsmouth Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Servitor of Outer Gods\n|GameItemType=monster\n|Pronoun=It\n|Edition=Innsmouth Horror\n}}\n{{MonsterInfoBox\n|Name=Servitor of Outer Gods\n|MarkerFrontImage=ServitorOfOuterGods\n|MarkerBackImage=ServitorOfOuterGodsBack\n|AHCount=0\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|IHCount=1\n|Awareness=+0\n|Movement=Blue\n|HomeDimension=Square\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=1\n|PhysicalImmunity=\n|MagicalImmunity=\n|WeaponImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=1\n|Nightmarish=2\n|Elusive=\n|FlavorText=\n|RulesText=If you fail a [[Combat]] or [[Evade]] check against Servitor of Outer Gods, you are [[devoured]].\n|HorrorRating=-3\n|HorrorDamage=3\n|CombatRating=-2\n|CombatDamage=0\n|Toughness=3\n}}"
+}

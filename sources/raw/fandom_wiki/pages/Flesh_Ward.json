@@ -1,0 +1,13 @@
+{
+ "title": "Flesh Ward",
+ "pageid": 1521,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Flesh_Ward",
+ "revid": 2889,
+ "rev_timestamp": "2020-11-02T18:29:32Z",
+ "retrieved_at": "2026-10-15T01:52:18+00:00",
+ "categories": [
+  "Category:Pages with broken file links",
+  "Category:Spells"
+ ],
+ "wikitext": "[[Image:FleshWard.png|right|160px]]\n'''Flesh Ward''' is a [[spell]].  It first appeared in the [[Arkham Horror]] board game, but a corrected copy was included in the [[Dunwich Horror]] expansion.\n\n==Card info==\n'''Casting Modifier''': -2\n\n'''Sanity Cost''': 1\n\n'''Any Phase''': Cast and exhaust to ignore all [[Stamina]] loss being dealt to you from one source.  Discard this spell if the [[Ancient One]] awakens.\n\n===Correction===\nThe original card did not specify \"Discard this spell if the Ancient One awakens.\" Also, the Sanity cost was zero.\n\n[[Category:Spells]]"
+}

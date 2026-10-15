@@ -1,0 +1,13 @@
+{
+ "title": "Wraith",
+ "pageid": 876,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Wraith",
+ "revid": 1599,
+ "rev_timestamp": "2020-11-02T18:28:21Z",
+ "retrieved_at": "2026-10-15T01:52:23+00:00",
+ "categories": [
+  "Category:Dunwich Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Wraith\n|GameItemType=monster\n|Pronoun=It\n|Edition=Dunwich Horror\n}}\n{{MonsterInfoBox\n|Name=Wraith\n|MarkerFrontImage=Wraith\n|MarkerBackImage=WraithBack\n|AHCount=0\n|DHCount=2\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=+0\n|Movement=Blue\n|HomeDimension=Crescent\n|Spawn=\n|StartingLocation=\n|Mask=\n|Ambush=\n|Undead=1\n|Endless=\n|PhysicalImmunity=1\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=1\n|Nightmarish=1\n|Elusive=\n|FlavorText=\n|RulesText=\n|HorrorRating=-2\n|HorrorDamage=1\n|CombatRating=-2\n|CombatDamage=2\n|Toughness=3\n}}"
+}

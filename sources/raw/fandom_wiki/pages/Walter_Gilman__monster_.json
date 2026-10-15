@@ -1,0 +1,13 @@
+{
+ "title": "Walter Gilman (monster)",
+ "pageid": 1390,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Walter_Gilman_%28monster%29",
+ "revid": 2627,
+ "rev_timestamp": "2020-11-02T18:29:16Z",
+ "retrieved_at": "2026-10-15T01:52:23+00:00",
+ "categories": [
+  "Category:Monsters",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "'''Walter Gilman (monster)''' is a special [[monster]] used in [[The Three Armies of the King|scenario 8]] of the 1st Arkham Spanish League.\n{{MonsterInfoBox\n|Name=Walter Gilman\n|MarkerFrontImage=WalterGilmanMonster1\n|MarkerBackImage=WalterGilmanMonster1Back\n|AHCount=0\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=+1\n|Movement=Red\n|HomeDimension=Plus\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=Songs that the Hyades shall sing, where flap the tatters of the King, must die unheard in Dim Carcosa.\n|RulesText=In order to combat Walter Gilman, the 3 [[Riot]] [[monsters]] must be defeated first.\n\nIf there's at least one Riot monster in Arkham and you are or pass through the [[street]] Walter Gilman is in, pass a [[Sneak check]] or Walter Gilman will move following the white arrow.\n\nPass a [[Combat check]] to take [[Walter Gilman (Chapter 8)|Walter Gilman]] as an [[Ally]].\n|HorrorRating=\n|HorrorDamage=\n|CombatRating=-1\n|CombatDamage=1\n|Toughness=1\n}}\n[[Category:Monsters]]"
+}

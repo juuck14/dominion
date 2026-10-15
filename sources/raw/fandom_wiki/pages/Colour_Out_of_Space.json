@@ -1,0 +1,13 @@
+{
+ "title": "Colour Out of Space",
+ "pageid": 923,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Colour_Out_of_Space",
+ "revid": 1693,
+ "rev_timestamp": "2020-11-02T18:28:28Z",
+ "retrieved_at": "2026-10-15T01:52:16+00:00",
+ "categories": [
+  "Category:Dunwich Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Colour Out of Space\n|GameItemType=monster\n|Pronoun=It\n|Edition=Dunwich Horror\n}}\n{{MonsterInfoBox\n|Name=Colour Out Of Space\n|MarkerFrontImage=ColourOutOfSpace\n|MarkerBackImage=ColourOutOfSpaceBack\n|AHCount=0\n|DHCount=2\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=+1\n|Movement=Green\n|HomeDimension=Square\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=1\n|MagicalImmunity=1\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=Instead of moving, roll a die. On a 4-6, all [[Investigators]] in Arkham lose 1 [[Sanity]].\n|HorrorRating=-3\n|HorrorDamage=4\n|CombatRating=+0\n|CombatDamage=1\n|Toughness=2\n}}\n\n==Mythos Source==\n\nThe Colour Out of Space appears in the story ''The Colour Out of Space'', written by H.P. Lovecraft (1927)."
+}

@@ -1,7 +1,7 @@
 {
  "source_id": "jesseflorig_json",
  "parser": "ah2e.parsers.jesseflorig_json",
- "parsed_at": "2026-10-14T19:38:14+00:00",
+ "parsed_at": "2026-10-15T02:05:15+00:00",
  "status": "ok",
  "commit_sha": "a9c7bf6cc9a08888950204b4df7b40aa3c7f89f7",
  "warnings": [

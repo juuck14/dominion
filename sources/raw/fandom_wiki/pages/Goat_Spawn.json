@@ -1,0 +1,13 @@
+{
+ "title": "Goat Spawn",
+ "pageid": 928,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Goat_Spawn",
+ "revid": 1703,
+ "rev_timestamp": "2020-11-02T18:28:28Z",
+ "retrieved_at": "2026-10-15T01:52:18+00:00",
+ "categories": [
+  "Category:Dunwich Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Goat Spawn\n|GameItemType=monster\n|Pronoun=It\n|Edition=Dunwich Horror\n}}\n{{MonsterInfoBox\n|Name=Goat Spawn\n|MarkerFrontImage=GoatSpawn\n|MarkerBackImage=GoatSpawnBack\n|AHCount=0\n|DHCount=2\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=2\n|Awareness=-1\n|Movement=Red\n|HomeDimension=Hexagon\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=1\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=''The creature was at once terrible and graceful, the result of blasphemous trafficks with some otherworldly horror.''\n|RulesText=\n|HorrorRating=-1\n|HorrorDamage=1\n|CombatRating=-2\n|CombatDamage=1\n|Toughness=2\n}}"
+}

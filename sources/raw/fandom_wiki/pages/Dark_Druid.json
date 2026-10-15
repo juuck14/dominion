@@ -1,0 +1,13 @@
+{
+ "title": "Dark Druid",
+ "pageid": 1582,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Dark_Druid",
+ "revid": 3013,
+ "rev_timestamp": "2020-11-02T18:29:37Z",
+ "retrieved_at": "2026-10-15T01:52:16+00:00",
+ "categories": [
+  "Category:Pages with broken file links",
+  "Category:The Black Goat of the Woods"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Dark Druid\n|GameItemType=Monster\n|Pronoun=It\n|Edition=The Black Goat of the Woods\n}}\n\n{{MonsterInfoBox\n|Name=Dark Druid\n|MarkerFrontImage=DarkDruid\n|MarkerBackImage=DarkDruidBack\n|AHCount=0\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=1\n|Awareness=-2\n|Movement=Green\n|HomeDimension=Hexagon\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=1\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=Dark Druid is treated as a Cultist. When Dark Druid moves on a black path, all other monsters move on black after their normal movement.\n|HorrorRating=-1\n|HorrorDamage=1\n|CombatRating=-2\n|CombatDamage=1\n|Toughness=2\n}}"
+}

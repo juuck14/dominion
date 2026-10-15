@@ -1,0 +1,14 @@
+{
+ "title": "Lola Hayes",
+ "pageid": 1257,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Lola_Hayes",
+ "revid": 2361,
+ "rev_timestamp": "2020-11-02T18:29:02Z",
+ "retrieved_at": "2026-10-15T01:52:19+00:00",
+ "categories": [
+  "Category:Investigators",
+  "Category:Kingsport Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroductionAn\n|Name=Lola Hayes\n|GameItemType=investigator\n|Pronoun=She\n|Edition=Kingsport Horror\n}}\n{{Investigator\n|CardFront=LolaHayes\n|CardBack=LolaHayesBack\n|Name=Lola Hayes\n|Pronoun=She\n|Occupation=the Actress\n|Edition=Kingsport Horror\n|Sanity=6\n|Stamina=4\n|Ability1=Improv - [[Upkeep Phase|Upkeep]]: Once per turn, Lola may discard one of her [[skill]] cards to draw a new skill from either the top or the bottom of the Skill deck.  Lola may look at the bottom card of the Skill deck at any time.\n|Home=Arkham Asylum\n|FixedPossessions=\n*$6\n*2 [[Clue token]]s\n*1 [[Common item]] ([[.18 Derringer]])\n|RandomPossessions=\n*1 [[Common item]]\n*1 [[Unique item]]\n*1 [[Spell]]\n*1 [[Skill]]\n|Focus=2\n|Speed1=2\n|Speed2=3\n|Speed3=4\n|Speed4=5\n|Sneak1=3\n|Sneak2=2\n|Sneak3=1\n|Sneak4=0\n|Fight1=1\n|Fight2=2\n|Fight3=3\n|Fight4=4\n|Will1=5\n|Will2=4\n|Will3=3\n|Will4=2\n|Lore1=1\n|Lore2=2\n|Lore3=3\n|Lore4=4\n|Luck1=4\n|Luck2=3\n|Luck3=2\n|Luck4=1\n}}\n\n\n'''The Story So Far:''' Lola walked out the doors of Arkham Asylum into a bright, sunny day. It had been the right move, checking herself into the sanitarium to recuperate after her last show. She still didn't like to think about that play, of course-- all that strange chanting and those awful masks; they still appeared sometimes in her nightmares.\n\nShe glanced down again at the newspaper clipping in her hand. \"Famous Director Hangs Himself!\" She had decided to check out of the asylum when she had seen it and realized that there was something more to that play than just her own wild imaginings.\n\nSubtly checking once more to make sure her derringer was still safely hidden, Lola strode back out onto center stage for what could be her final starring role.\n\n== Clarification ==\nLola obtains the skill on the bottom of the deck <i>before</i> discarding hers to the bottom."
+}

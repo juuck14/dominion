@@ -143,7 +143,8 @@ def run(log=print):
                            "note": "Images are linked individually in each record's provenance and in 'images'."})
     out["sources"].append({"id": "web_search_fandom", "title": "Search-engine summaries of fandom wiki pages (manual/web_search_evidence.json)",
                            "type": "manual", "independence_group": "fandom_lineage", "status": "ok",
-                           "note": "Tie-breaking evidence only; not raw page content."})
+                           "note": "Tie-breaking evidence used while the wiki was blocked; not raw page content. Superseded by "
+                                   "fandom_wiki wherever the fetched wiki gives the field - see meta.web_search_recheck."})
     od = P("official_docs")["records"]
     out["documents"] = od["documents"]
     out["meta"]["faq"] = od.get("faq_meta")
@@ -264,7 +265,10 @@ def run(log=print):
         loc_ix.add(name, lid)
     out["board_connections"] = []
     out["missing"].append({"entity_id": "board", "field": "connections",
-                           "reason": "No reachable source provides the street/location adjacency graph (printed on the game board only; the fandom wiki was blocked). Table left empty."})
+                           "reason": "No reachable source provides the adjacency graph: movement is along the yellow lines printed on the "
+                                     "game board (core rulebook p.6). The fandom wiki was checked (2026-10-15): neighborhood pages list "
+                                     "their locations but no street-to-street links, and no page tabulates the board's lines or "
+                                     "monster-movement arrows. Table left empty."})
     for a in out["areas"]:
         if a["kind"] == "street":
             pass
@@ -313,7 +317,10 @@ def run(log=print):
                                        "reason": "rules: 'Each Other World space is divided into 2 areas' (EOG rules summary, unofficial); official rulebook movement section not excerpted"}},
         })
     out["missing"].append({"entity_id": "gate_markers", "field": "composition",
-                           "reason": "16 gate markers (official count) but no source lists each marker's Other World and close/seal modifier."})
+                           "reason": "16 gate markers (official count) but no source lists each marker's Other World and close/seal "
+                                     "modifier. The fandom wiki 'Gate marker' page (checked 2026-10-15) only has an image gallery: its "
+                                     "'Original Gate Markers' section mixes base and Dunwich Horror worlds (Another Time, Lost Carcosa, "
+                                     "The Underworld, Unknown Kadath) and states no modifiers in text; the images are on a blocked host."})
 
     # places = locations + street areas (used by mythos activity / closing effects)
     place_ix = Index(dict(LOCATION_ALIASES, merchantdiststreets="merchantdistrictstreets",
@@ -347,9 +354,10 @@ def run(log=print):
     for e in errata.values():
         out["errata"].append({k: v for k, v in e.items()} | {"doc_id": "complete_faq",
                              "quote_verified": next((q["ok"] for q in od["quote_checks"] if q["id"] == e["id"]), None)})
+    out["meta"]["web_search_recheck"] = _recheck_web_search()
     out["conflicts"] = R.conflicts
     out["missing"] += R.missing
-    out["unresolved_references"] = [dict(u, index="location") for u in loc_ix.unresolved] + \
+    out["unresolved_references"] += [dict(u, index="location") for u in loc_ix.unresolved] + \
                                    [dict(u, index="other_world") for u in world_ix.unresolved] + \
                                    [dict(u, index="neighborhood") for u in hood_ix.unresolved]
     out["meta"].update({
@@ -363,6 +371,37 @@ def run(log=print):
     write_json(config.DATA_DIR / "ah2e_base.json", out)
     log("  wrote data/ah2e_base.json: " + ", ".join("%s=%d" % (k, len(v)) for k, v in out.items() if isinstance(v, list)))
     return out
+
+
+# ============================================================================ search-summary re-check
+def _recheck_web_search():
+    """Compare each claim of manual/web_search_evidence.json (search-engine summaries used while the wiki
+    was blocked) with the raw wiki wikitext fetched later. Integration no longer uses a summary claim
+    when the wiki provides the same field; this table records whether the summary had been right."""
+    from .wiki import Wiki, num as wnum
+    W = Wiki()
+    rows = []
+    for r in read_json(config.MANUAL_DIR / "web_search_evidence.json")["records"]:
+        for c in r["claims"]:
+            wv, ref = None, None
+            if c.get("kind"):
+                got = (W.card_claims(c["kind"], norm_name(c["entity"]))[0]).get(c["field"]) or []
+                if got:
+                    wv, ref = got[0]["value"], got[0]["ref"]
+            else:
+                pg, prm = W.investigators.get(norm_name(c["entity"].replace('"', "")), (None, None))
+                if prm and prm.get(c["field"].capitalize()) not in (None, ""):
+                    wv, ref = wnum(prm.get(c["field"].capitalize())), pg["src_ref"] + " Investigator template"
+            same = (norm_name(wv) == norm_name(c["value"])) if isinstance(c["value"], str) and isinstance(wv, str) else wv == c["value"]
+            rows.append({"entity": c["entity"], "kind": c.get("kind", "investigator"), "field": c["field"],
+                         "search_summary_value": c["value"], "search_url": r["url"], "wiki_value": wv, "wiki_ref": ref,
+                         "result": "wiki_not_fetched" if not W.available else ("not_found_on_wiki" if ref is None else
+                                                                              ("match" if same else "mismatch"))})
+    summ = {}
+    for x in rows:
+        summ[x["result"]] = summ.get(x["result"], 0) + 1
+    return {"checked_at": now_iso() if W.available else None, "summary": summ, "rows": rows,
+            "note": "Summary claims are superseded by the fetched wiki wikitext wherever the wiki gives the field."}
 
 
 # ============================================================================ location (Arkham encounter) cards
@@ -822,7 +861,21 @@ def _random_counts(text):
     return out
 
 
+def _wiki_possessions(items):
+    """Wiki bullet list ('*$1\\n*1 [[Clue token]]') -> the comma-joined printed form read by _parse_possessions."""
+    from .wiki import plain as wplain
+    parts = []
+    for ln in (items or "").splitlines():
+        t = wplain(ln.lstrip("*").strip())
+        t = re.sub(r"^(\d+ Clue tokens?)\s*\(.*\)$", r"\1", t, flags=re.I)   # Kate: '(Do not place a Clue token ...)'
+        if t:
+            parts.append(t)
+    return ", ".join(parts)
+
+
 def _build_investigators(out, R, loc_ix, manual, errata):
+    from .wiki import SRC as WSRC, Wiki, num as wnum, plain as wplain
+    W = Wiki()
     sheets = {norm_name(r["name"].replace('"', "")): r for r in manual["investigator_sheets"]}
     kv = [r for r in recs("kuerv0_json", "investigators") if r.get("variant") == "base-game.json"]
     kv2 = {norm_name(r["name"]): r for r in recs("kuerv0_json", "investigators") if r.get("variant") == "investigators.json"}
@@ -843,22 +896,30 @@ def _build_investigators(out, R, loc_ix, manual, errata):
         k2 = kv2.get(k)
         g = gl.get(k)
         pvr = pv.get(k)
+        wpg, wp = W.investigators.get(k, (None, None))
+        wref = wpg and wpg["src_ref"] + " Investigator template"
+        wfix = _parse_possessions(_wiki_possessions(wp.get("FixedPossessions"))) if wp else None
+        # search-engine summaries are only used while the wiki page itself is unavailable
+        evk = {} if wp else ev.get(k, {})
         img = "card_image"
         iid = "inv." + slug((sh or kq)["name"].replace('"', ""))
         fs = {}
         name, fs["name"] = R.value(iid, "name", [claim(img, sh and sh["name"], sh and sh["src_ref"]),
                                                  claim("kuerv0_json", kq and kq["name"], kq and kq["src_ref"]),
-                                                 claim("gorlith_android", g and g["name"], g and g["src_ref"])], norm="name")
+                                                 claim("gorlith_android", g and g["name"], g and g["src_ref"]),
+                                                 claim(WSRC, wp and wp.get("Name"), wref)], norm="name")
         name = name or (sh or kq)["name"]
         occ, fs["occupation"] = R.value(iid, "occupation", [claim(img, sh and sh["occupation"], sh and sh["src_ref"]),
                                                              claim("kuerv0_json", kq and kq.get("occupation"), kq and kq["src_ref"]),
-                                                             claim("gorlith_android", g and g["occupation"], g and g["src_ref"])], norm="name")
+                                                             claim("gorlith_android", g and g["occupation"], g and g["src_ref"]),
+                                                             claim(WSRC, wp and wp.get("Occupation"), wref)], norm="name")
         for stat in ("sanity", "stamina"):
             cl = [claim("kuerv0_json", kq and kq.get(stat), kq and kq["src_ref"]),
                   claim("kuerv0_json", k2 and k2.get("max" + stat.capitalize()), k2 and k2["src_ref"]),
                   claim("gorlith_android", g and g.get(stat), g and g["src_ref"]),
-                  claim("pavelius_cpp", pvr and pvr.get(stat), pvr and pvr["src_ref"])]
-            for e in ev.get(k, {}).get(stat, []):
+                  claim("pavelius_cpp", pvr and pvr.get(stat), pvr and pvr["src_ref"]),
+                  claim(WSRC, wp and wnum(wp.get(stat.capitalize())), wref)]
+            for e in evk.get(stat, []):
                 cl.append(claim("web_search_fandom", e["value"], e["url"]))
             val, fs[stat] = R.value(iid, stat, cl)
             if stat == "sanity":
@@ -870,10 +931,13 @@ def _build_investigators(out, R, loc_ix, manual, errata):
                        claim("kuerv0_json", k2 and loc_ix.get(k2.get("home"), iid), k2 and k2["src_ref"])]
         if pvr:
             home_claims.append(claim("pavelius_cpp", loc_ix.get(re.sub(r"(?<!^)([A-Z])", r" \1", pvr["home_enum"]), iid), pvr["src_ref"]))
+        if wp:
+            home_claims.append(claim(WSRC, loc_ix.get(wplain(wp.get("Home")), iid), wref))
         home, fs["home_location_id"] = R.value(iid, "home_location_id", home_claims)
         focus_cl = [claim(img, sh and sh["focus"], sh and sh["src_ref"]), claim("kuerv0_json", kq and kq.get("focus"), kq and kq["src_ref"]),
-                    claim("kuerv0_json", k2 and k2.get("focus"), k2 and k2["src_ref"]), claim("pavelius_cpp", pvr and pvr.get("focus"), pvr and pvr["src_ref"])]
-        for e in ev.get(k, {}).get("focus", []):
+                    claim("kuerv0_json", k2 and k2.get("focus"), k2 and k2["src_ref"]), claim("pavelius_cpp", pvr and pvr.get("focus"), pvr and pvr["src_ref"]),
+                    claim(WSRC, wp and wnum(wp.get("Focus")), wref)]
+        for e in evk.get("focus", []):
             focus_cl.append(claim("web_search_fandom", e["value"], e["url"]))
         focus, fs["focus"] = R.value(iid, "focus", focus_cl)
         # possessions -----------------------------------------------------
@@ -885,20 +949,26 @@ def _build_investigators(out, R, loc_ix, manual, errata):
         money, fs["fixed_possessions.money"] = R.value(iid, "fixed_possessions.money", [
             claim(img, fixed and fixed["money"], sh and sh["src_ref"]), claim("kuerv0_json", kfix.get("money") if kq else None, kq and kq["src_ref"]),
             claim("kuerv0_json", (k2 or {}).get("fixedPossessions", {}).get("money"), k2 and k2["src_ref"]),
-            claim("pavelius_cpp", next((int(re.sub(r"\D", "", x)) for x in (pvr or {}).get("possessions_enum", []) if x.endswith("Money")), None), pvr and pvr["src_ref"])],
+            claim("pavelius_cpp", next((int(re.sub(r"\D", "", x)) for x in (pvr or {}).get("possessions_enum", []) if x.endswith("Money")), None), pvr and pvr["src_ref"]),
+            claim(WSRC, wfix and wfix["money"], wref)],
             errata=e_money)
         clues, fs["fixed_possessions.clue_tokens"] = R.value(iid, "fixed_possessions.clue_tokens", [
             claim(img, fixed and fixed["clue_tokens"], sh and sh["src_ref"]), claim("kuerv0_json", kfix.get("clueToken") if kq else None, kq and kq["src_ref"]),
-            claim("pavelius_cpp", next((int(re.sub(r"\D", "", x)) for x in (pvr or {}).get("possessions_enum", []) if x.endswith("Clue")), 0) if pvr else None, pvr and pvr["src_ref"])])
+            claim("pavelius_cpp", next((int(re.sub(r"\D", "", x)) for x in (pvr or {}).get("possessions_enum", []) if x.endswith("Clue")), 0) if pvr else None, pvr and pvr["src_ref"]),
+            claim(WSRC, wfix and wfix["clue_tokens"], wref)])
         named, fs["fixed_possessions.cards"] = R.value(iid, "fixed_possessions.cards", [
-            claim(img, sh_cards if sh else None, sh and sh["src_ref"]), claim("kuerv0_json", kq_cards if kq else None, kq and kq["src_ref"])], norm="set")
+            claim(img, sh_cards if sh else None, sh and sh["src_ref"]), claim("kuerv0_json", kq_cards if kq else None, kq and kq["src_ref"]),
+            claim(WSRC, sorted("%s:%s" % (c["deck"], norm_name(n)) for c in wfix["cards"] for n in c["names"]) if wfix else None, wref)], norm="set")
         special, fs["fixed_possessions.special"] = R.value(iid, "fixed_possessions.special", [
             claim(img, sorted(norm_name(x) for x in fixed["special"]) if fixed else None, sh and sh["src_ref"]),
-            claim("kuerv0_json", sorted(norm_name(x) for x in kfix.get("specialCards", [])) if kq else None, kq and kq["src_ref"])], norm="set")
+            claim("kuerv0_json", sorted(norm_name(x) for x in kfix.get("specialCards", [])) if kq else None, kq and kq["src_ref"]),
+            claim(WSRC, sorted(norm_name(x) for x in wfix["special"]) if wfix else None, wref)], norm="set")
         blessing, fs["fixed_possessions.blessing"] = R.value(iid, "fixed_possessions.blessing", [
             claim(img, fixed["blessing"] if fixed else None, sh and sh["src_ref"]),
-            claim("kuerv0_json", bool(kfix.get("blessing")) if kq else None, kq and kq["src_ref"])])
+            claim("kuerv0_json", bool(kfix.get("blessing")) if kq else None, kq and kq["src_ref"]),
+            claim(WSRC, wfix["blessing"] if wfix else None, wref)])
         rnd_img = _random_counts(sh["random_possessions_text"]) if sh else {}
+        rnd_wk = _random_counts(_wiki_possessions(wp.get("RandomPossessions"))) if wp else None
         rnd_kq = {DECKS[r["deck"]]: r["count"] for r in (kq or {}).get("possessions", {}).get("random", [])}
         rp2 = (k2 or {}).get("randomPossessions", {})
         rnd_k2 = {DECKS[norm_name(kk)]: v for kk, v in rp2.items() if norm_name(kk) in DECKS} if k2 else None
@@ -909,6 +979,8 @@ def _build_investigators(out, R, loc_ix, manual, errata):
                   claim("kuerv0_json", rnd_kq.get(deck, 0) if kq else None, kq and kq["src_ref"])]
             if rnd_k2 is not None:
                 cl.append(claim("kuerv0_json", rnd_k2.get(deck, 0), k2["src_ref"]))
+            if rnd_wk is not None:
+                cl.append(claim(WSRC, rnd_wk.get(deck, 0), wref))
             random[deck], fs["random_possessions." + deck] = R.value(iid, "random_possessions." + deck, cl, errata=e_rand)
         # named cards -> card ids
         fixed_cards = []
@@ -917,15 +989,18 @@ def _build_investigators(out, R, loc_ix, manual, errata):
                 fixed_cards.append({"deck": c["deck"], "name": n, "card_id": "card.%s.%s" % (c["deck"].replace("_item", ""), slug(n))})
         # ability ---------------------------------------------------------
         ab = (kq or {}).get("ability", {})
+        w_ab = re.match(r"\s*(.+?)\s+-\s+(.*)$", wplain(wp.get("Ability1")) or "", re.S) if wp else None
         ab_name, fs["ability_name"] = R.value(iid, "ability_name", [claim(img, sh and sh["ability_name"], sh and sh["src_ref"]),
                                                                     claim("kuerv0_json", ab.get("name"), kq and kq["src_ref"]),
-                                                                    claim("kuerv0_json", (k2 or {}).get("Ability", {}).get("name"), k2 and k2["src_ref"])], norm="name")
+                                                                    claim("kuerv0_json", (k2 or {}).get("Ability", {}).get("name"), k2 and k2["src_ref"]),
+                                                                    claim(WSRC, w_ab and w_ab.group(1), wref)], norm="name")
         kq_ab_text = None
         if ab.get("description"):
             kq_ab_text = ((ab.get("phase") + ": ") if ab.get("phase") else "") + ab["description"]
         ab_text, fs["ability_text"] = R.text(iid, "ability_text", [claim(img, sh and sh["ability_text"], sh and sh["src_ref"]),
                                                                   claim("kuerv0_json", plain(kq_ab_text), kq and kq["src_ref"]),
-                                                                  claim("kuerv0_json", plain((k2 or {}).get("Ability", {}).get("description")), k2 and k2["src_ref"])])
+                                                                  claim("kuerv0_json", plain((k2 or {}).get("Ability", {}).get("description")), k2 and k2["src_ref"]),
+                                                                  claim(WSRC, w_ab and w_ab.group(2), wref)])
         phase = None
         mm = re.match(r"(Any Phase|Upkeep|Movement|Town Encounter|Other World Encounter|Arkham Encounter|Mythos)\s*:", ab_text or "")
         if mm:
@@ -944,12 +1019,14 @@ def _build_investigators(out, R, loc_ix, manual, errata):
             if pvr:
                 f0 = pvr["slider_first"]
                 cl.append(claim("pavelius_cpp", [[f0[a] + i, f0[b] - i] for i in range(4)], pvr["src_ref"] + " (first position; +1/-1 per step)"))
+            if wp:
+                cl.append(claim(WSRC, [[wnum(wp.get("%s%d" % (a.capitalize(), i))), wnum(wp.get("%s%d" % (b.capitalize(), i)))] for i in range(1, 5)], wref))
             pos, st = R.value(iid, "sliders.%s_%s" % (a, b), cl)
             sliders.append({"pair": [a, b], "positions": pos})
             fs["sliders.%s_%s" % (a, b)] = st
         loc_home.setdefault(home, []).append(iid)
         out["investigators"].append({
-            "id": iid, "set_id": BASE, "name": name, "aliases": sorted({x for x in (sh and sh["name"], kq and kq["name"], g and g["name"]) if x and x != name}),
+            "id": iid, "set_id": BASE, "name": name, "aliases": sorted({x for x in (sh and sh["name"], kq and kq["name"], g and g["name"], wp and wp.get("Name")) if x and x != name}),
             "occupation": occ, "sanity": sanity, "stamina": stamina, "home_location_id": home, "focus": focus,
             "fixed_possessions": {"money": money, "clue_tokens": clues, "cards": fixed_cards, "card_keys": named,
                                   "special_cards": [s for s in (fixed or {}).get("special", [])], "blessing": blessing,
@@ -960,7 +1037,7 @@ def _build_investigators(out, R, loc_ix, manual, errata):
             "errata_ids": [e for e in ("errata.inv.bob_jenkins.money",) if k == "bobjenkins"] +
                           [e for e in ("errata.inv.jenny_barnes.random_common_items",) if k == "jennybarnes"],
             "source_ids": {"card_image": sh and sh["image_ref"]["path"], "kuerv0_json": kq and kq["src_ref"],
-                           "gorlith_android": g and g["src_ref"]},
+                           "gorlith_android": g and g["src_ref"], WSRC: wpg and wpg["title"]},
             "field_status": fs,
         })
     for l in out["locations"]:
@@ -1097,12 +1174,24 @@ def _build_investigator_cards(out, R, errata):
         for c in r["claims"]:
             if c.get("kind"):
                 ev.setdefault((c["kind"], norm_name(c["entity"])), {}).setdefault(c["field"], []).append(claim("web_search_fandom", c["value"], r["url"]))
+    from .wiki import Wiki
+    W = Wiki()
+    wk = {}
+    for deck, rows in W.lists.items():
+        for rk in rows:
+            hit = best_match(rk, {kk for (dd, kk) in groups if dd == deck}, cutoff=0.85)
+            if hit:
+                wk[(deck, hit)] = W.card_claims(deck, rk)[0]
+            else:
+                out["unresolved_references"].append({"name": rows[rk]["_name"], "context": "fandom_wiki list page (%s)" % deck,
+                                                     "index": "card", "note": "base-game row on the wiki list page with no matching card"})
     for (deck, k), g in sorted(groups.items()):
         cp = g["copy"][0] if g["copy"] else None
         ty = g["type"][0] if g["type"] else None
         pv = g["pav"][0] if g["pav"] else None
         jf = g["jf"][0] if g["jf"] else None
-        evd = ev.get((deck, k), {})
+        # wiki list-table claims; search-engine summaries only where the wiki has no row for the card
+        evd = wk.get((deck, k)) or ev.get((deck, k), {})
         E = lambda f: evd.get(f, [])
         prov = "card.%s.?%s" % (deck, k)
         fs = {}
@@ -1138,7 +1227,7 @@ def _build_investigator_cards(out, R, errata):
                         claim("pavelius_cpp", pv and pv.get("hands"), pv and pv["src_ref"])] + E("hands")
             rec["hands"], fs["hands"] = R.value(cid, "hands", hands_cl)
             itype_cl = [claim("kuerv0_json", (cp.get("type") or None) if cp else None, cp and cp["src_ref"]),
-                        claim("kuerv0_json", (ty.get("type") or None) if ty else None, ty and ty["src_ref"])]
+                        claim("kuerv0_json", (ty.get("type") or None) if ty else None, ty and ty["src_ref"])] + E("item_type")
             rec["item_type"], fs["item_type"] = R.value(cid, "item_type", itype_cl, norm="name", required=False,
                                                         missing_reason="no type keyword recorded (sources leave it blank for non-weapons)")
         if deck == "spell":
@@ -1268,36 +1357,120 @@ def _build_investigator_cards(out, R, errata):
 
 
 # ============================================================================ monsters
+MONSTER_STATS = ("awareness", "horror_rating", "horror_damage", "combat_rating", "combat_damage", "toughness")
+WIKI_STAT_PARAM = {"awareness": "Awareness", "horror_rating": "HorrorRating", "horror_damage": "HorrorDamage",
+                   "combat_rating": "CombatRating", "combat_damage": "CombatDamage", "toughness": "Toughness"}
+# The wiki misspells the Dark Pharaoh everywhere (also the expansion it links: '[[The Dark Pharoah]]').
+MONSTER_NAME_FIX = {"The Dark Pharoah": "The Dark Pharaoh"}
+
+
 def _build_monsters(out, R):
+    from .wiki import MONSTER_FLAGS, MOVEMENT_BY_COLOR, SRC as WSRC, Wiki, num, plain as wplain
+    W = Wiki()
     total = next((c["quantity"] for c in out["components"] if c["name"] == "Monster Markers"), None)
-    for m in recs("pavelius_cpp", "monsters", base_only=False):
-        mid = "mon." + slug(m["name"])
-        if not m.get("stats_present"):
-            out["monsters"].append({"id": mid, "set_id": BASE, "name": m["name"], "count": None, "awareness": None,
-                                    "movement_type": None, "dimension_symbol": None, "horror_rating": None, "horror_damage": None,
-                                    "toughness": None, "combat_rating": None, "combat_damage": None, "abilities": [],
-                                    "source_ids": {"pavelius_cpp": m["src_ref"]},
-                                    "field_status": {"_record": {"status": "single_source", "sources": ["pavelius_cpp"],
-                                                                 "reason": "name only - every statistic missing"}}})
-            for f in ("count", "awareness", "movement_type", "dimension_symbol", "horror_rating", "horror_damage", "toughness", "combat_rating", "combat_damage"):
-                R.mark_missing(mid, f, "only a name appears in pavelius_cpp; fandom wiki (monster source) blocked")
+    wm = W.base_monsters()
+    wiki_total = sum(n for _, _, n in wm)
+    wiki_by = {}
+    for pg, prm, n in wm:
+        wiki_by[norm_name(re.sub(r"\s*\(monster\)$", "", pg["title"]))] = (pg, prm, n)
+
+    def wstat(prm, f):
+        v = num(prm.get(WIKI_STAT_PARAM[f]))
+        return v if isinstance(v, int) else None
+
+    # Pavelius rows are checked for a row shift: a stat row that equals another monster's wiki stats
+    # (and not its own) is not counted as a claim for the monster it is filed under.
+    pav = {norm_name(m["name"]): m for m in recs("pavelius_cpp", "monsters", base_only=False)}
+    pav_shift = {}
+    for k, m in pav.items():
+        if not m.get("stats_present") or k not in wiki_by:
             continue
+        vec = tuple(m.get(f) for f in MONSTER_STATS)
+        own = tuple(wstat(wiki_by[k][1], f) for f in MONSTER_STATS)
+        twin = [kk for kk, (_, prm, _) in wiki_by.items() if kk != k and tuple(wstat(prm, f) for f in MONSTER_STATS) == vec]
+        if vec != own and twin:
+            pav_shift[k] = twin[0]
+    keys = sorted(set(wiki_by) | set(pav))
+    for k in keys:
+        pg, prm, wcount = wiki_by.get(k, (None, None, None))
+        pm = pav.get(k)
+        shifted = k in pav_shift
+        pv_ok = pm if (pm and pm.get("stats_present") and not shifted) else None
+        wref = pg and pg["src_ref"] + " MonsterInfoBox"
+        raw_name = pg and re.sub(r"\s*\(monster\)$", "", pg["title"])
         fs = {}
-        rec = {"id": mid, "set_id": BASE, "name": m["name"]}
-        for f in ("count", "awareness", "horror_rating", "horror_damage", "toughness", "combat_rating", "combat_damage"):
-            rec[f], fs[f] = R.value(mid, f, [claim("pavelius_cpp", m.get(f), m["src_ref"])])
-        rec["abilities"] = [a.lower() for a in m.get("flags", [])]
-        fs["abilities"] = {"status": "single_source", "sources": ["pavelius_cpp"], "reason": "C++ flag names; may be incomplete"}
-        for f in ("movement_type", "dimension_symbol"):
-            rec[f] = None
-            fs[f] = R.mark_missing(mid, f, "not recorded by pavelius_cpp; fandom wiki (monster source) blocked")
-        rec["source_ids"] = {"pavelius_cpp": m["src_ref"]}
-        rec["warning"] = "Values come from a partial hobby rules model (Pavelius/arkham) and are unverified by any second source."
+        name, fs["name"] = R.value("mon." + k, "name", [claim(WSRC, raw_name, wref), claim("pavelius_cpp", pm and pm["name"], pm and pm["src_ref"])], norm="name")
+        aliases = sorted({x for x in (prm and prm.get("Name"), raw_name, pm and pm["name"]) if x and x != name})
+        if name in MONSTER_NAME_FIX:
+            aliases = sorted(set(aliases) | {name})
+            fs["name"] = dict(fs["name"], status="derived", original_value=name,
+                              reason="wiki spells 'Pharoah' throughout, including the expansion it links ('The Dark Pharoah' for "
+                                     "'The Curse of the Dark Pharaoh'); normalised to the official 'Pharaoh' spelling. Printed marker not seen.")
+            name = MONSTER_NAME_FIX[name]
+        mid = "mon." + slug(name)
+        rec = {"id": mid, "set_id": BASE, "name": name, "aliases": aliases}
+        # count ---------------------------------------------------------------
+        cl = [claim(WSRC, wcount, wref and wref + " AHCount")]
+        if pv_ok:
+            cl.append(claim("pavelius_cpp", pm.get("count"), pm["src_ref"]))
+        rec["count"], fs["count"] = R.value(mid, "count", cl)
+        # statistics ----------------------------------------------------------
+        rules_text = wplain(prm.get("RulesText")) if prm else None
+        for f in MONSTER_STATS:
+            raw = prm.get(WIKI_STAT_PARAM[f]) if prm else None
+            cl = [claim(WSRC, wstat(prm, f) if prm else None, wref and "%s %s=%r" % (wref, WIKI_STAT_PARAM[f], raw))]
+            if pv_ok:
+                cl.append(claim("pavelius_cpp", pm.get(f), pm["src_ref"]))
+            blank = prm is not None and wstat(prm, f) is None
+            rec[f], fs[f] = R.value(mid, f, cl, required=not blank,
+                                    missing_reason=("wiki infobox gives %r for %s; read as 'no number printed on the marker'%s "
+                                                    "(interpretation, not checked against a marker image)"
+                                                    % (raw, WIKI_STAT_PARAM[f], " - see rules_text" if rules_text else "")))
+        # movement / dimension -------------------------------------------------
+        mv = MOVEMENT_BY_COLOR.get((prm.get("Movement") or "").strip().lower()) if prm else None
+        rec["movement_type"], fs["movement_type"] = R.value(mid, "movement_type", [claim(WSRC, mv, wref and "%s Movement=%s (border colour)" % (wref, prm.get("Movement")))])
+        rec["border_color"] = (prm.get("Movement") or "").strip().lower() or None if prm else None
+        dim = (prm.get("HomeDimension") or "").strip().lower() if prm else None
+        dim = SYMBOL_ALIASES.get(dim, dim) or None
+        rec["dimension_symbol"], fs["dimension_symbol"] = R.value(mid, "dimension_symbol", [claim(WSRC, dim, wref and "%s HomeDimension" % wref)])
+        # abilities -----------------------------------------------------------
+        w_ab = None
+        if prm:
+            w_ab = []
+            for param, aid in MONSTER_FLAGS:
+                v = (prm.get(param) or "").strip()
+                if v:
+                    w_ab.append("%s_%s" % (aid, v) if aid in ("overwhelming", "nightmarish") else aid)
+        cl = [claim(WSRC, sorted(w_ab) if w_ab is not None else None, wref)]
+        if pv_ok:
+            cl.append(claim("pavelius_cpp", sorted(a.lower() for a in pm.get("flags", [])), pm["src_ref"] + " (flags; levels not recorded)"))
+        rec["abilities"], fs["abilities"] = R.value(mid, "abilities", cl, norm="set")
+        rec["abilities"] = rec["abilities"] or []
+        fs["abilities"]["note"] = "ids as in reference.monster_special_abilities; 'overwhelming_1'/'nightmarish_1' carry the X value"
+        rec["rules_text"], fs["rules_text"] = R.text(mid, "rules_text", [claim(WSRC, rules_text, wref)], required=False,
+                                                     missing_reason="no special rule recorded on the wiki infobox")
+        rec["flavor_text"] = wplain(prm.get("FlavorText")) if prm else None
+        rec["image_refs"] = {"front": prm.get("MarkerFrontImage"), "back": prm.get("MarkerBackImage"),
+                             "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"} if prm else None
+        rec["source_ids"] = {WSRC: pg and pg["title"], "pavelius_cpp": pm and pm["src_ref"]}
+        if shifted:
+            reason = ("pavelius_cpp row filed under %s carries exactly the wiki statistics of %s (and its %s row has no statistics): "
+                      "treated as a shifted row and not counted as a claim for %s" % (pm["name"], wiki_by[pav_shift[k]][0]["title"], wiki_by[pav_shift[k]][0]["title"], pm["name"]))
+            fs["_pavelius_row"] = {"status": "conflict_resolved", "reason": reason,
+                                   "alternatives": [{"source": "pavelius_cpp", "ref": pm["src_ref"],
+                                                     "value": {f: pm.get(f) for f in ("count",) + MONSTER_STATS}}]}
+            R.conflicts.append({"entity_id": mid, "field": "_pavelius_row", "status": "conflict_resolved", "chosen": WSRC, "reason": reason,
+                                "alternatives": [{"source": "pavelius_cpp", "ref": pm["src_ref"], "value": {f: pm.get(f) for f in ("count",) + MONSTER_STATS}},
+                                                 {"source": WSRC, "ref": wref, "value": {f: rec.get(f) for f in ("count",) + MONSTER_STATS}}]})
+        if not prm:
+            rec["warning"] = "Not on the wiki's MonsterInfoBox pages with a base-game count; values from pavelius_cpp only."
         rec["field_status"] = fs
         out["monsters"].append(rec)
-    out["missing"].append({"entity_id": "monsters", "field": "_records",
-                           "reason": "Official count: %s monster markers. Only %d monster names (%d with statistics) were found in reachable sources; the fandom wiki Monster pages are the planned source (blocked)." %
-                                     (total, len(out["monsters"]), sum(1 for m in out["monsters"] if m.get("count") is not None))})
+    out["monsters"].sort(key=lambda m: m["id"])
+    got = sum(m.get("count") or 0 for m in out["monsters"])
+    if got != total:
+        out["missing"].append({"entity_id": "monsters", "field": "_records",
+                               "reason": "Official count: %s monster markers; data holds %d (wiki MonsterInfoBox AHCount total %d)." % (total, got, wiki_total)})
 
 
 # ============================================================================ images

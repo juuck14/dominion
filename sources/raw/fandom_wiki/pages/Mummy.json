@@ -1,0 +1,13 @@
+{
+ "title": "Mummy",
+ "pageid": 864,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Mummy",
+ "revid": 1575,
+ "rev_timestamp": "2020-11-02T18:28:20Z",
+ "retrieved_at": "2026-10-15T01:52:20+00:00",
+ "categories": [
+  "Category:Dunwich Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Mummy\n|GameItemType=monster\n|Pronoun=It\n|Edition=Dunwich Horror\n}}\n{{MonsterInfoBox\n|Name=Mummy\n|MarkerFrontImage=Mummy\n|MarkerBackImage=MummyBack\n|AHCount=0\n|DHCount=1\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-1\n|Movement=Purple\n|HomeDimension=Crescent\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=1\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=1\n|MagicalResistance=1\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=\n|HorrorRating=-2\n|HorrorDamage=1\n|CombatRating=-2\n|CombatDamage=2\n|Toughness=3\n}}"
+}

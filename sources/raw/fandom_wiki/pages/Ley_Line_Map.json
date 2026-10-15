@@ -1,0 +1,14 @@
+{
+ "title": "Ley Line Map",
+ "pageid": 684,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Ley_Line_Map",
+ "revid": 1213,
+ "rev_timestamp": "2020-11-02T18:28:03Z",
+ "retrieved_at": "2026-10-15T01:52:19+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Pages with broken file links",
+  "Category:The King in Yellow"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=LeyLineMap\n|Name=Ley Line Map\n|Pronoun=It\n|Edition=The King in Yellow\n|ItemType=\n|ItemBonus=\n|ItemText=You may ignore all penalties to [[Skill check]]s caused by [[Environment]] [[Mythos]] cards.\n|ItemHands=\n|UsePhase=\n|UsePhaseText=\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=2\n}}"
+}

@@ -1,0 +1,13 @@
+{
+ "title": "Lloigor",
+ "pageid": 1239,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Lloigor",
+ "revid": 2325,
+ "rev_timestamp": "2020-11-02T18:29:00Z",
+ "retrieved_at": "2026-10-15T01:52:19+00:00",
+ "categories": [
+  "Category:Innsmouth Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Lloigor\n|GameItemType=monster\n|Pronoun=It\n|Edition=Innsmouth Horror\n}}\n{{MonsterInfoBox\n|Name=Lloigor\n|MarkerFrontImage=Lloigor\n|MarkerBackImage=LloigorBack\n|AHCount=0\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|IHCount=3\n|Awareness=+0\n|Movement=Green\n|HomeDimension=Square\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|WeaponImmunity=1\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=Instead of moving, all [[investigators]] in this or any adjacent [[locations]] or [[street]] areas lose 1 [[Sanity]] and 1 [[Stamina]].\n|HorrorRating=-1\n|HorrorDamage=3\n|CombatRating=-2\n|CombatDamage=3\n|Toughness=2\n}}\n\n==Mythos Source==\nThe monster version of the Lloigor first appeared in ''The Return of the Lloigor'' (1969), written by Colin Wilson. The name Lloigor first appeared in ''Lair of the Star Spawn'' (1932), written by August Derleth and Mark Schorer, where it's a twin being to [[Zhar]]."
+}

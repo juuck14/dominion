@@ -1,0 +1,13 @@
+{
+ "title": "Werewolf",
+ "pageid": 1321,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Werewolf",
+ "revid": 2489,
+ "rev_timestamp": "2020-11-02T18:29:08Z",
+ "retrieved_at": "2026-10-15T01:52:23+00:00",
+ "categories": [
+  "Category:Kingsport Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Werewolf\n|GameItemType=monster\n|Pronoun=It\n|Edition=Kingsport Horror\n}}\n{{MonsterInfoBox\n|Name=Werewolf\n|MarkerFrontImage=Werewolf\n|MarkerBackImage=WerewolfBack\n|AHCount=0\n|DHCount=0\n|KHCount=1\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-3\n|Movement=Green\n|HomeDimension=Crescent\n|Spawn=\n|StartingLocation=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=1\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=1\n|FlavorText=\n|RulesText=Werewolf moves as a fast monster. If it enters an area containing any investigators, each investigator in that area loses 2 [[Stamina]].\n|HorrorRating=-1\n|HorrorDamage=1\n|CombatRating=-3\n|CombatDamage=2\n|Toughness=2\n}}"
+}

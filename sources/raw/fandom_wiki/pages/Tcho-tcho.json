@@ -1,0 +1,13 @@
+{
+ "title": "Tcho-tcho",
+ "pageid": 873,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Tcho-tcho",
+ "revid": 1593,
+ "rev_timestamp": "2020-11-02T18:28:21Z",
+ "retrieved_at": "2026-10-15T01:52:22+00:00",
+ "categories": [
+  "Category:Dunwich Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Tcho-tcho\n|GameItemType=monster\n|Pronoun=It\n|Edition=Dunwich Horror\n}}\n{{MonsterInfoBox\n|Name=Tcho-tcho\n|MarkerFrontImage=Tcho-tcho\n|MarkerBackImage=Tcho-tchoBack\n|AHCount=0\n|DHCount=2\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-2\n|Movement=Black\n|HomeDimension=Crescent\n|Spawn=\n|StartingLocation=\n|Mask=\n|Ambush=1\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=If you pass a '''[[Combat check]]''' against Tcho-tcho, return it to the box and draw 1 [[Common item]].\n|HorrorRating=\n|HorrorDamage=\n|CombatRating=-2\n|CombatDamage=2\n|Toughness=2\n}}\n\n==Mythos Source==\n\nThe Tcho-tcho first appear in ''Lair of the Star-Spawn'' (1932), written by August Derleth and Mark Schorer."
+}

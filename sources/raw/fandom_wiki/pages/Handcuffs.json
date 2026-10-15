@@ -1,0 +1,14 @@
+{
+ "title": "Handcuffs",
+ "pageid": 678,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Handcuffs",
+ "revid": 1201,
+ "rev_timestamp": "2020-11-02T18:28:03Z",
+ "retrieved_at": "2026-10-15T01:52:18+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Kingsport Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=Handcuffs\n|Name=Handcuffs\n|Pronoun=It\n|Edition=Kingsport Horror\n|ItemType=\n|ItemBonus=\n|ItemText=\n|ItemHands=\n|UsePhase=Any\n|UsePhaseText=Exhaust before making a [[Combat check]] against a [[Cultist]], [[Tcho-tcho]], [[Ghoul]], or [[Maniac]] to automatically pass that check and gain 1 [[Sanity]].\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=4\n}}"
+}

@@ -1,0 +1,14 @@
+{
+ "title": "Norman Withers",
+ "pageid": 1221,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Norman_Withers",
+ "revid": 2289,
+ "rev_timestamp": "2020-11-02T18:28:58Z",
+ "retrieved_at": "2026-10-15T01:52:20+00:00",
+ "categories": [
+  "Category:Innsmouth Horror",
+  "Category:Investigators",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroductionAn\n|Name=Norman Withers\n|GameItemType=investigator\n|Pronoun=He\n|Edition=Innsmouth Horror\n}}\n{{Investigator\n|CardFront=NormanWithers\n|CardBack=NormanWithersBack\n|Name=Norman Withers\n|Pronoun=He\n|Occupation=the Astronomer\n|Edition=Innsmouth Horror\n|Sanity=6\n|Stamina=4\n|Ability1=In the Stars - Any Phase: Whenever Norman closes or [[seal]]s a [[gate]], he may choose any [[dimensional symbol]] other than the moon. The gate is considered to have that dimensional symbol instead of its normal dimensional symbol for purposes of removing [[monsters]] from the board.\n|Home=Administration Building\n|FixedPossessions=\n*$3\n*3 [[Clue token]]s\n*1 [[Spell]] ([[Find Gate]])\n|RandomPossessions=\n*1 [[Common item]]\n*1 [[Unique item]]\n*1 [[Spell]]\n*1 [[Skill]]\n|Focus=2\n|Speed1=0\n|Speed2=1\n|Speed3=2\n|Speed4=3\n|Sneak1=4\n|Sneak2=3\n|Sneak3=2\n|Sneak4=1\n|Fight1=0\n|Fight2=1\n|Fight3=2\n|Fight4=3\n|Will1=4\n|Will2=3\n|Will3=2\n|Will4=1\n|Lore1=2\n|Lore2=3\n|Lore3=4\n|Lore4=5\n|Luck1=5\n|Luck2=4\n|Luck3=3\n|Luck4=2\n}}\n\n\n'''The Story So Far:''' The stars hold secrets both great and terrible for those with courage - or curiosity - enough to look. While Norman would never claim to be especially courageous, he'd be the first to admit that he has an inability to ignore a mystery.\n\nSo when six stars vanished from the section of sky he was studying, he couldn't just let it go, not even when his colleagues told him that he was just imagining things and sent him home to sleep it off.\n\nIt took him years, not to mention the near death of his career, but he eventually found his answers in a book that none of his colleagues would be caught dead reading. An ancient [[tome]], it described the stars and the sequence in which they would vanish, even detailing the date when their disappearance would take place. It was a sign, the book said, of the end of everything. It was the harbinger of a great beast that would tear asunder all that man had wrought.\n\nNorman isn't sure what he can do to stop the beast from destroying the world. He knows that he isn't very strong, but if an answer can be found in the stars, then he will stand in the path of destruction until his dying breath."
+}

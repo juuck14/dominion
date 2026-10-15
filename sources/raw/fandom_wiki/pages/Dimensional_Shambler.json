@@ -1,0 +1,10 @@
+{
+ "title": "Dimensional Shambler",
+ "pageid": 438,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Dimensional_Shambler",
+ "revid": 711,
+ "rev_timestamp": "2020-11-02T18:02:24Z",
+ "retrieved_at": "2026-10-15T01:52:17+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=Dimensional Shambler\n|GameItemType=monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Dimensional Shambler\n|MarkerFrontImage=DimensionalShambler\n|MarkerBackImage=DimensionalShamblerBack\n|AHCount=2\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-3\n|Movement=Red\n|HomeDimension=Square\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=If you fail a '''[[Combat check]]''' against Dimensional Shambler, you are ''[[lost in time and space]]''.\n|HorrorRating=-2\n|HorrorDamage=1\n|CombatRating=-2\n|CombatDamage=\n|Toughness=1\n}}\n\n== Clarification ==\nIf you fail an [[Evade check]], you are also [[lost in time and space]].\n\n==Mythos Source==\n\nA Dimensional Shambler appears in the story ''The Horror in the Museum'' (1932), ghost-written by H.P. Lovecraft for Hazel Heald."
+}

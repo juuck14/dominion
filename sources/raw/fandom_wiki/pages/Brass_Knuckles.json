@@ -1,0 +1,16 @@
+{
+ "title": "Brass Knuckles",
+ "pageid": 666,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Brass_Knuckles",
+ "revid": 1177,
+ "rev_timestamp": "2020-11-02T18:28:01Z",
+ "retrieved_at": "2026-10-15T01:52:15+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Dunwich Horror",
+  "Category:Handless weapons",
+  "Category:Pages with broken file links",
+  "Category:Physical weapons"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=BrassKnuckles\n|Name=Brass Knuckles\n|Pronoun=It\n|Edition=Dunwich Horror\n|ItemType=Physical weapon\n|ItemBonus=+1 [[Combat check]]\n|ItemText=\n|ItemHands=Handless\n|UsePhase=\n|UsePhaseText=\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=3\n}}"
+}

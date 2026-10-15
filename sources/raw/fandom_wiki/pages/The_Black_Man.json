@@ -1,0 +1,10 @@
+{
+ "title": "The Black Man",
+ "pageid": 317,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/The_Black_Man",
+ "revid": 469,
+ "rev_timestamp": "2020-11-02T18:02:12Z",
+ "retrieved_at": "2026-10-15T01:52:22+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=The Black Man\n|GameItemType=Mask monster\n|Pronoun=He\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=The Black Man\n|MarkerFrontImage=TheBlackMan\n|MarkerBackImage=TheBlackManBack\n|AHCount=1\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-3\n|Movement=Black\n|HomeDimension=Crescent\n|Spawn=\n|StartingLocation=\n|Mask=1\n|Ambush=\n|Undead=\n|Endless=1\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=Before making a '''[[Horror check]]''', pass a '''[[Luck]] (-1) check''' or be '''[[devoured]]'''. If you pass, gain 2 [[Clue tokens]]. In either case, return the Black Man to the [[monster cup|cup]].\n|HorrorRating=\n|HorrorDamage=\n|CombatRating=\n|CombatDamage=\n|Toughness=1\n}}\n\n==Mythos Source==\n\nThe Black Man first appeared in ''The Dreams in the Witch House'' (1932), written by H.P. Lovecraft ."
+}

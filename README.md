@@ -5,7 +5,7 @@
 오프라인 안드로이드 앱에 넣을 수 있도록 JSON과 SQLite로 출력합니다. 게임 엔진/UI는 포함하지 않습니다.
 
 - 대상: 2판 기본판만. **LCG(카드게임)·3판 자료는 쓰지 않았습니다.** 확장판은 `set_id` 로 식별 가능한 구조만 있고 통합하지 않았습니다.
-- 현재 상태: **전체 DB 완성 아님.** 몬스터(공식 60개 중 3개만 확보), 보드 연결 그래프, 차원문 마커 구성은 미확보입니다.
+- 현재 상태: **전체 DB 완성 아님.** 보드 연결 그래프와 차원문 마커 구성은 미확보입니다. 몬스터는 위키에서 29종·60개(공식 수량과 일치)를 확보했지만 수치 대부분이 위키 한 계보의 단일 출처입니다.
   자세한 수량·충돌·누락은 [`reports/completeness_report.md`](reports/completeness_report.md) 를 보세요.
 
 ## 산출물
@@ -52,10 +52,10 @@ python -m ah2e fetch           # 단계별 실행도 가능: fetch | parse | int
 | `ellebaum_json` | [ellebaum/AHTools](https://github.com/ellebaum/AHTools) `e91c99b2` | 신화 67, 다른 세계 조우 49 |
 | `jesseflorig_json` | [jesseflorig/arkham-horror-json](https://github.com/jesseflorig/arkham-horror-json) `a9c7bf6c` | 동료 11, 고대의 존재 8(JSON 문법 오류는 관대 파서로 읽고 경고 기록), 신화, 고대의 존재 시트 이미지 |
 | `gorlith_android` | [Gorlith/Arkham-Horror-Helper](https://github.com/Gorlith/Arkham-Horror-Helper) `1e98a134` | 조사자 시트 이미지 16장(판독용), 정신력/체력 표 |
-| `pavelius_cpp` | [Pavelius/arkham](https://github.com/Pavelius/arkham) `36a5621b` | 일반 아이템 가격/손 수, 몬스터 3종(부분), 조사자 2명 |
-| `fandom_wiki` | arkham-horror-second-edition.fandom.com (MediaWiki API) | **이 환경에서 403 차단** — 수집기는 준비됨 |
+| `pavelius_cpp` | [Pavelius/arkham](https://github.com/Pavelius/arkham) `36a5621b` | 일반 아이템 가격/손 수, 몬스터 3종(부분 — Zombie 행은 Chthonian 수치가 잘못 들어가 제외), 조사자 2명 |
+| `fandom_wiki` | arkham-horror-second-edition.fandom.com (MediaWiki API, 2026-10-15 수집, 페이지별 revid는 manifest) | 몬스터 29종(`MonsterInfoBox`), 조사자 시트 16(`Investigator` 템플릿), 일반/고유 아이템·주문 목록 표(수량·가격·손 수·주문 수치), 카드 페이지 |
 | `card_image` | `manual/investigator_sheets.json`, `manual/ancient_one_sheets.json` | 시트 스캔을 사람이 판독한 값(이미지 파일·SHA-256 연결) |
-| `web_search_fandom` | `manual/web_search_evidence.json` | 위키 페이지의 검색엔진 요약 — **동점 해소용 증거로만** 사용 |
+| `web_search_fandom` | `manual/web_search_evidence.json` | 위키 차단 중 쓴 검색엔진 요약. 위키 원문과 재대조해 52/52 일치(`meta.web_search_recheck`) — 이제 위키가 같은 필드를 주지 않을 때만 사용 |
 
 사용하지 않은 것: ArkhamDB.com / Kamalisk/arkhamdb-json-data (LCG), arkham-companion 의 Java 내장 데이터(이번 실행에서 미파싱), ellebaum 의 `.rb`(카드 단위 묶음이 없음).
 
@@ -105,7 +105,7 @@ python -m ah2e fetch           # 단계별 실행도 가능: fetch | parse | int
 | `investigators` | 이름·직업·정신력·체력·집·집중력, `fixed_possessions`(돈·단서·지정 카드→`card_id`·특수 카드·축복), `random_possessions`(덱별 장수), `ability`(이름·단계·본문), `sliders`(3쌍 × 4칸) |
 | `ancient_ones` | 전투 수치(`combat_rating` 원문 + 정수값), 파멸 트랙, 방어(`defenses`), 숭배자 본문과 대상 몬스터, 힘, 전투 시작, 공격 |
 | `ancient_one_variants` | 같은 이름의 다른 판본 시트(위키 수록 프로모) — 합치지 않고 별도 보관 |
-| `monsters` | 확보분만(3) — 나머지는 `missing` |
+| `monsters` | 29종(인쇄 60개): `count`, `awareness`, `movement_type`(+`border_color`), `dimension_symbol`, 공포/전투 판정·피해, `toughness`, `abilities`(`overwhelming_1` 처럼 X값 포함), `rules_text`, `flavor_text`, `image_refs`(위키 파일 이름). 인쇄 숫자가 없는 칸은 `null` + `none_recorded` |
 | `cards` | 모든 카드: `card_type` = `location`·`gate`·`mythos`·`common_item`·`unique_item`·`spell`·`skill`·`ally`·`special` 와 종류별 필드(가격·손·시전 수정치·정신력 비용·보너스·`checks` 등). 신화: `mythos_type`, `environment_subtype`, `gate_location_ids`, `gate_burst`, `clue_location_id`, `monster_movement.white/black`, `activity_area_ids`, `closes_area_ids`, `is_deck_reshuffle`, 소문 `ongoing_effect/pass_condition/fail_condition`. 축복/저주는 양면 카드(`faces`) |
 | `encounters` | 카드 안의 개별 조우: `card_id`, `seq`, `location_id` 또는 `other_world_id`, `applies_to`(`location`/`other_world`/`other_worlds_of_card_color`/`deck_rule`), `text`, `text_html`(출처 마크업), `checks`(판정 기능·수정치·난이도 추출) |
 | `errata` | FAQ 정오표 10건(쪽, 인용, 원래/수정 값, 인용 검증 여부) |
@@ -140,16 +140,27 @@ SELECT entity_id, field FROM field_status WHERE status = 'single_source';
 | `ancient_one_sheets.json` | 고대의 존재 시트 8장 판독 | 위와 같음 |
 | `errata_base.json` | FAQ v2.0 기본판 정오표 10건 | 인용문이 FAQ PDF 텍스트에 있는지 자동 검사 |
 | `rulebook_reference.json` | 규칙서 참조 표 | 인용문이 규칙서 PDF 텍스트에 있는지 자동 검사 |
-| `web_search_evidence.json` | 위키 차단 중 검색엔진 요약에서 얻은 값 | 원문 아님 — 동점 해소에만 사용, 위키 접근 시 재확인 대상 |
+| `web_search_evidence.json` | 위키 차단 중 검색엔진 요약에서 얻은 값 | 원문 아님 — 위키 원문과 자동 재대조(통합 단계, `meta.web_search_recheck`) |
 
-## 위키(fandom) 차단 해제 후
+## 위키(fandom) 수집
 
-이 환경의 네트워크 정책이 `arkham-horror-second-edition.fandom.com` 을 403으로 막았습니다(FFG·BGG·archive.org 도 차단, GitHub만 허용).
-허용 목록에 도메인을 추가한 뒤 `python -m ah2e all` 을 실행하면 MediaWiki API로 시드 페이지와 카테고리(Monsters, Investigators, Common Items 등)를 받아
-`sources/raw/fandom_wiki/pages/` 에 저장하고 템플릿 파라미터를 파싱합니다(`ah2e/parsers/fandom_wiki.py`).
-위키 템플릿 구조를 실데이터로 확인하지 못했으므로, 몬스터·보드 연결을 통합하려면 그 뒤에 `ah2e/integrate.py` 에 매핑을 추가해야 합니다.
+`fetch` 는 `arkham-horror-second-edition.fandom.com/api.php`(MediaWiki API)만 씁니다. `/wiki/` HTML 페이지는 Cloudflare 봇 확인(403)을 돌려주고,
+위키 이미지 호스트(`static.wikia.nocookie.net`)는 이 환경의 네트워크 정책이 막고 있어 이미지는 받지 않습니다.
+
+- 수집 대상(`ah2e/config.py` 의 `fandom_wiki`): 시드 페이지(목록 표가 있는 `Common Item`·`Unique Item`·`Spell`·`Skill`·`Ally` 등),
+  카테고리(위키의 실제 이름: `Common items`, `Unique items` …), `Template:MonsterInfoBox`·`Template:Investigator` 를 쓰는 페이지,
+  목록 표에서 확장판 아이콘이 없는 행(=기본판)이 링크한 카드 페이지. 페이지는 `sources/raw/fandom_wiki/pages/<제목>.json` 에 wikitext로 저장되고
+  `sources/manifest.json` 에 revid·SHA-256이 남습니다. 이미 받은 페이지는 다시 받지 않으므로, 최신판이 필요하면 해당 파일을 지우고 온라인으로 실행합니다.
+- 파싱(`ah2e/parsers/fandom_wiki.py`): 템플릿 파라미터, 위키 표, `'''라벨''': 값` 줄을 일반적으로 추출합니다. 해석은 `ah2e/wiki.py` 에 있습니다.
+- 몬스터: `AHCount > 0` 인 `MonsterInfoBox` = 기본판 마커. 테두리 색 → 이동 유형(위키 `Template:Monster` 의 대응표), `HomeDimension` → 차원 기호.
+  빈칸/‘-’는 ‘인쇄된 숫자 없음’으로 해석해 `none_recorded` 로 둡니다(마커 이미지로는 미확인).
+- 위키는 helper 스냅샷·위키 스크랩·검색 요약과 같은 `fandom_lineage` 그룹이라, 이들끼리 일치해도 독립 확인으로 세지 않습니다.
+- 위키에서도 찾지 못한 것: 보드 인접 관계(노란 선), 차원문 마커 16개의 세계·수정치(위키 `Gate marker` 페이지는 확장판이 섞인 이미지 갤러리뿐).
+  이 둘은 보드·마커를 직접 보고 `manual/` 에 옮기는 수동 입력이 필요합니다.
 
 ## 저작권
 
 카드 문구·규칙서·이미지는 Fantasy Flight Games의 저작물입니다. 이 저장소는 게임을 소유한 사용자의 개인 오프라인 용도를 위한 데이터 정리이며,
 각 출처 저장소의 라이선스는 `sources/manifest.json` 에 기록했습니다. 이미지 파일과 PDF 원본은 저장소에 포함하지 않았습니다.
+`sources/raw/fandom_wiki/pages/` 의 wikitext는 Arkham Horror (Second Edition) Wiki(Fandom) 기여자들의 글로 CC BY-SA 라이선스를 따릅니다.
+페이지별 원래 URL과 revid는 각 파일과 `sources/manifest.json` 에 있습니다.

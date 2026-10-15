@@ -1,0 +1,10 @@
+{
+ "title": "Chthonian",
+ "pageid": 434,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Chthonian",
+ "revid": 703,
+ "rev_timestamp": "2020-11-02T18:02:24Z",
+ "retrieved_at": "2026-10-15T01:52:16+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=Chthonian\n|GameItemType=monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Chthonian\n|MarkerFrontImage=Chthonian\n|MarkerBackImage=ChthonianBack\n|AHCount=2\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=+1\n|Movement=Green\n|HomeDimension=Triangle\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=Instead of moving, roll a die.  On a 4-6, all [[investigator]]s in [[Arkham]] lose 1 [[Stamina]].\n|HorrorRating=-2\n|HorrorDamage=2\n|CombatRating=-3\n|CombatDamage=3\n|Toughness=3\n}}\n\n==Explanation==\n\nChthonians are huge worm like monsters that live under the ground and create violent earthquakes. Instead of moving, this monster is causing an earthquake across [[Arkham]] to damage the investigators. As a result, investigators in an [[Other World]] are not affected.\n\n==Source info==\nThe Chthonians first appeared in ''Cement Surroundings'' (1969), written by Brian Lumley."
+}

@@ -1,0 +1,10 @@
+{
+ "title": "Harvey Walters",
+ "pageid": 424,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Harvey_Walters",
+ "revid": 683,
+ "rev_timestamp": "2020-11-02T18:02:23Z",
+ "retrieved_at": "2026-10-15T01:52:18+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroductionAn\n|Name=Harvey Walters\n|GameItemType=investigator\n|Pronoun=He\n|Edition=Arkham Horror\n}}\n{{Investigator\n|CardFront=HarveyWalters\n|CardBack=HarveyWaltersBack\n|Name=Harvey Walters\n|Pronoun=He\n|Occupation=the Professor\n|Edition=Arkham Horror\n|Sanity=7\n|Stamina=3\n|Ability1=Strong Mind - Any Phase: Harvey reduces all [[Sanity]] losses he suffers by 1, to a minimum of 0.\n|Home=Administration Building\n|FixedPossessions=\n*$5\n*1 [[Clue token]]\n|RandomPossessions=\n*2 [[Unique item]]s\n*2 [[Spell]]s\n*1 [[Skill]]\n|Focus=2\n|Speed1=0\n|Speed2=1\n|Speed3=2\n|Speed4=3\n|Sneak1=5\n|Sneak2=4\n|Sneak3=3\n|Sneak4=2\n|Fight1=0\n|Fight2=1\n|Fight3=2\n|Fight4=3\n|Will1=3\n|Will2=2\n|Will3=1\n|Will4=0\n|Lore1=3\n|Lore2=4\n|Lore3=5\n|Lore4=6\n|Luck1=4\n|Luck2=3\n|Luck3=2\n|Luck4=1\n}}\n\n\n'''The Story So Far:''' Harvey is a visiting Professor at [[Miskatonic University]]. With Doctorates in History and Archaeology, he has uncovered several interesting artifacts over the years and learned a little of the arcane arts. Recently, by carefully studying the papers and talking to people in the [[street|streets]], he has begun to detect a disturbance in the city-- something that could potentially herald the arrival of something unthinkable from beyond time and space.\n\nChecking his notes, Professor Walters prepares himself for one last trip into the streets of Arkham to confirm his theory. If he's right, it could spell the end of everything.\n\n==Clarification==\nThe Strong Mind ability only applies to involuntary losses. Voluntary expenditures to gain some benefit (such as casting a [[Spell]]) are not affected. (Source: Page 10 of The Dunwich Horror Rulebook)\n\n==Mythos Source==\nHarvey Walters is the name of the sample character in the Call of Cthulhu rulebook."
+}

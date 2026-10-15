@@ -1,0 +1,10 @@
+{
+ "title": "The Dark Pharoah",
+ "pageid": 319,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/The_Dark_Pharoah",
+ "revid": 473,
+ "rev_timestamp": "2020-11-02T18:02:12Z",
+ "retrieved_at": "2026-10-15T01:52:22+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=The Dark Pharoah\n|GameItemType=Mask monster\n|Pronoun=He\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=The Dark Pharoah\n|MarkerFrontImage=TheDarkPharoah\n|MarkerBackImage=TheDarkPharoahBack\n|AHCount=1\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-1\n|Movement=Black\n|HomeDimension=Slash\n|Spawn=\n|StartingLocation=\n|Mask=1\n|Ambush=\n|Undead=\n|Endless=1\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=Use '''[[Lore]]''' in [[combat]] with the Dark Pharoah instead of '''[[Fight]]'''.\n|HorrorRating=-1\n|HorrorDamage=1\n|CombatRating=-3\n|CombatDamage=3\n|Toughness=2\n}}\n\n==Mythos Source==\nThe Dark Pharoah is a renaming of the Black Pharoah, who first appeared in ''The Dream-Quest of Unknown Kadath'' (1927), written by H.P. Lovecraft.\n\n== Clarification ==\nYou can still use weapons and you still make a combat check, it is however based on [[Lore]] instead of [[Fight]]."
+}

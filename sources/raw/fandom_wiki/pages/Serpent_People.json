@@ -1,0 +1,13 @@
+{
+ "title": "Serpent People",
+ "pageid": 1315,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Serpent_People",
+ "revid": 2477,
+ "rev_timestamp": "2020-11-02T18:29:08Z",
+ "retrieved_at": "2026-10-15T01:52:21+00:00",
+ "categories": [
+  "Category:Kingsport Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Serpent People\n|GameItemType=monster\n|Pronoun=It\n|Edition=Kingsport Horror\n}}\n{{MonsterInfoBox\n|Name=Serpent People\n|MarkerFrontImage=SerpentPeople\n|MarkerBackImage=SerpentPeopleBack\n|AHCount=0\n|DHCount=0\n|KHCount=3\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-2\n|Movement=Black\n|HomeDimension=Crescent\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=1\n|Overwhelming=\n|Nightmarish=\n|Elusive=1\n|FlavorText=\n|RulesText=While Serpent People is a [[monster trophies|monster trophy]], it may be spent after failing a '''[[Combat check]]''' to add 3 bonus dice to the roll.\n|HorrorRating=-1\n|HorrorDamage=2\n|CombatRating=-2\n|CombatDamage=4\n|Toughness=1\n}}\n\n==Mythos Source==\nSerpent People first appeared in ''The Shadow Kingdom'' (1929), written by Robert E. Howard."
+}

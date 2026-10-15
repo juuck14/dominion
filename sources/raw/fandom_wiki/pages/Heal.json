@@ -1,0 +1,13 @@
+{
+ "title": "Heal",
+ "pageid": 1522,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Heal",
+ "revid": 2891,
+ "rev_timestamp": "2020-11-02T18:29:32Z",
+ "retrieved_at": "2026-10-15T01:52:18+00:00",
+ "categories": [
+  "Category:Pages with broken file links",
+  "Category:Spells"
+ ],
+ "wikitext": "[[Image:Heal.png|right|160px]]\n'''Heal''' is a [[spell]].  It first appeared in the [[Arkham Horror]] board game.\n\n==Card info==\n'''Casting Modifier''': +1\n\n'''Sanity Cost''': 1\n\n'''Upkeep Phase''': You may cast and exhaust.  You or another [[investigator]] in your area gains [[Stamina]] equal to the successes you rolled on your [[Spell check]].  This Stamina cannot be split between multiple investigators.\n\n[[Category:Spells]]"
+}

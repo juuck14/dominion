@@ -1,8 +1,8 @@
 {
  "summary": {
-  "pass": 39,
+  "pass": 42,
   "fail": 0,
-  "incomplete": 4,
+  "incomplete": 2,
   "warn": 1,
   "errors": 0
  },
@@ -18,7 +18,7 @@
    "check": "unique_ids",
    "result": "pass",
    "detail": {
-    "ids": 756,
+    "ids": 782,
     "duplicates": []
    }
   },
@@ -258,11 +258,11 @@
   {
    "group": "counts",
    "check": "count:Monster Markers",
-   "result": "incomplete",
+   "result": "pass",
    "detail": {
     "official": 60,
-    "records": 3,
-    "printed_in_data": 5,
+    "records": 29,
+    "printed_in_data": 60,
     "unknown_copies": []
    }
   },
@@ -349,91 +349,96 @@
   {
    "group": "completeness",
    "check": "required_fields_present",
-   "result": "incomplete",
+   "result": "pass",
    "detail": {
-    "null_required_values": [
+    "null_required_values": [],
+    "by_kind": {},
+    "documented_blanks": [
      {
-      "entity_id": "mon.byakhee",
-      "field": "movement_type",
-      "status": "missing",
-      "reason": "not recorded by pavelius_cpp; fandom wiki (monster source) blocked"
-     },
-     {
-      "entity_id": "mon.byakhee",
-      "field": "dimension_symbol",
-      "status": "missing",
-      "reason": "not recorded by pavelius_cpp; fandom wiki (monster source) blocked"
-     },
-     {
-      "entity_id": "mon.chthonian",
-      "field": "count",
-      "status": "missing",
-      "reason": null
-     },
-     {
-      "entity_id": "mon.chthonian",
-      "field": "awareness",
-      "status": "missing",
-      "reason": null
-     },
-     {
-      "entity_id": "mon.chthonian",
-      "field": "movement_type",
-      "status": "missing",
-      "reason": null
-     },
-     {
-      "entity_id": "mon.chthonian",
-      "field": "dimension_symbol",
-      "status": "missing",
-      "reason": null
-     },
-     {
-      "entity_id": "mon.chthonian",
+      "entity_id": "mon.cultist",
       "field": "horror_rating",
-      "status": "missing",
-      "reason": null
+      "status": "none_recorded",
+      "reason": "wiki infobox gives '' for HorrorRating; read as 'no number printed on the marker' (interpretation, not checked against a marker image)"
      },
      {
-      "entity_id": "mon.chthonian",
+      "entity_id": "mon.cultist",
       "field": "horror_damage",
-      "status": "missing",
-      "reason": null
+      "status": "none_recorded",
+      "reason": "wiki infobox gives '' for HorrorDamage; read as 'no number printed on the marker' (interpretation, not checked against a marker image)"
      },
      {
-      "entity_id": "mon.chthonian",
-      "field": "toughness",
-      "status": "missing",
-      "reason": null
-     },
-     {
-      "entity_id": "mon.chthonian",
-      "field": "combat_rating",
-      "status": "missing",
-      "reason": null
-     },
-     {
-      "entity_id": "mon.chthonian",
+      "entity_id": "mon.dimensional_shambler",
       "field": "combat_damage",
-      "status": "missing",
-      "reason": null
+      "status": "none_recorded",
+      "reason": "wiki infobox gives '' for CombatDamage; read as 'no number printed on the marker' - see rules_text (interpretation, not checked against a marker image)"
      },
      {
-      "entity_id": "mon.zombie",
-      "field": "movement_type",
-      "status": "missing",
-      "reason": "not recorded by pavelius_cpp; fandom wiki (monster source) blocked"
+      "entity_id": "mon.fire_vampire",
+      "field": "horror_rating",
+      "status": "none_recorded",
+      "reason": "wiki infobox gives '-' for HorrorRating; read as 'no number printed on the marker' (interpretation, not checked against a marker image)"
      },
      {
-      "entity_id": "mon.zombie",
-      "field": "dimension_symbol",
-      "status": "missing",
-      "reason": "not recorded by pavelius_cpp; fandom wiki (monster source) blocked"
+      "entity_id": "mon.fire_vampire",
+      "field": "horror_damage",
+      "status": "none_recorded",
+      "reason": "wiki infobox gives '' for HorrorDamage; read as 'no number printed on the marker' (interpretation, not checked against a marker image)"
+     },
+     {
+      "entity_id": "mon.maniac",
+      "field": "horror_rating",
+      "status": "none_recorded",
+      "reason": "wiki infobox gives '' for HorrorRating; read as 'no number printed on the marker' - see rules_text (interpretation, not checked against a marker image)"
+     },
+     {
+      "entity_id": "mon.maniac",
+      "field": "horror_damage",
+      "status": "none_recorded",
+      "reason": "wiki infobox gives '' for HorrorDamage; read as 'no number printed on the marker' - see rules_text (interpretation, not checked against a marker image)"
+     },
+     {
+      "entity_id": "mon.nightgaunt",
+      "field": "combat_damage",
+      "status": "none_recorded",
+      "reason": "wiki infobox gives '' for CombatDamage; read as 'no number printed on the marker' - see rules_text (interpretation, not checked against a marker image)"
+     },
+     {
+      "entity_id": "mon.the_black_man",
+      "field": "horror_rating",
+      "status": "none_recorded",
+      "reason": "wiki infobox gives '' for HorrorRating; read as 'no number printed on the marker' - see rules_text (interpretation, not checked against a marker image)"
+     },
+     {
+      "entity_id": "mon.the_black_man",
+      "field": "horror_damage",
+      "status": "none_recorded",
+      "reason": "wiki infobox gives '' for HorrorDamage; read as 'no number printed on the marker' - see rules_text (interpretation, not checked against a marker image)"
+     },
+     {
+      "entity_id": "mon.the_black_man",
+      "field": "combat_rating",
+      "status": "none_recorded",
+      "reason": "wiki infobox gives '' for CombatRating; read as 'no number printed on the marker' - see rules_text (interpretation, not checked against a marker image)"
+     },
+     {
+      "entity_id": "mon.the_black_man",
+      "field": "combat_damage",
+      "status": "none_recorded",
+      "reason": "wiki infobox gives '' for CombatDamage; read as 'no number printed on the marker' - see rules_text (interpretation, not checked against a marker image)"
+     },
+     {
+      "entity_id": "mon.witch",
+      "field": "horror_rating",
+      "status": "none_recorded",
+      "reason": "wiki infobox gives '' for HorrorRating; read as 'no number printed on the marker' (interpretation, not checked against a marker image)"
+     },
+     {
+      "entity_id": "mon.witch",
+      "field": "horror_damage",
+      "status": "none_recorded",
+      "reason": "wiki infobox gives '' for HorrorDamage; read as 'no number printed on the marker' (interpretation, not checked against a marker image)"
      }
-    ],
-    "by_kind": {
-     "mon": 13
-    }
+    ]
    }
   },
   {
@@ -441,14 +446,13 @@
    "check": "field_status_distribution",
    "result": "pass",
    "detail": {
-    "confirmed": 1508,
-    "single_source": 437,
-    "derived": 140,
-    "none_recorded": 160,
-    "conflict_resolved": 31,
+    "confirmed": 1665,
+    "single_source": 576,
+    "derived": 141,
+    "none_recorded": 191,
+    "conflict_resolved": 32,
+    "confirmed_minor_variants": 47,
     "errata_applied": 10,
-    "confirmed_minor_variants": 44,
-    "missing": 4,
     "conflict": 4
    }
   },
@@ -512,6 +516,28 @@
     "stamina": 6,
     "focus": 3,
     "image": "joe_diamond.png"
+   }
+  },
+  {
+   "group": "spot_checks",
+   "check": "monster_byakhee_vs_raw_wiki_and_pavelius_cpp",
+   "result": "pass",
+   "detail": {
+    "raw": [
+     "sources/raw/fandom_wiki/pages/Byakhee.json",
+     "sources/raw/pavelius_cpp/arkham/monster.cpp"
+    ],
+    "values": {
+     "count": 3,
+     "awareness": -2,
+     "movement_type": "flying",
+     "dimension_symbol": "circle",
+     "horror_rating": -1,
+     "horror_damage": 1,
+     "combat_rating": 0,
+     "combat_damage": 2,
+     "toughness": 1
+    }
    }
   },
   {

@@ -1,7 +1,7 @@
 {
  "source_id": "kuerv0_json",
  "parser": "ah2e.parsers.kuerv0_json",
- "parsed_at": "2026-10-14T19:38:14+00:00",
+ "parsed_at": "2026-10-15T02:05:15+00:00",
  "status": "ok",
  "commit_sha": "fbdb3a8e6f3449f442312f654441c58092868fa2",
  "warnings": [

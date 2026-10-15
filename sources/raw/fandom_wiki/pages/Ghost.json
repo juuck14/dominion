@@ -1,0 +1,10 @@
+{
+ "title": "Ghost",
+ "pageid": 443,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Ghost",
+ "revid": 721,
+ "rev_timestamp": "2020-11-02T18:02:25Z",
+ "retrieved_at": "2026-10-15T01:52:18+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=Ghost\n|GameItemType=monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Ghost\n|MarkerFrontImage=Ghost\n|MarkerBackImage=GhostBack\n|AHCount=3\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-3\n|Movement=Yellow\n|HomeDimension=Crescent\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=1\n|Endless=\n|PhysicalImmunity=1\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=\n|HorrorRating=-2\n|HorrorDamage=2\n|CombatRating=-3\n|CombatDamage=2\n|Toughness=1\n}}"
+}

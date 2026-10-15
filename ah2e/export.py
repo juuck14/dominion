@@ -78,7 +78,8 @@ CREATE TABLE ancient_one_variants (id TEXT PRIMARY KEY, base_id TEXT NOT NULL RE
                                    power_name TEXT, power_text TEXT, start_of_battle_text TEXT, attack_text TEXT, note TEXT);
 CREATE TABLE monsters (id TEXT PRIMARY KEY, set_id TEXT NOT NULL REFERENCES sets(id), name TEXT NOT NULL, count INTEGER,
                        awareness INTEGER, movement_type TEXT, dimension_symbol TEXT, horror_rating INTEGER, horror_damage INTEGER,
-                       toughness INTEGER, combat_rating INTEGER, combat_damage INTEGER, warning TEXT);
+                       toughness INTEGER, combat_rating INTEGER, combat_damage INTEGER, border_color TEXT, rules_text TEXT,
+                       flavor_text TEXT, warning TEXT);
 CREATE TABLE monster_abilities (monster_id TEXT NOT NULL REFERENCES monsters(id), ability TEXT NOT NULL, PRIMARY KEY (monster_id, ability));
 CREATE TABLE errata (id TEXT PRIMARY KEY, doc_id TEXT REFERENCES documents(doc_id), page INTEGER, quote TEXT, quote_verified INTEGER,
                      target_kind TEXT, target_name TEXT, field TEXT, original_value TEXT, corrected_value TEXT, incorporated TEXT);
@@ -223,7 +224,8 @@ def build(d, path):
                                                            "worshippers_text", "power_name", "power_text", "start_of_battle_text", "attack_text", "note")})
     for m in d["monsters"]:
         ins("monsters", {k: m.get(k) for k in ("id", "set_id", "name", "count", "awareness", "movement_type", "dimension_symbol",
-                                               "horror_rating", "horror_damage", "toughness", "combat_rating", "combat_damage", "warning")})
+                                               "horror_rating", "horror_damage", "toughness", "combat_rating", "combat_damage",
+                                               "border_color", "rules_text", "flavor_text", "warning")})
         for x in m.get("abilities") or []:
             ins("monster_abilities", {"monster_id": m["id"], "ability": x})
     for n, c in enumerate(d["conflicts"]):
@@ -256,7 +258,8 @@ def lean(d):
     keep = ["meta", "sets", "components", "reference", "neighborhoods", "areas", "locations", "board_connections", "other_worlds",
             "investigators", "ancient_ones", "monsters", "cards", "encounters", "errata", "translations"]
     out = {k: strip(d[k]) for k in keep}
-    out["meta"] = dict(out["meta"], note="Provenance-free copy of ah2e_base.json; see ah2e_base.json / .sqlite for field status, conflicts and sources.")
+    out["meta"] = dict({k: v for k, v in out["meta"].items() if k != "web_search_recheck"},
+                       note="Provenance-free copy of ah2e_base.json; see ah2e_base.json / .sqlite for field status, conflicts and sources.")
     return out
 
 

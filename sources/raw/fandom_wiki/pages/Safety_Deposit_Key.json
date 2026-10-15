@@ -1,0 +1,14 @@
+{
+ "title": "Safety Deposit Key",
+ "pageid": 686,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Safety_Deposit_Key",
+ "revid": 1217,
+ "rev_timestamp": "2020-11-02T18:28:03Z",
+ "retrieved_at": "2026-10-15T01:52:21+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Pages with broken file links",
+  "Category:The King in Yellow"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=SafetyDepositKey\n|Name=Safety Deposit Key\n|Pronoun=It\n|Edition=The King in Yellow\n|ItemType=\n|ItemBonus=\n|ItemText=\n|ItemHands=\n|UsePhase=Movement\n|UsePhaseText=Spend 1 [[movement]] point and discard this card while in the [[Bank of Arkham]] to make a [[Luck check|Luck (-2) check]].  If you succeed, draw 1 [[Unique item]].  If you fail, gain 2 [[Clue token]]s.\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=2\n}}"
+}

@@ -210,10 +210,17 @@ SOURCES = [
         "page_base": "https://arkham-horror-second-edition.fandom.com/wiki/",
         "license": "CC BY-SA (Fandom); card text (c) Fantasy Flight Games",
         "edition_check": "Wiki dedicated to the second edition.",
-        "seed_pages": ["Arkham_Horror_(Second_Edition)_Wiki", "Card_list", "Monster", "Investigator", "Common_Item",
-                       "Unique_Item", "Spell", "Skill", "Ally", "Ancient_One", "Mythos_Card", "Location"],
-        "categories": ["Monsters", "Investigators", "Ancient Ones", "Common Items", "Unique Items", "Spells",
-                       "Skills", "Allies", "Locations", "Other Worlds", "Mythos Cards", "Special Cards"],
+        # Page discovery: seed pages (list tables), category members and pages that transclude an
+        # infobox template.  Category names are the wiki's own (checked 2026-10-15: e.g. 'Common items',
+        # lower-case 'items'); individual monster pages are not categorised, so they are found through
+        # the pages that embed Template:MonsterInfoBox.
+        "seed_pages": ["Arkham_Horror_(Second_Edition)_Wiki", "Monster", "Investigator", "Common_Item", "Unique_Item",
+                       "Spell", "Skill", "Ally", "Ancient_One", "Gate_marker", "Gate", "Neighborhood", "Other_World",
+                       "Street", "Location", "Sky", "Outskirts", "Monster_movement", "Arkham"],
+        "categories": ["Investigators", "Ancient Ones", "Common items", "Unique items", "Spells", "Skills", "Allies",
+                       "Specials", "Other Worlds", "Neighborhoods"],
+        "embedded_in": ["Template:MonsterInfoBox", "Template:Investigator"],
+        "list_pages": ["Common Item", "Unique Item", "Spell", "Skill", "Ally"],
     },
 ]
 
@@ -227,7 +234,9 @@ EXCLUDED_SOURCES = [
 ]
 
 BLOCKED_HOSTS_NOTE = (
-    "The build environment's egress policy returned HTTP 403 for: arkham-horror-second-edition.fandom.com, "
-    "www.fantasyflightgames.com, images-cdn.fantasyflightgames.com, boardgamegeek.com, web.archive.org, "
-    "rulespal.com, cdn.1j1ju.com (checked 2026-10-14). Only GitHub was reachable."
+    "The build environment's egress policy returned HTTP 403 for: www.fantasyflightgames.com, "
+    "images-cdn.fantasyflightgames.com, boardgamegeek.com, web.archive.org, rulespal.com, cdn.1j1ju.com and the "
+    "wiki image host static.wikia.nocookie.net (checked 2026-10-14/15). arkham-horror-second-edition.fandom.com was "
+    "blocked on 2026-10-14 and allowed from 2026-10-15; its MediaWiki API (api.php) answers, while HTML pages under "
+    "/wiki/ return a Cloudflare bot challenge (HTTP 403), so only the API is used."
 )

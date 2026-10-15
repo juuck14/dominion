@@ -1,0 +1,10 @@
+{
+ "title": "Vampire",
+ "pageid": 320,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Vampire",
+ "revid": 475,
+ "rev_timestamp": "2020-11-02T18:02:12Z",
+ "retrieved_at": "2026-10-15T01:52:23+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=Vampire\n|GameItemType=monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Vampire\n|MarkerFrontImage=Vampire\n|MarkerBackImage=VampireBack\n|AHCount=1\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-3\n|Movement=Black\n|HomeDimension=Crescent\n|Spawn=\n|StartingLocation=\n|Mask=\n|Ambush=\n|Undead=1\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=1\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=''It was a beast born in the grave. It stretched its hands toward us and curled its lips, drawn to the blood in our veins.''\n|RulesText=\n|HorrorRating=+0\n|HorrorDamage=2\n|CombatRating=-3\n|CombatDamage=3\n|Toughness=2\n}}"
+}

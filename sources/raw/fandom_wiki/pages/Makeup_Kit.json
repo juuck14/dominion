@@ -1,0 +1,14 @@
+{
+ "title": "Makeup Kit",
+ "pageid": 680,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Makeup_Kit",
+ "revid": 1205,
+ "rev_timestamp": "2020-11-02T18:28:03Z",
+ "retrieved_at": "2026-10-15T01:52:19+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Kingsport Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=MakeupKit\n|Name=Makeup Kit\n|Pronoun=It\n|Edition=Kingsport Horror\n|ItemType=\n|ItemBonus=+1 [[Will check]] ''(but not [[Horror check]]s)''\n|ItemText=\n|ItemHands=\n|UsePhase=Any\n|UsePhaseText=Discard Makeup Kit to avoid being [[arrest]]ed.\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=3\n}}"
+}

@@ -1,0 +1,13 @@
+{
+ "title": "Carolyn Fern",
+ "pageid": 420,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Carolyn_Fern",
+ "revid": 675,
+ "rev_timestamp": "2020-11-02T18:02:22Z",
+ "retrieved_at": "2026-10-15T01:52:16+00:00",
+ "categories": [
+  "Category:Arkham Horror",
+  "Category:Investigators"
+ ],
+ "wikitext": "{{GameItemIntroductionAn\n|Name=Carolyn Fern\n|GameItemType=investigator\n|Pronoun=She\n|Edition=Arkham Horror\n}}\n{{Investigator\n|CardFront=CarolynFern\n|CardBack=CarolynFernBack\n|Name=Carolyn Fern\n|Pronoun=She\n|Occupation=the Psychologist\n|Edition=Arkham Horror\n|Sanity=6\n|Stamina=4\n|Ability1=Psychology - Upkeep: Dr. Fern may restore 1 [[Sanity]] to herself or another character in her location.  She cannot raise a character's [[Sanity]] higher than that character's maximum Sanity.\n|Home=Arkham Asylum\n|FixedPossessions=\n*$7\n*1 [[Clue token]]\n|RandomPossessions=\n*2 [[Unique item]]s\n*2 [[Common item]]s\n*1 [[Skill]]\n|Focus=2\n|Speed1=0\n|Speed2=1\n|Speed3=2\n|Speed4=3\n|Sneak1=3\n|Sneak2=2\n|Sneak3=1\n|Sneak4=0\n|Fight1=1\n|Fight2=2\n|Fight3=3\n|Fight4=4\n|Will1=4\n|Will2=3\n|Will3=2\n|Will4=1\n|Lore1=2\n|Lore2=3\n|Lore3=4\n|Lore4=5\n|Luck1=5\n|Luck2=4\n|Luck3=3\n|Luck4=2\n}}\n\n\n'''The Story So Far:''' Carolyn is a first year resident at a sanitarium in Providence. Over the past six months, she has been studying the dreams of her patients using hypnosis. One patient in particular gave her vivid and disturbing descriptions of his dreams, right up until he was murdered with a strange knife that closely resembled something from one of his nightmares.\n\nDisturbed and frightened by his murder, Carolyn dug back through her notes, poring over them late into the night. Finally, she found some subtle clues that led her here, to Arkham, where he was previously an inmate in Arkham Asylum. Someone here has to know why a harmless man was murdered for talking about his dreams to his psychologist."
+}

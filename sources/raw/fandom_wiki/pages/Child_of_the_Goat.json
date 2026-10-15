@@ -1,0 +1,13 @@
+{
+ "title": "Child of the Goat",
+ "pageid": 1588,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Child_of_the_Goat",
+ "revid": 3025,
+ "rev_timestamp": "2020-11-02T18:29:37Z",
+ "retrieved_at": "2026-10-15T01:52:16+00:00",
+ "categories": [
+  "Category:Pages with broken file links",
+  "Category:The Black Goat of the Woods"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Child of the Goat\n|GameItemType=monster\n|Pronoun=It\n|Edition=The Black Goat of the Woods\n}}\n{{MonsterInfoBox\n|Name=Child of the Goat\n|MarkerFrontImage=ChildOfTheGoat\n|MarkerBackImage=ChildOfTheGoatBack\n|AHCount=0\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=3\n|Awareness=-3\n|Movement=Black\n|HomeDimension=Hexagon\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=Child of the Goat is treated as a [[Cultist]].  If you fail a [[Combat check]] or [[Evade check]] against Child of the Goat, you are delayed.\n|HorrorRating=\n|HorrorDamage=\n|CombatRating=+1\n|CombatDamage=\n|Toughness=1\n}}\n\n== Errata ==\nIf you fail a combat (or evade) check against a Child of the Goat, you are delayed and the combat ends."
+}

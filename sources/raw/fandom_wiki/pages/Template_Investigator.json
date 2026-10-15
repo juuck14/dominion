@@ -1,0 +1,13 @@
+{
+ "title": "Template:Investigator",
+ "pageid": 581,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Template%3AInvestigator",
+ "revid": 1007,
+ "rev_timestamp": "2020-11-02T18:02:53Z",
+ "retrieved_at": "2026-10-15T01:52:22+00:00",
+ "categories": [
+  "Category:Investigators",
+  "Category:Templates"
+ ],
+ "wikitext": "{{Images2RightCascade\n|Back={{{CardBack}}}\n|BackAltText={{{Name}}} investigator sheet back.\n|Fore={{{CardFront}}}\n|ForeAltText={{{Name}}} investigator sheet front.\n}}\n==Sheet info==\n'''Occupation:''' {{{Occupation}}}\n\n'''Home:''' [[{{{Home}}}]]\n\n'''Unique Ability''': {{{Ability1}}}\n\n;Status\n:*[[Sanity]]<nowiki>:</nowiki> {{{Sanity}}}\n:*[[Stamina]]<nowiki>:</nowiki> {{{Stamina}}}\n\n;Fixed Possessions\n:{{{FixedPossessions}}}\n\n;Random Possessions\n:{{{RandomPossessions}}}\n\n'''[[Focus]]:''' '''{{{Focus}}}'''\n\n{| class=\"InvestigatorSkills\"\n|+ Skills\n|- class=\"Speed\"\n| [[Speed]] || {{{Speed1}}} || {{{Speed2}}} || {{{Speed3}}} || {{{Speed4}}}\n|- class=\"Sneak\"\n| [[Sneak]] || {{{Sneak1}}} || {{{Sneak2}}} || {{{Sneak3}}} || {{{Sneak4}}}\n|- class=\"Fight\"\n| [[Fight]] || {{{Fight1}}} || {{{Fight2}}} || {{{Fight3}}} || {{{Fight4}}}\n|- class=\"Will\"\n| [[Will]] || {{{Will1}}} || {{{Will2}}} || {{{Will3}}} || {{{Will4}}}\n|- class=\"Lore\"\n| [[Lore]] || {{{Lore1}}} || {{{Lore2}}} || {{{Lore3}}} || {{{Lore4}}}\n|- class=\"Luck\"\n| [[Luck]] || {{{Luck1}}} || {{{Luck2}}} || {{{Luck3}}} || {{{Luck4}}}\n|}\n\n===Personal Story===\n[[Image:Ps{{{CardFront}}}Back.png|160px]]\n[[Image:Ps{{{CardFront}}}Front.png|160px]]\n[[Image:Ps{{{CardFront}}}Passed.png|160px]]\n[[Image:Ps{{{CardFront}}}Failed.png|160px]]\n\n[[Category:Investigators]]<noinclude>\n<!-- TEMPLATE ENDS HERE. -->\n===Usage===\nCopy and paste the following code to use the template.\n\n<pre><nowiki>\n{{Investigator\n|CardFront=\n|CardBack=\n|Name=\n|Pronoun=\n|Occupation=\n|Edition=\n|Sanity=\n|Stamina=\n|Ability1=\n|Home=\n|FixedPossessions=\n|RandomPossessions=\n|Focus=\n|Speed1=\n|Speed2=\n|Speed3=\n|Speed4=\n|Sneak1=\n|Sneak2=\n|Sneak3=\n|Sneak4=\n|Fight1=\n|Fight2=\n|Fight3=\n|Fight4=\n|Will1=\n|Will2=\n|Will3=\n|Will4=\n|Lore1=\n|Lore2=\n|Lore3=\n|Lore4=\n|Luck1=\n|Luck2=\n|Luck3=\n|Luck4=\n}}\n</nowiki></pre>\n[[Category:Templates|{{PAGENAME}}]]\n</noinclude>"
+}

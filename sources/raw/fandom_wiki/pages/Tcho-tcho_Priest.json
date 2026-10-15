@@ -1,0 +1,13 @@
+{
+ "title": "Tcho-tcho Priest",
+ "pageid": 1319,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Tcho-tcho_Priest",
+ "revid": 2485,
+ "rev_timestamp": "2020-11-02T18:29:08Z",
+ "retrieved_at": "2026-10-15T01:52:22+00:00",
+ "categories": [
+  "Category:Kingsport Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Tcho-tcho Priest\n|GameItemType=monster\n|Pronoun=It\n|Edition=Kingsport Horror\n}}\n{{MonsterInfoBox\n|Name=Tcho-tcho Priest\n|MarkerFrontImage=Tcho-tchoPriest\n|MarkerBackImage=Tcho-tchoPriestBack\n|AHCount=0\n|DHCount=0\n|KHCount=1\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-1\n|Movement=Red\n|HomeDimension=Crescent\n|Spawn=\n|StartingLocation=\n|Mask=\n|Ambush=1\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=1\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=1\n|Elusive=\n|FlavorText=\n|RulesText=\n|HorrorRating=-2\n|HorrorDamage=3\n|CombatRating=-3\n|CombatDamage=2\n|Toughness=2\n}}"
+}

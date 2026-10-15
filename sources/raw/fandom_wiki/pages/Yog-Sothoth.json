@@ -1,0 +1,13 @@
+{
+ "title": "Yog-Sothoth",
+ "pageid": 246,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Yog-Sothoth",
+ "revid": 327,
+ "rev_timestamp": "2020-11-02T18:01:57Z",
+ "retrieved_at": "2026-10-15T01:52:23+00:00",
+ "categories": [
+  "Category:Ancient Ones",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "[[Image:Yog-Sothoth.png|right|160px]]\n'''Yog-Sothoth''' is an [[Ancient One]].  He first appeared in the [[Arkham Horror]] game board.\n\n==Sheet info==\n'''Combat rating''': -5\n\n'''Defenses''': [[Magical Immunity]]\n\n'''Worshippers''': Yog-Sothoth's worshippers have powerful magical abilities.  [[Cultist]]s have [[Magical Immunity]] and a combat rating of -1.\n\n'''Power''': The Key and the Gate - While Yog-Sothoth stirs in his slumber, the [[difficulty]] to close or seal a [[gate]] increases by 1.  In addition, any [[investigator]] [[Lost in Time and Space]] is [[devour]]ed.\n\n'''Start of Battle''': Any investigator with no [[gate trophies]] is devoured.\n\n'''Attack''': Each investigator must pass a [[Will check|Will (+1) check]] or lose 1 gate trophy.  Any investigator with no gate trophies left is devoured.  This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)\n\n'''Doom Track''': 12\n\n==Plots==\n<gallery>\nImage:EpicBattleYog-SothothBack.png\nImage:EpicBattleYog-Sothoth1.png\nImage:EpicBattleYog-Sothoth2.png\nImage:EpicBattleYog-Sothoth3.png\n</gallery>\n\n==Mythos Source==\nThe name Yog-Sothoth first appears in ''The Case of Charles Dexter Ward'' (1927), written by H.P. Lovecraft. Actual details of his attributes appear in ''The Dunwich Horror'' (1928), also written by H.P. Lovecraft.\n\n==Errata==\nThe difficulty increase caused by Yog-Sothoth's power ''The Key And The Gate'' does not affect the number of [[clue token]]s required to [[Gate#Sealing_Gates | seal]] a gate. The power only requires an extra success when attempting to [[Gate#Closing_Gates | close]] a gate.\n\n[[Category:Ancient Ones]]"
+}

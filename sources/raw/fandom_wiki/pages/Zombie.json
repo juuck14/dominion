@@ -1,0 +1,10 @@
+{
+ "title": "Zombie",
+ "pageid": 322,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Zombie",
+ "revid": 479,
+ "rev_timestamp": "2020-11-02T18:02:12Z",
+ "retrieved_at": "2026-10-15T01:52:23+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=Zombie\n|GameItemType=monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Zombie\n|MarkerFrontImage=Zombie\n|MarkerBackImage=ZombieBack\n|AHCount=3\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=+1\n|Movement=Black\n|HomeDimension=Crescent\n|Spawn=\n|StartingLocation=\n|Mask=\n|Ambush=\n|Undead=1\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=\n|HorrorRating=-1\n|HorrorDamage=1\n|CombatRating=-1\n|CombatDamage=2\n|Toughness=1\n}}"
+}

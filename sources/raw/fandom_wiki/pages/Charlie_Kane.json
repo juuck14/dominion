@@ -1,0 +1,13 @@
+{
+ "title": "Charlie Kane",
+ "pageid": 1254,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Charlie_Kane",
+ "revid": 2355,
+ "rev_timestamp": "2020-11-02T18:29:02Z",
+ "retrieved_at": "2026-10-15T01:52:16+00:00",
+ "categories": [
+  "Category:Investigators",
+  "Category:Kingsport Horror"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Charlie Kane\n|GameItemType=investigator\n|Pronoun=He\n|Edition=Kingsport Horror\n}}\n{{Investigator\n|CardFront=CharlieKane\n|CardBack=CharlieKaneBack\n|Name=Charlie Kane\n|Pronoun=He\n|Occupation=the Politician\n|Edition=Kingsport Horror\n|Sanity=4\n|Stamina=6\n|Ability1=Connections - Any Phase: Charlie may gain [[Ally|Allies]] that have been returned to the box.\n\nSettle Down! - Any Phase: Charlie may pay 2 [[Clue token]]s to prevent the [[terror level]] from increasing by 1.  He may do this as often as he likes.\n|Home=Administration Building\n|FixedPossessions=\n*$9\n|RandomPossessions=\n*2 [[Common item]]s\n*1 [[Ally]]\n*1 [[Skill]]\n|Focus=2\n|Speed1=0\n|Speed2=1\n|Speed3=2\n|Speed4=3\n|Sneak1=4\n|Sneak2=3\n|Sneak3=2\n|Sneak4=1\n|Fight1=2\n|Fight2=3\n|Fight3=4\n|Fight4=5\n|Will1=4\n|Will2=3\n|Will3=2\n|Will4=1\n|Lore1=1\n|Lore2=2\n|Lore3=3\n|Lore4=4\n|Luck1=4\n|Luck2=3\n|Luck3=2\n|Luck4=1\n}}\n\n\n'''The Story So Far:''' Charlie Kane promised the people of [[Arkham]] a safer future. He made a lot of promises-- lower taxes, better schools, less crime. It was part of the job, after all. He said what he had to say to get elected, and then he set about doing what he could to help people. Although he had to do things he wasn't proud of, Charlie always worked for the greater good. The people came first.\n\nSo when Charlie Kane started hearing the reports, he put the people first. Of course, he couldn't tell anyone-- couldn't reveal what he had pieced together, reports from various parts of the city government that painted a macabre portrait of Arkham's future. For one, who'd believe him? For another, how would widespread panic serve the public good?\n\nStill, Charlie has always had connections in town. So he gathered up his reports and paid a visit to Professor Grant at [[Miskatonic University]].\n\nThe fact that he now stands before Professor Grant's mutilated corpse in Professor Grant's blood-stained office, does not fill Chalie Kane with confidence.\n\n== Clarification ==\nCharlie only has access to the 11 allies chosen for the game. Any of these allies that have been returned to the box may be obtained through the normal method of gaining allies (encounters, Ma's Boarding House, etc.)."
+}

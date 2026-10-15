@@ -1,0 +1,14 @@
+{
+ "title": "Call Friend",
+ "pageid": 813,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Call_Friend",
+ "revid": 1473,
+ "rev_timestamp": "2020-11-02T18:28:15Z",
+ "retrieved_at": "2026-10-15T01:52:16+00:00",
+ "categories": [
+  "Category:Dunwich Horror",
+  "Category:Pages with broken file links",
+  "Category:Spells"
+ ],
+ "wikitext": "[[Image:CallFriend.png|right|160px]]\n'''Call Friend''' is a [[spell]].  It first appeared in the [[Dunwich Horror]] expansion.\n\n==Card info==\n'''Casting Modifier''': +0\n\n'''Sanity Cost''': 1\n\n'''Movement Phase''': Cast and exhaust to choose an investigator in Arkham who has not moved this turn.  Move that investigator to your current space (even an [[Other World]]).  The investigator may not move again this turn.\n\n[[Category:Spells]]\n[[Category:Dunwich Horror]]"
+}

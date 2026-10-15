@@ -1,0 +1,13 @@
+{
+ "title": "The Beast",
+ "pageid": 874,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/The_Beast",
+ "revid": 1595,
+ "rev_timestamp": "2020-11-02T18:28:21Z",
+ "retrieved_at": "2026-10-15T01:52:22+00:00",
+ "categories": [
+  "Category:Dunwich Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=The Beast\n|GameItemType=Mask monster\n|Pronoun=It\n|Edition=Dunwich Horror\n}}\n{{MonsterInfoBox\n|Name=The Beast\n|MarkerFrontImage=TheBeast\n|MarkerBackImage=TheBeastBack\n|AHCount=0\n|DHCount=1\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=+0\n|Movement=Purple\n|HomeDimension=Star\n|Spawn=\n|StartingLocation=\n|Mask=1\n|Ambush=\n|Undead=\n|Endless=1\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=1\n|MagicalResistance=1\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=If you fail both the '''[[Horror check]]''' and '''[[Combat check]]''' against the Beast, you are '''[[devoured]]'''.\n|HorrorRating=-2\n|HorrorDamage=2\n|CombatRating=-2\n|CombatDamage=2\n|Toughness=4\n}}\n\n==Mythos Source==\nThe Beast is described in the Call of Cthulhu supplement ''Fungi from Yuggoth''.\n\n== Errata ==\nAlthough not printed, The Beast is [[Endless]]."
+}

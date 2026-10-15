@@ -1,0 +1,13 @@
+{
+ "title": "Shadowy Figure",
+ "pageid": 1316,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Shadowy_Figure",
+ "revid": 2479,
+ "rev_timestamp": "2020-11-02T18:29:08Z",
+ "retrieved_at": "2026-10-15T01:52:21+00:00",
+ "categories": [
+  "Category:Kingsport Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Shadowy Figure\n|GameItemType=Mask monster\n|Pronoun=It\n|Edition=Kingsport Horror\n}}\n{{MonsterInfoBox\n|Name=Shadowy Figure\n|MarkerFrontImage=ShadowyFigure\n|MarkerBackImage=ShadowyFigureBack\n|AHCount=0\n|DHCount=0\n|KHCount=1\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-3\n|Movement=Green\n|HomeDimension=Crescent\n|Spawn=\n|StartingLocation=\n|Mask=1\n|Ambush=\n|Undead=\n|Endless=1\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=1\n|FlavorText=\n|RulesText=When it moves, Shadowy Figure moves to the nearest [[location]] or [[street]] containing [[Clue tokens|clues]].  All clues in that area are then discarded.\n|HorrorRating=\n|HorrorDamage=\n|CombatRating=-2\n|CombatDamage=2\n|Toughness=3\n}}"
+}

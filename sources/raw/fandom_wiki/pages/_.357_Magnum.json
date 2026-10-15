@@ -1,0 +1,16 @@
+{
+ "title": ".357 Magnum",
+ "pageid": 690,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/.357_Magnum",
+ "revid": 1225,
+ "rev_timestamp": "2020-11-02T18:28:04Z",
+ "retrieved_at": "2026-10-15T01:52:15+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:One handed weapons",
+  "Category:Pages with broken file links",
+  "Category:Physical weapons",
+  "Category:The Black Goat of the Woods"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=357Magnum\n|Name=.357 Magnum\n|Pronoun=It\n|Edition=The Black Goat of the Woods\n|ItemType=Physical weapon\n|ItemBonus=\n|ItemText='''Upkeep''': .357 Magnum does not refresh unless you spend $1.\n|ItemHands=1\n|UsePhase=Any\n|UsePhaseText=Exhaust to gain +5 to [[Combat check]]s until the end of this [[combat]].\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=8\n}}"
+}

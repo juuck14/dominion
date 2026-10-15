@@ -1,7 +1,7 @@
 {
  "source_id": "ellebaum_json",
  "parser": "ah2e.parsers.ellebaum_json",
- "parsed_at": "2026-10-14T19:38:14+00:00",
+ "parsed_at": "2026-10-15T02:05:15+00:00",
  "status": "ok",
  "commit_sha": "e91c99b2d18f1410981245c0c1fc1f0df515f4ae",
  "warnings": [

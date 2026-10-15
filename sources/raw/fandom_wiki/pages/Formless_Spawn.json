@@ -1,0 +1,10 @@
+{
+ "title": "Formless Spawn",
+ "pageid": 442,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Formless_Spawn",
+ "revid": 719,
+ "rev_timestamp": "2020-11-02T18:02:24Z",
+ "retrieved_at": "2026-10-15T01:52:18+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=Formless Spawn\n|GameItemType=monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Formless Spawn\n|MarkerFrontImage=FormlessSpawn\n|MarkerBackImage=FormlessSpawnBack\n|AHCount=2\n|DHCount=1\n|KHCount=1\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=+0\n|Movement=Black\n|HomeDimension=Hexagon\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=1\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=''From the darkened alley a patch of darkness seemed to detach itself, curling along the bricks and rising to block our path.''\n|RulesText=\n|HorrorRating=-1\n|HorrorDamage=2\n|CombatRating=-2\n|CombatDamage=2\n|Toughness=2\n}}\n==Mythos Source==\nThe servants of [[Tsathoggua]], Formless Spawn appeared in Clark Ashton Smith's \"Hyperborean Cycle\" and were first described in Smith's short story ''The Tale of Satampra Zeiros'' (1931)."
+}

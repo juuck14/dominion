@@ -1,0 +1,10 @@
+{
+ "title": "Enchanted Blade",
+ "pageid": 1371,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Enchanted_Blade",
+ "revid": 2589,
+ "rev_timestamp": "2020-11-02T18:29:13Z",
+ "retrieved_at": "2026-10-15T02:00:39+00:00",
+ "categories": [],
+ "wikitext": "{{UniqueItem\n|ImageFront=EnchantedBlade\n|Name=Enchanted Blade\n|Pronoun=It\n|Edition=Arkham Horror\n|ItemType=Magical weapon\n|ItemBonus=+4 [[Combat check]]\n|ItemText=\n|ItemHands=1\n|UsePhase=\n|UsePhaseText=\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=6\n}}"
+}

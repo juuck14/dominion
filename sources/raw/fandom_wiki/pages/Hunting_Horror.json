@@ -1,0 +1,13 @@
+{
+ "title": "Hunting Horror",
+ "pageid": 863,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Hunting_Horror",
+ "revid": 1573,
+ "rev_timestamp": "2020-11-02T18:28:19Z",
+ "retrieved_at": "2026-10-15T01:52:18+00:00",
+ "categories": [
+  "Category:Dunwich Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Hunting Horror\n|GameItemType=monster\n|Pronoun=It\n|Edition=Dunwich Horror\n}}\n{{MonsterInfoBox\n|Name=Hunting Horror\n|MarkerFrontImage=HuntingHorror\n|MarkerBackImage=HuntingHorrorBack\n|AHCount=0\n|DHCount=1\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-3\n|Movement=Green\n|HomeDimension=Diamond\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=1\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=When it moves, Hunting Horror moves to the nearest [[investigator]] in a [[street]] area or unstable [[location]].\n|HorrorRating=-1\n|HorrorDamage=2\n|CombatRating=-2\n|CombatDamage=4\n|Toughness=2\n}}\n\n==Mythos Source==\nHunting Horrors first appeared in ''The Dream-Quest of Unknown Kadath'' (1927), written by H.P. Lovecraft. They are more fully described in ''The Lurker at the Threshold'' (1945), written by August Derlerth and H.P. Lovecraft."
+}

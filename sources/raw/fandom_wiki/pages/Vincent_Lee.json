@@ -1,0 +1,10 @@
+{
+ "title": "Vincent Lee",
+ "pageid": 432,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Vincent_Lee",
+ "revid": 699,
+ "rev_timestamp": "2020-11-02T18:02:23Z",
+ "retrieved_at": "2026-10-15T01:52:23+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroductionAn\n|Name=Vincent Lee\n|GameItemType=investigator\n|Pronoun=He\n|Edition=Arkham Horror\n}}\n{{Investigator\n|CardFront=VincentLee\n|CardBack=VincentLeeBack\n|Name=Vincent Lee\n|Pronoun=He\n|Occupation=the Doctor\n|Edition=Arkham Horror\n|Sanity=5\n|Stamina=5\n|Ability1=Physician - Upkeep: Dr. Lee may restore 1 [[Stamina]] to himself or another character in his location.  He cannot raise a character's Stamina higher than that character's maximum Stamina.\n|Home=St. Mary's Hospital\n|FixedPossessions=\n*$9\n*1 [[Clue token]]\n|RandomPossessions=\n*2 [[Common item]]s\n*2 [[Spell]]s\n*1 [[Skill]]\n|Focus=2\n|Speed1=0\n|Speed2=1\n|Speed3=2\n|Speed4=3\n|Sneak1=5\n|Sneak2=4\n|Sneak3=3\n|Sneak4=2\n|Fight1=0\n|Fight2=1\n|Fight3=2\n|Fight4=3\n|Will1=4\n|Will2=3\n|Will3=2\n|Will4=1\n|Lore1=2\n|Lore2=3\n|Lore3=4\n|Lore4=5\n|Luck1=4\n|Luck2=3\n|Luck3=2\n|Luck4=1\n}}\n\n'''The Story So Far:''' A Yale graduate of Medicine, Vincent has recently moved to Arkham from Boston to practice at St. Mary's Hospital. Since his coming to Arkham, he has seen far too many horrible and unexplained deaths - an elderly victim torn apart by unknown wild animals, a healthy young man whose heart exploded, and so many others. Their faces haunt his dreams, especially the young man's terrified expression. After all this, small wonder that Vincent has begun to wonder if there's something sinister going on in this quiet Massachusetts town.\n\nTonight Dr. Lee made the decision to investigate the mysteries of Arkham and stop the strange deaths. He is determined to see this through, even if in so doing he becomes another puzzle for the next doctor who comes to Arkham."
+}

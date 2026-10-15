@@ -1,0 +1,14 @@
+{
+ "title": "Hand Camera",
+ "pageid": 698,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Hand_Camera",
+ "revid": 1241,
+ "rev_timestamp": "2020-11-02T18:28:05Z",
+ "retrieved_at": "2026-10-15T01:52:18+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Pages with broken file links",
+  "Category:The Lurker at the Threshold"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=HandCameraItem\n|Name=Hand Camera\n|Pronoun=It\n|Edition=The Lurker at the Threshold\n|ItemType=\n|ItemBonus=\n|ItemText=\n|ItemHands=\n|UsePhase=Any Phase\n|UsePhaseText=Discard Hand Camera after you gain a [[Clue token]] to gain 1 additional Clue token. When you do so, one other [[investigator]] of your choice also gains 1 Clue token. \n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=5\n}}"
+}

@@ -1,0 +1,14 @@
+{
+ "title": "Hank Samson",
+ "pageid": 1218,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Hank_Samson",
+ "revid": 2283,
+ "rev_timestamp": "2020-11-02T18:28:57Z",
+ "retrieved_at": "2026-10-15T01:52:18+00:00",
+ "categories": [
+  "Category:Innsmouth Horror",
+  "Category:Investigators",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroductionAn\n|Name=Hank Samson\n|GameItemType=investigator\n|Pronoun=He\n|Edition=Innsmouth Horror\n}}\n{{Investigator\n|CardFront=HankSamson\n|CardBack=HankSamsonBack\n|Name=Hank Samson\n|Pronoun=He\n|Occupation=the Farmhand\n|Edition=Innsmouth Horror\n|Sanity=5\n|Stamina=6\n|Ability1=Thick-skulled - Any Phase: Hank does not make a [[Horror check]] when he first [[encounter]]s a [[monster]]. Instead, he only makes a Horror check if he first fails a [[Combat check|Combat]] or [[Evade check]] against a monster.\n|Home=General Store\n|FixedPossessions=\n*$3\n*1 [[Clue token]]\n*1 [[Common item]] ([[Food]])\n|RandomPossessions=\n*2 [[Common item]]s\n*1 [[Unique item]]\n*1 [[Skill]]\n|Focus=2\n|Speed1=2\n|Speed2=3\n|Speed3=4\n|Speed4=5\n|Sneak1=4\n|Sneak2=3\n|Sneak3=2\n|Sneak4=1\n|Fight1=2\n|Fight2=3\n|Fight3=4\n|Fight4=5\n|Will1=3\n|Will2=2\n|Will3=1\n|Will4=0\n|Lore1=0\n|Lore2=1\n|Lore3=2\n|Lore4=3\n|Luck1=4\n|Luck2=3\n|Luck3=2\n|Luck4=1\n}}\n\n\n'''The Story So Far:''' As he was growing up on his parents' farm, it soon became obvious that Hank was more of a doer than a thinker. He wasn't stupid, exactly, he just didn't spend a lot of time thinking things through before he did them. A lot of the time, this tended to get him in trouble.\n\nThen again, sometimes it came in handy, like it had in the last month when he heard the cows panicking. Picking up his [[shotgun]], Hank rushed outside, only to see some kind of giant buzzard thing attacking the cattle. Now, some might have questioned their own sanity at the sight while others might have fainted away in sheer horror. But Hank, he just took aim and blew the darn thing's head off. It only occurred to him later to wonder just what it had been.\n\nWhen Pa saw the corpse, he told Hank that they were going to take it to a Professor he knew at [[Miskatonic University]]. So, they crated it up, drove to the nearest [[Train Station|train station]], and hopped a train to [[Arkham]].\n\nOnly, things haven't gone so well since then. First, the crate vanished off the train, and then Pa went missing when he went to complain about the missing crate.\n\nAs Hank grows tired of waiting at the General Store where his Pa told him to meet up if they got separated, he wonders if he might not have to start doing a little thinking after all."
+}

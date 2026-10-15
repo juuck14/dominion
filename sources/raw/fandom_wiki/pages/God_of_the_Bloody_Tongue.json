@@ -1,0 +1,10 @@
+{
+ "title": "God of the Bloody Tongue",
+ "pageid": 309,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/God_of_the_Bloody_Tongue",
+ "revid": 453,
+ "rev_timestamp": "2020-11-02T18:02:11Z",
+ "retrieved_at": "2026-10-15T01:52:18+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=God of the Bloody Tongue\n|GameItemType=Mask monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=God Of The Bloody Tongue\n|MarkerFrontImage=GodOfTheBloodyTongue\n|MarkerBackImage=GodOfTheBloodyTongueBack\n|AHCount=1\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=+1\n|Movement=Black\n|HomeDimension=Triangle\n|Spawn=\n|Mask=1\n|Ambush=\n|Undead=\n|Endless=1\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=1\n|Nightmarish=1\n|Elusive=\n|FlavorText=\n|RulesText=\n|HorrorRating=-3\n|HorrorDamage=3\n|CombatRating=-4\n|CombatDamage=4\n|Toughness=4\n}}\n\n==Mythos Source==\nThe God of the Bloody Tongue first appears in the Masks of Nyarlathotep campaign for Chaosium's Call of Cthulhu role-playing game."
+}

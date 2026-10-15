@@ -1,0 +1,13 @@
+{
+ "title": "Hound of Tindalos",
+ "pageid": 446,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Hound_of_Tindalos",
+ "revid": 3473,
+ "rev_timestamp": "2026-07-29T19:19:56Z",
+ "retrieved_at": "2026-10-15T01:52:18+00:00",
+ "categories": [
+  "Category:Arkham Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Hound of Tindalos\n|GameItemType=monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Hound of Tindalos\n|MarkerFrontImage=HoundOfTindalos\n|MarkerBackImage=HoundOfTindalosBack\n|AHCount=2\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-1\n|Movement=Green\n|HomeDimension=Square\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=1\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=When it moves, the Hound of Tindalos moves directly to the nearest [[investigator]] inside a location in [[Arkham]] (Other than the [[St. Mary's Hospital|Hospital]] or [[Arkham Asylum|Asylum]]).\n|HorrorRating=-2\n|HorrorDamage=4\n|CombatRating=-1\n|CombatDamage=3\n|Toughness=2\n}}\n\n==Mythos Source==\nThey first appeared in ''The Hounds of Tindalos'' (1931), written by Frank Belknap Long.\n\n==Clarification==\nIf there is a tie between Investigators being closest to the Hound, it moves to the one with the lowest [[Sneak]]. If there's still a tie, the [[first player]] chooses. If there are no Investigators in a location in the city where the Hound is, the Hound will move to the Investigator (in any city) that has the lowest Sneak (First Player breaks ties). If the Hound is moving from Y'hanthlei, follow Devil Reef and then to Falcon Point. As with flying monsters, the Hound goes to the [[Outskirts]] if [[monster limit]] is reached."
+}

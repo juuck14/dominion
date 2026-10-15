@@ -1,0 +1,13 @@
+{
+ "title": "Shugeron",
+ "pageid": 1242,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Shugeron",
+ "revid": 2331,
+ "rev_timestamp": "2020-11-02T18:29:00Z",
+ "retrieved_at": "2026-10-15T01:52:21+00:00",
+ "categories": [
+  "Category:Innsmouth Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Shugeron\n|GameItemType=Mask monster\n|Pronoun=It\n|Edition=Innsmouth Horror\n}}\n{{MonsterInfoBox\n|Name=Shugeron\n|MarkerFrontImage=Shugeron\n|MarkerBackImage=ShugeronBack\n|AHCount=0\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|IHCount=1\n|Awareness=-1\n|Movement=Orange\n|HomeDimension=Plus\n|Spawn=\n|Mask=1\n|Ambush=\n|Undead=\n|Endless=1\n|PhysicalImmunity=\n|MagicalImmunity=\n|WeaponImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=If you fail a [[combat check]] against Shugeron, add a [[doom token]] to the [[doom track]].\n|HorrorRating=-2\n|HorrorDamage=2\n|CombatRating=-3\n|CombatDamage=3\n|Toughness=3\n}}\n\n==Mythos Source==\nShugeran first appeared in the story ''Black Man with a Horn'' (1984), written by T.E.D. Klein.\n\n== Clarification ==\nIf you fail an [[Evade check]], also add a [[doom token]] to the [[doom track]]."
+}

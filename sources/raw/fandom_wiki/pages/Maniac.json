@@ -1,0 +1,10 @@
+{
+ "title": "Maniac",
+ "pageid": 312,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Maniac",
+ "revid": 459,
+ "rev_timestamp": "2020-11-02T18:02:11Z",
+ "retrieved_at": "2026-10-15T01:52:19+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=Maniac\n|GameItemType=monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Maniac\n|MarkerFrontImage=Maniac\n|MarkerBackImage=ManiacBack\n|AHCount=3\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-1\n|Movement=Black\n|HomeDimension=Crescent\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=If the [[terror level]] is at least 6, Maniac's fight rating increases to -2, his combat damage increases to 3 [[Stamina]], and he gains '''[[Endless]]'''.\n|HorrorRating=\n|HorrorDamage=\n|CombatRating=+1\n|CombatDamage=1\n|Toughness=1\n}}"
+}

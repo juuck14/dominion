@@ -1,0 +1,13 @@
+{
+ "title": "Shan",
+ "pageid": 1317,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Shan",
+ "revid": 2481,
+ "rev_timestamp": "2020-11-02T18:29:08Z",
+ "retrieved_at": "2026-10-15T01:52:21+00:00",
+ "categories": [
+  "Category:Kingsport Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Shan\n|GameItemType=monster\n|Pronoun=It\n|Edition=Kingsport Horror\n}}\n{{MonsterInfoBox\n|Name=Shan\n|MarkerFrontImage=Shan\n|MarkerBackImage=ShanBack\n|AHCount=0\n|DHCount=0\n|KHCount=2\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=+0\n|Movement=Blue\n|HomeDimension=Triangle\n|Spawn=\n|StartingLocation=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=If you fail a [[Horror check]] against Shan, you are [[devour]]ed.\n|HorrorRating=-2\n|HorrorDamage=\n|CombatRating=-2\n|CombatDamage=1\n|Toughness=2\n}}\n\n==Mythos Source==\nAlso known as the Insects from Shaggai, Shan first appeared in ''The Insects from Shaggai'' (1964), written by Ramsey Campbell."
+}

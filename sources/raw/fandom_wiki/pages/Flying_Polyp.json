@@ -1,0 +1,10 @@
+{
+ "title": "Flying Polyp",
+ "pageid": 441,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Flying_Polyp",
+ "revid": 717,
+ "rev_timestamp": "2020-11-02T18:02:24Z",
+ "retrieved_at": "2026-10-15T01:52:18+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=Flying Polyp\n|GameItemType=monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Flying Polyp\n|MarkerFrontImage=FlyingPolyp\n|MarkerBackImage=FlyingPolypBack\n|AHCount=1\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=+0\n|Movement=Blue\n|HomeDimension=Hexagon\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=1\n|MagicalResistance=\n|Overwhelming=1\n|Nightmarish=1\n|Elusive=\n|FlavorText=\n|RulesText=\n|HorrorRating=-2\n|HorrorDamage=4\n|CombatRating=-3\n|CombatDamage=3\n|Toughness=3\n}}\n\n==Mythos Source==\n\nFlying Polyps appear in the story ''The Shadow Out of Time'' (1935), written by H.P. Lovecraft."
+}

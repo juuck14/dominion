@@ -1,0 +1,10 @@
+{
+ "title": "Kate Winthrop",
+ "pageid": 427,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Kate_Winthrop",
+ "revid": 689,
+ "rev_timestamp": "2020-11-02T18:02:23Z",
+ "retrieved_at": "2026-10-15T01:52:19+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroductionAn\n|Name=Kate Winthrop\n|GameItemType=investigator\n|Pronoun=She\n|Edition=Arkham Horror\n}}\n{{Investigator\n|CardFront=KateWinthrop\n|CardBack=KateWinthropBack\n|Name=Kate Winthrop\n|Pronoun=She\n|Occupation=the Scientist\n|Edition=Arkham Horror\n|Sanity=6\n|Stamina=4\n|Ability1=Science! - Any Phase: [[Gate]]s and [[monster]]s cannot appear in Kate's [[location]] due to her flux stabilizer.  Monsters and gates do not disappear if she enters their location, however, and monsters can move into her location as usual.\n|Home=Science Building\n|FixedPossessions=\n*$7\n*2 [[Clue token]]s (Do not place a Clue token on the Science Building to start the game.)\n|RandomPossessions=\n*1 [[Common item]]\n*1 [[Unique item]]\n*2 [[Spell]]s\n*1 [[Skill]]\n|Focus=1\n|Speed1=1\n|Speed2=2\n|Speed3=3\n|Speed4=4\n|Sneak1=5\n|Sneak2=4\n|Sneak3=3\n|Sneak4=2\n|Fight1=1\n|Fight2=2\n|Fight3=3\n|Fight4=4\n|Will1=3\n|Will2=2\n|Will3=1\n|Will4=0\n|Lore1=2\n|Lore2=3\n|Lore3=4\n|Lore4=5\n|Luck1=4\n|Luck2=3\n|Luck3=2\n|Luck4=1\n}}\n\n\n'''The Story So Far:''' A brilliant researcher, but a shy, lonely person, Kate Winthrop has been working at the Miskatonic Science Labs for 4 years now and her supervisor still doesn't know her name. That doesn't matter to her though, as she has been working to complete a private quest for most of that time. Almost 3 years ago, she watched as a device malfunctioned, and Professor Young, her long-time mentor and friend, was torn apart by an indistinct creature that shrieked and gibbered before vanishing into the night. Since then, she has delved into darker scientific studies, always hoping to find something that would allow her to find and defeat that creature along with others of its kind.\n\nTonight, her research has finally paid off, allowing her to create a device that can defeat the alien beings she has detected in Arkham!"
+}

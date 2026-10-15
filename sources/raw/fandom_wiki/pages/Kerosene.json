@@ -1,0 +1,16 @@
+{
+ "title": "Kerosene",
+ "pageid": 679,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Kerosene",
+ "revid": 1203,
+ "rev_timestamp": "2020-11-02T18:28:03Z",
+ "retrieved_at": "2026-10-15T01:52:19+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Kingsport Horror",
+  "Category:One handed weapons",
+  "Category:Pages with broken file links",
+  "Category:Physical weapons"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=Kerosene\n|Name=Kerosene\n|Pronoun=It\n|Edition=Kingsport Horror\n|ItemType=Physical weapon\n|ItemBonus=\n|ItemText='''Upkeep''': Kerosene does not refresh unless you spend $1\n|ItemHands=1\n|UsePhase=Any\n|UsePhaseText=Exhaust before making a [[Combat check]] to gain +4 to that check.\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=2\n}}"
+}

@@ -11,7 +11,7 @@
    "note": "'2005, 2006' = revised-printing rulebook (FAQ: revised printing Fall 2006)"
   },
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-14T19:38:24+00:00",
+  "generated_at": "2026-10-15T02:05:24+00:00",
   "game": "Arkham Horror (Second Edition), Fantasy Flight Games, 2005 (revised printing 2006)",
   "scope": "base game only; expansions identifiable via set ids but not integrated",
   "language": "en",
@@ -3552,50 +3552,758 @@
    "id": "mon.byakhee",
    "set_id": "base",
    "name": "Byakhee",
+   "aliases": [],
    "count": 3,
    "awareness": -2,
    "horror_rating": -1,
    "horror_damage": 1,
-   "toughness": 1,
    "combat_rating": 0,
    "combat_damage": 2,
+   "toughness": 1,
+   "movement_type": "flying",
+   "border_color": "blue",
+   "dimension_symbol": "circle",
    "abilities": [],
-   "movement_type": null,
-   "dimension_symbol": null,
-   "warning": "Values come from a partial hobby rules model (Pavelius/arkham) and are unverified by any second source."
+   "rules_text": null,
+   "flavor_text": "It shrieked and flapped its wings. I thought of the empty shell of a beetle, and the soft loam of rotting earth. It cocked its carapaced head at me, black teeth clicking against each other.",
+   "image_refs": {
+    "front": "Byakhee",
+    "back": "ByakheeBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
   },
   {
    "id": "mon.chthonian",
    "set_id": "base",
    "name": "Chthonian",
-   "count": null,
-   "awareness": null,
-   "movement_type": null,
-   "dimension_symbol": null,
+   "aliases": [],
+   "count": 2,
+   "awareness": 1,
+   "horror_rating": -2,
+   "horror_damage": 2,
+   "combat_rating": -3,
+   "combat_damage": 3,
+   "toughness": 3,
+   "movement_type": "special",
+   "border_color": "green",
+   "dimension_symbol": "triangle",
+   "abilities": [],
+   "rules_text": "Instead of moving, roll a die. On a 4-6, all investigators in Arkham lose 1 Stamina.",
+   "flavor_text": "",
+   "image_refs": {
+    "front": "Chthonian",
+    "back": "ChthonianBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.cultist",
+   "set_id": "base",
+   "name": "Cultist",
+   "aliases": [],
+   "count": 6,
+   "awareness": -3,
    "horror_rating": null,
    "horror_damage": null,
-   "toughness": null,
+   "combat_rating": 1,
+   "combat_damage": 1,
+   "toughness": 1,
+   "movement_type": "normal",
+   "border_color": "black",
+   "dimension_symbol": "crescent",
+   "abilities": [],
+   "rules_text": null,
+   "flavor_text": "Ia! Ia! Cthulhu Fthagn! Ph'nglui mglw'nfah Cthulhu R'lyeh wgah'nagl fhtagn!",
+   "image_refs": {
+    "front": "Cultist",
+    "back": "CultistBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.dark_young",
+   "set_id": "base",
+   "name": "Dark Young",
+   "aliases": [],
+   "count": 3,
+   "awareness": -2,
+   "horror_rating": 0,
+   "horror_damage": 3,
+   "combat_rating": -1,
+   "combat_damage": 3,
+   "toughness": 3,
+   "movement_type": "stationary",
+   "border_color": "yellow",
+   "dimension_symbol": "hexagon",
+   "abilities": [
+    "nightmarish_1",
+    "physical_resistance"
+   ],
+   "rules_text": null,
+   "flavor_text": "The trees trembled, leaves fluttering around us. The earth shook as the thuds of giant hooved feet grew ever closer...",
+   "image_refs": {
+    "front": "DarkYoung",
+    "back": "DarkYoungBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.dhole",
+   "set_id": "base",
+   "name": "Dhole",
+   "aliases": [],
+   "count": 1,
+   "awareness": -1,
+   "horror_rating": -1,
+   "horror_damage": 4,
+   "combat_rating": -3,
+   "combat_damage": 4,
+   "toughness": 3,
+   "movement_type": "normal",
+   "border_color": "black",
+   "dimension_symbol": "circle",
+   "abilities": [
+    "magical_resistance",
+    "nightmarish_1",
+    "overwhelming_1",
+    "physical_resistance"
+   ],
+   "rules_text": null,
+   "flavor_text": "",
+   "image_refs": {
+    "front": "Dhole",
+    "back": "DholeBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.dimensional_shambler",
+   "set_id": "base",
+   "name": "Dimensional Shambler",
+   "aliases": [],
+   "count": 2,
+   "awareness": -3,
+   "horror_rating": -2,
+   "horror_damage": 1,
+   "combat_rating": -2,
+   "combat_damage": null,
+   "toughness": 1,
+   "movement_type": "fast",
+   "border_color": "red",
+   "dimension_symbol": "square",
+   "abilities": [],
+   "rules_text": "If you fail a Combat check against Dimensional Shambler, you are lost in time and space.",
+   "flavor_text": "",
+   "image_refs": {
+    "front": "DimensionalShambler",
+    "back": "DimensionalShamblerBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.elder_thing",
+   "set_id": "base",
+   "name": "Elder Thing",
+   "aliases": [],
+   "count": 2,
+   "awareness": -2,
+   "horror_rating": -3,
+   "horror_damage": 2,
+   "combat_rating": 0,
+   "combat_damage": 1,
+   "toughness": 2,
+   "movement_type": "normal",
+   "border_color": "black",
+   "dimension_symbol": "diamond",
+   "abilities": [],
+   "rules_text": "When you fail a Combat check against Elder Thing, you must discard 1 of your Weapons or Spells (your choice), if able.",
+   "flavor_text": "",
+   "image_refs": {
+    "front": "ElderThing",
+    "back": "ElderThingBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.fire_vampire",
+   "set_id": "base",
+   "name": "Fire Vampire",
+   "aliases": [],
+   "count": 2,
+   "awareness": 0,
+   "horror_rating": null,
+   "horror_damage": null,
+   "combat_rating": -2,
+   "combat_damage": 2,
+   "toughness": 1,
+   "movement_type": "flying",
+   "border_color": "blue",
+   "dimension_symbol": "star",
+   "abilities": [
+    "ambush",
+    "physical_immunity"
+   ],
+   "rules_text": null,
+   "flavor_text": "A thousand tiny fires, the size of match-flames, swept from the night sky. The old man was suddenly radiant with light.",
+   "image_refs": {
+    "front": "FireVampire",
+    "back": "FireVampireBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.flying_polyp",
+   "set_id": "base",
+   "name": "Flying Polyp",
+   "aliases": [],
+   "count": 1,
+   "awareness": 0,
+   "horror_rating": -2,
+   "horror_damage": 4,
+   "combat_rating": -3,
+   "combat_damage": 3,
+   "toughness": 3,
+   "movement_type": "flying",
+   "border_color": "blue",
+   "dimension_symbol": "hexagon",
+   "abilities": [
+    "nightmarish_1",
+    "overwhelming_1",
+    "physical_resistance"
+   ],
+   "rules_text": null,
+   "flavor_text": "",
+   "image_refs": {
+    "front": "FlyingPolyp",
+    "back": "FlyingPolypBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.formless_spawn",
+   "set_id": "base",
+   "name": "Formless Spawn",
+   "aliases": [],
+   "count": 2,
+   "awareness": 0,
+   "horror_rating": -1,
+   "horror_damage": 2,
+   "combat_rating": -2,
+   "combat_damage": 2,
+   "toughness": 2,
+   "movement_type": "normal",
+   "border_color": "black",
+   "dimension_symbol": "hexagon",
+   "abilities": [
+    "physical_immunity"
+   ],
+   "rules_text": null,
+   "flavor_text": "From the darkened alley a patch of darkness seemed to detach itself, curling along the bricks and rising to block our path.",
+   "image_refs": {
+    "front": "FormlessSpawn",
+    "back": "FormlessSpawnBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.ghost",
+   "set_id": "base",
+   "name": "Ghost",
+   "aliases": [],
+   "count": 3,
+   "awareness": -3,
+   "horror_rating": -2,
+   "horror_damage": 2,
+   "combat_rating": -3,
+   "combat_damage": 2,
+   "toughness": 1,
+   "movement_type": "stationary",
+   "border_color": "yellow",
+   "dimension_symbol": "crescent",
+   "abilities": [
+    "physical_immunity",
+    "undead"
+   ],
+   "rules_text": null,
+   "flavor_text": "",
+   "image_refs": {
+    "front": "Ghost",
+    "back": "GhostBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.ghoul",
+   "set_id": "base",
+   "name": "Ghoul",
+   "aliases": [],
+   "count": 3,
+   "awareness": -3,
+   "horror_rating": 0,
+   "horror_damage": 1,
+   "combat_rating": -1,
+   "combat_damage": 1,
+   "toughness": 1,
+   "movement_type": "normal",
+   "border_color": "black",
+   "dimension_symbol": "hexagon",
+   "abilities": [
+    "ambush"
+   ],
+   "rules_text": null,
+   "flavor_text": "Most of the bodies, while roughly bipedal, had a forward slumping, and vaguely canine cast. The texture of the majority was a kind of unpleasant rubberiness.",
+   "image_refs": {
+    "front": "Ghoul",
+    "back": "GhoulBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.god_of_the_bloody_tongue",
+   "set_id": "base",
+   "name": "God of the Bloody Tongue",
+   "aliases": [
+    "God Of The Bloody Tongue"
+   ],
+   "count": 1,
+   "awareness": 1,
+   "horror_rating": -3,
+   "horror_damage": 3,
+   "combat_rating": -4,
+   "combat_damage": 4,
+   "toughness": 4,
+   "movement_type": "normal",
+   "border_color": "black",
+   "dimension_symbol": "triangle",
+   "abilities": [
+    "endless",
+    "mask",
+    "nightmarish_1",
+    "overwhelming_1"
+   ],
+   "rules_text": null,
+   "flavor_text": "",
+   "image_refs": {
+    "front": "GodOfTheBloodyTongue",
+    "back": "GodOfTheBloodyTongueBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.gug",
+   "set_id": "base",
+   "name": "Gug",
+   "aliases": [],
+   "count": 2,
+   "awareness": -2,
+   "horror_rating": -1,
+   "horror_damage": 2,
+   "combat_rating": -2,
+   "combat_damage": 4,
+   "toughness": 3,
+   "movement_type": "normal",
+   "border_color": "black",
+   "dimension_symbol": "slash",
+   "abilities": [
+    "overwhelming_1"
+   ],
+   "rules_text": null,
+   "flavor_text": "I caught confused glimpses of a terrible, wrongly-angled mouth, multi-jointed arms, and protruding eyes as big as a man's head.",
+   "image_refs": {
+    "front": "Gug",
+    "back": "GugBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.haunter_of_the_dark",
+   "set_id": "base",
+   "name": "Haunter of the Dark",
+   "aliases": [],
+   "count": 1,
+   "awareness": -3,
+   "horror_rating": -2,
+   "horror_damage": 2,
+   "combat_rating": -2,
+   "combat_damage": 2,
+   "toughness": 2,
+   "movement_type": "flying",
+   "border_color": "blue",
+   "dimension_symbol": "square",
+   "abilities": [
+    "endless",
+    "mask"
+   ],
+   "rules_text": "If the Blackest Night card is in play, Haunter of the Dark's fight rating increases to -5.",
+   "flavor_text": "",
+   "image_refs": {
+    "front": "HaunterOfTheDark",
+    "back": "HaunterOfTheDarkBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.high_priest",
+   "set_id": "base",
+   "name": "High Priest",
+   "aliases": [],
+   "count": 1,
+   "awareness": -2,
+   "horror_rating": 1,
+   "horror_damage": 1,
+   "combat_rating": -2,
+   "combat_damage": 2,
+   "toughness": 2,
+   "movement_type": "normal",
+   "border_color": "black",
+   "dimension_symbol": "plus",
+   "abilities": [
+    "magical_immunity"
+   ],
+   "rules_text": null,
+   "flavor_text": "&quot;We will not cease our struggle,&quot; intoned the robed figure, &quot;Until we have built Carcosa upon this land of ruined Reason.&quot;",
+   "image_refs": {
+    "front": "HighPriest",
+    "back": "HighPriestBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.hound_of_tindalos",
+   "set_id": "base",
+   "name": "Hound of Tindalos",
+   "aliases": [],
+   "count": 2,
+   "awareness": -1,
+   "horror_rating": -2,
+   "horror_damage": 4,
+   "combat_rating": -1,
+   "combat_damage": 3,
+   "toughness": 2,
+   "movement_type": "special",
+   "border_color": "green",
+   "dimension_symbol": "square",
+   "abilities": [
+    "physical_immunity"
+   ],
+   "rules_text": "When it moves, the Hound of Tindalos moves directly to the nearest investigator inside a location in Arkham (Other than the Hospital or Asylum).",
+   "flavor_text": "",
+   "image_refs": {
+    "front": "HoundOfTindalos",
+    "back": "HoundOfTindalosBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.maniac",
+   "set_id": "base",
+   "name": "Maniac",
+   "aliases": [],
+   "count": 3,
+   "awareness": -1,
+   "horror_rating": null,
+   "horror_damage": null,
+   "combat_rating": 1,
+   "combat_damage": 1,
+   "toughness": 1,
+   "movement_type": "normal",
+   "border_color": "black",
+   "dimension_symbol": "crescent",
+   "abilities": [],
+   "rules_text": "If the terror level is at least 6, Maniac's fight rating increases to -2, his combat damage increases to 3 Stamina, and he gains Endless.",
+   "flavor_text": "",
+   "image_refs": {
+    "front": "Maniac",
+    "back": "ManiacBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.mi_go",
+   "set_id": "base",
+   "name": "Mi-Go",
+   "aliases": [],
+   "count": 3,
+   "awareness": -2,
+   "horror_rating": -1,
+   "horror_damage": 2,
+   "combat_rating": 0,
+   "combat_damage": 1,
+   "toughness": 1,
+   "movement_type": "flying",
+   "border_color": "blue",
+   "dimension_symbol": "circle",
+   "abilities": [],
+   "rules_text": "If you pass a Combat check against Migo, return it to the box and draw 1 Unique Item.",
+   "flavor_text": "",
+   "image_refs": {
+    "front": "Mi-Go",
+    "back": "Mi-GoBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.nightgaunt",
+   "set_id": "base",
+   "name": "Nightgaunt",
+   "aliases": [],
+   "count": 2,
+   "awareness": -2,
+   "horror_rating": -1,
+   "horror_damage": 1,
+   "combat_rating": -2,
+   "combat_damage": null,
+   "toughness": 2,
+   "movement_type": "flying",
+   "border_color": "blue",
+   "dimension_symbol": "slash",
+   "abilities": [],
+   "rules_text": "When you fail a Combat check against Nightgaunt, you are drawn through the nearest open gate. If two or more gates are the same distance from you, you choose which gate you are drawn through.",
+   "flavor_text": "",
+   "image_refs": {
+    "front": "Nightgaunt",
+    "back": "NightgauntBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.shoggoth",
+   "set_id": "base",
+   "name": "Shoggoth",
+   "aliases": [],
+   "count": 2,
+   "awareness": -1,
+   "horror_rating": -1,
+   "horror_damage": 3,
+   "combat_rating": -1,
+   "combat_damage": 3,
+   "toughness": 3,
+   "movement_type": "fast",
+   "border_color": "red",
+   "dimension_symbol": "diamond",
+   "abilities": [
+    "nightmarish_1",
+    "physical_resistance"
+   ],
+   "rules_text": null,
+   "flavor_text": "The stench was unbearable, and rising to the surface came a terrible cry, \"Tekeli-li! Tekeli-li!\"",
+   "image_refs": {
+    "front": "Shoggoth",
+    "back": "ShoggothBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.star_spawn",
+   "set_id": "base",
+   "name": "Star Spawn",
+   "aliases": [],
+   "count": 2,
+   "awareness": -1,
+   "horror_rating": -3,
+   "horror_damage": 2,
+   "combat_rating": -3,
+   "combat_damage": 3,
+   "toughness": 3,
+   "movement_type": "normal",
+   "border_color": "black",
+   "dimension_symbol": "plus",
+   "abilities": [],
+   "rules_text": null,
+   "flavor_text": "The bosun was the only one left alive. We dragged him screaming from the cargo hold. \"That thing!\" he wept, \"Not a whale... not an island...\"",
+   "image_refs": {
+    "front": "StarSpawn",
+    "back": "StarSpawnBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.the_black_man",
+   "set_id": "base",
+   "name": "The Black Man",
+   "aliases": [],
+   "count": 1,
+   "awareness": -3,
+   "horror_rating": null,
+   "horror_damage": null,
    "combat_rating": null,
    "combat_damage": null,
-   "abilities": []
+   "toughness": 1,
+   "movement_type": "normal",
+   "border_color": "black",
+   "dimension_symbol": "crescent",
+   "abilities": [
+    "endless",
+    "mask"
+   ],
+   "rules_text": "Before making a Horror check, pass a Luck (-1) check or be devoured. If you pass, gain 2 Clue tokens. In either case, return the Black Man to the cup.",
+   "flavor_text": "",
+   "image_refs": {
+    "front": "TheBlackMan",
+    "back": "TheBlackManBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.the_bloated_woman",
+   "set_id": "base",
+   "name": "The Bloated Woman",
+   "aliases": [],
+   "count": 1,
+   "awareness": -1,
+   "horror_rating": -1,
+   "horror_damage": 2,
+   "combat_rating": -2,
+   "combat_damage": 2,
+   "toughness": 2,
+   "movement_type": "normal",
+   "border_color": "black",
+   "dimension_symbol": "hexagon",
+   "abilities": [
+    "endless",
+    "mask"
+   ],
+   "rules_text": "Before making a Horror check, pass a Will(-2) check or automatically fail the Horror check and the Combat check.",
+   "flavor_text": "",
+   "image_refs": {
+    "front": "TheBloatedWoman",
+    "back": "TheBloatedWomanBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.the_dark_pharaoh",
+   "set_id": "base",
+   "name": "The Dark Pharaoh",
+   "aliases": [
+    "The Dark Pharoah"
+   ],
+   "count": 1,
+   "awareness": -1,
+   "horror_rating": -1,
+   "horror_damage": 1,
+   "combat_rating": -3,
+   "combat_damage": 3,
+   "toughness": 2,
+   "movement_type": "normal",
+   "border_color": "black",
+   "dimension_symbol": "slash",
+   "abilities": [
+    "endless",
+    "mask"
+   ],
+   "rules_text": "Use Lore in combat with the Dark Pharoah instead of Fight.",
+   "flavor_text": "",
+   "image_refs": {
+    "front": "TheDarkPharoah",
+    "back": "TheDarkPharoahBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.vampire",
+   "set_id": "base",
+   "name": "Vampire",
+   "aliases": [],
+   "count": 1,
+   "awareness": -3,
+   "horror_rating": 0,
+   "horror_damage": 2,
+   "combat_rating": -3,
+   "combat_damage": 3,
+   "toughness": 2,
+   "movement_type": "normal",
+   "border_color": "black",
+   "dimension_symbol": "crescent",
+   "abilities": [
+    "physical_resistance",
+    "undead"
+   ],
+   "rules_text": null,
+   "flavor_text": "It was a beast born in the grave. It stretched its hands toward us and curled its lips, drawn to the blood in our veins.",
+   "image_refs": {
+    "front": "Vampire",
+    "back": "VampireBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.warlock",
+   "set_id": "base",
+   "name": "Warlock",
+   "aliases": [],
+   "count": 2,
+   "awareness": -2,
+   "horror_rating": -1,
+   "horror_damage": 1,
+   "combat_rating": -3,
+   "combat_damage": 1,
+   "toughness": 2,
+   "movement_type": "stationary",
+   "border_color": "yellow",
+   "dimension_symbol": "circle",
+   "abilities": [
+    "magical_immunity"
+   ],
+   "rules_text": "If you pass a Combat check against Warlock, return it to the box and gain 2 Clue tokens.",
+   "flavor_text": "",
+   "image_refs": {
+    "front": "Warlock",
+    "back": "WarlockBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
+  },
+  {
+   "id": "mon.witch",
+   "set_id": "base",
+   "name": "Witch",
+   "aliases": [],
+   "count": 2,
+   "awareness": -1,
+   "horror_rating": null,
+   "horror_damage": null,
+   "combat_rating": -3,
+   "combat_damage": 2,
+   "toughness": 1,
+   "movement_type": "normal",
+   "border_color": "black",
+   "dimension_symbol": "circle",
+   "abilities": [
+    "magical_resistance"
+   ],
+   "rules_text": null,
+   "flavor_text": "She was lovely and terrible all at once. A strange light shone in her eyes as she chanted, \"Ia! Ia! Shub-Niggurath! The Goat with a Thousand Young!\"",
+   "image_refs": {
+    "front": "Witch",
+    "back": "WitchBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
   },
   {
    "id": "mon.zombie",
    "set_id": "base",
    "name": "Zombie",
-   "count": 2,
+   "aliases": [],
+   "count": 3,
    "awareness": 1,
-   "horror_rating": -2,
-   "horror_damage": 2,
-   "toughness": 3,
-   "combat_rating": -3,
-   "combat_damage": 3,
+   "horror_rating": -1,
+   "horror_damage": 1,
+   "combat_rating": -1,
+   "combat_damage": 2,
+   "toughness": 1,
+   "movement_type": "normal",
+   "border_color": "black",
+   "dimension_symbol": "crescent",
    "abilities": [
     "undead"
    ],
-   "movement_type": null,
-   "dimension_symbol": null,
-   "warning": "Values come from a partial hobby rules model (Pavelius/arkham) and are unverified by any second source."
+   "rules_text": null,
+   "flavor_text": "",
+   "image_refs": {
+    "front": "Zombie",
+    "back": "ZombieBack",
+    "note": "wiki file names (File:<name>.png); image host not reachable from the build environment"
+   }
   }
  ],
  "cards": [

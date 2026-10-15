@@ -1,0 +1,14 @@
+{
+ "title": "Leo Anderson",
+ "pageid": 920,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Leo_Anderson",
+ "revid": 1687,
+ "rev_timestamp": "2020-11-02T18:28:27Z",
+ "retrieved_at": "2026-10-15T01:52:19+00:00",
+ "categories": [
+  "Category:Dunwich Horror",
+  "Category:Investigators",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroductionAn\n|Name=Leo Anderson\n|GameItemType=investigator\n|Pronoun=He\n|Edition=Dunwich Horror\n}}\n{{Investigator\n|CardFront=LeoAnderson\n|CardBack=LeoAndersonBack\n|Name=Leo Anderson\n|Pronoun=He\n|Occupation=the Expedition Leader\n|Edition=Dunwich Horror\n|Sanity=5\n|Stamina=5\n|Ability1=Leadership - Any Phase: Once per turn, Leo may prevent 1 point of [[Stamina]] or [[Sanity]] loss for any [[investigator]].\n|Home=River Docks\n|FixedPossessions=\n*$5\n*2 [[Clue token]]s\n|RandomPossessions=\n*1 [[Ally]]\n*2 [[Common item]]s\n*1 [[Skill]]\n|Focus=2\n|Speed1=1\n|Speed2=2\n|Speed3=3\n|Speed4=4\n|Sneak1=4\n|Sneak2=3\n|Sneak3=2\n|Sneak4=1\n|Fight1=1\n|Fight2=2\n|Fight3=3\n|Fight4=4\n|Will1=4\n|Will2=3\n|Will3=2\n|Will4=1\n|Lore1=1\n|Lore2=2\n|Lore3=3\n|Lore4=4\n|Luck1=4\n|Luck2=3\n|Luck3=2\n|Luck4=1\n}}\n\n\n'''The Story So Far:''' Anderson took seven men with him into the Yucatan. Two came back-- more or less. Technically, three men made it out of that jungle alive, but Mitch Brown's not exactly himself anymore. As a point of fact, he's a blithering madman now, and has already been shipped off to the [[Arkham Asylum|asylum]].\n\nLeo couldn't read the tablets they found in those ruins-- only Dr. Volk could, of the seven of them-- but he's holding the good doctor's notes in his hand. The ones Volk took before he went mad. Before he killed two of Anderson's men.\n\nNow Anderson's fresh off the boat and he's got word that Dr. Philips, the man who organized the Yucatan expedition in the first place, is dead. Philips is dead, and that leaves Anderson holding the scribblings of a murderous lunatic-- scribblings with today's date circled in blood."
+}

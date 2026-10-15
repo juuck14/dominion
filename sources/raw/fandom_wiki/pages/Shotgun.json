@@ -1,0 +1,10 @@
+{
+ "title": "Shotgun",
+ "pageid": 414,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Shotgun",
+ "revid": 663,
+ "rev_timestamp": "2020-11-02T18:02:22Z",
+ "retrieved_at": "2026-10-15T02:00:39+00:00",
+ "categories": [],
+ "wikitext": "{{CommonItemPage\n|ImageFront=Shotgun\n|Name=Shotgun\n|Pronoun=It\n|Edition=Arkham Horror\n|ItemType=Physical weapon\n|ItemBonus=+4 [[Combat check]]\n|ItemText=\n|ItemHands=2\n|UsePhase=Any Phase\n|UsePhaseText=When using Shotgun in Combat, all 6's rolled count as 2 successes.\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=6\n}}"
+}

@@ -1,0 +1,16 @@
+{
+ "title": "Crowbar",
+ "pageid": 691,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Crowbar",
+ "revid": 1227,
+ "rev_timestamp": "2020-11-02T18:28:04Z",
+ "retrieved_at": "2026-10-15T01:52:16+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:One handed weapons",
+  "Category:Pages with broken file links",
+  "Category:Physical weapons",
+  "Category:The Black Goat of the Woods"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=Crowbar\n|Name=Crowbar\n|Pronoun=It\n|Edition=The Black Goat of the Woods\n|ItemType=Physical weapon\n|ItemBonus=+2 to [[Combat check]]s\n|ItemText=\n|ItemHands=1\n|UsePhase=Movement\n|UsePhaseText=Discard Crowbar to make a [[Sneak check|Sneak (-2) check]].  Draw a [[Common item]] for each success you roll.  If you fail, you are [[arrest]]ed.\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=4\n}}"
+}

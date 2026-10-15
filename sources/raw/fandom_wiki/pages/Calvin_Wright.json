@@ -1,0 +1,14 @@
+{
+ "title": "Calvin Wright",
+ "pageid": 516,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Calvin_Wright",
+ "revid": 875,
+ "rev_timestamp": "2020-11-02T18:02:45Z",
+ "retrieved_at": "2026-10-15T01:52:16+00:00",
+ "categories": [
+  "Category:Investigators",
+  "Category:Scenarios",
+  "Category:Stubs"
+ ],
+ "wikitext": "{{stub}}\n\n'''Calvin Wright''' is an [[investigator]]. He first appeared in [[Arkham League Session 2]], Chapter Ten: [[End Game]]\n\n{{ImageRight\n|Image=CalvinWright\n|ImageText=Calvin Wright\n}}\n\n==Sheet info==\n'''Occupation:''' the Damned\n\n'''Home:''' [[Train Station]]\n\n'''Unique Ability:''' Been Through Hell - Calvin's Stats may never be reduced. Any time his stats would be reduced, he may recover 1 Sanity or Stamina.\n\nFriend Indeed - Calvin may give Investigators in his same location Sanity or Stamina, as if it were an [[item]].\n\n;Status\n:*[[Sanity]]<nowiki>:</nowiki> 4\n:*[[Stamina]]<nowiki>:</nowiki> 5\n\n;Fixed Possessions\n*$0\n*1 [[Common Item]] ([[.45 Automatic]])\n*1 [[Unique Item]] ([[Enchanted Knife]])\n\n;Random Possessions\n*1 [[Common item]]\n*1 [[Skill]]\n\n'''[[Focus]]: 2'''\n\n{| class=\"InvestigatorSkills\"\n|+ Skills\n|- class=\"Speed\"\n| [[Speed]] || 2 || 3 || 4 || 5\n|- class=\"Sneak\"\n| [[Sneak]] || 3 || 2 || 2 || 1\n|- class=\"Fight\"\n| [[Fight]] || 4 || 5 || 6 || 7\n|- class=\"Will\"\n| [[Will]] || 3 || 2 || 1 || 0\n|- class=\"Lore\"\n| [[Lore]] || 0 || 1 || 2 || 3\n|- class=\"Luck\"\n| [[Luck]] || 5 || 4 || 3 || 2\n|}\n\n===Personal Story===\nThere are no Personal Story cards for Calvin (as of 8 August, 2009).\n \n'''The Story So Far:''' Calvin's sheet has no reverse side (as of 8 August, 2009). See the 2nd League posts on FFG's site ('News' section) for Calvin's unfolding tale.\n\n===Errata===\nAs per [http://www.fantasyflightgames.com/edge_foros_discusion.asp?efid=44&efcid=1&efidt=59701 the official Arkham League FAQ], Calvin's \"Been Through Hell\" ability applies whenever a special effect would decrease one of his statistics, including maximum Sanity or maximum Stamina (but not including ''current'' Sanity or Stamina) below its normal level. It does not apply when losing a bonus to that statistic above his normal maximum (for instance, when discarding [[Duke]]). The ability has no effect in a [[Final Battle]] against [[Cthulhu]].\n\n[[Category:Scenarios]]\n[[Category:Investigators]]"
+}

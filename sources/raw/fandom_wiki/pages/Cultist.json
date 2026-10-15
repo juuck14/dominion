@@ -1,0 +1,10 @@
+{
+ "title": "Cultist",
+ "pageid": 435,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Cultist",
+ "revid": 705,
+ "rev_timestamp": "2020-11-02T18:02:24Z",
+ "retrieved_at": "2026-10-15T01:52:16+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=Cultist\n|GameItemType=monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Cultist\n|MarkerFrontImage=Cultist\n|MarkerBackImage=CultistBack\n|AHCount=6\n|DHCount=1\n|KHCount=1\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|IHCount=1\n|Awareness=-3\n|Movement=Black\n|HomeDimension=Crescent\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=Ia! Ia! Cthulhu Fthagn! Ph'nglui mglw'nfah Cthulhu R'lyeh wgah'nagl fhtagn!\n|RulesText=\n|HorrorRating=\n|HorrorDamage=\n|CombatRating=+1\n|CombatDamage=1\n|Toughness=1\n}}"
+}

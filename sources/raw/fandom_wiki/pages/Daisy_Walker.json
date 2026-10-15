@@ -1,0 +1,13 @@
+{
+ "title": "Daisy Walker",
+ "pageid": 1255,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Daisy_Walker",
+ "revid": 2357,
+ "rev_timestamp": "2020-11-02T18:29:02Z",
+ "retrieved_at": "2026-10-15T01:52:16+00:00",
+ "categories": [
+  "Category:Investigators",
+  "Category:Kingsport Horror"
+ ],
+ "wikitext": "{{GameItemIntroductionAn\n|Name=Daisy Walker\n|GameItemType=investigator\n|Pronoun=She\n|Edition=Kingsport Horror\n}}\n{{Investigator\n|CardFront=DaisyWalker\n|CardBack=DaisyWalkerBack\n|Name=Daisy Walker\n|Pronoun=She\n|Occupation=the Librarian\n|Edition=Kingsport Horror\n|Sanity=5\n|Stamina=5\n|Ability1=Careful Reader - Any Phase: Daisy never loses [[Sanity]] from reading a [[Tome]].\n\nIron Will - Any Phase: Daisy's Sanity cost to cast [[spell]]s is always reduced by 1.\n|Home=Library\n|FixedPossessions=\n*$5\n*1 [[Clue token]]\n*1 [[Unique item]] ([[Livre d'Ivon]])\n|RandomPossessions=\n*1 [[Common item]]\n*1 [[Unique item]]\n*1 [[Spell]]\n*1 [[Skill]]\n|Focus=2\n|Speed1=1\n|Speed2=2\n|Speed3=3\n|Speed4=4\n|Sneak1=4\n|Sneak2=3\n|Sneak3=2\n|Sneak4=1\n|Fight1=0\n|Fight2=1\n|Fight3=2\n|Fight4=3\n|Will1=5\n|Will2=4\n|Will3=3\n|Will4=2\n|Lore1=2\n|Lore2=3\n|Lore3=4\n|Lore4=5\n|Luck1=4\n|Luck2=3\n|Luck3=2\n|Luck4=1\n}}\n\n\n'''The Story So Far:''' Books have always been the most important thing in Daisy's life. She started reading tales of horror at a young age, thrilling to the terror of Edgar Allen Poe, of Stoker's ''Dracula''. She explored in fiction what she abhorred in life-- horror, violence, fear.\n\nThen, she stumbled across the John Dee edition of the ''[[Necronomicon]]''. It was macabre indeed. It was also blasphemous, unholy, and too awful to be real. ''Frankenstein '' and \"The Raven\" were forgotten. The chills that ran down Daisy's spine were not those of a forbidden pleasure. A new horror was born in her mind, a terror that such things could be.\n\nThere were more books after that-- ''[[De Vermiis Mysteriis]]'', ''[[Cultes des Goules]]''-- each worse than the last. She read them all in a mounting panic. Could they be real? Could the things they spoke of be true?\n\nNow she knows it to be so. The Thing that appeared in library was something she'd read about in the ''Ponape Scripture''. If the Thing was real, then everything she'd read about might be real... in which case Daisy is the only one who knows how to stop it."
+}

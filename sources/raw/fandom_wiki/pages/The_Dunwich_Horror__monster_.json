@@ -1,0 +1,13 @@
+{
+ "title": "The Dunwich Horror (monster)",
+ "pageid": 875,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/The_Dunwich_Horror_%28monster%29",
+ "revid": 1597,
+ "rev_timestamp": "2020-11-02T18:28:21Z",
+ "retrieved_at": "2026-10-15T01:52:22+00:00",
+ "categories": [
+  "Category:Dunwich Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=The Dunwich Horror\n|GameItemType=monster\n|Pronoun=It\n|Edition=Dunwich Horror\n}}\n{{MonsterInfoBox\n|Name=The Dunwich Horror\n|MarkerFrontImage=TheDunwichHorror\n|MarkerBackImage=TheDunwichHorrorBack\n|AHCount=0\n|DHCount=1\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=+2\n|Movement=Green\n|HomeDimension=Crescent\n|Spawn=1\n|StartingLocation=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=Instead of moving, roll a die. On a 4-6, add a [[doom token]] to the [[doom track]].\nBefore making a '''[[Horror check]]''' against the Dunwich Horror, draw a Dunwich Horror card to determine its attributes.\n|HorrorRating=*\n|HorrorDamage=\n|CombatRating=*\n|CombatDamage=\n|Toughness=5\n}}\n\n==Mythos Source==\nThe Dunwich Horror first appeared in the story ''The Dunwich Horror'', written by H.P. Lovecraft (1928).\n\n== Clarification ==\nIf you fail an [[Evade check]], draw a Dunwich Horror card (if not drawn already) and take the printed combat damage.\n\n==The Dunwich Horror Cards==\n*[[Image:TheDunwichHorrorCard1.png]]\n*[[Image:TheDunwichHorrorCard2.png]]\n*[[Image:TheDunwichHorrorCard3.png]]\n*[[Image:TheDunwichHorrorCard4.png]]\n*[[Image:TheDunwichHorrorCard5.png]]\n*[[Image:TheDunwichHorrorCard6.png]]\n*[[Image:TheDunwichHorrorCard7.png]]"
+}

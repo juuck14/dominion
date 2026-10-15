@@ -1,0 +1,10 @@
+{
+ "title": ".38 Revolver",
+ "pageid": 398,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/.38_Revolver",
+ "revid": 631,
+ "rev_timestamp": "2020-11-02T18:02:20Z",
+ "retrieved_at": "2026-10-15T02:00:39+00:00",
+ "categories": [],
+ "wikitext": "{{CommonItemPage\n|ImageFront=38Revolver\n|Name=.38 Revolver\n|Pronoun=It\n|Edition=Arkham Horror\n|ItemType=Physical weapon\n|ItemBonus=+3 [[Combat check]]\n|ItemText=\n|ItemHands=1\n|UsePhase=\n|UsePhaseText=\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=4\n}}"
+}

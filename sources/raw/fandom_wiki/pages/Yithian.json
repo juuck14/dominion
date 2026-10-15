@@ -1,0 +1,13 @@
+{
+ "title": "Yithian",
+ "pageid": 1322,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Yithian",
+ "revid": 2491,
+ "rev_timestamp": "2020-11-02T18:29:08Z",
+ "retrieved_at": "2026-10-15T01:52:23+00:00",
+ "categories": [
+  "Category:Kingsport Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Yithian\n|GameItemType=monster\n|Pronoun=It\n|Edition=Kingsport Horror\n}}\n{{MonsterInfoBox\n|Name=Yithian\n|MarkerFrontImage=Yithian\n|MarkerBackImage=YithianBack\n|AHCount=0\n|DHCount=0\n|KHCount=2\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-1\n|Movement=Black\n|HomeDimension=Triangle\n|Spawn=\n|StartingLocation=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=If you fail a [[Horror check]] against Yithian, you are [[Lost in Time and Space]].\n|HorrorRating=-1\n|HorrorDamage=\n|CombatRating=-2\n|CombatDamage=2\n|Toughness=3\n}}\n\n==Mythos Source==\nThe Yithians first appeared in ''The Shadow Out of Time'' (1935), written by H.P. Lovecraft."
+}

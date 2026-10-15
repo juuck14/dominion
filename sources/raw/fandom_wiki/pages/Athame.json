@@ -1,0 +1,16 @@
+{
+ "title": "Athame",
+ "pageid": 682,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Athame",
+ "revid": 1209,
+ "rev_timestamp": "2020-11-02T18:28:03Z",
+ "retrieved_at": "2026-10-15T01:52:15+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:One handed weapons",
+  "Category:Pages with broken file links",
+  "Category:Physical weapons",
+  "Category:The King in Yellow"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=Athame\n|Name=Athame\n|Pronoun=It\n|Edition=The King in Yellow\n|ItemType=Physical weapon\n|ItemBonus=<br />\n*+1 to [[Combat check]]\n*+3 instead if opponent has [[Magical Resistance]]\n*+6 instead if opponent has [[Magical Immunity]]\n|ItemText=\n|ItemHands=1\n|UsePhase=\n|UsePhaseText=\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=3\n}}"
+}

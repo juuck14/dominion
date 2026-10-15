@@ -1,0 +1,13 @@
+{
+ "title": "Proto-Shoggoth",
+ "pageid": 1241,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Proto-Shoggoth",
+ "revid": 2329,
+ "rev_timestamp": "2020-11-02T18:29:00Z",
+ "retrieved_at": "2026-10-15T01:52:20+00:00",
+ "categories": [
+  "Category:Innsmouth Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Proto-Shoggoth\n|GameItemType=monster\n|Pronoun=It\n|Edition=Innsmouth Horror\n}}\n{{MonsterInfoBox\n|Name=Proto-Shoggoth\n|MarkerFrontImage=Proto-Shoggoth\n|MarkerBackImage=Proto-ShoggothBack\n|AHCount=0\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|IHCount=3\n|Awareness=-2\n|Movement=Red\n|HomeDimension=Diamond\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|WeaponImmunity=\n|PhysicalResistance=1\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=''The thing roiled and bubbled malignantly as it poured down the street towards us, eyes appearing and vanishing on its skin as it came.''\n|RulesText=\n|HorrorRating=+0\n|HorrorDamage=2\n|CombatRating=+0\n|CombatDamage=2\n|Toughness=3\n}}"
+}

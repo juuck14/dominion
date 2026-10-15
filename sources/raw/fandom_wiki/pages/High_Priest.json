@@ -1,0 +1,10 @@
+{
+ "title": "High Priest",
+ "pageid": 445,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/High_Priest",
+ "revid": 725,
+ "rev_timestamp": "2020-11-02T18:02:25Z",
+ "retrieved_at": "2026-10-15T01:52:18+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=High Priest\n|GameItemType=monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=High Priest\n|MarkerFrontImage=HighPriest\n|MarkerBackImage=HighPriestBack\n|AHCount=1\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-2\n|Movement=Black\n|HomeDimension=Plus\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=1\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=''&quot;We will not cease our struggle,&quot; intoned the robed figure, &quot;Until we have built Carcosa upon this land of ruined Reason.&quot;''\n|RulesText=\n|HorrorRating=+1\n|HorrorDamage=1\n|CombatRating=-2\n|CombatDamage=2\n|Toughness=2\n}}"
+}

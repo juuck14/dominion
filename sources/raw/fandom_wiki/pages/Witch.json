@@ -1,0 +1,10 @@
+{
+ "title": "Witch",
+ "pageid": 327,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Witch",
+ "revid": 489,
+ "rev_timestamp": "2020-11-02T18:02:13Z",
+ "retrieved_at": "2026-10-15T01:52:23+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=Witch\n|GameItemType=monster\n|Pronoun=She\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Witch\n|MarkerFrontImage=Witch\n|MarkerBackImage=WitchBack\n|AHCount=2\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-1\n|Movement=Black\n|HomeDimension=Circle\n|Spawn=\n|StartingLocation=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=1\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=She was lovely and terrible all at once. A strange light shone in her eyes as she chanted, \"Ia! Ia! Shub-Niggurath! The Goat with a Thousand Young!\"\n|RulesText=\n|HorrorRating=\n|HorrorDamage=\n|CombatRating=-3\n|CombatDamage=2\n|Toughness=1\n}}"
+}

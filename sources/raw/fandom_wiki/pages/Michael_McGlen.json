@@ -1,0 +1,10 @@
+{
+ "title": "Michael McGlen",
+ "pageid": 429,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Michael_McGlen",
+ "revid": 693,
+ "rev_timestamp": "2020-11-02T18:02:23Z",
+ "retrieved_at": "2026-10-15T01:52:20+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroductionAn\n|Name=Michael McGlen\n|GameItemType=investigator\n|Pronoun=He\n|Edition=Arkham Horror\n}}\n{{Investigator\n|CardFront=MichaelMcGlen\n|CardBack=MichaelMcGlenBack\n|Name=Michael McGlen\n|Pronoun=He\n|Occupation=the Gangster\n|Edition=Arkham Horror\n|Sanity=3\n|Stamina=7\n|Ability1=Strong Body - Any Phase: Michael reduces all [[Stamina]] losses he suffers by 1, to a minimum of 0.\n|Home=Ma's Boarding House\n|FixedPossessions=\n*$8\n*2 [[Common item]]s ([[Dynamite]], [[Tommy Gun]])\n|RandomPossessions=\n*1 [[Unique item]]\n*1 [[Skill]]\n|Focus=1\n|Speed1=2\n|Speed2=3\n|Speed3=4\n|Speed4=5\n|Sneak1=4\n|Sneak2=3\n|Sneak3=2\n|Sneak4=1\n|Fight1=3\n|Fight2=4\n|Fight3=5\n|Fight4=6\n|Will1=4\n|Will2=3\n|Will3=2\n|Will4=1\n|Lore1=0\n|Lore2=1\n|Lore3=2\n|Lore4=3\n|Luck1=3\n|Luck2=2\n|Luck3=1\n|Luck4=0\n}}\n\n\n'''The Story So Far:'''\n\nAs a soldier in the O'Bannion gang, Michael didn't really believe in all this voodoo mumbo jumbo around town. Or at least, he didn't until the night of the Foreman job, when he saw Fast Louie Farrell pulled screaming into the river by a scaly green creature. As they say, seeing is believing and Michael is starting to believe.\n\n\nNow, he has gathered his belongings together in the room that he rents at Ma's Boarding House. Louie was a friend of his, and he won't rest until he finds out what's happening in this town and avenges his buddy ...\n\n==Clarification==\nThe Strong Body ability only applies to involuntary losses. Voluntary expenditures to gain some benefit are not affected. (Source: Page 10 of The Dunwich Horror Rulebook)\n\nMichael McGlen \"Fails\" his Personal Story if he ever gains $5 or more at one time."
+}

@@ -1,0 +1,14 @@
+{
+ "title": "Silas Marsh",
+ "pageid": 1224,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Silas_Marsh",
+ "revid": 2295,
+ "rev_timestamp": "2020-11-02T18:28:58Z",
+ "retrieved_at": "2026-10-15T01:52:21+00:00",
+ "categories": [
+  "Category:Innsmouth Horror",
+  "Category:Investigators",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroductionAn\n|Name=Silas Marsh\n|GameItemType=investigator\n|Pronoun=He\n|Edition=Innsmouth Horror\n}}\n{{Investigator\n|CardFront=SilasMarsh\n|CardBack=SilasMarshBack\n|Name=Silas Marsh\n|Pronoun=He\n|Occupation=the Sailor\n|Edition=Innsmouth Horror\n|Sanity=4\n|Stamina=6\n|Ability1=Able Seaman - [[Movement Phase|Movement]]: When in an [[Aquatic]] [[location]], Silas may pay 2 [[movement]] points to move to any other aquatic location. Silas also gains a +2 bonus to all [[skill check]]s in aquatic locations.\n\nTainted Blood - Any Phase: Each time Silas draws one or more [[Innsmouth Look]] cards, he must draw one extra Innsmouth Look card.\n|Home=River Docks\n|FixedPossessions=\n*$7\n*2 [[Clue token]]s\n*1 [[Common item]] ([[Cavalry Saber]])\n|RandomPossessions=\n*2 [[Common item]]s\n*1 [[Unique item]]\n*1 [[Skill]]\n|Focus=2\n|Speed1=1\n|Speed2=2\n|Speed3=3\n|Speed4=4\n|Sneak1=4\n|Sneak2=3\n|Sneak3=2\n|Sneak4=1\n|Fight1=3\n|Fight2=4\n|Fight3=5\n|Fight4=6\n|Will1=4\n|Will2=3\n|Will3=2\n|Will4=1\n|Lore1=1\n|Lore2=2\n|Lore3=3\n|Lore4=4\n|Luck1=3\n|Luck2=2\n|Luck3=1\n|Luck4=0\n}}\n\n\n'''The Story So Far:''' Silas always felt the call of the ocean. Even as a little boy he loved to play in the waves. There was just something soothing and otherworldly about the sea that put him at ease in a way nothing else could.\n\nIt came as no surprise to his family when Silas announced that he'd decided to become a sailor and travel the world. They'd actually been waiting for him to reach that conclusion for several years.\n\nSo, he signed up with a merchant shipping company and spent the next few years gallivanting from one port to the next and seeing all the sights he could take in.\n\nPeriodically, he would dream. At these times, his sleep was haunted with strange, ethereal visions of undersea vistas and bizarre creatures that smiled toothily at him. Gradually, he came to feel that there was something sinister about these dreams, and when he asked his family, they simply nodded and said, \"It's time for you to visit the main branch of the family up in [[Innsmouth]]. They'll set you straight.\"\n\nTwo days later, as he disembarks from a ship at the [[Arkham]] docks, Silas can't help but find his family's remark just a little bit sinister."
+}

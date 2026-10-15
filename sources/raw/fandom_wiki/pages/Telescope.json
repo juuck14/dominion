@@ -1,0 +1,14 @@
+{
+ "title": "Telescope",
+ "pageid": 681,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Telescope",
+ "revid": 1207,
+ "rev_timestamp": "2020-11-02T18:28:03Z",
+ "retrieved_at": "2026-10-15T01:52:22+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Kingsport Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=Telescope\n|Name=Telescope\n|Pronoun=It\n|Edition=Kingsport Horror\n|ItemType=\n|ItemBonus=+1 [[Sneak check]] (but not [[Evade check]]s)\n|ItemText=\n|ItemHands=\n|UsePhase=Any\n|UsePhaseText=Discard Telescope to avoid being [[delay]]ed.\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=2\n}}"
+}

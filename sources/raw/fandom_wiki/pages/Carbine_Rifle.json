@@ -1,0 +1,16 @@
+{
+ "title": "Carbine Rifle",
+ "pageid": 667,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Carbine_Rifle",
+ "revid": 1179,
+ "rev_timestamp": "2020-11-02T18:28:01Z",
+ "retrieved_at": "2026-10-15T01:52:16+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Dunwich Horror",
+  "Category:One handed weapons",
+  "Category:Pages with broken file links",
+  "Category:Physical weapons"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=CarbineRifle\n|Name=Carbine Rifle\n|Pronoun=It\n|Edition=Dunwich Horror\n|ItemType=Physical weapon\n|ItemBonus=\n|ItemText=\n|ItemHands=1\n|UsePhase=Any\n|UsePhaseText=Exhaust before making a [[Combat check]] to gain +5 to that check.\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=4\n}}"
+}

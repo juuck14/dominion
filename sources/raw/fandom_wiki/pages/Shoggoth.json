@@ -1,0 +1,10 @@
+{
+ "title": "Shoggoth",
+ "pageid": 315,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Shoggoth",
+ "revid": 465,
+ "rev_timestamp": "2020-11-02T18:02:12Z",
+ "retrieved_at": "2026-10-15T01:52:21+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=Shoggoth\n|GameItemType=monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Shoggoth\n|MarkerFrontImage=Shoggoth\n|MarkerBackImage=ShoggothBack\n|AHCount=2\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|IHCount=2\n|Awareness=-1\n|Movement=Red\n|HomeDimension=Diamond\n|Spawn=\n|StartingLocation=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=1\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=1\n|Elusive=\n|FlavorText=''The stench was unbearable, and rising to the surface came a terrible cry, \"Tekeli-li! Tekeli-li!\"''\n|RulesText=\n|HorrorRating=-1\n|HorrorDamage=3\n|CombatRating=-1\n|CombatDamage=3\n|Toughness=3\n}}\n\n==Mythos Source==\n\nThe origins of the shoggoths are fully detailed in the story ''At the Mountains of Madness'' (1931), written by H.P. Lovecraft. They are subsequently mentioned in ''The Shadow Over Innsmouth'' (1931) and ''The Thing on the Doorstep'' (1933)."
+}

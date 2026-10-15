@@ -1,0 +1,13 @@
+{
+ "title": "Riot (3)",
+ "pageid": 1607,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Riot_%283%29",
+ "revid": 3063,
+ "rev_timestamp": "2020-11-02T18:29:39Z",
+ "retrieved_at": "2026-10-15T01:52:21+00:00",
+ "categories": [
+  "Category:Pages with broken file links",
+  "Category:The King in Yellow"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Riot\n|GameItemType=monster\n|Pronoun=It\n|Edition=The King in Yellow\n}}\n{{MonsterInfoBox\n|Name=Riot\n|MarkerFrontImage=Riot\n|MarkerBackImage=RiotBack3\n|AHCount=0\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=1\n|BGCount=0\n|Awareness=-2\n|Movement=Black\n|HomeDimension=Crescent\n|Spawn=1\n|StartingLocation=[[Miskatonic U.|Miskatonic U. Streets]]\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=1\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=If you pass a [[Combat check]] against Riot, lose 1 [[Sanity]] and roll a die.  On a 4-6, the [[terror level]] is increased by 1.\n|HorrorRating=\n|HorrorDamage=\n|CombatRating=-4\n|CombatDamage=4\n|Toughness=3\n}}\n==See also==\n*[[Riot]]\n*[[Riot (2)]]"
+}

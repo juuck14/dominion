@@ -1,0 +1,13 @@
+{
+ "title": "Tendril of Nyogtha",
+ "pageid": 1243,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Tendril_of_Nyogtha",
+ "revid": 2333,
+ "rev_timestamp": "2020-11-02T18:29:00Z",
+ "retrieved_at": "2026-10-15T01:52:22+00:00",
+ "categories": [
+  "Category:Innsmouth Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Tendril of Nyogtha\n|GameItemType=monster\n|Pronoun=It\n|Edition=Innsmouth Horror\n}}\n{{MonsterInfoBox\n|Name=Tendril of Nyogtha\n|MarkerFrontImage=TendrilOfNyogtha\n|MarkerBackImage=TendrilOfNyogthaBack\n|AHCount=0\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|IHCount=1\n|Awareness=-2\n|Movement=Black\n|HomeDimension=Diamond\n|Spawn=1\n|Mask=\n|Ambush=1\n|Undead=\n|Endless=\n|PhysicalImmunity=1\n|MagicalImmunity=\n|WeaponImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=If the Tendril of Nyogtha has not been [[evade|evaded]] or defeated after the second round of [[combat]], the [[investigator]] is '''[[devoured]]'''.\n|HorrorRating=-1\n|HorrorDamage=2\n|CombatRating=-2\n|CombatDamage=2\n|Toughness=2\n}}"
+}

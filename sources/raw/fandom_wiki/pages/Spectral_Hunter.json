@@ -1,0 +1,13 @@
+{
+ "title": "Spectral Hunter",
+ "pageid": 866,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Spectral_Hunter",
+ "revid": 1579,
+ "rev_timestamp": "2020-11-02T18:28:20Z",
+ "retrieved_at": "2026-10-15T01:52:22+00:00",
+ "categories": [
+  "Category:Dunwich Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Spectral Hunter\n|GameItemType=monster\n|Pronoun=It\n|Edition=Dunwich Horror\n}}\n{{MonsterInfoBox\n|Name=Spectral Hunter\n|MarkerFrontImage=SpectralHunter\n|MarkerBackImage=SpectralHunterBack\n|AHCount=0\n|DHCount=1\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-4\n|Movement=Yellow\n|HomeDimension=Square\n|Spawn=\n|StartingLocation=\n|Mask=\n|Ambush=1\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=If you pass a [[Combat check]] against Spectral Hunter, return it to the box and gain $5.\n|HorrorRating=-2\n|HorrorDamage=2\n|CombatRating=-2\n|CombatDamage=2\n|Toughness=3\n}}\n\n==Mythos Source==\nSpectral Hunters appears in the Call of Cthulhu campaign ''Shadows of Yog Sothoth''."
+}

@@ -1,0 +1,14 @@
+{
+ "title": "Plumb the Void",
+ "pageid": 1542,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Plumb_the_Void",
+ "revid": 3470,
+ "rev_timestamp": "2026-06-13T05:51:05Z",
+ "retrieved_at": "2026-10-15T01:52:20+00:00",
+ "categories": [
+  "Category:Pages with broken file links",
+  "Category:Spells",
+  "Category:The Lurker at the Threshold"
+ ],
+ "wikitext": "{{Spell\n|Image=plumb.jpg\n|Name=Plumb the Void\n|Edition=The Lurker at the Threshold\n|CastingModifier=+0\n|SanityCost=2\n|CastingPhase=Movement\n|Effect=Cast and discard while in [[Arkham]]. Move one [[investigator]] in an [[Other World]] to any [[location]] with a [[Gate]] matching his Other World (he receives an [[Explored marker|explored token]]) or to your location.\n|Hands=\n}}\n[[File:Plumb.jpg|thumb]]"
+}

@@ -1,0 +1,13 @@
+{
+ "title": "Priest of Dagon",
+ "pageid": 1240,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Priest_of_Dagon",
+ "revid": 2327,
+ "rev_timestamp": "2020-11-02T18:29:00Z",
+ "retrieved_at": "2026-10-15T01:52:20+00:00",
+ "categories": [
+  "Category:Innsmouth Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Priest Of Dagon\n|GameItemType=monster\n|Pronoun=He\n|Edition=Innsmouth Horror\n}}\n{{MonsterInfoBox\n|Name=Priest of Dagon\n|MarkerFrontImage=PriestOfDagon\n|MarkerBackImage=PriestOfDagonBack\n|AHCount=0\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|IHCount=2\n|Awareness=-2\n|Movement=Orange\n|HomeDimension=Plus\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=1\n|WeaponImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=''...As I saw them I knew also of what that humped, tiaraed priest in the black church basement had fearsomely reminded me.''\n|RulesText=\n|HorrorRating=-2\n|HorrorDamage=2\n|CombatRating=-2\n|CombatDamage=2\n|Toughness=2\n}}\n\n==Mythos Source==\n\nPriest of Dagon appear in the short story ''The Shadow Over Innsmouth'', written by H.P. Lovecraft (1931)."
+}

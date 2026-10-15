@@ -1,0 +1,13 @@
+{
+ "title": "Bob Jenkins",
+ "pageid": 419,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Bob_Jenkins",
+ "revid": 673,
+ "rev_timestamp": "2020-11-02T18:02:22Z",
+ "retrieved_at": "2026-10-15T01:52:15+00:00",
+ "categories": [
+  "Category:Arkham Horror",
+  "Category:Investigators"
+ ],
+ "wikitext": "{{GameItemIntroductionAn\n|Name=Bob Jenkins\n|GameItemType=investigator\n|Pronoun=He\n|Edition=Arkham Horror\n}}\n{{Investigator\n|CardFront=BobJenkins\n|CardBack=BobJenkinsBack\n|Name=Bob Jenkins\n|Pronoun=He\n|Occupation=the Salesman\n|Edition=Arkham Horror\n|Sanity=4\n|Stamina=6\n|Ability1=Shrewd Dealer - Any Phase: Whenever Bob draws one or more cards from the [[Common item]] deck, he draws one extra card and then discards one of the cards.\n|Home=General Store\n|FixedPossessions=\n*$9\n|RandomPossessions=\n*2 [[Common item]]s\n*2 [[Unique item]]s\n*1 [[Skill]]\n|Focus=1\n|Speed1=2\n|Speed2=3\n|Speed3=4\n|Speed4=5\n|Sneak1=3\n|Sneak2=2\n|Sneak3=1\n|Sneak4=0\n|Fight1=1\n|Fight2=2\n|Fight3=3\n|Fight4=4\n|Will1=6\n|Will2=5\n|Will3=4\n|Will4=3\n|Lore1=0\n|Lore2=1\n|Lore3=2\n|Lore4=3\n|Luck1=4\n|Luck2=3\n|Luck3=2\n|Luck4=1\n}}\n\n\n'''The Story So Far:''' As a traveling salesman, Bob is always on the go. But yesterday, he saw something that made him decide to stay in Arkham and miss his train. While he was in the General Store selling his wares, a robed man came in and bought several [[items]], paying with old gold coins. Astounded, Bob turned to the shopkeeper for an explanation, but the man just ignored his questions, simply saying, \"That happens, sometimes.\"\n\nNow, Bob isn't leaving until he figues out where those gold coins came from. If he plays his cards right, maybe this will be the big score. Maybe he'll finally be able to retire and buy that boat he's had his eye on and spend the rest of his days fishing in a tropical paradise. Then again, moybe Bob will finally come to see that all that glitters is not gold.\n\n== Errata ==\nIn the original printing, Bob started with $8. He should have $9.\n\n[[Category:Investigators]]"
+}

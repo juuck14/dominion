@@ -1,0 +1,13 @@
+{
+ "title": "Barnabas Marsh",
+ "pageid": 1231,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Barnabas_Marsh",
+ "revid": 2309,
+ "rev_timestamp": "2020-11-02T18:28:59Z",
+ "retrieved_at": "2026-10-15T01:52:15+00:00",
+ "categories": [
+  "Category:Innsmouth Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Barnabus Marsh\n|GameItemType=monster\n|Pronoun=He\n|Edition=Innsmouth Horror\n}}\n{{MonsterInfoBox\n|Name=Barnabas Marsh\n|MarkerFrontImage=BarnabasMarsh\n|MarkerBackImage=BarnabasMarshBack\n|AHCount=0\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|IHCount=1\n|Awareness=-3\n|Movement=Orange\n|HomeDimension=Plus\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=1\n|MagicalResistance=1\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=If you pass a Combat check against Barnabas Marsh, return him to the box and remove 1 [[doom token]] from the [[doom track]].\n|HorrorRating=-2\n|HorrorDamage=2\n|CombatRating=-3\n|CombatDamage=3\n|Toughness=2\n}}"
+}

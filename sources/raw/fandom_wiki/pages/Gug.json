@@ -1,0 +1,10 @@
+{
+ "title": "Gug",
+ "pageid": 310,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Gug",
+ "revid": 455,
+ "rev_timestamp": "2020-11-02T18:02:11Z",
+ "retrieved_at": "2026-10-15T01:52:18+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=Gug\n|GameItemType=monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Gug\n|MarkerFrontImage=Gug\n|MarkerBackImage=GugBack\n|AHCount=2\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-2\n|Movement=Black\n|HomeDimension=Slash\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=1\n|Nightmarish=\n|Elusive=\n|FlavorText=''I caught confused glimpses of a terrible, wrongly-angled mouth, multi-jointed arms, and protruding eyes as big as a man's head.''\n|RulesText=\n|HorrorRating=-1\n|HorrorDamage=2\n|CombatRating=-2\n|CombatDamage=4\n|Toughness=3\n}}\n\n==Mythos Source==\n\nGugs first appear in the story ''The Dream-Quest of Unknown Kadath'' (1927), written by H.P. Lovecraft."
+}

@@ -1,0 +1,13 @@
+{
+ "title": "Servant of Glaaki (2)",
+ "pageid": 869,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Servant_of_Glaaki_%282%29",
+ "revid": 1585,
+ "rev_timestamp": "2020-11-02T18:28:20Z",
+ "retrieved_at": "2026-10-15T01:52:21+00:00",
+ "categories": [
+  "Category:Dunwich Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Servant of Glaaki\n|GameItemType=monster\n|Pronoun=It\n|Edition=Dunwich Horror\n}}\n{{MonsterInfoBox\n|Name=Servant of Glaaki\n|MarkerFrontImage=ServantOfGlaaki\n|MarkerBackImage=ServantOfGlaakiBack2\n|AHCount=0\n|DHCount=1\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=+1\n|Movement=Black\n|HomeDimension=Crescent\n|Spawn=1\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=When Servant of Glaaki enters play, all [[investigators]] must discard 1 [[Common item]], if able.\n|HorrorRating=-2\n|HorrorDamage=3\n|CombatRating=-2\n|CombatDamage=3\n|Toughness=2\n}}\n==See also==\n*[[Servant of Glaaki]]\n*[[Servant of Glaaki (3)]]\n*[[Servant of Glaaki (4)]]\n*[[Servant of Glaaki (5)]]"
+}

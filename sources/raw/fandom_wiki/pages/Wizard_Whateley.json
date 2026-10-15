@@ -1,0 +1,13 @@
+{
+ "title": "Wizard Whateley",
+ "pageid": 877,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Wizard_Whateley",
+ "revid": 1601,
+ "rev_timestamp": "2020-11-02T18:28:22Z",
+ "retrieved_at": "2026-10-15T01:52:23+00:00",
+ "categories": [
+  "Category:Dunwich Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Wizard Whateley\n|GameItemType=monster\n|Pronoun=He\n|Edition=Dunwich Horror\n}}\n{{MonsterInfoBox\n|Name=Wizard Whateley\n|MarkerFrontImage=WizardWhateley\n|MarkerBackImage=WizardWhateleyBack\n|AHCount=0\n|DHCount=1\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-2\n|Movement=Black\n|HomeDimension=Circle\n|Spawn=\n|StartingLocation=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=1\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=If you pass a [[Combat check]] against Wizard Whateley, return him to the box and draw 1 [[Spell]].\n|HorrorRating=-2\n|HorrorDamage=2\n|CombatRating=-3\n|CombatDamage=3\n|Toughness=2\n}}\n==Mythos Source==\nWizard Whateley first appeared in the story ''The Dunwich Horror'', written by H.P. Lovecraft (1928)."
+}

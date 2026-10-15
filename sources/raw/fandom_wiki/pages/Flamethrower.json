@@ -1,0 +1,16 @@
+{
+ "title": "Flamethrower",
+ "pageid": 670,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Flamethrower",
+ "revid": 1185,
+ "rev_timestamp": "2020-11-02T18:28:02Z",
+ "retrieved_at": "2026-10-15T01:52:18+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Dunwich Horror",
+  "Category:Pages with broken file links",
+  "Category:Physical weapons",
+  "Category:Two handed weapons"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=Flamethrower\n|Name=Flamethrower\n|Pronoun=It\n|Edition=Dunwich Horror\n|ItemType=Physical weapon\n|ItemBonus=\n|ItemText=\n|ItemHands=2\n|UsePhase=Any\n|UsePhaseText=Exhaust before making a [[Combat check]] to gain +7 to that check.\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=6\n}}"
+}

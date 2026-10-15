@@ -1,0 +1,14 @@
+{
+ "title": "Finn Edwards",
+ "pageid": 1216,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Finn_Edwards",
+ "revid": 2279,
+ "rev_timestamp": "2020-11-02T18:28:57Z",
+ "retrieved_at": "2026-10-15T01:52:17+00:00",
+ "categories": [
+  "Category:Innsmouth Horror",
+  "Category:Investigators",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroductionAn\n|Name=Finn Edwards\n|GameItemType=investigator\n|Pronoun=He\n|Edition=Innsmouth Horror\n}}\n{{Investigator\n|CardFront=FinnEdwards\n|CardBack=FinnEdwardsBack\n|Name=Finn Edwards\n|Pronoun=He\n|Occupation=the Bootlegger\n|Edition=Innsmouth Horror\n|Sanity=4\n|Stamina=6\n|Ability1=Slippery - [[Mythos Phase|Mythos]]: When moon [[monster]]s move, Finn may choose to move as a normal moon monster. He does not need to make any [[Evade check]]s when doing so.\n\nHoldout - Any Phase: Finn never has to discard [[item]]s or lose [[money]], even when he is knocked [[unconscious]] or driven [[insane]]. He must still pay costs as usual.\n|Home=Bank of Arkham\n|FixedPossessions=\n*$8\n*1 [[Common Item]] ([[Whiskey]])\n*1 Special ([[Bank Loan]])\n|RandomPossessions=\n*2 [[Common Items]]\n*2 [[Unique Items]]\n*2 [[Skills]]\n|Focus=1\n|Speed1=3\n|Speed2=4\n|Speed3=5\n|Speed4=6\n|Sneak1=5\n|Sneak2=4\n|Sneak3=3\n|Sneak4=2\n|Fight1=0\n|Fight2=1\n|Fight3=2\n|Fight4=3\n|Will1=3\n|Will2=2\n|Will3=1\n|Will4=0\n|Lore1=1\n|Lore2=2\n|Lore3=3\n|Lore4=4\n|Luck1=4\n|Luck2=3\n|Luck3=2\n|Luck4=1\n}}\n\n\n'''The Story So Far:''' Prohibition was the best thing that ever happened to Finn Edwards. Until they banned alcohol, he was just drifting through life, doing odd jobs here and there. But afterwards, the demand for alcohol rose to such a fever pitch that he was able to make a comfortable living evading the law and giving people what they wanted. His new lifestyle particularly suited his personality, providing him with a taste of danger, plenty of cash, and a great deal of personal satisfaction.\n\nOf course, those things are all well and good until you find yourself running through the [[woods]] at night trying to lose a bunch of knife-wielding [[maniac]]s who want to  sacrifice you to their dark gods.\n\nAlthough Finn has never been a vengeful man, that incident left him rattled in ways he hadn't been since getting beaten up on the playground years ago.\n\nStepping out of the bank with enough borrowed cash for guns and supplies, Finn vows that those lunatics will regret the day they ever crossed him.\n\n== Clarification ==\nFinn already has taken out the Bank Loan and has $8 left.  Do not start the game with more than $8."
+}

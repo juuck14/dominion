@@ -1,0 +1,10 @@
+{
+ "title": "Byakhee",
+ "pageid": 433,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Byakhee",
+ "revid": 701,
+ "rev_timestamp": "2020-11-02T18:02:23Z",
+ "retrieved_at": "2026-10-15T01:52:15+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=Byakhee\n|GameItemType=monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Byakhee\n|MarkerFrontImage=Byakhee\n|MarkerBackImage=ByakheeBack\n|AHCount=3\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-2\n|Movement=Blue\n|HomeDimension=Circle\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=It shrieked and flapped its wings.  I thought of the empty shell of a beetle, and the soft loam of rotting earth.  It cocked its carapaced head at me, black teeth clicking against each other.\n|RulesText=\n|HorrorRating=-1\n|HorrorDamage=1\n|CombatRating=+0\n|CombatDamage=2\n|Toughness=1\n}}\n\n==Mythos Source==\n\nThe first definite appearance of a byakhee occurs in ''The House on Curwen Street'' (1944), written by August Derleth. Though the color text in the Call of Cthulhu rulebook which accompanies the byakhee stats is from ''The Festival'', written by H.P. Lovecraft (1925), it is uncertain if the creatures from the two stories are actually the same species."
+}

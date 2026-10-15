@@ -1,0 +1,13 @@
+{
+ "title": "Deep One",
+ "pageid": 1237,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Deep_One",
+ "revid": 2321,
+ "rev_timestamp": "2020-11-02T18:29:00Z",
+ "retrieved_at": "2026-10-15T01:52:16+00:00",
+ "categories": [
+  "Category:Innsmouth Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Deep One\n|GameItemType=monster\n|Pronoun=It\n|Edition=Innsmouth Horror\n}}\n{{MonsterInfoBox\n|Name=DeepOne\n|MarkerFrontImage=DeepOne\n|MarkerBackImage=DeepOneBack\n|AHCount=0\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|IHCount=6\n|Awareness=+0\n|Movement=Orange\n|HomeDimension=Plus\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=''And yet I saw them in a limitless stream - flopping, hopping, croaking, bleating - surging inhumanly through the spectral moonlight in a grotesque, malignant saraband of fantastic nightmare.''\n|RulesText=\n|HorrorRating=-2\n|HorrorDamage=2\n|CombatRating=-1\n|CombatDamage=2\n|Toughness=2\n}}\n\n==Mythos Source==\n\nThe Deep Ones first appear in the story ''The Shadow Over Innsmouth'', written by H.P. Lovecraft (1936), where the flavor text was excerpted from."
+}

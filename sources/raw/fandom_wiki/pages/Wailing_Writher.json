@@ -1,0 +1,13 @@
+{
+ "title": "Wailing Writher",
+ "pageid": 1244,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Wailing_Writher",
+ "revid": 2335,
+ "rev_timestamp": "2020-11-02T18:29:00Z",
+ "retrieved_at": "2026-10-15T01:52:23+00:00",
+ "categories": [
+  "Category:Innsmouth Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Wailing Writher\n|GameItemType=Mask monster\n|Pronoun=It\n|Edition=Innsmouth Horror\n}}\n{{MonsterInfoBox\n|Name=Wailing Writher\n|MarkerFrontImage=WailingWrither\n|MarkerBackImage=WailingWritherBack\n|AHCount=0\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|IHCount=1\n|Awareness=-3\n|Movement=Yellow\n|HomeDimension=Diamond\n|Spawn=\n|Mask=1\n|Ambush=\n|Undead=\n|Endless=1\n|PhysicalImmunity=\n|MagicalImmunity=\n|WeaponImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=If you fail an '''[[Evade]] check''' against the Wailing Writher, you are '''[[devoured]]'''.\n|HorrorRating=-3\n|HorrorDamage=3\n|CombatRating=-3\n|CombatDamage=3\n|Toughness=3\n}}\n\n==Mythos Source==\nWailing Writher appears in the Call of Cthulhu supplement ''Escape from Innsmouth''."
+}

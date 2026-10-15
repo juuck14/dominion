@@ -1,0 +1,10 @@
+{
+ "title": "Haunter of the Dark",
+ "pageid": 311,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Haunter_of_the_Dark",
+ "revid": 457,
+ "rev_timestamp": "2020-11-02T18:02:11Z",
+ "retrieved_at": "2026-10-15T01:52:18+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=Haunter of the Dark\n|GameItemType=Mask monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Haunter of the Dark\n|MarkerFrontImage=HaunterOfTheDark\n|MarkerBackImage=HaunterOfTheDarkBack\n|AHCount=1\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-3\n|Movement=Blue\n|HomeDimension=Square\n|Spawn=\n|Mask=1\n|Ambush=\n|Undead=\n|Endless=1\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=If the [[Blackest Night]] card is in play, Haunter of the Dark's fight rating increases to -5.\n|HorrorRating=-2\n|HorrorDamage=2\n|CombatRating=-2\n|CombatDamage=2\n|Toughness=2\n}}\n\n==Mythos Source==\n\nThe Haunter of the Dark appears in the story ''The Haunter of the Dark'', written by H.P. Lovecraft (1935)."
+}

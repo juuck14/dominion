@@ -1,0 +1,14 @@
+{
+ "title": "Press Pass",
+ "pageid": 685,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Press_Pass",
+ "revid": 1215,
+ "rev_timestamp": "2020-11-02T18:28:03Z",
+ "retrieved_at": "2026-10-15T01:52:20+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Pages with broken file links",
+  "Category:The King in Yellow"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=PressPass\n|Name=Press Pass\n|Pronoun=It\n|Edition=The King in Yellow\n|ItemType=\n|ItemBonus=\n|ItemText=\n|ItemHands=\n|UsePhase=Any\n|UsePhaseText=Exhaust when you gain one or more [[Clue token]]s to gain 1 extra Clue token.\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=5\n}}"
+}

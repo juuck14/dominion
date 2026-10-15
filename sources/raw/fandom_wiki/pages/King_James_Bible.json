@@ -1,0 +1,15 @@
+{
+ "title": "King James Bible",
+ "pageid": 699,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/King_James_Bible",
+ "revid": 1243,
+ "rev_timestamp": "2020-11-02T18:28:05Z",
+ "retrieved_at": "2026-10-15T01:52:19+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Pages with broken file links",
+  "Category:The Lurker at the Threshold",
+  "Category:Tomes"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=KingJamesBibleItem\n|Name=King James Bible\n|Pronoun=It\n|Edition=The Lurker at the Threshold\n|ItemType=Tome\n|ItemBonus=\n|ItemText=\n|ItemHands=\n|UsePhase=Movement\n|UsePhaseText=[[Exhaust]] and spend 2 movement points to regain 1 [[Sanity]] and gain +1 to '''[[Horror check]]s''' until the end of the turn.\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=3\n}}"
+}

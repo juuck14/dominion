@@ -1,0 +1,10 @@
+{
+ "title": "Fire Vampire",
+ "pageid": 440,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Fire_Vampire",
+ "revid": 715,
+ "rev_timestamp": "2020-11-02T18:02:24Z",
+ "retrieved_at": "2026-10-15T01:52:17+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=Fire Vampire\n|GameItemType=monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Fire Vampire\n|MarkerFrontImage=FireVampire\n|MarkerBackImage=FireVampireBack\n|AHCount=2\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=+0\n|Movement=Blue\n|HomeDimension=Star\n|Spawn=\n|Mask=\n|Ambush=1\n|Undead=\n|Endless=\n|PhysicalImmunity=1\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=''A thousand tiny fires, the size of match-flames, swept from the night sky. The old man was suddenly radiant with light.''\n|RulesText=\n|HorrorRating=-\n|HorrorDamage=\n|CombatRating=-2\n|CombatDamage=2\n|Toughness=1\n}}\n\n==Mythos Source==\nFire vampires first appeared in ''The Fire Vampires'' (1933), written by Donald Wandrei, where they were  lightning-like servants of Fthaggua. The more commonly known version where they are servitors of [[Cthugha]] first appeared in ''The Dweller in Darkness'' (1944), written by August Derleth."
+}

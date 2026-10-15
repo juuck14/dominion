@@ -1,0 +1,13 @@
+{
+ "title": "Leng Spider",
+ "pageid": 1313,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Leng_Spider",
+ "revid": 2473,
+ "rev_timestamp": "2020-11-02T18:29:07Z",
+ "retrieved_at": "2026-10-15T01:52:19+00:00",
+ "categories": [
+  "Category:Kingsport Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Leng Spider\n|GameItemType=monster\n|Pronoun=It\n|Edition=Kingsport Horror\n}}\n{{MonsterInfoBox\n|Name=Leng Spider\n|MarkerFrontImage=LengSpider\n|MarkerBackImage=LengSpiderBack\n|AHCount=0\n|DHCount=0\n|KHCount=4\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-2\n|Movement=Black\n|HomeDimension=Slash\n|Spawn=\n|Mask=\n|Ambush=1\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=1\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=\n|HorrorRating=-2\n|HorrorDamage=2\n|CombatRating=-1\n|CombatDamage=4\n|Toughness=2\n}}\n\n==Mythos Source==\n\nLeng Spiders appear in the story ''The Dream-Quest of Unknown Kadath'', written by H.P. Lovecraft (1927)."
+}

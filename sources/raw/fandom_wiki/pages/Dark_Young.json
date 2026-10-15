@@ -1,0 +1,10 @@
+{
+ "title": "Dark Young",
+ "pageid": 436,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Dark_Young",
+ "revid": 707,
+ "rev_timestamp": "2020-11-02T18:02:24Z",
+ "retrieved_at": "2026-10-15T01:52:16+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=Dark Young\n|GameItemType=monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Dark Young\n|MarkerFrontImage=DarkYoung\n|MarkerBackImage=DarkYoungBack\n|AHCount=3\n|DHCount=1\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=3\n|Awareness=-2\n|Movement=Yellow\n|HomeDimension=Hexagon\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=1\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=1\n|Elusive=\n|FlavorText=''The trees trembled, leaves fluttering around us. The earth shook as the thuds of giant hooved feet grew ever closer...''\n|RulesText=\n|HorrorRating=+0\n|HorrorDamage=3\n|CombatRating=-1\n|CombatDamage=3\n|Toughness=3\n}}"
+}

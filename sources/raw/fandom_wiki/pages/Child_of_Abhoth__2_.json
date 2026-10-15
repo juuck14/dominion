@@ -1,0 +1,13 @@
+{
+ "title": "Child of Abhoth (2)",
+ "pageid": 926,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Child_of_Abhoth_%282%29",
+ "revid": 1699,
+ "rev_timestamp": "2020-11-02T18:28:28Z",
+ "retrieved_at": "2026-10-15T01:52:16+00:00",
+ "categories": [
+  "Category:Dunwich Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Child Of Abhoth\n|GameItemType=monster\n|Pronoun=It\n|Edition=Dunwich Horror\n}}\n{{MonsterInfoBox\n|Name=Child Of Abhoth\n|MarkerFrontImage=ChildOfAbhoth\n|MarkerBackImage=ChildOfAbhothBack2\n|AHCount=0\n|DHCount=1\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=+1\n|Movement=Purple\n|HomeDimension=Crescent\n|Spawn=1\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=1\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=2\n|Elusive=\n|FlavorText=\n|RulesText=Before you make a [[Horror check]] against Child Of Abhoth, you must discard 1 [[Clue token]] or automatically fail.\n|HorrorRating=-2\n|HorrorDamage=4\n|CombatRating=-1\n|CombatDamage=2\n|Toughness=3\n}}\n\n==See also==\n*[[Child of Abhoth]]\n*[[Child of Abhoth (3)]]"
+}

@@ -1,0 +1,15 @@
+{
+ "title": "Patrolling the Streets",
+ "pageid": 675,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Patrolling_the_Streets",
+ "revid": 1195,
+ "rev_timestamp": "2020-11-02T18:28:02Z",
+ "retrieved_at": "2026-10-15T01:52:20+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Dunwich Horror",
+  "Category:Pages with broken file links",
+  "Category:Tasks"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=PatrollingTheStreets\n|Name=Patrolling the Streets\n|Pronoun=It\n|Edition=Dunwich Horror\n|ItemType=Task\n|ItemBonus=\n|ItemText=\n|ItemHands=\n|UsePhase=\n|UsePhaseText=\n|TaskLocation1=Easttown Streets\n|TaskLocation2=Uptown Streets\n|TaskLocation3=Police Station\n|TaskPayoff=Draw 1 [[Common item]] and gain 1 [[Clue token]] and $5.\n|ItemPrice=0\n}}"
+}

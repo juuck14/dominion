@@ -63,11 +63,13 @@ def run(log=print):
                      {"pass": "일치", "incomplete": "**미완성**", "fail": "**불일치**"}[c["result"]]])
     A("| 구분 | 상태 |")
     A("|---|---|")
+    mon_n = sum(m.get("count") or 0 for m in d["monsters"])
     A("| 데이터 존재 | 조사자 16/16, 고대의 존재 8/8, 장소 27(보드 26 + 조우 전용 Inner Sanctum), 지역 9, 다른 세계 8, 아컴 조우 카드 63장/본문 189, "
-      "다른 세계 조우 카드 49장/본문 145, 신화 카드 67, 조사자 카드 189장(서로 다른 카드 87종), 정오표 10건. **몬스터는 60개 중 이름 3개(수치 2개)뿐, 보드 연결·차원문 마커 구성은 없음.** |")
+      "다른 세계 조우 카드 49장/본문 145, 신화 카드 67, 조사자 카드 189장(서로 다른 카드 87종), 정오표 10건, 몬스터 마커 %d개(%d종). "
+      "**보드 연결·차원문 마커 구성은 없음.** |" % (mon_n, len(d["monsters"])))
     A("| 구조 | 카드 1장 = 조우 3개(장소/다른 세계) 구조, 재섞기 카드, 신화 카드 위치·이동 기호, 조사자 슬라이더가 원본 행과 대조 검증됨 |")
-    A("| 수량 | 아래 표 — 몬스터·차원문 마커 외 모든 덱이 공식 구성물 수량과 일치 |")
-    A("| 정확성 | 필드마다 상태 기록(§4). 단일 출처 값 %d개, 규칙으로 해결한 충돌 %d건, 텍스트 충돌 %d건, 검색 요약에 의존한 판단 포함(§7) |"
+    A("| 수량 | 아래 표 — 차원문 마커 외 모든 구성물이 공식 수량과 일치 |")
+    A("| 정확성 | 필드마다 상태 기록(§4). 단일 출처 값 %d개, 규칙으로 해결한 충돌 %d건, 텍스트 충돌 %d건. 위키 차단 중 쓴 검색 요약은 위키 원문으로 재확인(§7) |"
       % (checks["field_status_distribution"]["detail"].get("single_source", 0),
          sum(1 for c in d["conflicts"] if c["status"] == "conflict_resolved"),
          sum(1 for c in d["conflicts"] if c["status"] == "conflict")))
@@ -98,8 +100,10 @@ def run(log=print):
             "helper_wiki_scrape": "2판 위키(fandom) 스크랩 사본: 신화·장소·고대의 존재", "official_docs": "공식 규칙서·FAQ PDF",
             "jesseflorig_json": "동료·고대의 존재·신화(부분), 고대의 존재 시트 이미지", "kuerv0_json": "조사자·조사자 카드 전체·조우·신화",
             "ellebaum_json": "신화 67·다른 세계 조우 49", "gorlith_android": "조사자 시트 이미지 16장 + 정신력/체력 표",
-            "pavelius_cpp": "일반 아이템 가격·몬스터 3종(부분)", "fandom_wiki": "2판 위키 직접 수집(차단됨)",
-            "card_image": "카드/시트 이미지 수동 판독", "web_search_fandom": "위키 페이지의 검색엔진 요약(동점 해소용)"}
+            "pavelius_cpp": "일반 아이템 가격·몬스터 3종(부분, Zombie 행은 오류로 제외)",
+            "fandom_wiki": "2판 위키 MediaWiki API 직접 수집: 몬스터 전체·조사자 시트·조사자 카드 목록 표·카드 페이지",
+            "card_image": "카드/시트 이미지 수동 판독",
+            "web_search_fandom": "위키 검색엔진 요약(위키 차단 기간 동점 해소용) — 위키 원문으로 대체·재확인됨"}
     for s_ in d["sources"]:
         rows.append([s_["id"], s_.get("type"), s_.get("repository") or "", (s_.get("commit_sha") or "")[:12], s_.get("status"),
                      s_.get("independence_group"), role.get(s_["id"], "")])
@@ -110,7 +114,11 @@ def run(log=print):
     A("- 사용하지 않은 출처: " + "; ".join("%s(%s)" % (x["title"], x["reason"]) for x in man.get("excluded_sources", [])))
     A("- 네트워크: " + man.get("network_note", ""))
     fw = man["sources"].get("fandom_wiki", {})
-    A("- fandom 위키 직접 수집 상태: `%s` (%s)" % (fw.get("status"), fw.get("error")))
+    revs = [p_.get("revid") for p_ in fw.get("pages", []) if p_.get("revid")]
+    A("- fandom 위키 직접 수집: 상태 `%s`, 페이지 %d개(`sources/raw/fandom_wiki/pages/`, 페이지별 revid·SHA-256은 manifest), "
+      "수집 경로 %s. `/wiki/` HTML은 Cloudflare 봇 확인(403)이라 API만 쓴다."
+      % (fw.get("last_online_status") or fw.get("status"), fw.get("pages_cached", 0),
+         ", ".join("%s %d" % (k, v) for k, v in (fw.get("listings") or {}).items())))
     A("")
     A("### 출처별 기본판 기여(레코드 수)")
     A("")
@@ -183,9 +191,19 @@ def run(log=print):
         rows.append([m["entity_id"], m["field"], m["reason"]])
     A(md_table(["대상", "필드", "사유"], rows))
     A("")
-    A("- 몬스터: 공식 60개 마커 중 `pavelius_cpp`(부분 구현 C++ 표)에서 이름 3개, 수치 2세트만 얻었다. 이 값들도 다른 출처로 확인되지 않은 **단일 출처**다. "
-      "몬스터 목록·수치의 계획된 출처는 2판 위키 Monster 페이지(차단됨)이며 `ah2e/fetch.py` 의 위키 수집기와 `ah2e/parsers/fandom_wiki.py` 가 준비돼 있다(실데이터로는 미검증).")
-    A("- 보드 연결(거리·장소 인접 관계)과 차원문 마커 16개의 세계·수정치 구성은 어떤 접근 가능한 출처에도 없어 비워 두었다.")
+    mons = d["monsters"]
+    conf = [m["name"] for m in mons if (m["field_status"].get("awareness") or {}).get("status") == "confirmed"]
+    blanks = ["%s %s" % (m["name"], f) for m in mons for f in ("horror_rating", "horror_damage", "combat_rating", "combat_damage")
+              if (m["field_status"].get(f) or {}).get("status") == "none_recorded"]
+    A("- 몬스터: 위키에서 `MonsterInfoBox` 를 쓰는 페이지 중 기본판 수량(`AHCount`)이 있는 %d종, 마커 %d개(공식 %s개와 일치). "
+      "수치는 위키 한 계보뿐이라 대부분 **단일 출처**이고, `pavelius_cpp` 와 독립 확인된 것은 %s 뿐이다. "
+      "pavelius의 Zombie 행은 위키의 Chthonian 수치와 완전히 같아(그 Chthonian 행은 비어 있음) 잘못 들어간 행으로 보고 Zombie의 근거에서 뺐다(충돌 기록 `_pavelius_row`)."
+      % (len(mons), sum(m.get("count") or 0 for m in mons), checks["count:Monster Markers"]["detail"]["official"], ", ".join(conf) or "없음"))
+    A("- 몬스터 빈칸(값이 인쇄되지 않음, `none_recorded`): " + ", ".join(blanks) +
+      ". 위키 infobox가 빈칸이나 '-'로 둔 칸을 ‘마커에 숫자가 인쇄되지 않음’으로 해석했다(특수 규칙이 있으면 `rules_text`). "
+      "마커 이미지로는 확인하지 못한 해석이며, 필수값 검사에서는 누락 대신 ‘기록된 빈칸’으로 따로 보고한다.")
+    A("- 몬스터 이름 *The Dark Pharaoh*: 위키는 확장판 이름까지 ‘Pharoah’로 잘못 쓰고 있어 공식 표기 ‘Pharaoh’로 고쳤다(`field_status.name` = `derived`, 위키 표기는 `aliases`).")
+    A("- 보드 연결(거리·장소 인접 관계)과 차원문 마커 16개의 세계·수정치 구성은 위키를 포함한 어떤 접근 가능한 출처에도 없어 비워 두었다(사유는 위 표).")
     A("- `none_recorded` 는 선택 필드(예: 특수 능력이 없는 장소, 활동 표시가 없는 신화 카드)에 어느 출처도 값을 두지 않은 경우로, 누락과 구분한다.")
     A("")
     # ------------------------------------------------------------------ 6 conflicts
@@ -206,13 +224,30 @@ def run(log=print):
     # ------------------------------------------------------------------ 7 review
     A("## 7. 추가 확인이 필요한 항목")
     A("")
-    ev = read_json(config.MANUAL_DIR / "web_search_evidence.json")
-    A("1. **검색 요약에 기대어 결정한 값** — 위키가 차단돼 `WebSearch` 결과 요약(원문 아님)을 동점 해소에만 썼다(%d건 조회). 위키 접근이 가능해지면 재확인 필요:" % len(ev["records"]))
-    used = [c for c in d["conflicts"] if any("web_search_fandom" in (a.get("sources") or []) for a in c.get("alternatives") or [])]
-    for c in used:
+    rc = d["meta"].get("web_search_recheck") or {}
+    summ = rc.get("summary") or {}
+    A("1. **검색 요약 재확인(완료)** — 위키 차단 중 동점 해소에 쓴 `WebSearch` 요약 주장 %d개를 수집한 위키 원문(wikitext)과 대조했다: "
+      "일치 %d, 불일치 %d, 위키에 없음 %d. 통합 단계는 이제 위키가 같은 필드를 줄 때 요약 대신 위키 원문을 쓴다(`meta.web_search_recheck`)."
+      % (len(rc.get("rows") or []), summ.get("match", 0), summ.get("mismatch", 0), summ.get("not_found_on_wiki", 0)))
+    for x in rc.get("rows") or []:
+        if x["result"] != "match":
+            A("   - %s %s: 요약 %s / 위키 %s (%s)" % (x["entity"], x["field"], x["search_summary_value"], x["wiki_value"], x["result"]))
+    def wiki_decided(c):
+        """majority decisions that would have been a tie without the fandom wiki lineage"""
+        if c["status"] != "conflict_resolved" or "majority" not in (c.get("reason") or ""):
+            return False
+        alts = c.get("alternatives") or []
+        win = next((a for a in alts if a.get("value") == c.get("chosen")), None)
+        if not win or "fandom_wiki" not in (win.get("sources") or []):
+            return False
+        return len(win["groups"]) - 1 <= max(len(a["groups"]) for a in alts if a is not win)
+    decided = [c for c in d["conflicts"] if wiki_decided(c)]
+    A("   위키 계보가 과반을 만들어 결정된 값(%d건, 위키 원문 기준으로 다시 확인됨):" % len(decided))
+    for c in decided:
         A("   - `%s` %s → %s" % (c["entity_id"], c["field"], short(c.get("chosen"), 40)))
-    A("2. **이미지 수동 판독 값** — 조사자 시트 16장·고대의 존재 시트 8장은 사람이 읽어 `manual/*.json` 에 옮겼다(OCR 아님). 시트 이미지에는 정신력/체력 숫자가 지워져 있어 이 두 값은 다른 출처로 정했다.")
-    A("3. **단일 출처 필드** — 고유 아이템 대부분(26종 중 가격·본문·손 수)·기술·주문 본문은 Kuerv0 하나에만 있다. 장소 아이콘/안정성/특수 능력과 지역 카드 색, 신화 `gate_burst` 는 위키 계보 하나뿐이다.")
+    A("2. **이미지 수동 판독 값** — 조사자 시트 16장·고대의 존재 시트 8장은 사람이 읽어 `manual/*.json` 에 옮겼다(OCR 아님). 시트 이미지에는 정신력/체력 숫자가 지워져 있어 이 두 값은 다른 출처(Kuerv0·위키 조사자 템플릿·Gorlith·pavelius)로 정했다.")
+    A("3. **단일 출처 필드** — 고유 아이템·기술·주문 본문은 Kuerv0 하나에만 있다(수량·가격·손 수·주문 수치는 위키 목록 표로 확인됨). "
+      "몬스터 수치(Byakhee 제외), 장소 아이콘/안정성/특수 능력, 지역 카드 색, 신화 `gate_burst` 는 위키 계보 하나뿐이다.")
     A("4. **텍스트 충돌** — 아래는 우선 출처 문구를 유지했지만 다른 출처와 실질적으로 다르다:")
     for c in d["conflicts"]:
         if c["status"] == "conflict":
@@ -244,7 +279,8 @@ def run(log=print):
     ]))
     A("")
     A("이미지 파일 자체는 저장소에 넣지 않았다(`.cache/` 에만 저장, 저작권 FFG). `images` 표에 커밋 고정 URL·SHA-256·연결 엔티티를 기록했다. "
-      "조우·신화·몬스터 카드 이미지는 확보하지 못했다.")
+      "조우·신화 카드 이미지는 확보하지 못했다. 몬스터 마커 앞·뒷면은 위키 파일 이름만 `monsters[].image_refs` 에 기록했다 — "
+      "위키 이미지 호스트(static.wikia.nocookie.net)가 이 환경에서 차단돼 파일·해시는 없다.")
     A("")
     # ------------------------------------------------------------------ 10 validation
     A("## 10. 실행한 검증")
@@ -257,15 +293,15 @@ def run(log=print):
           % (sq.get("integrity_check"), len(sq.get("foreign_key_violations", [])), len(sq.get("json_sqlite_mismatches", [])), len(sq.get("table_counts", {}))))
     A("")
     # ------------------------------------------------------------------ 11 rerun
-    A("## 11. 재실행 및 차단된 수집 단계")
+    A("## 11. 재실행")
     A("")
     A("```")
     A("python -m ah2e all            # fetch → parse → integrate → validate → export → report")
     A("python -m ah2e all --offline  # 네트워크 없이 .cache/ 와 sources/raw/ 만 사용")
     A("```")
     A("")
-    A("차단된 단계: `fetch` 의 fandom 위키 수집(`arkham-horror-second-edition.fandom.com` 403). 환경의 네트워크 허용 목록에 이 도메인을 추가한 뒤 "
-      "`python -m ah2e all` 을 다시 실행하면 위키 페이지가 `sources/raw/fandom_wiki/pages/` 에 저장되고 파싱된다. "
-      "몬스터·보드 연결 통합 매핑은 실제 위키 템플릿 구조를 확인한 뒤 `ah2e/integrate.py` 에 추가해야 한다.")
+    A("- fandom 위키는 MediaWiki API로 수집한다(이미 받은 페이지는 다시 받지 않음). 받은 wikitext는 `sources/raw/fandom_wiki/pages/` 에 버전 관리되므로 "
+      "`--offline` 실행도 같은 결과를 낸다. 위키 최신판을 다시 받으려면 그 폴더의 페이지 파일을 지우고 온라인으로 실행한다.")
+    A("- 여전히 막힌 것: 위키 이미지 호스트, FFG·BGG·archive.org. 보드 연결과 차원문 마커 구성은 공개 텍스트 출처가 없어, 보드·마커를 직접 보고 옮기는 수동 입력(`manual/`)이 필요하다.")
     (config.REPORT_DIR / "completeness_report.md").write_text("\n".join(L) + "\n", encoding="utf-8")
     log("  wrote reports/completeness_report.md (%d lines)" % len(L))

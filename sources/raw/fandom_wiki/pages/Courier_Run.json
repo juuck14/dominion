@@ -1,0 +1,15 @@
+{
+ "title": "Courier Run",
+ "pageid": 668,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Courier_Run",
+ "revid": 1181,
+ "rev_timestamp": "2020-11-02T18:28:01Z",
+ "retrieved_at": "2026-10-15T01:52:16+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Dunwich Horror",
+  "Category:Pages with broken file links",
+  "Category:Tasks"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=CourierRun\n|Name=Courier Run\n|Pronoun=It\n|Edition=Dunwich Horror\n|ItemType=Task\n|ItemBonus=\n|ItemText=\n|ItemHands=\n|UsePhase=\n|UsePhaseText=\n|TaskLocation1=Ma's Boarding House\n|TaskLocation2=River Docks\n|TaskLocation3=Hibb's Roadhouse\n|TaskPayoff=Gain $8\n|ItemPrice=0\n}}"
+}

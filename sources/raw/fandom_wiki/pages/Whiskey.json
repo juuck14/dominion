@@ -1,0 +1,10 @@
+{
+ "title": "Whiskey",
+ "pageid": 416,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Whiskey",
+ "revid": 667,
+ "rev_timestamp": "2020-11-02T18:02:22Z",
+ "retrieved_at": "2026-10-15T02:00:39+00:00",
+ "categories": [],
+ "wikitext": "{{CommonItemPage\n|ImageFront=Whiskey\n|Name=Whiskey\n|Pronoun=It\n|Edition=Arkham Horror\n|ItemType=\n|ItemBonus=\n|ItemText=\n|ItemHands=\n|UsePhase=Any\n|UsePhaseText=Discard Whiskey to reduce any [[Sanity]] loss by 1.\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=1\n}}"
+}

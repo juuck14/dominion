@@ -1,0 +1,14 @@
+{
+ "title": "Gray's Anatomy",
+ "pageid": 692,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Gray%27s_Anatomy",
+ "revid": 1229,
+ "rev_timestamp": "2020-11-02T18:28:04Z",
+ "retrieved_at": "2026-10-15T01:52:18+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Pages with broken file links",
+  "Category:The Black Goat of the Woods"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=GraysAnatomy\n|Name=Gray's Anatomy\n|Pronoun=It\n|Edition=The Black Goat of the Woods\n|ItemType=\n|ItemBonus=\n|ItemText=\n|ItemHands=\n|UsePhase=Arkham Encounters\n|UsePhaseText=Exhaust when spending a [[monster]] [[trophy]] to increase the [[toughness]] value of that trophy by 1.\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=3\n}}"
+}

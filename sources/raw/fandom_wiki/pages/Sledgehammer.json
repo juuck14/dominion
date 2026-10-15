@@ -1,0 +1,16 @@
+{
+ "title": "Sledgehammer",
+ "pageid": 700,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Sledgehammer",
+ "revid": 3468,
+ "rev_timestamp": "2026-06-12T20:04:21Z",
+ "retrieved_at": "2026-10-15T01:52:21+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Pages with broken file links",
+  "Category:Physical weapons",
+  "Category:The Lurker at the Threshold",
+  "Category:Two handed weapons"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=SledgehammerItem\n|Name=Sledgehammer\n|Pronoun=It\n|Edition=The Lurker at the Threshold\n|ItemType=Physical weapon\n|ItemBonus=+3 to '''[[Combat check]]s''' and +1 to '''[[Fight check]]s'''.\n|ItemText=Reduce the [[toughness]] of [[monster]]s you fight by 1 to a minimum of 1 (this does not affect their value as [[monster trophy|trophies]]).\n|ItemHands=2\n|UsePhase=\n|UsePhaseText=\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=6\n}}\n[[File:Sledgehammer.jpg|thumb]]"
+}

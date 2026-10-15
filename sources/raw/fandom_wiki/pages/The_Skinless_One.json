@@ -1,0 +1,13 @@
+{
+ "title": "The Skinless One",
+ "pageid": 1320,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/The_Skinless_One",
+ "revid": 2487,
+ "rev_timestamp": "2020-11-02T18:29:08Z",
+ "retrieved_at": "2026-10-15T01:52:22+00:00",
+ "categories": [
+  "Category:Kingsport Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=The Skinless One\n|GameItemType=Mask monster\n|Pronoun=It\n|Edition=Kingsport Horror\n}}\n{{MonsterInfoBox\n|Name=The Skinless One\n|MarkerFrontImage=TheSkinlessOne\n|MarkerBackImage=TheSkinlessOneBack\n|AHCount=0\n|DHCount=0\n|KHCount=1\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-2\n|Movement=Red\n|HomeDimension=Circle\n|Spawn=\n|StartingLocation=\n|Mask=1\n|Ambush=\n|Undead=\n|Endless=1\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=If you fail either the '''[[Horror check]]''' or the '''[[Combat check]]''' against the Skinless One, you are '''[[devoured]]'''.\n|HorrorRating=-2\n|HorrorDamage=\n|CombatRating=-2\n|CombatDamage=\n|Toughness=2\n}}\n\n==Mythos Source==\nThe Skinless One appears in the Call of Cthulhu supplement ''Horror on the Orient Express''.\n\n== Clarification ==\nYou are also [[devoured]] if you fail an [[Evade check]]."
+}

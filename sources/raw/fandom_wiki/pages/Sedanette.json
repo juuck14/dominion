@@ -1,0 +1,14 @@
+{
+ "title": "Sedanette",
+ "pageid": 687,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Sedanette",
+ "revid": 1219,
+ "rev_timestamp": "2020-11-02T18:28:04Z",
+ "retrieved_at": "2026-10-15T01:52:21+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Pages with broken file links",
+  "Category:The King in Yellow"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=Sedanette\n|Name=Sedanette\n|Pronoun=It\n|Edition=The King in Yellow\n|ItemType=\n|ItemBonus=\n|ItemText=You may automatically [[Evade]] [[monster]]s of [[toughness]] 1 while in the street.\n|ItemHands=\n|UsePhase=\n|UsePhaseText=\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=4\n}}"
+}

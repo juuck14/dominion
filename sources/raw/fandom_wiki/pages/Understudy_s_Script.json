@@ -1,0 +1,15 @@
+{
+ "title": "Understudy's Script",
+ "pageid": 689,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Understudy%27s_Script",
+ "revid": 1223,
+ "rev_timestamp": "2020-11-02T18:28:04Z",
+ "retrieved_at": "2026-10-15T01:52:22+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Pages with broken file links",
+  "Category:The King in Yellow",
+  "Category:Tomes"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=UnderstudysScript\n|Name=Understudy's Script\n|Pronoun=It\n|Edition=The King in Yellow\n|ItemType=Tome\n|ItemBonus=\n|ItemText=\n|ItemHands=\n|UsePhase=Movement\n|UsePhaseText=Exhaust and spend 2 [[movement]] points to make a [[Will check|Will (-2) check]].  If you pass, draw 1 [[Spell]], gain 2 [[Clue token]]s, and discard Understudy's Script.  If you fail, you lose 1 [[Sanity]].\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=3\n}}"
+}

@@ -1,0 +1,10 @@
+{
+ "title": "Elder Thing",
+ "pageid": 439,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Elder_Thing",
+ "revid": 713,
+ "rev_timestamp": "2020-11-02T18:02:24Z",
+ "retrieved_at": "2026-10-15T01:52:17+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=Elder Thing\n|GameItemType=monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Elder Thing\n|MarkerFrontImage=ElderThing\n|MarkerBackImage=ElderThingBack\n|AHCount=2\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|IHCount=1\n|Awareness=-2\n|Movement=Black\n|HomeDimension=Diamond\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=When you fail a [[Combat check]] against Elder Thing, you must discard 1 of your [[Weapons]] or [[Spells]] (your choice), if able.\n|HorrorRating=-3\n|HorrorDamage=2\n|CombatRating=+0\n|CombatDamage=1\n|Toughness=2\n}}\n==Mythos Source==\nThe Elder Things are first mentioned in H.P. Lovecraft's short story ''The Dreams in the Witch-House'' (1933) and they first appear in Lovecraft's novella ''At the Mountains of Madness'' (1936).  Additional references are found in Lovecraft's short story ''The Shadow Out of Time'' (1936).\n\n== Clarification ==\nWhen you fail an [[Evade check]], you must discard 1 of your [[Weapons]] or [[Spells]] as well."
+}

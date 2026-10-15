@@ -1,0 +1,10 @@
+{
+ "title": "The Bloated Woman",
+ "pageid": 318,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/The_Bloated_Woman",
+ "revid": 471,
+ "rev_timestamp": "2020-11-02T18:02:12Z",
+ "retrieved_at": "2026-10-15T01:52:22+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=The Bloated Woman\n|GameItemType=Mask monster\n|Pronoun=She\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=The Bloated Woman\n|MarkerFrontImage=TheBloatedWoman\n|MarkerBackImage=TheBloatedWomanBack\n|AHCount=1\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-1\n|Movement=Black\n|HomeDimension=Hexagon\n|Spawn=\n|StartingLocation=\n|Mask=1\n|Ambush=\n|Undead=\n|Endless=1\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=Before making a '''[[Horror check]]''', pass a '''[[Will]](-2) check''' or automatically fail the '''[[Horror check]]''' and the '''[[Combat check]]'''.\n|HorrorRating=-1\n|HorrorDamage=2\n|CombatRating=-2\n|CombatDamage=2\n|Toughness=2\n}}\n\n==Mythos Source==\nThe Bloated Woman appears in the Masks of Nyarlathotep campaign for Chaosium's Call of Cthulhu role-playing game."
+}

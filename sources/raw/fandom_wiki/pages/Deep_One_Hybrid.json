@@ -1,0 +1,13 @@
+{
+ "title": "Deep One Hybrid",
+ "pageid": 1238,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Deep_One_Hybrid",
+ "revid": 2323,
+ "rev_timestamp": "2020-11-02T18:29:00Z",
+ "retrieved_at": "2026-10-15T01:52:16+00:00",
+ "categories": [
+  "Category:Innsmouth Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Deep One Hybrid\n|GameItemType=monster\n|Pronoun=It\n|Edition=Innsmouth Horror\n}}\n{{MonsterInfoBox\n|Name=Deep One Hybrid\n|MarkerFrontImage=DeepOneHybrid\n|MarkerBackImage=DeepOneHybridBack\n|AHCount=0\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|IHCount=4\n|Awareness=-1\n|Movement=Orange\n|HomeDimension=Plus\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=''One man moved in a positively simian way, with long arms frequently touching the ground; while another figure - robed and tiaraed - seemed to progress in an almost hopping fashion.''\n|RulesText=\n|HorrorRating=-1\n|HorrorDamage=1\n|CombatRating=+0\n|CombatDamage=2\n|Toughness=1\n}}\n\n==Mythos Source==\n\nThe Deep One Hybrid is referenced in the story ''The Shadow Over Innsmouth'', written by H.P. Lovecraft (1936), where the flavor text was excerpted from."
+}

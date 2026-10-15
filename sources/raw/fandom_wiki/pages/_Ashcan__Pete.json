@@ -1,0 +1,13 @@
+{
+ "title": "\"Ashcan\" Pete",
+ "pageid": 418,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/%22Ashcan%22_Pete",
+ "revid": 671,
+ "rev_timestamp": "2020-11-02T18:02:22Z",
+ "retrieved_at": "2026-10-15T01:52:15+00:00",
+ "categories": [
+  "Category:Arkham Horror",
+  "Category:Investigators"
+ ],
+ "wikitext": "{{GameItemIntroductionAn\n|Name=\"Ashcan\" Pete\n|GameItemType=investigator\n|Pronoun=He\n|Edition=Arkham Horror\n}}\n{{Investigator\n|CardFront=AshcanPete\n|CardBack=AshcanPeteBack\n|Name=\"Ashcan\" Pete\n|Pronoun=He\n|Occupation=the Drifter\n|Edition=Arkham Horror\n|Sanity=4\n|Stamina=6\n|Ability1=Scrounge - When Pete draws from the [[Common item]], [[Unique item]], or [[Spell]] deck, he may draw from either the top or the bottom of that deck, his choice.  Pete may look at the bottom card of those decks at any time.\n|Home=River Docks\n|FixedPossessions=\n*$1\n*3 [[Clue token]]s\n*1 [[Ally]] ([[Duke]])\n|RandomPossessions=\n*1 [[Common item]]\n*1 [[Unique item]]\n*1 [[Skill]]\n|Focus=1\n|Speed1=0\n|Speed2=1\n|Speed3=2\n|Speed4=3\n|Sneak1=6\n|Sneak2=5\n|Sneak3=4\n|Sneak4=3\n|Fight1=2\n|Fight2=3\n|Fight3=4\n|Fight4=5\n|Will1=5\n|Will2=4\n|Will3=3\n|Will4=2\n|Lore1=0\n|Lore2=1\n|Lore3=2\n|Lore4=3\n|Luck1=3\n|Luck2=2\n|Luck3=1\n|Luck4=0\n}}\n\n\n'''The Story So Far:''' When you've lived on the [[street|streets]] as long as Pete has, you see things. Things that would drive braver men screaming into the night. But you also learn to be quiet, to stay hidden, and to play stupid if all else fails. It also helps to have a good dog, like Duke, to scare away the meaner elements of the street.\n\nUnfortunately, this time, Pete can't hide, and there's nothing Duke can do to protect him. His nightmares have been growing steadily worse over the last month, driving him all the way here... to Arkham. Even the [[whiskey]] isn't helping much anymore. Soon, he won't be able to sleep at all. Still, there are always opportunities for a man who knows how to stay quiet... as long as he isn't too picky.\n== Clarification ==\nPete starts with 5 sanity even while Duke normally only add maximum sanity."
+}

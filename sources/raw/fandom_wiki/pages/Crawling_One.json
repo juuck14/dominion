@@ -1,0 +1,13 @@
+{
+ "title": "Crawling One",
+ "pageid": 1352,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Crawling_One",
+ "revid": 2551,
+ "rev_timestamp": "2020-11-02T18:29:11Z",
+ "retrieved_at": "2026-10-15T01:52:16+00:00",
+ "categories": [
+  "Category:Kingsport Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Crawling One\n|GameItemType=monster\n|Pronoun=It\n|Edition=Kingsport Horror\n}}\n{{MonsterInfoBox\n|Name=Crawling One\n|MarkerFrontImage=CrawlingOne\n|MarkerBackImage=CrawlingOneBack\n|AHCount=0\n|DHCount=0\n|KHCount=3\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-1\n|Movement=Black\n|HomeDimension=Circle\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=1\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=Before making a [[Combat check]] against Crawling One, roll a die. X is equal to the result of the die roll.\n|HorrorRating=-3\n|HorrorDamage=3\n|CombatRating=-X\n|CombatDamage=2\n|Toughness=1\n}}"
+}

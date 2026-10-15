@@ -1,0 +1,13 @@
+{
+ "title": "Star Vampire",
+ "pageid": 867,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Star_Vampire",
+ "revid": 1581,
+ "rev_timestamp": "2020-11-02T18:28:20Z",
+ "retrieved_at": "2026-10-15T01:52:22+00:00",
+ "categories": [
+  "Category:Dunwich Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Star Vampire\n|GameItemType=monster\n|Pronoun=It\n|Edition=Dunwich Horror\n}}\n{{MonsterInfoBox\n|Name=Star Vampire\n|MarkerFrontImage=StarVampire\n|MarkerBackImage=StarVampireBack\n|AHCount=0\n|DHCount=1\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-3\n|Movement=Purple\n|HomeDimension=Star\n|Spawn=\n|StartingLocation=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=1\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=\n|HorrorRating=-3\n|HorrorDamage=3\n|CombatRating=-3\n|CombatDamage=3\n|Toughness=3\n}}\n\n==Mythos Source==\nStar Vampires first appeared in ''The Shambler from the Stars'' (1935), written by Robert Bloch."
+}

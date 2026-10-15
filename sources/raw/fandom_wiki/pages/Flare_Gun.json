@@ -1,0 +1,14 @@
+{
+ "title": "Flare Gun",
+ "pageid": 677,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Flare_Gun",
+ "revid": 1199,
+ "rev_timestamp": "2020-11-02T18:28:02Z",
+ "retrieved_at": "2026-10-15T01:52:18+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Kingsport Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=FlareGun\n|Name=Flare Gun\n|Pronoun=It\n|Edition=Kingsport Horror\n|ItemType=\n|ItemBonus=\n|ItemText=\n|ItemHands=\n|UsePhase=Movement\n|UsePhaseText=Discard Flare Gun while in a street area to move all [[monster]]s in the Sky to your location.\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=2\n}}"
+}

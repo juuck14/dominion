@@ -1,0 +1,15 @@
+{
+ "title": "Dusty Manuscripts",
+ "pageid": 669,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Dusty_Manuscripts",
+ "revid": 1183,
+ "rev_timestamp": "2020-11-02T18:28:02Z",
+ "retrieved_at": "2026-10-15T01:52:17+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Dunwich Horror",
+  "Category:Pages with broken file links",
+  "Category:Tomes"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=DustyManuscripts\n|Name=Dusty Manuscripts\n|Pronoun=It\n|Edition=Dunwich Horror\n|ItemType=Tome\n|ItemBonus=+1 [[Spell check]]\n|ItemText=\n|ItemHands=\n|UsePhase=\n|UsePhaseText=\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=4\n}}"
+}

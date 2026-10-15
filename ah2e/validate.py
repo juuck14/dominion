@@ -299,10 +299,17 @@ def run(log=print):
                                   "reason": st.get("reason")})
     by_kind = {}
     for n in nulls:
+        if n["status"] == "none_recorded":
+            continue
         k = n["entity_id"].split(".")[0] + ("." + n["entity_id"].split(".")[1] if n["entity_id"].startswith("card.") else "")
         by_kind[k] = by_kind.get(k, 0) + 1
-    v.add("completeness", "required_fields_present", not nulls, {"null_required_values": nulls, "by_kind": by_kind},
-          level="pass" if not nulls else "incomplete")
+    # 'none_recorded' = the source states that nothing is printed there (e.g. a Cultist has no horror check):
+    # a documented blank, not missing data
+    blanks = [n for n in nulls if n["status"] == "none_recorded"]
+    gaps = [n for n in nulls if n["status"] != "none_recorded"]
+    v.add("completeness", "required_fields_present", not gaps,
+          {"null_required_values": gaps, "by_kind": by_kind, "documented_blanks": blanks},
+          level="pass" if not gaps else "incomplete")
     stat = {}
     for k, rows_ in lists.items():
         for r in rows_:
@@ -359,6 +366,21 @@ def _spot_checks(v, d):
         [p[0] for p in i["sliders"][0]["positions"]] == man["sliders"]["speed"] and i["home_location_id"] == "loc.police_station"
     v.add("spot_checks", "investigator_joe_diamond_vs_raw_kuerv0_and_sheet_transcription", ok,
           {"sanity": i and i["sanity"], "stamina": i and i["stamina"], "focus": i and i["focus"], "image": man.get("image")})
+    # 4b monster vs raw wiki wikitext + raw Pavelius C++ table
+    wp = config.RAW_DIR / "fandom_wiki" / "pages" / "Byakhee.json"
+    wt = (read_json(wp) or {}).get("wikitext") or "" if wp.exists() else ""
+    cpp = _raw("pavelius_cpp", "arkham/monster.cpp", "cp1251") or ""
+    mb = next((x for x in d["monsters"] if x["id"] == "mon.byakhee"), None)
+    ok = bool(mb) and all(("|%s=%s" % kv) in wt for kv in (("AHCount", "3"), ("Awareness", "-2"), ("Movement", "Blue"),
+                                                               ("HomeDimension", "Circle"), ("HorrorRating", "-1"), ("HorrorDamage", "1"),
+                                                               ("CombatRating", "+0"), ("CombatDamage", "2"), ("Toughness", "1"))) and \
+        '{"Byakhee", ' in cpp and ", 3, -2, {-1, 1}, 1, {0, 2}}" in cpp and \
+        (mb["count"], mb["awareness"], mb["movement_type"], mb["dimension_symbol"], mb["horror_rating"], mb["horror_damage"],
+         mb["combat_rating"], mb["combat_damage"], mb["toughness"]) == (3, -2, "flying", "circle", -1, 1, 0, 2, 1)
+    v.add("spot_checks", "monster_byakhee_vs_raw_wiki_and_pavelius_cpp", ok,
+          {"raw": ["sources/raw/fandom_wiki/pages/Byakhee.json", "sources/raw/pavelius_cpp/arkham/monster.cpp"],
+           "values": mb and {k: mb[k] for k in ("count", "awareness", "movement_type", "dimension_symbol", "horror_rating",
+                                                "horror_damage", "combat_rating", "combat_damage", "toughness")}})
     # 5 Ancient One vs manual transcription + raw helper TS
     a = next((x for x in d["ancient_ones"] if x["id"] == "ao.yig"), None)
     ok = bool(a) and a["doom_track"] == 10 and a["combat_rating"] == "-3" and "doomTrack: 10" in ts and "Yig's Anger" in ts

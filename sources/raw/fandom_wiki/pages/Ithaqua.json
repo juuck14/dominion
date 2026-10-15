@@ -1,0 +1,13 @@
+{
+ "title": "Ithaqua",
+ "pageid": 241,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Ithaqua",
+ "revid": 317,
+ "rev_timestamp": "2020-11-02T18:01:56Z",
+ "retrieved_at": "2026-10-15T01:52:19+00:00",
+ "categories": [
+  "Category:Ancient Ones",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "[[Image:Ithaqua.png|right|160px]]\n'''Ithaqua''' is an [[Ancient One]].  He first appeared in the [[Arkham Horror]] board game.\n\n==Sheet info==\n'''Combat rating''': -3\n\n'''Defenses''': None\n\n'''Worshippers''': Ithaqua's worshippers eat the flesh of their fellow men, gaining supernatural power through their dark practice.  [[Cultist]]s have their [[toughness]] increased by 2.\n\n'''Power''': Icy Winds - While Ithaqua stirs in his slumber, any [[investigator]] in a street area at the end of the [[Mythos phase]] loses 1 [[Stamina]].  In addition, all [[Weather]] cards are discarded without their special effects taking place.\n\n'''Start of Battle''': Investigators must roll a die for every [[item]] they have, discarding the item on a failure.  \n\n'''Attack''': Each investigator must pass a [[Fight check|Fight (+1) check]] or lose 2 Stamina.  This check's modifier decreases by 1 each turn (+0 the 2nd turn, -1 the 3rd turn, etc.)\n\n'''Doom Track''': 11\n\n==Plots==\n<gallery>\nImage:EpicBattleIthaquaBack.png\nImage:EpicBattleIthaqua1.png\nImage:EpicBattleIthaqua2.png\nImage:EpicBattleIthaqua3.png\n</gallery>\n\n==Mythos Source==\nIthaqua first appeared in ''The Thing that Walked on the Wind'' (1933), written by August Derleth.\n\n==Errata==\nIf a non-weather [[environment]] card is in play and a new [[Mythos card]] is drawn with a weather environmental effect, all functions of the card are followed except for the environmental effect. The card is then discarded.\n\nAt the start of battle, each investigator must roll one die separately for each item the investigator has.\n[[Category:Ancient Ones]]"
+}

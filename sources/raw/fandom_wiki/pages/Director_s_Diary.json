@@ -1,0 +1,15 @@
+{
+ "title": "Director's Diary",
+ "pageid": 683,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Director%27s_Diary",
+ "revid": 1211,
+ "rev_timestamp": "2020-11-02T18:28:03Z",
+ "retrieved_at": "2026-10-15T01:52:17+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Pages with broken file links",
+  "Category:The King in Yellow",
+  "Category:Tomes"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=DirectorsDiary\n|Name=Director's Diary\n|Pronoun=It\n|Edition=The King in Yellow\n|ItemType=Tome\n|ItemBonus=\n|ItemText=\n|ItemHands=\n|UsePhase=Any\n|UsePhaseText=Discard this card when the [[terror level]] is increased to reduce the amount by which it is being increased by 1.\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=4\n}}"
+}

@@ -1,0 +1,13 @@
+{
+ "title": "Neighborhood",
+ "pageid": 1405,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Neighborhood",
+ "revid": 2657,
+ "rev_timestamp": "2020-11-02T18:29:18Z",
+ "retrieved_at": "2026-10-15T01:52:20+00:00",
+ "categories": [
+  "Category:Neighborhoods",
+  "Category:Setting"
+ ],
+ "wikitext": "The [[Arkham city]] board is divided into areas called [[neighborhood]]s, each of which contains several [[location]]s connected to a [[street]] area.  The different neighborhoods of the board are in turn connected by movement lines between their street areas.  Neighborhoods are usually based on a theme, with the locations and the available encounters in those locations revolving around that theme. \n\nEach of the major [[expansion]]s adds a board for a new town such as [[Dunwich]], [[Kingsport]], or [[Innsmouth]].  These boards add a new set of neighborhoods and a new set of [[Neighborhood#Arkham Location Cards|Arkham Location Cards]] associated with for each neighborhood.\n\n==Arkham Location Cards==\n\nEach neigborhood on the original [[Arkham city]] board or the expansion boards has a small deck of cards associated with it.  These represent [[encounters]] which the investigators may have in that location, and are often referred to as the [[Encounter deck]].\n\nDuring the [[Arkham Encounters Phase]] of the turn, investigators who are in a location other than the street and have an [[encounter]] in this neighborhood may have that encounter by drawing from this neighborhood's deck, and reading and following the instructions for this specific [[location]] from that card.\n\n==List of neighborhoods==\n\n{| class=\"wikitable sortable\"\n|-\n! Neighborhood\n! Expansion\n|-\n| [[Backwoods Country]]\n| align=center | {{dunwich icon}}\n|-\n| [[Blasted Heath]]\n| align=center | {{dunwich icon}}\n|-\n| [[Central Hill]]\n| align=center | {{kingsport icon}}\n|-\n| [[Church Green]]\n| align=center | {{innsmouth icon}}\n|-\n| [[Downtown]]\n|\n|-\n| [[Easttown]]\n|\n|-\n| [[Factory District]]\n| align=center | {{innsmouth icon}}\n|-\n| [[French Hill]]\n|\n|-\n| [[Harborside]]\n| align=center | {{kingsport icon}}\n|-\n| [[Innsmouth Shore]]\n| align=center | {{innsmouth icon}}\n|-\n| [[Kingsport Head]]\n| align=center | {{kingsport icon}}\n|-\n| [[Merchant District]]\n|\n|-\n| [[Miskatonic University]]\n|\n|-\n| [[Northside]]\n|\n|-\n| [[Rivertown]]\n|\n|-\n| [[South Shore]]\n| align=center | {{kingsport icon}}\n|-\n| [[Southside]]\n|\n|-\n| [[Uptown]]\n|\n|-\n| [[Village Commons]]\n| align=center | {{dunwich icon}}\n|}\n\n==See also==\n*[[Location]]\n*[[Arkham Encounters Phase]]\n\n[[Category:Setting]]\n[[Category:Neighborhoods]]"
+}

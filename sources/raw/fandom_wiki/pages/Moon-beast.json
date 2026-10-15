@@ -1,0 +1,13 @@
+{
+ "title": "Moon-beast",
+ "pageid": 1314,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Moon-beast",
+ "revid": 2475,
+ "rev_timestamp": "2020-11-02T18:29:07Z",
+ "retrieved_at": "2026-10-15T01:52:20+00:00",
+ "categories": [
+  "Category:Kingsport Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Moon-beast\n|GameItemType=monster\n|Pronoun=It\n|Edition=Kingsport Horror\n}}\n{{MonsterInfoBox\n|Name=Moon-beast\n|MarkerFrontImage=Moon-beast\n|MarkerBackImage=Moon-beastBack\n|AHCount=0\n|DHCount=0\n|KHCount=2\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=+0\n|Movement=Orange\n|HomeDimension=Slash\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=Any [[investigator]] knocked [[unconscious]] or driven [[insane]] by Moon-beast is '''[[devoured]]''' instead.\n|HorrorRating=-1\n|HorrorDamage=2\n|CombatRating=-2\n|CombatDamage=2\n|Toughness=3\n}}\n\n==Mythos Source==\n\nMoon-beasts appear in the story ''The Dream-Quest of Unknown Kadath'' (1927), written by H.P. Lovecraft."
+}

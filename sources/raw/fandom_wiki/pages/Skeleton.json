@@ -1,0 +1,13 @@
+{
+ "title": "Skeleton",
+ "pageid": 1318,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Skeleton",
+ "revid": 2483,
+ "rev_timestamp": "2020-11-02T18:29:08Z",
+ "retrieved_at": "2026-10-15T01:52:21+00:00",
+ "categories": [
+  "Category:Kingsport Horror",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroduction\n|Name=Skeleton\n|GameItemType=monster\n|Pronoun=It\n|Edition=Kingsport Horror\n}}\n{{MonsterInfoBox\n|Name=Skeleton\n|MarkerFrontImage=Skeleton\n|MarkerBackImage=SkeletonBack\n|AHCount=0\n|DHCount=0\n|KHCount=2\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-2\n|Movement=Orange\n|HomeDimension=Crescent\n|Spawn=\n|StartingLocation=\n|Mask=\n|Ambush=\n|Undead=1\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=1\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=''Silently it emerged from the water and strode up the beach towards us. Although the bleached skeleton was picked free of flesh, still it moved with malignant purpose.''\n|RulesText=\n|HorrorRating=-1\n|HorrorDamage=1\n|CombatRating=-1\n|CombatDamage=2\n|Toughness=2\n}}"
+}

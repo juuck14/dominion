@@ -1,0 +1,14 @@
+{
+ "title": "Lucky Rabbit's Foot",
+ "pageid": 693,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Lucky_Rabbit%27s_Foot",
+ "revid": 1231,
+ "rev_timestamp": "2020-11-02T18:28:04Z",
+ "retrieved_at": "2026-10-15T01:52:19+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Pages with broken file links",
+  "Category:The Black Goat of the Woods"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=LuckyRabbitsFoot\n|Name=Lucky Rabbit's Foot\n|Pronoun=It\n|Edition=The Black Goat of the Woods\n|ItemType=\n|ItemBonus=\n|ItemText='''Arkham Encounters''':  After you draw an [[encounter]] card, exhaust and discard Lucky Rabbit's Foot to draw a different encounter card.\n|ItemHands=\n|UsePhase=Any\n|UsePhaseText=Exhaust to gain +1 to a [[Luck check]].\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=4\n}}"
+}

@@ -1,0 +1,14 @@
+{
+ "title": "Roland Banks",
+ "pageid": 1223,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Roland_Banks",
+ "revid": 2293,
+ "rev_timestamp": "2020-11-02T18:28:58Z",
+ "retrieved_at": "2026-10-15T01:52:21+00:00",
+ "categories": [
+  "Category:Innsmouth Horror",
+  "Category:Investigators",
+  "Category:Pages with broken file links"
+ ],
+ "wikitext": "{{GameItemIntroductionAn\n|Name=Roland Banks \n|GameItemType=investigator\n|Pronoun=He\n|Edition=Innsmouth Horror\n}}\n{{Investigator\n|CardFront=RolandBanks\n|CardBack=RolandBanksBack\n|Name=Roland Banks\n|Pronoun=He\n|Occupation=the Fed\n|Edition=Innsmouth Horror\n|Sanity=4\n|Stamina=6\n|Ability1=Intuitive - [[Upkeep Phase|Upkeep]]: If Roland has fewer than 2 Clue tokens, he gains 1 Clue token.\n\nExpense Account - Upkeep: If Roland has less than $2, he gains $1.\n|Home=Arkham Asylum\n|FixedPossessions=\n*$3\n*2 [[Clue token]]s\n|RandomPossessions=\n*1 [[Common item]]\n*1 [[Unique item]]\n*1 [[Ally]]\n*1 [[Skill]]\n|Focus=3\n|Speed1=1\n|Speed2=2\n|Speed3=3\n|Speed4=4\n|Sneak1=4\n|Sneak2=3\n|Sneak3=2\n|Sneak4=1\n|Fight1=1\n|Fight2=2\n|Fight3=3\n|Fight4=4\n|Will1=5\n|Will2=4\n|Will3=3\n|Will4=2\n|Lore1=1\n|Lore2=2\n|Lore3=3\n|Lore4=4\n|Luck1=4\n|Luck2=3\n|Luck3=2\n|Luck4=1\n}}\n\n\n'''The Story So Far:''' Methodical. By the book. If you looked in the Federal Agent's handbook, you'd find a picture of Roland Banks next to those sections. At least, if it had any pictures, you would.\n\nWhere other agents found the rules restricting and annoying, Roland took comfort in procedure. It was a relief to have guidelines to follow in any given situation. Well, at least until this latest case.\n\nTry as he might, Roland could find no mention in the handbook of what to do when confronted with strange creatures, [[gate]]s through time and space, or magic [[spell]]s. This case was rapidly escalating into a fiasco, and if he dropped the ball, losing his job was the least of his worries.\n\nSitting outside the Asylum after an interview with yet another demented witness, Roland dropped his battered Agent's handbook back into his briefcase and sighed. At least the agency was sending him some backup. Maybe they could help him make some sense out of this mess."
+}

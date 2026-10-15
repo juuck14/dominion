@@ -1,0 +1,14 @@
+{
+ "title": "Time Bomb",
+ "pageid": 688,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Time_Bomb",
+ "revid": 1221,
+ "rev_timestamp": "2020-11-02T18:28:04Z",
+ "retrieved_at": "2026-10-15T01:52:22+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Pages with broken file links",
+  "Category:The King in Yellow"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=TimeBomb\n|Name=Time Bomb\n|Pronoun=It\n|Edition=The King in Yellow\n|ItemType=\n|ItemBonus=\n|ItemText='''Upkeep''': If this card is on a [[location]] or [[street]] area, discard 1 [[Clue token]] from it.  If there are no Clue tokens left to discard, return all [[monster]]s in the location/area to the cup, reduce all [[investigator]]s in the location/area to 0 [[Stamina]], and discard this card.\n|ItemHands=\n|UsePhase=Movement\n|UsePhaseText=You may place this card on your current [[Arkham]] [[location]] or [[street]] area with up to 3 [[Clue token]]s from the bank on it.\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=3\n}}"
+}

@@ -1,0 +1,13 @@
+{
+ "title": "Dexter Drake",
+ "pageid": 422,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Dexter_Drake",
+ "revid": 679,
+ "rev_timestamp": "2020-11-02T18:02:22Z",
+ "retrieved_at": "2026-10-15T01:52:17+00:00",
+ "categories": [
+  "Category:Arkham Horror",
+  "Category:Investigators"
+ ],
+ "wikitext": "{{GameItemIntroductionAn\n|Name=Dexter Drake\n|GameItemType=investigator\n|Pronoun=He\n|Edition=Arkham Horror\n}}\n\n{{Investigator\n|CardFront=DexterDrake\n|CardBack=DexterDrakeBack\n|Name=Dexter Drake\n|Pronoun=He\n|Occupation=the Magician\n|Edition=Arkham Horror\n|Sanity=5\n|Stamina=5\n|Ability1=Magical Gift - Any Phase: Whenever \"The Great\" Drake draws one or more cards from the [[Spell]] deck, he draws one extra card and then discards one of the cards.\n|Home=Ye Olde Magick Shoppe\n|FixedPossessions=\n*$5\n*1 [[Spell]] ([[Shrivelling]])\n|RandomPossessions=\n*1 [[Common item]]\n*1 [[Unique item]]\n*2 [[Spell]]s\n*1 [[Skill]]\n|Focus=2\n|Speed1=2\n|Speed2=3\n|Speed3=4\n|Speed4=5\n|Sneak1=4\n|Sneak2=3\n|Sneak3=2\n|Sneak4=1\n|Fight1=1\n|Fight2=2\n|Fight3=3\n|Fight4=4\n|Will1=3\n|Will2=2\n|Will3=1\n|Will4=0\n|Lore1=2\n|Lore2=3\n|Lore3=4\n|Lore4=5\n|Luck1=3\n|Luck2=2\n|Luck3=1\n|Luck4=0\n}}\n\n\n'''The Story So Far:''' After returning from his stint in the army during WWI, Dexter became a stage magician, and proved to be very successful at his trade, but he always longed to find real magic. As they say, be careful what you wish for. Years later, in a rundown store, Dexter came across a burnt and torn fragment of the [[Necronomicon]] itself. Intrigued by this ancient piece of occult knowledge, Dexter began to use his wealth in search of the truth about the ancient lore, and what he found horrified him.\n\nNow, the more he learns, the less he wants to know, but his studies have led him to believe that a great evil will soon arise in Arkham. He knows that he may well be the only person with the ability to stop this evil from swallowing the world, so he has come to that sleepy town to speak with the proprietor of Ye Olde Magick Shoppe, one of the few magic shops that contain true lore, and not merely the stage tricks he once studied."
+}

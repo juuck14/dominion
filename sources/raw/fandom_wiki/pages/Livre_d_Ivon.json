@@ -1,0 +1,14 @@
+{
+ "title": "Livre d'Ivon",
+ "pageid": 1285,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Livre_d%27Ivon",
+ "revid": 2417,
+ "rev_timestamp": "2020-11-02T18:29:05Z",
+ "retrieved_at": "2026-10-15T01:52:19+00:00",
+ "categories": [
+  "Category:Kingsport Horror",
+  "Category:Tomes",
+  "Category:Unique items"
+ ],
+ "wikitext": "[[Image:LivreDIvon.png|right|160px]]\n'''Livre d'Ivon''' is a [[unique item]].  It first appeared in the [[Kingsport Horror]] expansion.\n\n==Card info==\n'''Type''': [[Tome]]\n\n'''Movement''': Discard and spend 2 [[movement]] points to make a [[Lore check|Lore (-2) check]].  If you pass, search the [[Spell]] deck for a Spell of your choice and take it, then discard Livre d'Ivon and lose 2 [[Sanity]].  If you fail nothing happens.\n\n'''Price''': $6\n\n\n== Clarification ==\nThis card should say \"Exhaust\" instead of \"Discard\" as the first word after \"Movement.\"\n\n==Mythos Source==\nLivre d'Ivon (a.k.a. The Book of Eibon) first appeared in ''The Holiness of Azedarac'' (1933), written by Clark Ashton Smith.\n\n[[Category:Unique items]]\n[[Category:Kingsport Horror]]\n[[Category:Tomes]]"
+}

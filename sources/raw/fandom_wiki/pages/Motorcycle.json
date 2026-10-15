@@ -1,0 +1,10 @@
+{
+ "title": "Motorcycle",
+ "pageid": 410,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Motorcycle",
+ "revid": 655,
+ "rev_timestamp": "2020-11-02T18:02:21Z",
+ "retrieved_at": "2026-10-15T02:00:39+00:00",
+ "categories": [],
+ "wikitext": "{{CommonItemPage\n|ImageFront=Motorcycle\n|Name=Motorcycle\n|Pronoun=It\n|Edition=Arkham Horror\n|ItemType=\n|ItemBonus=\n|ItemText=\n|ItemHands=\n|UsePhase=Movement\n|UsePhaseText=Exhaust to get 2 extra movement points.\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=4\n}}\n\n== Clarification ==\nCannot use in Other Worlds."
+}

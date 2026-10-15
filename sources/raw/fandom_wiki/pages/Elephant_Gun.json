@@ -1,0 +1,16 @@
+{
+ "title": "Elephant Gun",
+ "pageid": 676,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Elephant_Gun",
+ "revid": 1197,
+ "rev_timestamp": "2020-11-02T18:28:02Z",
+ "retrieved_at": "2026-10-15T01:52:17+00:00",
+ "categories": [
+  "Category:Common items",
+  "Category:Kingsport Horror",
+  "Category:Pages with broken file links",
+  "Category:Physical weapons",
+  "Category:Two handed weapons"
+ ],
+ "wikitext": "{{CommonItemPage\n|ImageFront=ElephantGun\n|Name=Elephant Gun\n|Pronoun=It\n|Edition=Kingsport Horror\n|ItemType=Physical weapon\n|ItemBonus=\n|ItemText='''Upkeep''': Elephant Gun does not refresh unless you spend $2.\n|ItemHands=\n|UsePhase=Any\n|UsePhaseText=Exhaust before making a [[Combat check]] to gain +8 to that check.\n|TaskLocation1=\n|TaskLocation2=\n|TaskLocation3=\n|TaskPayoff=\n|ItemPrice=7\n}}\n[[Category:Two handed weapons]]"
+}

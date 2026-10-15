@@ -1,0 +1,10 @@
+{
+ "title": "Mi-Go",
+ "pageid": 313,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Mi-Go",
+ "revid": 461,
+ "rev_timestamp": "2020-11-02T18:02:11Z",
+ "retrieved_at": "2026-10-15T01:52:19+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=Mi-Go\n|GameItemType=monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Mi-Go\n|MarkerFrontImage=Mi-Go\n|MarkerBackImage=Mi-GoBack\n|AHCount=3\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|IHCount=1\n|Awareness=-2\n|Movement=Blue\n|HomeDimension=Circle\n|Spawn=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=\n|RulesText=If you pass a '''[[Combat check]]''' against Migo, return it to the box and draw 1 [[Unique Item]].\n|HorrorRating=-1\n|HorrorDamage=2\n|CombatRating=+0\n|CombatDamage=1\n|Toughness=1\n}}\n==Mythos Source==\nThe Mi-Go first appeared in the story ''The Whisperer in the Darkness'' (1930), written by H.P. Lovecraft."
+}

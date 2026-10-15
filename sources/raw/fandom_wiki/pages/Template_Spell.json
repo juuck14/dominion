@@ -1,0 +1,13 @@
+{
+ "title": "Template:Spell",
+ "pageid": 1528,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Template%3ASpell",
+ "revid": 2903,
+ "rev_timestamp": "2020-11-02T18:29:32Z",
+ "retrieved_at": "2026-10-15T01:52:22+00:00",
+ "categories": [
+  "Category:Spells",
+  "Category:Templates"
+ ],
+ "wikitext": "<noinclude>[[Category:Templates|{{PAGENAME}}]]</noinclude>\n[[Image:{{{Image}}}.png|right|160px]]\n'''{{{Name}}}''' is a [[spell]].  It first appeared in the [[{{{Edition}}}]] expansion.\n\n==Card info==\n'''Casting Modifier''': {{{CastingModifier}}}\n\n'''Sanity Cost''': {{{SanityCost}}}\n\n'''Casting phase''': {{{CastingPhase}}}\n\n'''Effect''': {{{Effect}}}\n\n{{#if:{{{Hands|}}}\n|'''Hands''': {{{Hands}}}\n|}}\n\n[[Category:Spells]]\n[[Category:{{{Edition}}}]]\n<noinclude>\n<!-- TEMPLATE ENDS HERE. In order to regenerate the template, replace the code above with the source code provided. -->\n===Usage===\nCopy and paste the following code to use the template.\n\n<pre><nowiki>{{Spell\n|Image=\n|Name=\n|Edition=\n|CastingModifier=\n|SanityCost=\n|CastingPhase=\n|Effect=\n|Hands=\n}}\n</nowiki></pre></noinclude>"
+}

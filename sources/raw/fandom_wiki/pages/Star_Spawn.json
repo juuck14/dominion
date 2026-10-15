@@ -1,0 +1,10 @@
+{
+ "title": "Star Spawn",
+ "pageid": 316,
+ "url": "https://arkham-horror-second-edition.fandom.com/wiki/Star_Spawn",
+ "revid": 467,
+ "rev_timestamp": "2020-11-02T18:02:12Z",
+ "retrieved_at": "2026-10-15T01:52:22+00:00",
+ "categories": [],
+ "wikitext": "{{GameItemIntroduction\n|Name=Star Spawn\n|GameItemType=monster\n|Pronoun=It\n|Edition=Arkham Horror\n}}\n{{MonsterInfoBox\n|Name=Star Spawn\n|MarkerFrontImage=StarSpawn\n|MarkerBackImage=StarSpawnBack\n|AHCount=2\n|DHCount=0\n|KHCount=0\n|DPCount=0\n|KYCount=0\n|BGCount=0\n|Awareness=-1\n|Movement=Black\n|HomeDimension=Plus\n|Spawn=\n|StartingLocation=\n|Mask=\n|Ambush=\n|Undead=\n|Endless=\n|PhysicalImmunity=\n|MagicalImmunity=\n|PhysicalResistance=\n|MagicalResistance=\n|Overwhelming=\n|Nightmarish=\n|Elusive=\n|FlavorText=''The bosun was the only one left alive. We dragged him screaming from the cargo hold. \"That thing!\" he wept, \"Not a whale... not an island...\"''\n|RulesText=\n|HorrorRating=-3\n|HorrorDamage=2\n|CombatRating=-3\n|CombatDamage=3\n|Toughness=3\n}}\n\n==Mythos Source==\n\nStar Spawn appear in the story ''The Call of Cthulhu'', written by H.P. Lovecraft (1926)."
+}
